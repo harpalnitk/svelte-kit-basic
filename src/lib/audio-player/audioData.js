@@ -2,7 +2,7 @@
 export const audioData = [
 	{
 		name: "The Practice of Giving",
-		url: "Dana_The_Practice_of_Giving_single.mp3",
+		url: "Great_Compassion_1.mp3",
 	},
 	{
 		name: "Lumbini",

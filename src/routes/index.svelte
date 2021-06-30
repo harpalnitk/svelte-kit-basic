@@ -4,6 +4,9 @@
 
 <main>
 	<h1>Hello world!</h1>
+	<ul>
+		<li>1. <a href="/playground">Go To Playground</a></li>
+	</ul>
 
 </main>
 

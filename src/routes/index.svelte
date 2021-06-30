@@ -1,11 +1,10 @@
-<script lang="ts">
 
-</script>
 
 <main>
 	<h1>Hello world!</h1>
 	<ul>
 		<li>1. <a href="/playground">Go To Playground</a></li>
+		<li>2. <a href="/charts-with-shapes">Charts With Shapes</a></li>
 	</ul>
 
 </main>

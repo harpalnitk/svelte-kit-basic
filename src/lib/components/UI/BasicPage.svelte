@@ -1,8 +1,9 @@
 <script>
     export let title;
+    export let path='/playground';
 </script>
 <div class='back-button-cont'>
-    <a href="../" class='back-button'>Back</a>
+    <a href={path} class='back-button'>Back</a>
 </div>
 <main>
     <h1>{title}</h1>

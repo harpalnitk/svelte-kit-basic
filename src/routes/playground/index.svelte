@@ -11,6 +11,7 @@
         <li>4. <a href="/playground/svg-graphics">SVG Graphics</a></li>
         <li>5. <a href="/playground/tweened">Tweened</a></li>
         <li>6. <a href="/playground/css-hexagon">CSS Hexagon</a></li>
+        <li>7. <a href="/playground/box-shadow">Box Shadow Designs</a></li>
     </ul>
 </main>
 

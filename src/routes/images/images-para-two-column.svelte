@@ -1,7 +1,7 @@
 <script>
     import BasicPage from '$lib/components/UI/BasicPage.svelte';
 </script>
-<BasicPage title='Images Paragraph Two Columns'></BasicPage>
+<BasicPage title='Images Paragraph Two Columns' path='/images'></BasicPage>
 
 
 <main>
@@ -20,6 +20,30 @@
 <style lang="scss">
 	@import '../../styles/vars';
     main{
-
+        display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
     }
+    img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 650px) {
+  main {
+    display: block;
+    font-size: 80%;
+  }
+  p {
+    position: relative;
+    margin: -3rem 0 2rem 1rem;
+    padding: 1rem;
+    background: rgba(white, 0.8);
+  }
+}
 </style>

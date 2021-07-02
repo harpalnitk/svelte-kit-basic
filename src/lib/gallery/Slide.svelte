@@ -18,6 +18,20 @@
 <style lang="scss">
     @import '../../styles/vars';
 
+//     .mySlides {
+//      overflow: hidden;
+//      max-height: clamp(450px, 50vh, 600px);
+//      display: grid;
+//   grid-template: "container";
+//   place-items: center;
+//   place-content: center;
+//     }
+
+//     .mySlides > * {
+//   grid-area: container;
+//   max-width: 1000px;
+// }
+
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -28,7 +42,10 @@
 }
 
 img {
-    width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  user-select: none;
 }
 
 </style>

@@ -13,6 +13,7 @@
         <li>6. <a href="/playground/css-hexagon">CSS Hexagon</a></li>
         <li>7. <a href="/playground/box-shadow">Box Shadow Designs</a></li>
         <li>7. <a href="/playground/clip-path-animations">Clip Path Animations</a></li>
+        <li>7. <a href="/playground/trignometry-sun">Shapes Using Trignometry</a></li>
     </ul>
 </main>
 

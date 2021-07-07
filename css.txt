@@ -1,0 +1,225 @@
+CSS UNITS
+for font-size use rems
+
+for width use % along with max-width; ch(character; roughly equal to width of character 0) unit can also be used
+in typography you do not go above 75 characters per line; less than 75 characters is preferable
+
+height: never set height; if it has to be set use min-height
+
+for padding or margin use rem or em; use em for padding on button
+
+for media queries use em
+
+WIDTH AUTO VS 100%
+ on block level elements
+width auto means use the available space; margin left and right are visible on viewport
+width 100% with margin left or right will give rise to horizontal scrolling as block element will cover 100% width of viewport
+
+SASS
+
+instead of @import  use @use and @forward
+
+abstracts
+  _fonts.scss
+  _colors.scss
+  _index.scss
+components
+  _cards.scss
+
+in _index.scss file
+
+@forward '..abstracts/colors';
+@forward '..abstracts/fonts';
+
+in _cards.scss file
+
+use '../absracts';
+
+.card {
+font-size: abstracts.$font-size;
+color: abstracts.$blue;
+}
+
+OR
+
+use '../absracts' as a;
+
+.card {
+font-size: a.$font-size;
+color: a.$blue;
+}
+
+OR
+
+use '../absracts' as *;
+
+.card {
+font-size: $font-size;
+color: $blue;
+}
+
+HEIGHT AUTO VS 100%
+
+height:100% is with respect to containing element of body
+
+so we will have to first give body height of 100%
+
+height:auto will fit contents unlike width auto which fills viewport
+in height set min-height but never height
+
+e.g. min-height:50vw
+
+
+
+
+###::marker TAG : TO CHANGE COLOR AND OTHER PROPERTIES OF LIST BULLETS
+
+<ul class='custom-marker'>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+</ul>
+
+
+::marker {
+color:red;
+font-size: 0.5em;
+font-weight: 700;
+content:''; // to disappear bullet points
+content:'hello'
+transition: color 1s ease;
+}
+
+//TO PUT ICONS AS BULLET POINTS
+{
+font-family:'Font Awesome 5 Free'
+content:'\f13d'
+font-weight:700
+}
+
+.custom-marker > li {
+padding-left : .5em;
+}
+
+li:hover::marker {
+color: blue;
+}
+
+
+##COLORS
+
+:root{
+--ff-primary: basic-sans, sans-serif;
+--clr-primary-300: #ee6352;
+--clr-primary-400: #ee6352;
+--clr-primary-500: #ee6352;
+--clr-primary-700: #ee6352;
+--spacer: 1rem;
+}
+
+:root{
+--ff-primary: basic-sans, sans-serif;
+--clr-primary-300: hsl(7, 82%, 83%);// First number is hue(color)//second value is saturation(light/dark)// Last value is lightness (higher the number more lightness) 
+--clr-primary-400: hsl(7, 82%, 63%);
+--clr-primary-500: hsl(7, 82%, 43%);
+--clr-primary-700: hsl(7, 82%, 23%);
+--spacer: 1rem;
+
+//grey colors
+--clr-neutral-700: hsl(0, 0%, 23%);
+--clr-neutral-600: hsl(0, 0%, 33%);
+--clr-neutral-500: hsl(0, 0%, 43%);
+--clr-neutral-400: hsl(0, 0%, 53%);
+--clr-neutral-300: hsl(0, 0%, 63%);
+
+}
+
+##EQUAL COLUMNS IN FLEX
+
+<div class='equal-columns'>
+<div class='col'>DIV 1</div>
+<div class='col'>DIV 1</div>
+<div class='card'>DIV 1</div>
+<div class='col'>DIV 1</div>
+</div>
+
+.equal-columns{
+display:flex;
+gap: 1em;
+}
+
+.equal-columns > * {
+width: 100%;
+} // All direct childs to have equla width
+
+
+## NAV UL VS NAV > UL
+
+<nav class='primary-nav'>
+<ul>
+<li><a href='#'>Home</a></li>
+<li><a href='#'>About</a></li>
+<li><a href='#'>Blog</a></li>
+<li><a href='#'>Contact</a></li>
+</ul>
+</nav>
+
+.primary-nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+}
+
+.primary-nav li {
+margin: 0 3em;
+}// even though list-items are not direct children
+
+.primary-nav ul li {
+margin: 0 3em;
+}// same as above but more code
+
+.primary-nav > ul > li {
+margin: 0 3em;
+}// same as above but more code
+
+
+CSS SELECTORS
+
+div, p	Selects all <div> elements and all <p> elements
+div p Selects all <p> elements inside <div> elements
+div > p Selects all <p> elements where the parent is a <div> element
+div + p	Selects the first(only one) <p> element that is placed immediately after <div> elements
+p ~ ul	Selects every (all) <ul> element that is preceded by a <p> element
+
+[attribute]	[target]	Selects all elements with a target attribute
+[attribute=value]	[target=_blank]	Selects all elements with target="_blank"
+[title~=flower]	Selects all elements with a title attribute containing the word "flower"
+[lang|=en]	Selects all elements with a lang attribute value starting with "en"
+a[href^="https"]	Selects every <a> element whose href attribute value begins with "https"
+a[href$=".pdf"]	Selects every <a> element whose href attribute value ends with ".pdf"
+a[href*="w3schools"]	Selects every <a> element whose href attribute value contains the substring "w3schools"
+a:active	Selects the active link
+p::before	Insert something before the content of each <p> element
+p:empty	Selects every <p> element that has no children (including text nodes)
+p:first-of-type	Selects every <p> element that is the first <p> element of its parent
+p:last-child	Selects every <p> element that is the last child of its parent
+p:lang(it)	Selects every <p> element with a lang attribute equal to "it" (Italian)
+:not(p)	Selects every element that is not a <p> element
+p:nth-child(2)	Selects every <p> element that is the second child of its parent
+p:nth-last-child(2)	Selects every <p> element that is the second child of its parent, counting from the last child
+p:nth-of-type(2)	Selects every <p> element that is the second <p> element of its parent
+
+BOX-SHADOW
+
+box-shadow:offset-x|offset-y|blur-radius|spread-radius|color
+box-shadow:inset offset-x|offset-y|blur-radius|spread-radius|color puts shadow inside box
+box-shadow: inset 8px 10px 10px 1px rgba(0,0,0,0.5)
+
+
+
+
+
+
+
+

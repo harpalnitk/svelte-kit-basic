@@ -1,8 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+<script>
+    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+</script>
+<BasicPage title='Overlapping Cards'></BasicPage>
 
-ion-content {
+
+<main>
+    <div class="card-list1">
+        <div class="card1">
+          <div class="card1__header">
+            <div class="card1__header-date">May 25th 2020</div>
+            <div class="card1__header-text">
+              Card tricks are fun! Hi Hazel Card tricks are fun! Hi Hazel Card
+              tricks are fun! Hi Hazel Card tricks are fun! Hi Hazel Card tricks are
+              fun! Hi Hazel Card tricks are fun! Hi Hazel Card tricks are fun! Hi
+              Hazel Card tricks are fun! Hi Hazel
+            </div>
+          </div>
+          <div class="card1__author">
+            <a href="" class="card1__author-avatar">
+              <img src="../../../../assets/images/avatar/girl-avatar.png" alt="" />
+            </a>
+            <svg class="half-circle" viewBox="0 0 106 57">
+              <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+            </svg>
+            <div class="card1__author-name">
+              <div class="card1__author-name--prefix">Author</div>
+              Hazel Kour
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="card-header1">
+            <p>May 25th 2020</p>
+            <h2>Card tricks are fun! Hi Hazel</h2>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="card-header1">
+            <p>May 25th 2020</p>
+            <h2>Card tricks are fun! Hi Hazel</h2>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="card-header1">
+            <p>May 25th 2020</p>
+            <h2>Card tricks are fun! Hi Hazel</h2>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="card-header1">
+            <p>May 25th 2020</p>
+            <h2>Card tricks are fun! Hi Hazel</h2>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="card-header1">
+            <p>May 25th 2020</p>
+            <h2>Card tricks are fun! Hi Hazel</h2>
+          </div>
+        </div>
+        <div class="card1">
+          <div class="card-header1">
+            <p>May 25th 2020</p>
+            <h2>Card tricks are fun! Hi Hazel</h2>
+          </div>
+        </div>
+      </div>
+</main>
+
+
+
+<style lang="scss">
+	@import '../../styles/vars';
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+main {
   padding: 0;
   margin: 0;
+		margin: 0 auto;
+		width: min(70rem, 90vw);
   background-color: #17141d !important;
   color: white !important;
   font-family: 'DM Mono', monospace;
@@ -135,3 +211,5 @@ ion-content {
   stroke-width: 8;
   stroke-linecap: round;
 }
+
+</style>

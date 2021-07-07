@@ -6,6 +6,7 @@
 		<li>1. <a href="/playground">Go To Playground</a></li>
 		<li>2. <a href="/charts-with-shapes">Charts With Shapes</a></li>
 		<li>3. <a href="/images">Images CSS</a></li>
+		<li>4. <a href="/grid-layout">Grid layout</a></li>
 	</ul>
 
 </main>

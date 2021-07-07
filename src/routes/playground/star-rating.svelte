@@ -5,9 +5,9 @@
 
 
 <main>
-    <div class="test">
+    <!-- <div class="test">
 
-    </div>
+    </div> -->
     <p>5 star rating </p>
     <div class="stars">
       <input type="radio" name="rating" value="1" />

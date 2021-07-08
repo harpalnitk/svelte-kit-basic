@@ -16,6 +16,8 @@
         <li>9. <a href="/playground/trignometry-sun">Shapes Using Trignometry</a></li>
         <li>10. <a href="/playground/star-rating">Scalable Star rating</a></li>
         <li>11. <a href="/playground/overlapping-cards">Overlapping Cards</a></li>
+        <li>12. <a href="/playground/glow-card">Double color neon glow card</a></li>
+        <li>12. <a href="/playground/curved-menu">Curved Outside Sidebar Menu</a></li>
     </ul>
 </main>
 

@@ -108,6 +108,9 @@ let active = true;
 <style lang="scss">
 	@import '../../styles/vars';
     main{
+        --main-color: dodgerblue;
+        --text-color: #fff;
+        --text-color-dark: #333;
         min-height: 100vh;
         background: whitesmoke;
     }
@@ -118,9 +121,9 @@ let active = true;
         left: 20px;
         width: 300px;
         border-radius: 10px;
-        border-left: 5px solid dodgerblue;
+        border-left: 5px solid var(--main-color);
         box-sizing: initial;
-        background: dodgerblue;
+        background: var(--main-color);
         transition: width 0.5s;
     }
     .navigation ul {
@@ -139,14 +142,14 @@ let active = true;
         border-bottom-left-radius: 20px;
     }
     .navigation ul li.active {
-        background: #fff;
+        background: var(--text-color);
     }
     .navigation ul li b:nth-child(1) {
     position: absolute;
     top: -20px;
     height: 20px;
     width: 100%;
-    background: #fff;
+    background: var(--text-color);
     display: none;
     }
     .navigation ul li b:nth-child(1)::before {
@@ -156,7 +159,7 @@ let active = true;
     left: 0;
     height: 100%;
     width: 100%;
-    background: dodgerblue;
+    background: var(--main-color);
     border-bottom-right-radius: 20px;
     }
     .navigation ul li b:nth-child(2) {
@@ -164,7 +167,7 @@ let active = true;
     bottom: -20px;
     height: 20px;
     width: 100%;
-    background: #fff;
+    background: var(--text-color);
     display: none;
     }
     .navigation ul li b:nth-child(2)::before {
@@ -174,7 +177,7 @@ let active = true;
     left: 0;
     height: 100%;
     width: 100%;
-    background: dodgerblue;
+    background: var(--main-color);
     border-top-right-radius: 20px;
     }
     .navigation ul li.active b:nth-child(1),
@@ -186,10 +189,10 @@ display: block;
         width: 100%;
         display: flex;
         text-decoration: none;
-        color: #fff;
+        color: var(--text-color);
     } 
     .navigation ul li.active a{
-        color: #333;
+        color: var(--text-color-dark);
     }
     .navigation ul li a .icon{
         position: relative;

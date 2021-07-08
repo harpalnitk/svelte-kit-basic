@@ -9,4 +9,6 @@
 <Sidebar bind:open/>
 <Navbar bind:sidebar={open} {segment}/>
 
-<slot />
+<main on:click={()=>open =false}>
+	<slot/>
+</main>

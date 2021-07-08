@@ -217,6 +217,61 @@ box-shadow:inset offset-x|offset-y|blur-radius|spread-radius|color puts shadow i
 box-shadow: inset 8px 10px 10px 1px rgba(0,0,0,0.5)
 
 
+<div class="container">
+  <div class="hero fefault">
+    <div class="hero-content flow">
+      <h1>The best in the west</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eveniet!</p>
+      <p>Sapiente perferendis natus nemo cupiditate a ipsam dolorem delectus minus.</p>
+      <p>Aliquam natus id voluptatum, illum asperiores non sunt iure temporibus.</p>
+    </div>
+  </div>
+</div>
+
+
+/* solution to headings paragraphs collapsible margin problem */
+h1,h2,h3,p{
+  margin:0;
+}
+
+/* // * + * selects all childs but not the last //child 
+*:not(:first-child) can also be used but it's specifity is more which can cause some problems
+*/
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
+}
+
+.hero {
+  --flow-space: 3em;
+}
+
+
+FONTS
+
+CSS Font Property is used to group all font properties in one single property. Properties like font size and font family are compulsory to add, rest all are optional. Line height must come after font-size separated by slash (/).
+
+<style>
+p{ font: italic small-caps bold condensed 18px/1.4 arial}
+
+18px/1.4 arial IS MANDATORY  18px: font-size 1.4: line-height arial:font-family
+
+italic small-caps bold condensed IS OPTIONAL
+
+font-style: italic/normal/oblique
+font-variant: normal/small-caps
+font-stretch: norma/condensed/semi-condensed/ulta-condensed/expanded/semi-expanded/ultra-expanded/extra-expanded
+font_weight:normal/bold/bolder   OR 100-900
+</style>
+
+ASPECT RATIO
+
+aspect-ratio: 1/1
+
+if width of div is 100px this will automatically set height to 100px
+
+
+
+
 
 
 

@@ -18,6 +18,7 @@
         <li>11. <a href="/playground/overlapping-cards">Overlapping Cards</a></li>
         <li>12. <a href="/playground/glow-card">Double color neon glow card</a></li>
         <li>13. <a href="/playground/curved-menu">Curved Outside Sidebar Menu</a></li>
+        <li>14. <a href="/playground/conic-spinner">Conic Gradient Spinner</a></li>
     </ul>
 </main>
 

@@ -19,6 +19,7 @@
         <li>12. <a href="/playground/glow-card">Double color neon glow card</a></li>
         <li>13. <a href="/playground/curved-menu">Curved Outside Sidebar Menu</a></li>
         <li>14. <a href="/playground/conic-spinner">Conic Gradient Spinner</a></li>
+        <li>15. <a href="/playground/glass">Transparent Cards-Glasmorphism</a></li>
     </ul>
 </main>
 

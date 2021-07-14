@@ -12,7 +12,7 @@
   @import '../../../styles/vars';
   button,
   a {
-    width: auto;
+    //width: auto;
     font: inherit;
     border: 1px solid $primary-color;
     background: $primary-color;

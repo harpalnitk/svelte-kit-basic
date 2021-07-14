@@ -20,6 +20,9 @@
         <li>13. <a href="/playground/curved-menu">Curved Outside Sidebar Menu</a></li>
         <li>14. <a href="/playground/conic-spinner">Conic Gradient Spinner</a></li>
         <li>15. <a href="/playground/glass">Transparent Cards-Glasmorphism</a></li>
+        <li>16. <a href="/playground/ripple-button">Ripple Button</a></li>
+        <li>17. <a href="/playground/product-card">Product card</a></li>
+        <li>18. <a href="/playground/creative-menu">Creative Menu</a></li>
     </ul>
 </main>
 

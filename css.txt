@@ -270,6 +270,17 @@ aspect-ratio: 1/1
 if width of div is 100px this will automatically set height to 100px
 
 
+html{
+  scroll-behavior:smooth; // will scroll page smoothly when moving through different sections on same page
+  scroll-padding-top;3rem // keeps 3rem space between section and top of page
+}
+
+section:target {
+  outline: 1px dotted red;// when we move to a section it will apply dotted line of red color
+}
+
+
+
 
 
 

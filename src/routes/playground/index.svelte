@@ -23,6 +23,12 @@
         <li>16. <a href="/playground/ripple-button">Ripple Button</a></li>
         <li>17. <a href="/playground/product-card">Product card</a></li>
         <li>18. <a href="/playground/creative-menu">Creative Menu</a></li>
+        <li>19. <a href="/playground/svg-animation">SVG Animation</a></li>
+        <li>20. <a href="/playground/ripple-animation">Ripple-Animation</a></li>
+        <li>21. <a href="/playground/shadows">CSS Shadows</a></li>
+        <li>22. <a href="/playground/player-card">Player card</a></li>
+        <li>23. <a href="/playground/profile-card">Profile card</a></li>
+        <li>24. <a href="/playground/hovering-cards">Hovering cards</a></li>
     </ul>
 </main>
 

@@ -44,7 +44,10 @@
     width: min(70rem, 90vw);
     margin: 0 auto;
     display: grid;
-
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+    gap: 1rem;
+    place-content: center;
+    place-items: center;
     // background-color: #dfe6e9;
     transform: perspective(900px);
     transform-style: preserve-3d;
@@ -53,21 +56,20 @@
 }
 
 .card{
+  padding: .5rem;
   text-align:center;
   position: relative;
-  width: 250px;
-  height: 350px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  transition:.6s;
+  width: 18rem;
+  height: 25rem;
+  transform: rotatex(50deg) translatey(-15rem) translatez(-7rem);
   box-shadow: 0px 20px 60px rgba(0,0,0, 0.5);
 }
 .card:hover{ 
   transform: rotatex(0deg);
-  //transform: rotatez(0deg);
-  transition:.6s;
+  transform: rotatez(0deg);
+  transition:.6s ease;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-  transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+ 
 }
  .card1 {
   background: linear-gradient(rgb(225,150,58),rgb(227,144,91));
@@ -81,24 +83,24 @@
 
 .card img{
   transform: translateY(15px);
-  width:200px;
-  height:120px;
+  width:80%;
+  height:40%;
 }
 h3{
-  font-size:25px;
+  font-size:1.5rem;
   font-family: 'Abel', sans-serif;
   color:rgb(255,255,255);
   text-shadow: 0 0 2px rgb(255,255,255);
-  transform: translatey(10px);
+  // transform: translatey(10px);
 }
 
 p{
   
   font-family: 'Abel', sans-serif;
   color: white;
-  text-align:center;
-  width:220px;
-  transform: translatex(12px);
+  // text-align:center;
+  // width: 90%;
+  // transform: translatex(12px);
 }
 
 </style>

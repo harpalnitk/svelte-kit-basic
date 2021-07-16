@@ -29,6 +29,7 @@
         <li>22. <a href="/playground/player-card">Player card</a></li>
         <li>23. <a href="/playground/profile-card">Profile card</a></li>
         <li>24. <a href="/playground/hovering-cards">Hovering cards</a></li>
+        <li>25. <a href="/playground/clock">Clock using CSS</a></li>
     </ul>
 </main>
 

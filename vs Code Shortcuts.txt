@@ -27,3 +27,5 @@ and then Ctrl+ / to comment those lines
 13. Use >task in command pallete to set a default build task
 it will create a taks.json file under .vscode folder in the project directory
  now u can use command pallete and use >run to tun the command
+
+ 14. Alt + Click for multiple cursors

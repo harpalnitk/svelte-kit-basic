@@ -30,6 +30,8 @@
         <li>23. <a href="/playground/profile-card">Profile card</a></li>
         <li>24. <a href="/playground/hovering-cards">Hovering cards</a></li>
         <li>25. <a href="/playground/clock">Clock using CSS</a></li>
+        <li>26. <a href="/playground/wavy-text">Wavy Text</a></li>
+        <li>27. <a href="/playground/glowing-card">Glowing Card</a></li>
     </ul>
 </main>
 

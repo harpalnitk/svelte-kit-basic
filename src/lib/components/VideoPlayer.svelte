@@ -1,5 +1,5 @@
 <script>
-	export let showFloat;
+	export let showFloat= false;
 
 	let videoCont;
 	let videoPlayer;
@@ -18,7 +18,7 @@
 	<!-- There are three supported video formats: MP4, WebM, and Ogg -->
 	<video class="vid-player" controls class:sm-player={showFloat} bind:this={videoPlayer}>
 		<track kind="captions" />
-		<source src="video1.mp4" type="video/mp4" />
+		<source src="/vid/fish.mp4" type="video/mp4" />
 		<!-- <source src="video2.mp4" type="video/mp4" /> -->
 		Sorry, your browser doesn't support embedded videos
 	</video>

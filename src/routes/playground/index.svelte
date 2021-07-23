@@ -32,6 +32,12 @@
         <li>25. <a href="/playground/clock">Clock using CSS</a></li>
         <li>26. <a href="/playground/wavy-text">Wavy Text</a></li>
         <li>27. <a href="/playground/glowing-card">Glowing Card</a></li>
+        <li>28. <a href="/playground/water-drops">Water Drops</a></li>
+        <li>28. <a href="/playground/radio-glow">Neon Glowing Radio Butotns</a></li>
+        <li>29. <a href="/playground/scale-video-scroll">Scale Video/Image on scroll</a></li>
+        <li>30. <a href="/playground/particle">Particle Effect</a></li>
+        <li>31. <a href="/playground/calculator">Calculator</a></li>
+        <li>32. <a href="/playground/liquid">Liquid Animation Effect</a></li>
     </ul>
 </main>
 

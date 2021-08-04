@@ -38,7 +38,7 @@
         <li>30. <a href="/playground/particle">Particle Effect</a></li>
         <li>31. <a href="/playground/calculator">Calculator</a></li>
         <li>32. <a href="/playground/liquid">Liquid Animation Effect</a></li>
-          <li>32. <a href="/playground/rotating-images">Rotating Images on Mouse Move</a></li>
+        <li>33. <a href="/playground/rotating-images">Rotating Images on Mouse Move</a></li>
     </ul>
 </main>
 

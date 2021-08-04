@@ -39,6 +39,7 @@
         <li>31. <a href="/playground/calculator">Calculator</a></li>
         <li>32. <a href="/playground/liquid">Liquid Animation Effect</a></li>
         <li>33. <a href="/playground/rotating-images">Rotating Images on Mouse Move</a></li>
+        <li>34. <a href="/playground/3d-stack-cards">3D Stack of a Card</a></li>
     </ul>
 </main>
 

@@ -6,7 +6,17 @@
 <main>
 	<h1>Differen CSS Card Designs</h1>
 	<ul class="link-grid">
-		<li>1. <a href="/cards/search-box">Search Box</a></li>
+		<li>1. <a href="/cards/overlapping-cards">Overlapping Cards</a></li>
+		<li>2. <a href="/cards/glow-card">Double color neon glow card</a></li>
+		<li>3. <a href="/cards/glass">Transparent Cards-Glasmorphism</a></li>
+		<li>4. <a href="/cards/product-card">Product card</a></li>
+		<li>5. <a href="/cards/player-card">Player card</a></li>
+		<li>6. <a href="/cards/profile-card">Profile card</a></li>
+		<li>7. <a href="/cards/hovering-cards">Hovering cards</a></li>
+		<li>8. <a href="/cards/glowing-card">Glowing Card</a></li>
+		<li>9. <a href="/cards/3d-stack-cards">3D Stack of a Card</a></li>
+		<li>10. <a href="/cards/glass-card">Glass card</a></li>
+		<li>11. <a href="/cards/neumorphic-card">Neumorphic Cards</a></li>
 	</ul>
 </main>
 

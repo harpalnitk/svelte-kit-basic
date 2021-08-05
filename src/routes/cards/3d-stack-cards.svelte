@@ -2,7 +2,7 @@
     import BasicPage from '$lib/components/UI/BasicPage.svelte';
 </script>
 <BasicPage title='3D Stack of Cards'
-></BasicPage>
+path='/cards'></BasicPage>
 
 
 <main>

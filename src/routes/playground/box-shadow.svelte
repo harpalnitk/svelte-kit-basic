@@ -1,7 +1,7 @@
 <script>
     import BasicPage from '$lib/components/UI/BasicPage.svelte';
 </script>
-<BasicPage title='Designs with Box Shadow'></BasicPage>
+<BasicPage title='Designs with Box Shadow'  path='/playground'></BasicPage>
 
 
 <main>

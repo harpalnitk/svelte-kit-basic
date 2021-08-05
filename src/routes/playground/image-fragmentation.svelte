@@ -1,7 +1,7 @@
 <script>
     import BasicPage from '$lib/components/UI/BasicPage.svelte';
 </script>
-<BasicPage title='Image Fragmentation'></BasicPage>
+<BasicPage title='Image Fragmentation' path='/playground'></BasicPage>
 
 <section>
     <div class="img-div">

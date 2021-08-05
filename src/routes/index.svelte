@@ -4,9 +4,11 @@
 	<h1>Hello world!</h1>
 	<ul>
 		<li>1. <a href="/playground">Go To Playground</a></li>
-		<li>2. <a href="/charts-with-shapes">Charts With Shapes</a></li>
-		<li>3. <a href="/images">Images CSS</a></li>
-		<li>4. <a href="/grid-layout">Grid layout</a></li>
+		<li>2. <a href="/playground2">Go To Playground 2</a></li>
+		<li>3. <a href="/charts-with-shapes">Charts With Shapes</a></li>
+		<li>4. <a href="/images">Images CSS</a></li>
+		<li>5. <a href="/grid-layout">Grid layout</a></li>
+		<li>6. <a href="/cards">Cards</a></li>
 	</ul>
 
 </main>

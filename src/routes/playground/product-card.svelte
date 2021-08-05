@@ -1,7 +1,7 @@
 <script>
     import BasicPage from '$lib/components/UI/BasicPage.svelte';
 </script>
-<BasicPage title='Product card'></BasicPage>
+<BasicPage title='Product card' path='/playground'></BasicPage>
 
 
 <main>

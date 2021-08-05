@@ -44,6 +44,8 @@
 		<li>35. <a href="/playground/shape-outside">CSS Shape Outside Property</a></li>
 		<li>36. <a href="/playground/text-emphasis">CSS Text Emphasis Property</a></li>
 		<li>37. <a href="/playground/dialog-backdrop">Dialog with CSS Backdrop Property</a></li>
+		<li>38. <a href="/playground/glass-card">Glass card</a></li>
+		<li>39. <a href="/playground/neumorphic-card">Neumorphic Cards</a></li>
 	</ul>
 </main>
 

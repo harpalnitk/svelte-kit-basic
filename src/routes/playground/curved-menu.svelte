@@ -3,7 +3,7 @@
     import Hoverable from '$lib/components/Hoverable.svelte';
 let active = true;
 </script>
-<BasicPage title='Curved Outside Sidebar Menu'></BasicPage>
+<BasicPage title='Curved Outside Sidebar Menu' path='/playground'></BasicPage>
 
 
 <main>

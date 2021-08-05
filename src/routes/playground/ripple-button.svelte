@@ -2,7 +2,7 @@
     import BasicPage from '$lib/components/UI/BasicPage.svelte';
     import RippleButton from '$lib/components/UI/RippleButton.svelte';
 </script>
-<BasicPage title='Ripple Button'></BasicPage>
+<BasicPage title='Ripple Button' path='/playground'></BasicPage>
 
 
 <main>

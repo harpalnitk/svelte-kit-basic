@@ -100,7 +100,7 @@
     }
   </script>
 
-<BasicPage title='Http Firebase'></BasicPage>
+<BasicPage title='Http Firebase' path='/playground'></BasicPage>
 
 <section>
     <label for="hobby">Hobby</label>

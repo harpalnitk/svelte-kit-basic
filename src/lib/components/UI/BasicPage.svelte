@@ -1,6 +1,6 @@
 <script>
     export let title;
-    export let path='/playground';
+    export let path='/playground2';
 </script>
 <div class='back-button-cont'>
     <a href={path} class='back-button'>Back</a>

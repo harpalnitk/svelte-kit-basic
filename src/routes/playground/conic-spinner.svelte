@@ -1,7 +1,7 @@
 <script>
     import BasicPage from '$lib/components/UI/BasicPage.svelte';
 </script>
-<BasicPage title='Conic Gradient Spinner'></BasicPage>
+<BasicPage title='Conic Gradient Spinner' path='/playground'></BasicPage>
 
 
 <main>

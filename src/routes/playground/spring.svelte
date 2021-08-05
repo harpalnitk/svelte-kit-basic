@@ -68,7 +68,7 @@
     }
   </script>
 
-<BasicPage title='Spring Animation'></BasicPage>
+<BasicPage title='Spring Animation' path='/playground'></BasicPage>
 
 <section>
     <div class="page">

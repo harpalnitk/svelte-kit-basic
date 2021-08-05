@@ -8,7 +8,7 @@
  let bg;
  $: if(bg) bg.style.backgroundSize = 100 + y*2 + 'px';
 </script>
-<BasicPage title='Scale Video on Scroll'></BasicPage>
+<BasicPage title='Scale Video on Scroll' path='/playground'></BasicPage>
 
 <svelte:window bind:scrollY={y} />
 <main>

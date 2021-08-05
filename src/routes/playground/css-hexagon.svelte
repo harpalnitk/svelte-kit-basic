@@ -2,7 +2,7 @@
 <script>
     import BasicPage from '$lib/components/UI/BasicPage.svelte';
 </script>
-<BasicPage title='CSS Hexagon'></BasicPage>
+<BasicPage title='CSS Hexagon' path='/playground'></BasicPage>
 <main>
 <div class="main">
 	<div class="container">

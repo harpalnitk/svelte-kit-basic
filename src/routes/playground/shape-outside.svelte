@@ -2,7 +2,7 @@
 	import BasicPage from '$lib/components/UI/BasicPage.svelte';
 </script>
 
-<BasicPage title="Shape Outside Property" />
+<BasicPage title="Shape Outside Property"  path='/playground'/>
 
 <section class="first">
 	<img src="/img/misc/bottle.png" alt="" />

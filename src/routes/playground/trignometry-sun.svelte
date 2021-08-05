@@ -88,7 +88,7 @@ const createPolygon = ()=>{
 
 
 </script>
-<BasicPage title='Shapes using Trignometry'></BasicPage>
+<BasicPage title='Shapes using Trignometry' path='/playground'></BasicPage>
 
 
 <main>

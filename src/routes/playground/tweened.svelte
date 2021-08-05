@@ -15,7 +15,7 @@
       progress.set(0.5);
     }, 1500);
 </script>
-<BasicPage title='Tweened'></BasicPage>
+<BasicPage title='Tweened' path='/playground'></BasicPage>
 
 
 <main>

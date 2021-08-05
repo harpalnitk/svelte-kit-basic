@@ -6,7 +6,7 @@
 
     }
 </script>
-<BasicPage title='Rotating Images on Mouse Move'></BasicPage>
+<BasicPage title='Rotating Images on Mouse Move' path='/playground'></BasicPage>
 
 
 <main>

@@ -6,7 +6,7 @@
         value = eval(value);
     }
 </script>
-<BasicPage title='Calculator'></BasicPage>
+<BasicPage title='Calculator' path='/playground'></BasicPage>
 
 
 <main>

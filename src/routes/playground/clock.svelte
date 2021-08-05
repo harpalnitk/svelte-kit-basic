@@ -16,7 +16,7 @@
 
 
 </script>
-<BasicPage title='Clock'></BasicPage>
+<BasicPage title='Clock' path='/playground'></BasicPage>
 
 
 <main>

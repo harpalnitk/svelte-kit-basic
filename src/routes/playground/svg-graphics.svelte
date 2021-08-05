@@ -10,7 +10,7 @@
      lightColor = rando();
  }
 </script>
-<BasicPage title='SVG Graphics'></BasicPage>
+<BasicPage title='SVG Graphics' path='/playground'></BasicPage>
 
 <main>
     <div class="svg-div" >

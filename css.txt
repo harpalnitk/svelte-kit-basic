@@ -280,6 +280,15 @@ section:target {
 }
 
 
+PADDING 
+
+section{
+  padding-block: min(20vh, 20rem);
+  // padding-block is same as padding top and bottom only
+  // min will ensure that on small screen sizes padding top is not too much
+}
+
+
 
 
 

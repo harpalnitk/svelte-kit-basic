@@ -8,6 +8,7 @@
 	<ul class="link-grid">
 		<li>1. <a href="/playground2/search-box">Search Box</a></li>
 		<li>2. <a href="/playground2/abstract-bg">Abstract Background</a></li>
+		<li>2. <a href="/playground2/image-paint">Image Fragmentation with paint CSS API</a></li>
 	</ul>
 </main>
 

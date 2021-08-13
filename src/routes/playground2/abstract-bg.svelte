@@ -51,7 +51,7 @@ section{
     filter: blur(50px);
     inset: -5px;
 }
-.circle :nth-child(4){
+.circle i:nth-child(4){
 background: #fff;
 z-index: 3;
 inset: 5px;

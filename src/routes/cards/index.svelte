@@ -4,7 +4,7 @@
 
 <BasicPage title="Different type of card Designs" path="/" />
 <main>
-	<h1>Differen CSS Card Designs</h1>
+	<h1>Different CSS Card Designs</h1>
 	<ul class="link-grid">
 		<li>1. <a href="/cards/overlapping-cards">Overlapping Cards</a></li>
 		<li>2. <a href="/cards/glow-card">Double color neon glow card</a></li>
@@ -17,7 +17,8 @@
 		<li>9. <a href="/cards/3d-stack-cards">3D Stack of a Card</a></li>
 		<li>10. <a href="/cards/glass-card">Glass card</a></li>
 		<li>11. <a href="/cards/neumorphic-card">Neumorphic Cards</a></li>
-		<li>11. <a href="/cards/neumorphic-card-d">Neumorphic Cards Dark</a></li>
+		<li>12. <a href="/cards/neumorphic-card-d">Neumorphic Cards Dark</a></li>
+		<li>13. <a href="/cards/gradient-card-shadow">Gradient Card Shadow</a></li>
 	</ul>
 </main>
 

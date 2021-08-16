@@ -4,7 +4,6 @@
   import Menu from './Menu.svelte';
 
   export let sidebar = false;
-  export let segment;
 </script>
 
 <header class="nav-controller">
@@ -13,7 +12,7 @@
     <Logo />
   </nav>
 
-  <Menu {segment}/>
+  <Menu/>
 </header>
 
 <style lang="scss">

@@ -19,6 +19,8 @@
 		<li>11. <a href="/cards/neumorphic-card">Neumorphic Cards</a></li>
 		<li>12. <a href="/cards/neumorphic-card-d">Neumorphic Cards Dark</a></li>
 		<li>13. <a href="/cards/gradient-card-shadow">Gradient Card Shadow</a></li>
+		<li>13. <a href="/cards/testimonial-with-swiper">Responsive Testimonial slider With Swiper.js</a></li>
+		<li>13. <a href="/cards/contact-info">Contact Info Card</a></li>
 	</ul>
 </main>
 

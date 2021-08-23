@@ -19,8 +19,11 @@
 		<li>11. <a href="/cards/neumorphic-card">Neumorphic Cards</a></li>
 		<li>12. <a href="/cards/neumorphic-card-d">Neumorphic Cards Dark</a></li>
 		<li>13. <a href="/cards/gradient-card-shadow">Gradient Card Shadow</a></li>
-		<li>13. <a href="/cards/testimonial-with-swiper">Responsive Testimonial slider With Swiper.js</a></li>
-		<li>13. <a href="/cards/contact-info">Contact Info Card</a></li>
+		<li>14. <a href="/cards/testimonial-with-swiper">Responsive Testimonial slider With Swiper.js</a></li>
+		<li>15. <a href="/cards/contact-info">Contact Info Card</a></li>
+		<li>16. <a href="/cards/glass-hover">GlassMorphism Hover Effect Card</a></li>
+		<li>17. <a href="/cards/instagram-card">Instagram Post Card Clone</a></li>
+		<li>18. <a href="/cards/profile-hover">Profile card Hover Effect</a></li>
 	</ul>
 </main>
 

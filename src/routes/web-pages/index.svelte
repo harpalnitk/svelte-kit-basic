@@ -6,6 +6,7 @@
 <main>
 	<ul class="link-grid">
 		<li>1. <a href="/web-pages/fruits">Fruits Website</a></li>
+		<li>2. <a href="/web-pages/personal-portfolio">Responsive Personal Portfolio Website</a></li>
 	</ul>
 </main>
 

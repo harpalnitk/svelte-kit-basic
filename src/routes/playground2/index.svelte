@@ -8,7 +8,10 @@
 	<ul class="link-grid">
 		<li>1. <a href="/playground2/search-box">Search Box</a></li>
 		<li>2. <a href="/playground2/abstract-bg">Abstract Background</a></li>
-		<li>2. <a href="/playground2/image-paint">Image Fragmentation with paint CSS API</a></li>
+		<li>3. <a href="/playground2/image-paint">Image Fragmentation with paint CSS API</a></li>
+		<li>4. <a href="/playground2/cutout">Cutouts using SVG, Clip Path, Mask</a></li>
+		<li>5. <a href="/playground2/indian-flag">Indian Flag Using CSS</a></li>
+		<li>6. <a href="/playground2/social-icon-hover">Social Media Icon Hover Effect</a></li>
 	</ul>
 </main>
 

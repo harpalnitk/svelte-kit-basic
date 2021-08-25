@@ -13,7 +13,7 @@
 		<li>5. <a href="/playground2/indian-flag">Indian Flag Using CSS</a></li>
 		<li>6. <a href="/playground2/social-icon-hover">Social Media Icon Hover Effect</a></li>
 		<li>7. <a href="/playground2/contact-info">Contact Info Page-Glassmorphism</a></li>
-		<li>8. <a href="/playground2/curved-card">Curved Card</a></li>
+		<li>8. <a href="/playground2/glass-calendar">Glassmorphism Calendar</a></li>
 	</ul>
 </main>
 

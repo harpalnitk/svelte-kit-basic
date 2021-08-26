@@ -1,0 +1,18 @@
+/*if in a div all elements are floated the height of the div becomes zero
+to fix this we attach a pseudo after element to the div to give it height*/
+
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+        /* clears both float left and right*/
+    }
+}
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

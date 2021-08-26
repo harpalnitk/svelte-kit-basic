@@ -1,0 +1,67 @@
+.story {
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0 3rem 6rem rgba($color-black, .1);
+    background-color: rgba($color-white, .6);
+    border-radius: 3px;
+    padding: 6rem;
+    padding-left: 9rem;
+    font-size: $default-font-size;
+    transform: skewX(-12deg); //direct child selector
+    //    $ > * {
+    //        transform: skewX(12deg);
+    //        //this will not work as on selector can't have two transforms as &__shape already has  a transform. thus, we have to apply this individually to bot direct childs
+    //    }
+    &__shape {
+        width: 15rem;
+        height: 15rem;
+        float: left;
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        shape-outside: circle(50% at 50% 50%); //
+        //used to make text ouside take the shape of circle while floating
+        //radius 50% of 15rem i.e. 7.5rem
+        // 50% 50% of the square of width and height 15rem
+        // for shape-outside to work element must be floated
+        // and element must have defined dimensions i.e. both width and height
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%); //we should not use margins with floated element like this
+        // instead use transform
+        transform: translateX(-3rem) skewX(12deg);
+        position: relative;
+    }
+
+    &__image {
+        height: 100%;
+        transform: translateX(-4rem) scale(1.4);
+        transition: all .5s;
+
+
+
+    }
+    &__text {
+        transform: skewX(12deg);
+    }
+    &__caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 20%); // changed from -50% on y axis to 20% to bring it little down for animation
+        color: $color-white;
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        text-align: center;
+        opacity: 0; // it should be hidden initially
+        transition: all .5s;
+
+    }
+
+    &:hover &__caption {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+
+    &:hover &__image {
+        transform: translateX(-4rem) scale(1);
+        filter: blur(3px) brightness(80%); // brightness less than 100% to make it darker
+    }
+}

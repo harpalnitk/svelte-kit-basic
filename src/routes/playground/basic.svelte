@@ -3,13 +3,6 @@
 </script>
 <BasicPage title='TitleOfThePage'></BasicPage>
 
-
-<main>
-<h1>MAX ADVENTURES</h1>
-</main>
-
-
-
 <style lang="scss">
 	@import '../../styles/vars';
     main{

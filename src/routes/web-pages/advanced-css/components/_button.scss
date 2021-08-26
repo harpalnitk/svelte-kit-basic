@@ -1,0 +1,114 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        /*For pseudo element to have absolute positioning*/
+        font-size: $default-font-size; //change for the <button> element
+        //&, used above as link and visited do not apply to button element
+        border: none;
+        cursor: pointer;
+    }
+
+    &:hover {
+        transform: translateY(-.3rem);
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        /* x-axis y-axis blur color*/
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+
+    &:active,
+    &:focus {
+        outline: none; // &:focus used for button element
+        transform: translateY(-1px);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+        /* x-axis y-axis blur color*/
+    }
+
+    &--white {
+        background-color: $color-white;
+        color: $color-grey-dark;
+
+        &::after {
+            background-color: $color-white;
+
+        }
+    }
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+
+        }
+    }
+
+    &::after {
+        content: "";
+        display: inline-block;
+        /*because our button is also inline-block*/
+        height: 100%;
+        /* after psuedo element is basically child of parent element in terms of width and height*/
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        /*Relative to the first position relative element it can find. In our case it is our original button*/
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all 0.4s;
+    }
+
+    &--animated {
+        animation: moveInBottom 0.5s ease-out .75s;
+        /*name timing acceleration delay*/
+        animation-fill-mode: backwards;
+        /*initially the button will be visible in its original position during the delay period. this property places the button in the start position of animation before the delay starts*/
+    }
+}
+
+.btn-text {
+    &:link,
+    &:visited {
+        font-size: $default-font-size;
+        color: $color-primary;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: .1rem solid $color-primary;
+        padding: .3rem;
+        transition: all .2s;
+    }
+
+    &:hover {
+        background-color: $color-primary;
+        color: $color-white;
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        /* x-axis y-axis blur color*/
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+        /* x-axis y-axis blur color*/
+        transform: translateY(0);
+    }
+
+
+
+
+
+
+
+
+
+}

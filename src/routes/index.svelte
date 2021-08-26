@@ -10,7 +10,8 @@
 		<li>5. <a href="/grid-layout">Grid layout</a></li>
 		<li>6. <a href="/cards">Cards</a></li>
 		<li>7. <a href="/videos">Videos</a></li>
-		<li>8. <a href="/web-pages">WebSite Designs</a></li>
+		<li>8. <a href="/audio">Audio</a></li>
+		<li>9. <a href="/web-pages">WebSite Designs</a></li>
 	</ul>
 
 </main>

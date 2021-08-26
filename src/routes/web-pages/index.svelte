@@ -7,6 +7,8 @@
 	<ul class="link-grid">
 		<li>1. <a href="/web-pages/fruits">Fruits Website</a></li>
 		<li>2. <a href="/web-pages/personal-portfolio">Responsive Personal Portfolio Website</a></li>
+		<li>3. <a href="/web-pages/e-commerce">E-Commerce Product Cards page</a></li>
+		<li>4. <a href="/web-pages/advanced-css">Advanced CSS</a></li>
 	</ul>
 </main>
 

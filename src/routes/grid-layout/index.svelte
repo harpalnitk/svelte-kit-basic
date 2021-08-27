@@ -12,6 +12,7 @@
         <li>4. <a href="/grid-layout/three-column-fluid">1 to 3 Column Fluid Layout</a></li>
         <li>5. <a href="/grid-layout/twelve-column-system">Layout using 12 column system</a></li>
         <li>6. <a href="/grid-layout/product-listing">Product Listing With Auto Placement</a></li>
+		<li>7. <a href="/grid-layout/grid-concept">Grid Concepts</a></li>
 
     </ul>
 </main>

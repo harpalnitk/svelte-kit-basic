@@ -4,9 +4,9 @@
     &:visited {
         text-transform: uppercase;
         text-decoration: none;
-        padding: 1.5rem 4rem;
+        padding: calc(1.5rem * 5/8) calc(4rem * 5/8);;
         display: inline-block;
-        border-radius: 10rem;
+        border-radius: calc(10rem * 5/8);
         transition: all .2s;
         position: relative;
         /*For pseudo element to have absolute positioning*/
@@ -17,8 +17,8 @@
     }
 
     &:hover {
-        transform: translateY(-.3rem);
-        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        transform: translateY(calc(-.3rem * 5/8));
+        box-shadow: 0 calc(1rem * 5/8) calc(2rem * 5/8) rgba($color-black, .2);
         /* x-axis y-axis blur color*/
         &::after {
             transform: scaleX(1.4) scaleY(1.6);
@@ -30,7 +30,7 @@
     &:focus {
         outline: none; // &:focus used for button element
         transform: translateY(-1px);
-        box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+        box-shadow: 0 calc(.5rem * 5/8) calc(1rem * 5/8) rgba($color-black, .2);
         /* x-axis y-axis blur color*/
     }
 
@@ -60,7 +60,7 @@
         height: 100%;
         /* after psuedo element is basically child of parent element in terms of width and height*/
         width: 100%;
-        border-radius: 10rem;
+        border-radius: calc(10rem * 5/8);
         position: absolute;
         /*Relative to the first position relative element it can find. In our case it is our original button*/
         top: 0;
@@ -84,21 +84,21 @@
         color: $color-primary;
         display: inline-block;
         text-decoration: none;
-        border-bottom: .1rem solid $color-primary;
-        padding: .3rem;
+        border-bottom: calc(.1rem * 5/8) solid $color-primary;
+        padding: calc(.3rem * 5/8);
         transition: all .2s;
     }
 
     &:hover {
         background-color: $color-primary;
         color: $color-white;
-        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        box-shadow: 0 calc(1rem * 5/8) calc(2rem * 5/8) rgba($color-black, .15);
         /* x-axis y-axis blur color*/
         transform: translateY(-2px);
     }
 
     &:active {
-        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+        box-shadow: 0 calc(.5rem * 5/8) calc(1rem * 5/8) rgba($color-black, .15);
         /* x-axis y-axis blur color*/
         transform: translateY(0);
     }

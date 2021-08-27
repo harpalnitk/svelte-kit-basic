@@ -2,9 +2,8 @@
 	import BasicPage from '$lib/components/UI/BasicPage.svelte';
 </script>
 
-<BasicPage title="Playground for CSS" path="/" />
+<BasicPage title="Videos" path="/" />
 <main>
-	<h1>Playground</h1>
 	<ul class="link-grid">
 		<li>1. <a href="/videos/video-text">Video Text Effect</a></li>
 	</ul>
@@ -18,14 +17,16 @@
 		margin: 0 auto;
 		width: fit-content;
 	}
-
+	.link-grid li{
+		display: flex;
+	}
 	.link-grid li a {
 		text-decoration: none;
 		// color: #a9a39f;
 		position: relative;
 		display: inline-block;
 		overflow: hidden;
-		margin-right: 0.2rem;
+		margin-left: 1rem;
 	}
 	.link-grid li a:before {
 		content: '';

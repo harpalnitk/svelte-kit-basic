@@ -1,11 +1,11 @@
 @keyframes moveInLeft {
     0% {
         opacity: 0;
-        transform: translateX(-10rem);
+        transform: translateX(calc(-10rem * 5/8));
     }
 
     80% {
-        transform: translateX(1rem);
+        transform: translateX(calc(1rem * 5/8));
     }
 
     100% {
@@ -17,11 +17,11 @@
 @keyframes moveInRight {
     0% {
         opacity: 0;
-        transform: translateX(10rem);
+        transform: translateX(calc(10rem * 5/8));
     }
 
     80% {
-        transform: translateX(-1rem);
+        transform: translateX(calc(-1rem * 5/8));
     }
 
     100% {
@@ -33,7 +33,7 @@
 @keyframes moveInBottom {
     0% {
         opacity: 0;
-        transform: translateY(3rem);
+        transform: translateY(calc(3rem * 5/8));
     }
 
 

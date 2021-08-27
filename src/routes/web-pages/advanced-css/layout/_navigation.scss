@@ -5,25 +5,25 @@
 
     &__button {
         background-color: $color-white;
-        height: 7rem;
-        width: 7rem;
+        height: calc(7rem * 5/8);
+        width: calc(7rem * 5/8);
         position: fixed;
-        top: 6rem;
-        right: 6rem;
+        top: calc(6rem * 5/8);
+        right: calc(6rem * 5/8);
         border-radius: 50%;
         z-index: 2000;
-        box-shadow: 0 1rem 3rem rgba($color-black, .1);
+        box-shadow: 0 calc(1rem * 5/8) calc(3rem * 5/8) rgba($color-black, .1);
         text-align: center;
         cursor: pointer;
     }
 
     &__background {
-        height: 6rem;
-        width: 6rem;
+        height: calc(6rem * 5/8);
+        width: calc(6rem * 5/8);
         border-radius: 50%;
         position: fixed;
-        top: 6.5rem;
-        right: 6.5rem;
+        top: calc(6.5rem * 5/8);
+        right:calc(6.5rem * 5/8);
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
         z-index: 1000; //transform: scale(80);
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1); //see website easings.net
@@ -48,7 +48,7 @@
     }
 
     &__item {
-        margin: 1rem;
+        margin: calc(1rem * 5/8);
     }
 
     &__link {
@@ -56,9 +56,9 @@
         &:visited {
 
             display: none; // transform and padding will work only on block level elements
-            font-size: 3rem;
+            font-size: calc(3rem * 5/8);
             font-weight: 300;
-            padding: 1rem 2rem;
+            padding: calc(1rem * 5/8) calc(2rem * 5/8);
             color: $color-white;
             text-decoration: none;
             text-transform: uppercase;
@@ -68,7 +68,7 @@
 
             span {
                 display: inline-block;
-                margin-right: 1rem;
+                margin-right: calc(1rem * 5/8);
             }
         }
 
@@ -76,7 +76,7 @@
         &:active {
             background-position: 100%;
             color: $color-primary;
-            transform: translateX(-1rem);
+            transform: translateX(calc(-1rem * 5/8));
         }
     } //FUNCTIONALITY
     &__checkbox:checked ~ &__background {
@@ -91,11 +91,11 @@
     } //ICON
     &__icon {
         position: relative;
-        margin-top: 3.5rem;
+        margin-top: calc(3.5rem * 5/8);
         &,
         &::before,
         &::after {
-            width: 3rem;
+            width: calc(3rem * 5/8);
             height: 2px;
             background-color: $color-grey-dark-3;
             display: inline-block;
@@ -109,15 +109,15 @@
         }
 
         &::before {
-            top: -.8rem;
+            top: calc(-.8rem * 5/8);
         }
         &::after {
-            top: .8rem;
+            top: calc(.8rem * 5/8);
         }
     }
 
     &__button:hover &__icon::before {
-        top: -1rem;
+        top: calc(-1rem * 5/8);
     }
     &__button:hover &__icon::after {
         top: 1rem;

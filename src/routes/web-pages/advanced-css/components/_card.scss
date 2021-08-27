@@ -1,13 +1,13 @@
 .card {
     //FUNCTIONALITY
-    perspective: 150rem;
-    -moz-perspective: 150rem;
+    perspective: calc(150rem * 5/8);
+    -moz-perspective: calc(150rem * 5/8);
     position: relative;
     height: 52rem;
     /*will be 0 therefore card__side is also given same height*/
     /*To work on mozilla browsers*/
     &__side {
-        height: 52rem;
+        height: calc(52rem * 5/8);
         transition: all .8s ease;
         position: absolute;
         top: 0;
@@ -19,7 +19,7 @@
         // and the corners will not remain rounded
         // to fix this we use overflow hidden
         // if we use clip-path as used in &__picture than overflow also doesn't work. hence, we do the border radius manually after clip-path in &__picture
-        box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+        box-shadow: 0 calc(1.5rem * 5/8) calc(4rem * 5/8) rgba($color-black, .15);
 
 
         &--front {
@@ -56,7 +56,7 @@
     } //FRONT SIDE STYLING
     &__picture {
         background-size: cover;
-        height: 23rem;
+        height: calc(23rem * 5/8);
         background-blend-mode: screen;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -64,34 +64,34 @@
         border-top-right-radius: 3px; // to round borders as clip-path changes our border-round property used in &__side
         &--1 {
             //blend two images
-            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/nat-5.jpg);
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(/img/web-pages/advanced-css/nat-5.jpg);
         }
 
         &--2 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/nat-6.jpg);
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(/img/web-pages/advanced-css/nat-6.jpg);
         }
 
         &--3 {
-            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/nat-7.jpg);
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(/img/web-pages/advanced-css/nat-7.jpg);
         }
     }
 
     &__heading {
-        font-size: 2.8rem;
+        font-size: calc(2.8rem * 5/8);
         font-weight: 300;
         text-transform: uppercase;
         text-align: right;
         color: $color-white;
         position: absolute;
-        top: 12rem;
-        right: 2rem;
+        top: calc(12rem * 5/8);
+        right: calc(2rem * 5/8);
         width: 75%;
 
     }
 
 
     &__heading-span {
-        padding: 1rem 1.5rem; //padding is applied only in the start and end of the sentence even when the sentence breaks in two lines to fix we use box-decoration property
+        padding: calc(1rem * 5/8) calc(1.5rem * 5/8); //padding is applied only in the start and end of the sentence even when the sentence breaks in two lines to fix we use box-decoration property
         -webkit-box-decoration-break: clone;
         box-decoration-break: clone;
         &--1 {
@@ -109,7 +109,7 @@
     }
 
     &__details {
-        padding: 3rem;
+        padding: calc(3rem * 5/8);
         ul {
             list-style: none;
             width: 80%;
@@ -117,8 +117,8 @@
 
             li {
                 text-align: center;
-                font-size: 1.5rem;
-                padding: 1rem;
+                font-size: calc(1.5rem * 5/8);
+                padding: calc(1rem * 5/8);
 
                 &:not(:last-child) {
                     border-bottom: 1px solid $color-grey-light-2;
@@ -135,16 +135,16 @@
     &__price-box {
         text-align: center;
         color: $color-white;
-        margin-bottom: 8rem;
+        margin-bottom: calc(8rem * 5/8);
     }
 
     &__price-only {
-        font-size: 1.4rem;
+        font-size: calc(1.4rem * 5/8);
         text-transform: uppercase;
     }
 
     &__price-value {
-        font-size: 6rem;
+        font-size: calc(6rem * 5/8);
         font-weight: 100;
     }
 }

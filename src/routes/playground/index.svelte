@@ -2,9 +2,8 @@
 	import BasicPage from '$lib/components/UI/BasicPage.svelte';
 </script>
 
-<BasicPage title="Playground for CSS" path="/" />
+<BasicPage title="Playground 1 for CSS" path="/" />
 <main>
-	<h1>Playground</h1>
 	<ul class="link-grid">
 		<li>1. <a href="/playground/http-firebase">Http Firebase</a></li>
 		<li>2. <a href="/playground/image-fragmentation">Image Fragmentation</a></li>
@@ -47,9 +46,10 @@
 		width: fit-content;
 	}
 	.link-grid li {
-		// display: flex;
+		 display: flex;
 	}
 	.link-grid li a {
+		margin-left: 1rem;
 		text-decoration: none;
 		// color: #a9a39f;
 		position: relative;

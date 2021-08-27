@@ -2,9 +2,8 @@
 	import BasicPage from '$lib/components/UI/BasicPage.svelte';
 </script>
 
-<BasicPage title="Playground for CSS" path="/" />
+<BasicPage title="Playground 2 for CSS" path="/" />
 <main>
-	<h1>Playground</h1>
 	<ul class="link-grid">
 		<li>1. <a href="/playground2/search-box">Search Box</a></li>
 		<li>2. <a href="/playground2/abstract-bg">Abstract Background</a></li>
@@ -26,8 +25,12 @@
 		margin: 0 auto;
 		width: fit-content;
 	}
+	.link-grid li{
+		display: flex;
+	}
 
 	.link-grid li a {
+		margin-left: 1rem;
 		text-decoration: none;
 		// color: #a9a39f;
 		position: relative;

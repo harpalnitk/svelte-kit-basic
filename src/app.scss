@@ -18,7 +18,9 @@
 
 
 
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -38,6 +40,7 @@ body {
 // 		var(--secondary-color) 10.45%,
 // 		var(--tertiary-color) 41.35%
 // 	);
+// font-size: 62.5% ;
 }
 
 a {
@@ -69,9 +72,9 @@ a {
 // }
 
 @media (min-width: 400px) {
-  body {
-    font-size: 16px;
-  }
+//   body {
+//     font-size: 16px;
+//   }
 }
 
 ul, li {

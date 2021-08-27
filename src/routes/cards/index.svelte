@@ -4,7 +4,6 @@
 
 <BasicPage title="Different type of card Designs" path="/" />
 <main>
-	<h1>Different CSS Card Designs</h1>
 	<ul class="link-grid">
 		<li>1. <a href="/cards/overlapping-cards">Overlapping Cards</a></li>
 		<li>2. <a href="/cards/glow-card">Double color neon glow card</a></li>
@@ -36,8 +35,12 @@
 		margin: 0 auto;
 		width: fit-content;
 	}
+	.link-grid li{
+		display: flex;
+	}
 
 	.link-grid li a {
+		margin-left: 1rem;
 		text-decoration: none;
 		// color: #a9a39f;
 		position: relative;

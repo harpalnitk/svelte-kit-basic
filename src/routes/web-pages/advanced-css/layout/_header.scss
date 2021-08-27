@@ -3,7 +3,7 @@
     background-image: linear-gradient( to right bottom,
     rgba($color-primary-light, 0.8),
     rgba($color-primary-dark, 0.8)),
-    url('../img/hero.jpg');
+    url('/img/web-pages/advanced-css/hero.jpg');
     //background-size: auto|length|cover|contain|initial|inherit;
     //auto:	Default value. The background image is displayed in its original size
     //length:	Sets the width and height of the background image. The first value sets the width, the second value sets the height. If only one value is given, the second is set to "auto"
@@ -21,12 +21,12 @@
 
     &__logo_box {
         position: absolute;
-        top: 4rem;
-        left: 4rem;
+        top: calc(4rem * 5/8);
+        left: calc(4rem * 5/8);
     }
 
     &__logo {
-        height: 3.5rem;
+        height: calc(3.5rem * 5/8);
     }
 
     &__text-box {

@@ -1,12 +1,12 @@
 .form {
     &__group:not(:last-child) {
-        margin-bottom: 2rem;
+        margin-bottom: calc(2rem * 5/8);
     }
     &__input {
-        font-size: 1.5rem;
+        font-size: calc(1.5rem * 5/8);
         font-family: inherit; // forms do not inherit font-family
         color: inherit;
-        padding: 1.5rem 2rem; // always more padding on sides in form elements
+        padding: calc(1.5rem * 5/8) calc(2rem * 5/8); // always more padding on sides in form elements
         border-radius: 2px;
         background-color: rgba($color-white, .5);
         border: none;
@@ -34,17 +34,17 @@
 
 
     &__label {
-        font-size: 1.2rem;
+        font-size: calc(1.2rem * 5/8);
         font-weight: 700;
-        margin-left: .7rem;
-        margin-top: .7rem;
+        margin-left: calc(.7rem * 5/8);
+        margin-top: calc(.7rem * 5/8);
         display: block;
         transition: all .3s;
     } // + is css adjacent sibling selector
     &__input:placeholder-shown + &__label {
         opacity: 0;
         visibility: hidden;
-        transform: translateY(-4rem);
+        transform: translateY(calc(-4rem * 5/8));
     }
 
     &__radio-group {
@@ -60,22 +60,22 @@
         font-size: $default-font-size;
         cursor: pointer;
         position: relative;
-        padding-left: 4.5rem;
+        padding-left: calc(4.5rem * 5/8);
     } // in css there is no way we can style a radio button. therefore, we will create our own radio button and hide the original radio button
     &__radio-button {
-        height: 3rem;
-        width: 3rem;
+        height: calc(3rem * 5/8);
+        width: calc(3rem * 5/8);
         border: 5px solid $color-primary;
         border-radius: 50%;
         display: inline-block;
         position: absolute;
         left: 0;
-        top: -.4rem; //after pseudo element not present in original html but created in css
+        top: calc(-.4rem * 5/8); //after pseudo element not present in original html but created in css
         &::after {
             content: "";
             display: block; //pseudo element must have content and display properties set
-            height: 1.3rem;
-            width: 1.3rem;
+            height: calc(1.3rem * 5/8);
+            width: calc(1.3rem * 5/8);
             border-radius: 50%;
             @include absCenter;
             background-color: $color-primary;

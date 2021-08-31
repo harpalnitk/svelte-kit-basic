@@ -13,6 +13,9 @@
 		<li>6. <a href="/playground2/contact-info">Contact Info Page-Glassmorphism</a></li>
 		<li>7. <a href="/playground2/glass-calendar">Glassmorphism Calendar</a></li>
 		<li>8. <a href="/playground2/menu-hover">Menu Hover Effect</a></li>
+		<li>9. <a href="/playground2/li-pseudo-commas">Li element pseudo commas</a></li>
+		<li>10. <a href="/playground2/circle-text-logo">Circle Text Logo</a></li>
+		<li>11. <a href="/playground2/skeleton">Skeleton Loading</a></li>
 	</ul>
 </main>
 

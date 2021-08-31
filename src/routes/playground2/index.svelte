@@ -7,13 +7,15 @@
 	<ul class="link-grid">
 		<li>1. <a href="/playground2/search-box">Search Box</a></li>
 		<li>2. <a href="/playground2/abstract-bg">Abstract Background</a></li>
-		<li>3. <a href="/playground2/image-paint">Image Fragmentation with paint CSS API</a></li>
-		<li>4. <a href="/playground2/cutout">Cutouts using SVG, Clip Path, Mask</a></li>
-		<li>5. <a href="/playground2/indian-flag">Indian Flag Using CSS</a></li>
-		<li>6. <a href="/playground2/social-icon-hover">Social Media Icon Hover Effect</a></li>
-		<li>7. <a href="/playground2/contact-info">Contact Info Page-Glassmorphism</a></li>
-		<li>8. <a href="/playground2/glass-calendar">Glassmorphism Calendar</a></li>
-		<li>9. <a href="/playground2/menu-hover">Menu Hover Effect</a></li>
+		<li>3. <a href="/playground2/cutout">Cutouts using SVG, Clip Path, Mask</a></li>
+		<li>4. <a href="/playground2/indian-flag">Indian Flag Using CSS</a></li>
+		<li>5. <a href="/playground2/social-icon-hover">Social Media Icon Hover Effect</a></li>
+		<li>6. <a href="/playground2/contact-info">Contact Info Page-Glassmorphism</a></li>
+		<li>7. <a href="/playground2/glass-calendar">Glassmorphism Calendar</a></li>
+		<li>8. <a href="/playground2/menu-hover">Menu Hover Effect</a></li>
+		<li>9. <a href="/playground2/li-pseudo-commas">Li element pseudo commas</a></li>
+		<li>10. <a href="/playground2/circle-text-logo">Circle Text Logo</a></li>
+		<li>11. <a href="/playground2/skeleton">Skeleton Loading</a></li>
 	</ul>
 </main>
 

@@ -13,7 +13,7 @@
         
     }});
 </script>
-<BasicPage title='Image Fragmentation with paint CSS API' path='/playground2'></BasicPage>
+<BasicPage title='Image Fragmentation with paint CSS API' path='/images'></BasicPage>
 
 
 <main>

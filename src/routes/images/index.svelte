@@ -9,6 +9,9 @@
 		<li>3. <a href="/images/gallery">Gallery Using Svelte</a></li>
 		<li>4. <a href="/images/portfolio-gallery">Portfolio Gallery Using Svelte</a></li>
 		<li>5. <a href="/images/slideshow">Slideshow</a></li>
+		<li>6. <a href="/images/image-paint">Image Fragmentation with CSS Paint API</a></li>
+		<li>7. <a href="/images/image-blob-paint">Blob Effect with CSS Paint API</a></li>
+		<li>8. <a href="/images/image-blob-paint-all">Blob Effect with CSS Paint API-All</a></li>
     </ul>
 </main>
 

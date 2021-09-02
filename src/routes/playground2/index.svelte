@@ -18,6 +18,7 @@
 		<li>11. <a href="/playground2/skeleton">Skeleton Loading</a></li>
 		<li>12. <a href="/playground2/neumorphism-button">Neumorphism-Button</a></li>
 		<li>13. <a href="/playground2/dropdown-menu">Dropdown Menu</a></li>
+		<li>14. <a href="/playground2/falling-leaves">Falling leaves Animation</a></li>
 	
 	</ul>
 </main>

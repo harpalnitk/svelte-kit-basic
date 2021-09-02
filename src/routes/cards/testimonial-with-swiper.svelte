@@ -39,6 +39,15 @@
         },
       });
         }
+
+        const testimonials = [
+            { id:1, name:'Martha Angel', imgUrl:'/img/avatar/avatar-1.jpg', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In recusandae molestiae ipsam enim aut hic eveniet. Nam provident ipsum pariatur nobis et dignissimos dolore perspiciatis quas, sed laborum, voluptate recusandae!', desig:'UI/UX Designer' },
+            { id:2, name:'John Cena', imgUrl:'/img/avatar/avatar-2.jpg', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In recusandae molestiae ipsam enim aut hic eveniet. Nam provident ipsum pariatur nobis et dignissimos dolore perspiciatis quas, sed laborum, voluptate recusandae!', desig:'Software Engineer' },
+            { id:3, name:'Anthony Hopkins', imgUrl:'/img/avatar/avatar-3.png', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In recusandae molestiae ipsam enim aut hic eveniet. Nam provident ipsum pariatur nobis et dignissimos dolore perspiciatis quas, sed laborum, voluptate recusandae!', desig:'Sr Database Designer' },
+            { id:4, name:'Robert De Niro', imgUrl:'/img/avatar/avatar-4.png', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In recusandae molestiae ipsam enim aut hic eveniet. Nam provident ipsum pariatur nobis et dignissimos dolore perspiciatis quas, sed laborum, voluptate recusandae!', desig:'Node Developer' },
+            { id:5, name:'Kirsten', imgUrl:'/img/avatar/avatar-5.png', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In recusandae molestiae ipsam enim aut hic eveniet. Nam provident ipsum pariatur nobis et dignissimos dolore perspiciatis quas, sed laborum, voluptate recusandae!', desig:'Angular Developer' },
+
+        ];
 </script>
 
 <svelte:head>
@@ -52,50 +61,25 @@
 <div class="testimonials">
     <div class="swiper-container mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-           <div class="card">
-               <div class="layer"></div>
-               <div class="content">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In recusandae molestiae ipsam enim aut hic eveniet. Nam provident ipsum pariatur nobis et dignissimos dolore perspiciatis quas, sed laborum, voluptate recusandae!</p>
-                   <div class="imgBx">
-                       <img src="/img/avatar/cosima-avatar.jpg" alt="">
-                   </div>
-                   <div class="details">
-                       <h2>Someone Famous<br><span>Website Designer</span></h2>
-                   </div>
-               </div>
-           </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-                <div class="layer"></div>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In recusandae molestiae ipsam enim aut hic eveniet. Nam provident ipsum pariatur nobis et dignissimos dolore perspiciatis quas, sed laborum, voluptate recusandae!</p>
-                    <div class="imgBx">
-                        <img src="/img/avatar/cosima-avatar.jpg" alt="">
-                    </div>
-                    <div class="details">
-                        <h2>Someone Famous<br><span>Website Designer</span></h2>
+            {#each testimonials as item}
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="layer"></div>
+                    <div class="content">
+                        <p>{item.text}</p>
+                        <div class="imgBx">
+                            <img src="{item.imgUrl}" alt="{item.name}">
+                        </div>
+                        <div class="details">
+                            <h2>{item.name}<br><span>{item.desig}</span></h2>
+                        </div>
                     </div>
                 </div>
             </div>
-           </div>
-           <div class="swiper-slide">
-            <div class="card">
-                <div class="layer"></div>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In recusandae molestiae ipsam enim aut hic eveniet. Nam provident ipsum pariatur nobis et dignissimos dolore perspiciatis quas, sed laborum, voluptate recusandae!</p>
-                    <div class="imgBx">
-                        <img src="/img/avatar/cosima-avatar.jpg" alt="">
-                    </div>
-                    <div class="details">
-                        <h2>Someone Famous<br><span>Website Designer</span></h2>
-                    </div>
-                </div>
-            </div>
-           </div>
-          </div>
-          </div>
+            {/each}
+
+        </div>
+    </div>
 </div>
 </main>
 

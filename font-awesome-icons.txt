@@ -1,0 +1,46 @@
+arrow right    <i class="fas fa-arrow-right"></i>
+down-arrow-tick    <i class="fas fa-chevron-down"></i>
+search    <i class='fas fa-search'></i>
+apple      fab fa-apple
+
+users        fas fa-users
+menu        fas fa-bars
+
+###########   SHOPPING ######################
+heart       fas fa-heart
+shopping-cart       fas fa-shopping-cart
+details-eye         far fa-eye
+
+#########   CONTACT DETAILS     ##################
+phone           fas fa-phone-alt
+email       far fa-envelope
+website         fas fa-globe-americas
+address         fas fa-map-marker-alt
+
+##############      HOBBIES           #############################
+gaming-gamepad      fas fa-gamepad
+singing-microphone      fas fa-microphone-alt
+reading-book        fas fa-book
+cooking-utensils        fas fa-utensils  
+
+##########    MENU   ##################
+user-profile        fa fa-user
+home       fas fa-home
+contact         fa fa-address-card-o
+about-info      fa fa-info-circle
+message,chat    fas fa-comment-alt
+message         fa fa-envelope-o
+help        fas fa-question-circle
+settings    fas fa-cog
+password    fas fa-lock
+password        fa fa-key
+signout     fas fa-sign-out-alt
+
+
+######### SOCIAL MEDIA #######################
+facebook        fab fa-facebook-f
+youtube         fab fa-youtube
+twitter         fab fa-twitter
+instagram       fab fa-instagram
+whatsapp        fab fa-whatsapp
+linkedin        fab fa-linkedin-in

@@ -18,7 +18,7 @@
           </div>
           <div class="card1__author">
             <a href="" class="card1__author-avatar">
-              <img src="../../../../assets/images/avatar/girl-avatar.png" alt="" />
+              <img src="/img/avatar/avatar-3.png" alt="" />
             </a>
             <svg class="half-circle" viewBox="0 0 106 57">
               <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>

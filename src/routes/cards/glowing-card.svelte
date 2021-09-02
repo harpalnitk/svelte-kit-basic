@@ -7,7 +7,7 @@
 <main>
 <div class="box">
     <div class="imgBx">
-        <img src="/img/avatar/cosima-avatar.jpg" alt="">
+        <img src="/img/avatar/avatar-1.jpg" alt="">
     </div>
     <div class="content">
         <h2>Cosima Avatar<br><span>Creative Designer</span></h2>
@@ -15,7 +15,7 @@
 </div>
 <div class="box">
     <div class="imgBx">
-        <img src="/img/avatar/marty-avatar.png" alt="">
+        <img src="/img/avatar/avatar-3.png" alt="">
     </div>
     <div class="content">
         <h2>Marty Avatar<br><span>Creative Designer</span></h2>
@@ -23,7 +23,7 @@
 </div>
 <div class="box">
     <div class="imgBx">
-        <img src="/img/avatar/sarah-avatar.jpg" alt="">
+        <img src="/img/avatar/avatar-2.jpg" alt="">
     </div>
     <div class="content">
         <h2>Sarah Avatar<br><span>Creative Designer</span></h2>

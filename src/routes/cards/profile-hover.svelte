@@ -40,7 +40,7 @@
     </div>
     <div class="card">
         <div class="imgBx">
-            <img src="/img/avatar/ian-avatar.png" alt="profile_img">
+            <img src="/img/avatar/avatar-3.png" alt="profile_img">
         </div>
         <div class="content">
             <div class="details">

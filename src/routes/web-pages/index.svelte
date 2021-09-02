@@ -10,6 +10,7 @@
 		<li>3. <a href="/web-pages/personal-portfolio">Responsive Personal Portfolio Website</a></li>
 		<li>4. <a href="/web-pages/e-commerce">E-Commerce Product Cards page</a></li>
 		<li>5. <a href="/web-pages/advanced-css">Advanced CSS</a></li>
+		<li>6. <a href="/web-pages/admin-dashboard">Admin Dashboard</a></li>
 	</ul>
 </main>
 

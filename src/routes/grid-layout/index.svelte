@@ -13,6 +13,7 @@
         <li>5. <a href="/grid-layout/twelve-column-system">Layout using 12 column system</a></li>
         <li>6. <a href="/grid-layout/product-listing">Product Listing With Auto Placement</a></li>
 		<li>7. <a href="/grid-layout/grid-concept">Grid Concepts</a></li>
+		<li>8. <a href="/grid-layout/flex-layout">Flex Concepts</a></li>
 
     </ul>
 </main>

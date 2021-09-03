@@ -6,6 +6,7 @@
 <main>
 	<ul class="link-grid">
 		<li>1. <a href="/audio/audio-player">Audio Player</a></li>
+		<li>2. <a href="/audio/css-js-music-player">CSS JS Music Player</a></li>
 	</ul>
 </main>
 

@@ -44,3 +44,11 @@ twitter         fab fa-twitter
 instagram       fab fa-instagram
 whatsapp        fab fa-whatsapp
 linkedin        fab fa-linkedin-in
+
+
+######### AUDIO PLAYER ################
+
+play        <i class="fas fa-play"></i>
+pause       <i class="fas fa-pause"></i>
+prev        <i class="fas fa-backward"></i>
+next        <i class="fas fa-forward"></i>

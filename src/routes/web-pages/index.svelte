@@ -11,6 +11,7 @@
 		<li>4. <a href="/web-pages/e-commerce">E-Commerce Product Cards page</a></li>
 		<li>5. <a href="/web-pages/advanced-css">Advanced CSS</a></li>
 		<li>6. <a href="/web-pages/admin-dashboard">Admin Dashboard</a></li>
+		<li>7. <a href="/web-pages/three-js">3D Website using three.js</a></li>
 	</ul>
 </main>
 

@@ -1,6 +1,6 @@
 <script>
 	 import BasicPage from '$lib/components/UI/BasicPage.svelte';
-	import { audioData } from './audioData';
+	import { audioData } from '../audioData';
 	import Controls from './Controls.svelte';
 	import TrackHeading from './TrackHeading.svelte';
 	import VolumeSlider from './VolumeSlider.svelte';

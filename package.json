@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"firebase": "^8.9.1"
+		"firebase": "^8.9.1",
+		"three": "^0.132.2"
 	}
 }

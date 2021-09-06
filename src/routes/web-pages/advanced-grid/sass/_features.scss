@@ -1,0 +1,47 @@
+.features {
+    //background-color: $color-grey-dark-2;
+    grid-column: center-start / center-end;
+
+    margin: 15rem 0;
+
+
+
+    @supports(display: grid) {
+        display: grid; //grid-template-columns: repeat(3, 1fr); //implicit grid for rows same as grid-template-rows: auto
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); // to make grid responsive we use this rather than the above grid-template-column
+        grid-gap: 6rem;
+        align-items: start;
+    }
+}
+
+.feature {
+    //without grid
+    float: left;
+    width: 33.3333%;
+    margin-bottom: 6rem;
+    //without grid
+
+    @supports(display: grid) {
+        // floats, display inline block , display table cell, and vertical align are ignored by css grids and css flexbox
+        // therefore no need to reset it
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 2.5rem;
+
+    &__icon {
+        fill: $color-primary;
+        width: 4.5rem;
+        height: 4.5rem;
+        grid-row: 1 / span 2; // -1 can't be used because next row is in implicit grid
+        transform: translateY(-1rem);
+    }
+
+    &__text {
+        font-size: 1.7rem;
+    }
+}

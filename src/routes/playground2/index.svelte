@@ -19,6 +19,8 @@
 		<li>12. <a href="/playground2/neumorphism-button">Neumorphism-Button</a></li>
 		<li>13. <a href="/playground2/dropdown-menu">Dropdown Menu</a></li>
 		<li>14. <a href="/playground2/falling-leaves">Falling leaves Animation</a></li>
+		<li>15. <a href="/playground2/icon-text-anim">Glowing Icon With Text Typing Animation</a></li>
+		<li>16. <a href="/playground2/magic-line-nav">Magic Line Indicator on Nav List</a></li>
 	
 	</ul>
 </main>

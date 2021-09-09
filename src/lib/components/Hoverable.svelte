@@ -1,15 +1,16 @@
 <script>
-	let hovering;
-
+	let hover;
+	
 	function enter() {
-		hovering = true;
+		hover = true;
 	}
 
 	function leave() {
-		hovering = false;
+		hover = false;
 	}
 </script>
 
 <div on:mouseenter={enter} on:mouseleave={leave}>
-	<slot hovering={hovering}></slot>
+	<slot hoveringI={hover}></slot>
 </div>
+

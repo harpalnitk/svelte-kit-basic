@@ -21,6 +21,7 @@
 		<li>14. <a href="/playground2/falling-leaves">Falling leaves Animation</a></li>
 		<li>15. <a href="/playground2/icon-text-anim">Glowing Icon With Text Typing Animation</a></li>
 		<li>16. <a href="/playground2/magic-line-nav">Magic Line Indicator on Nav List</a></li>
+		<li>16. <a href="/playground2/moving-box">3D-Moving Box</a></li>
 	
 	</ul>
 </main>

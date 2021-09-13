@@ -24,6 +24,8 @@
 		<li>17. <a href="/cards/instagram-card">Instagram Post Card Clone</a></li>
 		<li>18. <a href="/cards/profile-hover">Profile card Hover Effect</a></li>
 		<li>19. <a href="/cards/curved-card">Curved Card</a></li>
+		<li>20. <a href="/cards/3d-foldable-card">3D Foldable Card</a></li>
+		<li>21. <a href="/cards/3d-flip-card">3D Flip Card</a></li>
 	</ul>
 </main>
 

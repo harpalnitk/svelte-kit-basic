@@ -52,3 +52,13 @@ play        <i class="fas fa-play"></i>
 pause       <i class="fas fa-pause"></i>
 prev        <i class="fas fa-backward"></i>
 next        <i class="fas fa-forward"></i>
+
+
+######### SETTINGS ################
+
+Volume-up       <i class="fas fa-volume-up"></i>
+bluetooth       <i class="fab fa-bluetooth-b"></i>
+moon        <i class="far fa-moon"></i>
+phone         <i class='fas fa-phone-alt'></i>
+plane          <i class='fas fa-plane'></i>
+wifi        <i class="fas fa-wifi"></i>

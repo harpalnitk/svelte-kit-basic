@@ -23,6 +23,9 @@
 		<li>16. <a href="/playground2/magic-line-nav">Magic Line Indicator on Nav List</a></li>
 		<li>17. <a href="/playground2/moving-box">3D-Moving Box</a></li>
 		<li>18. <a href="/playground2/light-bulb">Light Bulb On/Off with Sound</a></li>
+		<li>19. <a href="/playground2/glowing-checkbox">Glowing Checkbox</a></li>
+		<li>20. <a href="/playground2/loading-anim">Loading Animation</a></li>
+		<li>21. <a href="/playground2/fancy-border">Fancy Border in Heading</a></li>
 	
 	</ul>
 </main>

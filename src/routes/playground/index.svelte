@@ -34,6 +34,7 @@
 		<li>27. <a href="/playground/shape-outside">CSS Shape Outside Property</a></li>
 		<li>28. <a href="/playground/text-emphasis">CSS Text Emphasis Property</a></li>
 		<li>29. <a href="/playground/dialog-backdrop">Dialog with CSS Backdrop Property</a></li>
+		<li>30. <a href="/playground/rating-bar">Rating Bar</a></li>
 	</ul>
 </main>
 

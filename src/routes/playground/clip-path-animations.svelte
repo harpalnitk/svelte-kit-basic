@@ -71,7 +71,7 @@
     .box{
         width: 300px;
         height:300px;
-        background: darkgoldenrod;
+        background: #b8860b;
         border: 1px solid dodgerblue;
         margin-bottom: 1rem;
        

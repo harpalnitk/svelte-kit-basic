@@ -181,7 +181,7 @@
 		list-style: none;
 	}
 	.navigation ul li:hover {
-		background: #03a9f4;
+		background: #02a6f2;
 	}
 	.navigation ul li:nth-child(1) {
 		margin-bottom: 20px;

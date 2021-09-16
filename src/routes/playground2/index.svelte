@@ -26,6 +26,8 @@
 		<li>19. <a href="/playground2/glowing-checkbox">Glowing Checkbox</a></li>
 		<li>20. <a href="/playground2/loading-anim">Loading Animation</a></li>
 		<li>21. <a href="/playground2/fancy-border">Fancy Border in Heading</a></li>
+		<li>22. <a href="/playground2/show-hide-pwd">Show Hide Password</a></li>
+		<li>23. <a href="/playground2/intro-text">Intro Text</a></li>
 	
 	</ul>
 </main>

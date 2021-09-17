@@ -27,6 +27,7 @@
 		<li>20. <a href="/cards/3d-foldable-card">3D Foldable Card</a></li>
 		<li>21. <a href="/cards/3d-flip-card">3D Flip Card</a></li>
 		<li>22. <a href="/cards/cube-slider-swiper">Cube Slider With Swiper.js</a></li>
+		<li>23. <a href="/cards/gradient-border-card">Gradient Border Card</a></li>
 	</ul>
 </main>
 

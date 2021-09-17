@@ -28,7 +28,7 @@
 		<li>21. <a href="/playground2/fancy-border">Fancy Border in Heading</a></li>
 		<li>22. <a href="/playground2/show-hide-pwd">Show Hide Password</a></li>
 		<li>23. <a href="/playground2/intro-text">Intro Text</a></li>
-	
+		<li>24. <a href="/playground2/airplane">AirPlane</a></li>
 	</ul>
 </main>
 

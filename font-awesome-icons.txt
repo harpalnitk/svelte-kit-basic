@@ -5,6 +5,7 @@ apple      fab fa-apple
 
 users        fas fa-users
 menu        fas fa-bars
+close       <i class="fas fa-times"></i>
 
 ###########   SHOPPING ######################
 heart       fas fa-heart
@@ -59,6 +60,7 @@ next        <i class="fas fa-forward"></i>
 Volume-up       <i class="fas fa-volume-up"></i>
 bluetooth       <i class="fab fa-bluetooth-b"></i>
 moon        <i class="far fa-moon"></i>
+sun         <i class="fas fa-sun"></i>
 phone         <i class='fas fa-phone-alt'></i>
 plane          <i class='fas fa-plane'></i>
 wifi        <i class="fas fa-wifi"></i>

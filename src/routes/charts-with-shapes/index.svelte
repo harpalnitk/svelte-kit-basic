@@ -10,6 +10,7 @@
         <li>3. <a href="/charts-with-shapes/css-shapes">With CSS Shapes</a></li>
         <li>4. <a href="/charts-with-shapes/emojis">With Emojis</a></li>
         <li>5. <a href="/charts-with-shapes/mix">Mix Shapes</a></li>
+		<li>6. <a href="/charts-with-shapes/polygon-border">Polygon Border With CSS Paint API</a></li>
     </ul>
 </main>
 

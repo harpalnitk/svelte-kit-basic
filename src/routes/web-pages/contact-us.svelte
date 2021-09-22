@@ -4,23 +4,26 @@
     <section>
         <div class="container">
             <div class='contactInfo'>
-                <h2>Contact Info</h2>
-                <ul class="info">
-                    <li>
-                        <span><i class='fas fa-map-marker-alt'></i></span>
-                        <span>2912 Greater East<br>
-                        Los Angeles, CA<br>
-                    90017</span>
-                    </li>
-                    <li>
-                        <span><i class='far fa-envelope'></i></span>
-                        <span>user@gmail.com</span>
-                    </li>
-                    <li>
-                        <span><i class='fas fa-phone-alt'></i></span>
-                        <span>412-312-9800</span>
-                    </li>
-                </ul>
+                <div>
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                      
+                        <li>
+                            <span><i class='fas fa-map-marker-alt'></i></span>
+                            <span>2912 Greater East<br>
+                            Los Angeles, CA<br>
+                        90017</span>
+                        </li>
+                        <li>
+                            <span><i class='far fa-envelope'></i></span>
+                            <span>user@gmail.com</span>
+                        </li>
+                        <li>
+                            <span><i class='fas fa-phone-alt'></i></span>
+                            <span>412-312-9800</span>
+                        </li>
+                    </ul>
+                </div>
                 <ul class="sci">
                     <li><a href="facebook"><i class='fab fa-facebook-f'></i></a></li>  
                     <li><a href="twitter"><i class='fab fa-twitter'></i></a></li>  
@@ -64,7 +67,7 @@
 
 <style>
 section{
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +104,7 @@ flex-direction: column;
 justify-content: space-between;
 box-shadow: 0 20px 20px rgba(0,0,0, 0.2);
 }
-section .container .contactInfo h2{
+section .container .contactInfo  h2{
 color: #fff;
 font-size: 24px;
 font-weight: 500;
@@ -238,6 +241,63 @@ section .container .contactForm .formBox .inputBox input[type="submit"]{
 
 section .container .contactForm .formBox .inputBox input[type="submit"]:hover{
 background: #ff568c;
+}
+
+/**Now make it RESPONSIVE*/
+@media screen and (max-width:1200px){
+    section .container{
+        width: 90%;
+        min-width: auto;
+        margin: 20px;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+    }
+    section .container .contactInfo{
+        top: 0;
+        height: 550px;
+        position: relative;
+        box-shadow: none;
+    }
+    section .container .contactForm{
+        position: relative;
+        width: calc(100%-350px);
+        padding-left: 0;
+        margin-left: 0;
+        padding: 40px;
+        height: 550px;
+        box-shadow: none;
+    }
+}
+
+
+@media screen and (max-width:991px){
+    section{
+        background: #03a9f4;
+    }
+    section::before{
+        display: none;
+    }
+    section .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    section .container .contactForm, 
+    section .container .contactInfo{
+width: 100%;
+height: auto;
+    }
+    section .container .contactInfo{
+        flex-direction: row;
+    }
+    section .container .contactInfo ul.sci{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:600px){
+
 }
 
 </style>

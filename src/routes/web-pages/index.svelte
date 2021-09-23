@@ -16,8 +16,7 @@
 		<li>9. <a href="/web-pages/three-js">3D Website using three.js</a></li>
 		<li>10. <a href="/web-pages/dropdown-menu">Responsive Dropdown Menu</a></li>
 		<li>11. <a href="/web-pages/light-dark">Light Dark Mode</a></li>
-		<li>12. <a href="/web-pages/contact-us">Contact us Page</a></li>
-		<li>13. <a href="/web-pages/contact-us-responsive">Contact us Page Responsive</a></li>
+		<li>12. <a href="/web-pages/contact-us">Responsive Contact us Page</a></li>
 	</ul>
 </main>
 

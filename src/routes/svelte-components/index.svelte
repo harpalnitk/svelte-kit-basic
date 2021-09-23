@@ -17,6 +17,7 @@
 		<li>10. <a href="/svelte-components/progress-bar">Progress Bar</a></li>
 		<li>11. <a href="/svelte-components/pwd-gen">Password Generator</a></li>
 		<li>12. <a href="/svelte-components/checkbox">Checkbox</a></li>
+		<li>13. <a href="/svelte-components/yes-no-checkbox">Yes No Checkbox</a></li>
 	</ul>
 </main>
 

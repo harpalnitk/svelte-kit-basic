@@ -297,7 +297,20 @@ height: auto;
 }
 
 @media screen and (max-width:600px){
-
+  section .container .contactForm, 
+    section .container .contactInfo{
+padding: 25px;
+    }
+    section .container .contactInfo{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    section .container .contactInfo ul.sci{
+        margin-top: 40px;
+    }
+    section .container .contactForm .formBox .inputBox.w50{
+     width: 100%;
+}
 }
 
 </style>

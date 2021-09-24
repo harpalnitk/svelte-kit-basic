@@ -17,6 +17,7 @@
 		<li>10. <a href="/web-pages/dropdown-menu">Responsive Dropdown Menu</a></li>
 		<li>11. <a href="/web-pages/light-dark">Light Dark Mode</a></li>
 		<li>12. <a href="/web-pages/contact-us">Responsive Contact us Page</a></li>
+		<li>13. <a href="/web-pages/auth-page">Responsive Auth Page</a></li>
 	</ul>
 </main>
 

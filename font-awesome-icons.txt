@@ -64,3 +64,6 @@ sun         <i class="fas fa-sun"></i>
 phone         <i class='fas fa-phone-alt'></i>
 plane          <i class='fas fa-plane'></i>
 wifi        <i class="fas fa-wifi"></i>
+
+rocket      <i class="fas fa-rocket"></i>
+cloud       <i class="fas fa-cloud"></i>

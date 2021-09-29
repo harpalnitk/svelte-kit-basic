@@ -33,6 +33,8 @@
 		<li>26. <a href="/playground2/before-after-pseudo">Before After Pseudo Element 7 use Cases</a></li>
 		<li>27. <a href="/playground2/eye-move">Eye Movement on mouse move</a></li>
 		<li>28. <a href="/playground2/loading-plane">Loading Plane Animation</a></li>
+		<li>29. <a href="/playground2/truck-anim">Truck Animation Svelte</a></li>
+		<li>30. <a href="/playground2/3d-anim-text">3D Anim Text</a></li>
 	</ul>
 </main>
 

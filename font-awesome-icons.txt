@@ -67,3 +67,6 @@ wifi        <i class="fas fa-wifi"></i>
 
 rocket      <i class="fas fa-rocket"></i>
 cloud       <i class="fas fa-cloud"></i>
+van         <i class="fas fa-shuttle-van"></i>
+tree        <i class="fas fa-tree"></i>
+mountain        <i class="fas fa-mountain"></i>

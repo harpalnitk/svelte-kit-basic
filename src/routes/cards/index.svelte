@@ -17,18 +17,20 @@
 		<li>10. <a href="/cards/glass-card">Glass card</a></li>
 		<li>11. <a href="/cards/neumorphic-card">Neumorphic Cards</a></li>
 		<li>12. <a href="/cards/neumorphic-card-d">Neumorphic Cards Dark</a></li>
-		<li>13. <a href="/cards/gradient-card-shadow">Gradient Card Shadow</a></li>
-		<li>14. <a href="/cards/testimonial-with-swiper">Responsive Testimonial slider With Swiper.js</a></li>
-		<li>15. <a href="/cards/contact-info">Contact Info Card</a></li>
-		<li>16. <a href="/cards/glass-hover">GlassMorphism Hover Effect Card</a></li>
-		<li>17. <a href="/cards/instagram-card">Instagram Post Card Clone</a></li>
-		<li>18. <a href="/cards/profile-hover">Profile card Hover Effect</a></li>
-		<li>19. <a href="/cards/curved-card">Curved Card</a></li>
-		<li>20. <a href="/cards/3d-foldable-card">3D Foldable Card</a></li>
-		<li>21. <a href="/cards/3d-flip-card">3D Flip Card</a></li>
-		<li>22. <a href="/cards/cube-slider-swiper">Cube Slider With Swiper.js</a></li>
-		<li>23. <a href="/cards/gradient-border-card">Gradient Border Card</a></li>
-		<li>24. <a href="/cards/image-hover-card">Image Scale on hover Card</a></li>
+		<li>13. <a href="/cards/neumorphic-card-l">Neumorphic Cards Light</a></li>
+		<li>14. <a href="/cards/gradient-card-shadow">Gradient Card Shadow</a></li>
+		<li>15. <a href="/cards/testimonial-with-swiper">Responsive Testimonial slider With Swiper.js</a></li>
+		<li>16. <a href="/cards/contact-info">Contact Info Card</a></li>
+		<li>17. <a href="/cards/glass-hover">GlassMorphism Hover Effect Card</a></li>
+		<li>18. <a href="/cards/instagram-card">Instagram Post Card Clone</a></li>
+		<li>19. <a href="/cards/profile-hover">Profile card Hover Effect</a></li>
+		<li>20. <a href="/cards/curved-card">Curved Card</a></li>
+		<li>21. <a href="/cards/3d-foldable-card">3D Foldable Card</a></li>
+		<li>22. <a href="/cards/3d-flip-card">3D Flip Card</a></li>
+		<li>23. <a href="/cards/3d-flip-card2">3D Flip Card 2</a></li>
+		<li>24. <a href="/cards/cube-slider-swiper">Cube Slider With Swiper.js</a></li>
+		<li>25. <a href="/cards/gradient-border-card">Gradient Border Card</a></li>
+		<li>26. <a href="/cards/image-hover-card">Image Scale on hover Card</a></li>
 	</ul>
 </main>
 

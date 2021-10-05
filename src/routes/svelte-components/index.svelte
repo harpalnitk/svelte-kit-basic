@@ -18,6 +18,7 @@
 		<li>11. <a href="/svelte-components/pwd-gen">Password Generator</a></li>
 		<li>12. <a href="/svelte-components/checkbox">Checkbox</a></li>
 		<li>13. <a href="/svelte-components/yes-no-checkbox">Yes No Checkbox</a></li>
+		<li>14. <a href="/svelte-components/toggle-light-dark">Toggle Button Light and Dark Mode</a></li>
 	</ul>
 </main>
 

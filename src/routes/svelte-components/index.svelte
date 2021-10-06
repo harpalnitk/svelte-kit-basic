@@ -3,7 +3,7 @@
 </script>
 
 <BasicPage title="Svelte Components" path="/" />
-<main>
+<main class='main-index'>
 	<ul class="link-grid">
 		<li>1. <a href="/svelte-components/timeline">Timeline</a></li>
 		<li>2. <a href="/svelte-components/tree-view">Tree View</a></li>
@@ -24,44 +24,4 @@
 
 <style lang="scss">
 	@import '../../styles/vars';
-
-	main {
-		padding: 1rem;
-		margin: 0 auto;
-		width: fit-content;
-	}
-	.link-grid li {
-		 display: flex;
-	}
-	.link-grid li a {
-		margin-left: 1rem;
-		text-decoration: none;
-		// color: #a9a39f;
-		position: relative;
-		display: inline-block;
-		overflow: hidden;
-		margin-right: 0.2rem;
-	}
-	.link-grid li a:before {
-		content: '';
-		transition: 0.2s;
-		position: absolute;
-		top: calc(100% - 1px);
-		left: 0;
-		width: 100%;
-		height: 1px;
-		background: #333;
-		transform: translateX(-101%);
-	}
-
-	.link-grid li a:focus,
-	.link-grid li a:hover {
-		// color: #fff;
-		opacity: 1;
-	}
-
-	.link-grid li a:focus:before,
-	.link-grid li a:hover:before {
-		transform: translateX(0);
-	}
 </style>

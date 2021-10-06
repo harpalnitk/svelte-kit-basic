@@ -70,3 +70,5 @@ cloud       <i class="fas fa-cloud"></i>
 van         <i class="fas fa-shuttle-van"></i>
 tree        <i class="fas fa-tree"></i>
 mountain        <i class="fas fa-mountain"></i>
+earth           <i class="fas fa-globe-africa"></i>
+diamond         <i class="far fa-gem"></i>

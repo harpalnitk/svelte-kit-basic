@@ -1,13 +1,13 @@
 <script>
-    export let title;
-    export let path='/playground2';
+    import store from '$lib/stores/pageData';
 </script>
 <div class='back-button-cont'>
-    <a href={path} class='back-button'>Back</a>
+    <a href={$store.url} class='back-button'>Back</a>
 </div>
 <main>
-    <h1>{title}</h1>
+    <h1>{$store.title}</h1>
 </main>
+
 <style lang="scss">
 	@import '../../../styles/vars';
     h1 {

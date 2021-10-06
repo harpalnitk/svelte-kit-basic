@@ -1,15 +1,26 @@
 <script>
-	import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	    import  store  from '$lib/stores/pageData';
+		import { onMount } from 'svelte';
+		import { goto } from '$app/navigation';
+        onMount(async () => {
+			store.setTitle('Playground 3');
+			store.setUrl('/')
+        });
+		const changePage = (i) => {
+			store.setTitle(content[i].name);
+			store.setUrl(`/playground3`);
+			 goto(`/playground3/`+ content[i].url);
+		}
 	let content= [
 		{url:'random-particles', name: 'Random Particles'},
+		{url:'circles-anim', name: 'Animated Circles'},
 		];
 </script>
 
-<BasicPage title="Playground 3 for CSS" path="/" />
 <main class='main-index'>
 	<ul class="link-grid">
 		{#each content as item, i}
-		<li>{i+1}. <a href="/playground3/{item.url}">{item.name}</a></li>
+		<li>{i+1}. <span on:click|preventDefault={()=> changePage(i)}>{item.name}</span></li>
 		{/each}
 	</ul>
 </main>

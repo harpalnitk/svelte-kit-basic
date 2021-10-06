@@ -19,6 +19,7 @@
 		<li>12. <a href="/svelte-components/checkbox">Checkbox</a></li>
 		<li>13. <a href="/svelte-components/yes-no-checkbox">Yes No Checkbox</a></li>
 		<li>14. <a href="/svelte-components/toggle-light-dark">Toggle Button Light and Dark Mode</a></li>
+		<li>15. <a href="/svelte-components/vertical-expand-menu">Vertical Expandable Menu</a></li>
 	</ul>
 </main>
 

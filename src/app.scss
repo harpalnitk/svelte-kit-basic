@@ -125,7 +125,7 @@ button:focus:not(:focus-visible) {
 	display: flex;
 }
 
-.link-grid li a {
+.link-grid li span {
 	margin-left: 1rem;
 	text-decoration: none;
 	// color: #a9a39f;
@@ -133,8 +133,9 @@ button:focus:not(:focus-visible) {
 	display: inline-block;
 	overflow: hidden;
 	margin-right: 0.2rem;
+	cursor: pointer;
 }
-.link-grid li a:before {
+.link-grid li span:before {
 	content: '';
 	transition: 0.2s;
 	position: absolute;
@@ -146,14 +147,14 @@ button:focus:not(:focus-visible) {
 	transform: translateX(-101%);
 }
 
-.link-grid li a:focus,
-.link-grid li a:hover {
+.link-grid li span:focus,
+.link-grid li span:hover {
 	// color: #fff;
 	opacity: 1;
 }
 
-.link-grid li a:focus:before,
-.link-grid li a:hover:before {
+.link-grid li span:focus:before,
+.link-grid li span:hover:before {
 	transform: translateX(0);
 }
 
@@ -162,7 +163,12 @@ button:focus:not(:focus-visible) {
 	margin:0 auto;
 	width: fit-content;
 }
-
+.main-page{
+	min-height: 100vh;
+    position: relative;
+    width: min(70rem, 90vw);
+    margin: 0 auto;
+}
 
 
 

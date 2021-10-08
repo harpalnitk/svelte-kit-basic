@@ -1,9 +1,9 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
     import Hoverable from '$lib/components/Hoverable.svelte';
 let active = true;
 </script>
-<BasicPage title='Curved Outside Sidebar Menu' path='/playground'></BasicPage>
+
 
 
 <main>

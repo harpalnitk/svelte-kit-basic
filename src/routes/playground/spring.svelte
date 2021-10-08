@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+    
     import { writable } from 'svelte/store';
     import { tweened } from 'svelte/motion';
     import { spring } from 'svelte/motion';
@@ -68,7 +68,7 @@
     }
   </script>
 
-<BasicPage title='Spring Animation' path='/playground'></BasicPage>
+
 
 <section>
     <div class="page">

@@ -1,7 +1,7 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
 </script>
-<BasicPage title='Scalable Star Rating Without JS Image SVG' path='/playground'></BasicPage>
+
 
 
 <main>

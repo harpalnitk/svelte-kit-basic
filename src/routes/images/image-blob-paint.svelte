@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
     import { onMount } from "svelte";
 
     onMount(() => {
@@ -14,7 +14,7 @@
         
     }});
 </script>
-<BasicPage title='Blob Effect with CSS Paint API' path='/images'></BasicPage>
+
 
 <section class='sec1'>
     <img src="https://picsum.photos/id/1069/400/400"> 

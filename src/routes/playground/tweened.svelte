@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
        // import { writable } from "svelte/store";
        import { tweened } from "svelte/motion";
     import { cubicIn } from "svelte/easing";
@@ -15,7 +15,7 @@
       progress.set(0.5);
     }, 1500);
 </script>
-<BasicPage title='Tweened' path='/playground'></BasicPage>
+
 
 
 <main>

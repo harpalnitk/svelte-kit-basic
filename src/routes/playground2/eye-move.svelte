@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     let eye1,eye2;
     let rotation1,rotation2;
     let w,h;
@@ -19,7 +19,7 @@
         return (radian * (180 / Math.PI) * -1) + 270;
     }
 </script>
-<BasicPage title='Eye Movement on mouse move' path='/playground2'></BasicPage>
+
 
 
 <main on:mousemove="{eyeball}">

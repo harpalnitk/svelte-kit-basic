@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
 
     const deg = 6;
     let day= new Date();
@@ -16,7 +16,7 @@
 
 
 </script>
-<BasicPage title='Clock' path='/playground'></BasicPage>
+
 
 
 <main>

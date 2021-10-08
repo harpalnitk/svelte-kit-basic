@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
     import { onMount } from 'svelte';
 
     let jsReady = false;
@@ -40,7 +40,7 @@
 <svelte:head>
     <script src="../js/vanilla-tilt.min.js" on:load={jsLoaded}></script>
 </svelte:head>
-<BasicPage title='Social Media Icon Hover Effect' path='/playground2'></BasicPage>
+
 
 
 <main>

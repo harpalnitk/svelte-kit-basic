@@ -1,19 +1,35 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+    	    import  store  from '$lib/stores/pageData';
+		import { onMount } from 'svelte';
+		import { goto } from '$app/navigation';
+        onMount(async () => {
+			store.setTitle('Grid and Flexbox Cocepts');
+			store.setUrl('/')
+        });
+		const changePage = (i) => {
+			store.setTitle(content[i].name);
+			store.setUrl(`/grid-layout`);
+			 goto(`/grid-layout/`+ content[i].url);
+		}
+   	let content= [
+		{url:'responsive', name: 'Responsive'},
+		{url:'photo-grid', name: 'Photo Grid'},
+        {url:'photo-grid-animated', name: 'Photo Grid Animated'},
+        {url:'three-column-fluid', name: '1 to 3 Column Fluid Layout'},
+        {url:'twelve-column-system', name: 'Layout using 12 column system'},
+        {url:'product-listing', name: 'Product Listing With Auto Placement'},
+        {url:'grid-concept', name: 'Grid Concepts'},
+        {url:'flex-layout', name: 'Flex Concepts'},
+		];
 </script>
-<BasicPage title='Grid Layout' path='/'></BasicPage>
+
 
 
 <main class='main-index'>
     <ul class='link-grid'>
-        <li>1. <a href="/grid-layout/responsive">Responsive</a></li>
-        <li>2. <a href="/grid-layout/photo-grid">Photo Grid</a></li>
-        <li>3. <a href="/grid-layout/photo-grid-animated">Photo Grid Animated</a></li>
-        <li>4. <a href="/grid-layout/three-column-fluid">1 to 3 Column Fluid Layout</a></li>
-        <li>5. <a href="/grid-layout/twelve-column-system">Layout using 12 column system</a></li>
-        <li>6. <a href="/grid-layout/product-listing">Product Listing With Auto Placement</a></li>
-		<li>7. <a href="/grid-layout/grid-concept">Grid Concepts</a></li>
-		<li>8. <a href="/grid-layout/flex-layout">Flex Concepts</a></li>
+		{#each content as item, i}
+		<li>{i+1}. <span on:click={()=> changePage(i)}>{item.name}</span></li>
+		{/each}
 
     </ul>
 </main>

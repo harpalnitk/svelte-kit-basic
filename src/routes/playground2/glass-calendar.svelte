@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     import { onMount } from 'svelte';
     let jsReady = false;
     let cssReady = false;
@@ -48,7 +48,7 @@
             })
         }
 </script>
-<BasicPage title='Glassmorphism Calendar' path='/playground2'></BasicPage>
+
 
 <svelte:head>
     <link rel="stylesheet" href="/css/dycalendar.css" on:load={cssLoaded}>

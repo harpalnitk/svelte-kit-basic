@@ -1,11 +1,11 @@
 <script>
-	import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
 	//overlapping avatars property set --cx
 
 	let cx = -50;
 </script>
 
-<BasicPage title="Cutouts using SVG, Clip Path, Mask" path="/playground2" />
+
 
 <main>
 	<!-- Solution 1 - Clip Path -->

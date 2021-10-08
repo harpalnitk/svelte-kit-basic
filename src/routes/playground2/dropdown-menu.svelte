@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     const links =[
         { id:1, name: 'Edit Profile', icon: 'fa fa-user' },
         { id:2, name: 'Inbox', icon: 'fas fa-comment-alt' },
@@ -11,7 +11,7 @@
 
     let toggle = false;
 </script>
-<BasicPage title='Dropdown Menu' path='/playground2'></BasicPage>
+
 
 
 <main>

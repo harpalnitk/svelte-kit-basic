@@ -1,12 +1,12 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     let x=0;
     const rotate= (e)=>{
      x = e.clientX;
 
     }
 </script>
-<BasicPage title='Rotating Images on Mouse Move' path='/playground'></BasicPage>
+
 
 
 <main>

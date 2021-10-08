@@ -1,5 +1,5 @@
 <script>
-	 import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
 	import Slide from './Slide.svelte';
 	import Dot from './Dot.svelte';
 	import { quotes } from './slideData';
@@ -44,7 +44,7 @@
   }
 
 </script>
-<BasicPage title='Slideshow' path='/images'></BasicPage>
+
 <div class="page-container">
 	<section>
 		<!-- Slideshow container -->

@@ -1,8 +1,8 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     let like = false;
 </script>
-<BasicPage title='Instagram Post Card Clone' path='/cards'></BasicPage>
+
 
 
 <main>

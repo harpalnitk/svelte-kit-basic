@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     import { onMount } from "svelte";
 
     onMount(() => {
@@ -13,7 +13,7 @@
         
     }});
 </script>
-<BasicPage title='Image Fragmentation with paint CSS API' path='/images'></BasicPage>
+
 
 
 <main>

@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
     import { onMount } from "svelte";
 
 onMount(() => {
@@ -14,7 +14,7 @@ onMount(() => {
     
 }});
   </script>
-  <BasicPage title='Polygon Borders with CSS  Paint API' path='/charts-with-shapes'></BasicPage>
+ 
 
 
   <main>

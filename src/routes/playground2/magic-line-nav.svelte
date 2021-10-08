@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
     import Hoverable from '$lib/components/Hoverable.svelte';
     let left;
     let width; 
@@ -12,7 +12,7 @@ left = e.target.offsetLeft + 'px';
 width = e.target.offsetWidth + 'px';
     }
 </script>
-<BasicPage title='Magic Line Indicator on Nav List' path='/playground2'></BasicPage>
+
 
 
 <main>

@@ -1,5 +1,5 @@
 <script>
-	import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
 	import { onMount } from 'svelte';
 	let wrapper;
 
@@ -12,7 +12,7 @@
 	});
 </script>
 
-<BasicPage title="Circle Text Logo" path="/playground2" />
+
 
 <main>
 	<div class="circle" bind:this={wrapper}>

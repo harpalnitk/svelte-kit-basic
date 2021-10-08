@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
     const icons = [
         {id:1, name:'fas fa-phone-alt'},
         {id:2, name:'fas fa-volume-up'},
@@ -9,7 +9,7 @@
         {id:6, name:'fas fa-wifi'},
         ]
 </script>
-<BasicPage title='Glowing Checkbox' path='/playground2'></BasicPage>
+
 
 
 <main>

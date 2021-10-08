@@ -1,8 +1,8 @@
 <!-- //https://css-tricks.com/hexagons-and-beyond-flexible-responsive-grid-patterns-sans-media-queries/ -->
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
 </script>
-<BasicPage title='CSS Hexagon' path='/playground'></BasicPage>
+
 <main>
 <div class="main">
 	<div class="container">

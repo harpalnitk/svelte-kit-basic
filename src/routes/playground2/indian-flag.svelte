@@ -1,7 +1,7 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
 </script>
-<BasicPage title='Indian Flag' path='/playground2'></BasicPage>
+
 
 
 <main>

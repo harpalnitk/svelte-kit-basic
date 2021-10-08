@@ -1,19 +1,7 @@
-<script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
-</script>
-<BasicPage title='Hovering cards' path='/cards'></BasicPage>
 
 
 <main>
-    <!-- <div class="title">
-        <h1>
-            <span style="color: #ff9f43">Tou</span>
-            <span style="color: #0abde3">rist</span>
-             <span style="color: #ee5253">Attr</span>
-             <span style="color: #00d2d3">acti</span>
-            <span style="color: #5f27cd">ons</span>
-     </h1>
-      </div> -->
+
       <div class="card card1">
         <img src="http://www.pngmart.com/files/5/Pyramids-PNG-HD.png" alt="">
         <h3>Pyramids</h3>

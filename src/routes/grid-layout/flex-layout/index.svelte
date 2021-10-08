@@ -1,7 +1,7 @@
 <script>
-     import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
 </script>
-<BasicPage title='Flex Layout Concepts' path='/grid-layout'></BasicPage>
+
 <main>
     <h2>Flex Containers</h2>
     <div class="container">

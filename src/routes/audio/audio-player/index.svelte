@@ -1,5 +1,5 @@
 <script>
-	 import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	 
 	import { audioData } from '../audioData';
 	import Controls from './Controls.svelte';
 	import TrackHeading from './TrackHeading.svelte';
@@ -108,7 +108,7 @@
 		}
 	};
 </script>
-<BasicPage title='Audio Player' path='/audio'></BasicPage>
+
 <main>
 	<section id="player-cont">
 		<TrackHeading {trackTitle} />

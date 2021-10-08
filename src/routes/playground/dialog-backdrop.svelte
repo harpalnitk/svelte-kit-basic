@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
     let dialog;
     const closeDialog = ()=>{
         dialog.close();
@@ -8,7 +8,7 @@
         dialog.showModal();
     }
 </script>
-<BasicPage title='Dialog with CSS Backdrop property' path='/playground'></BasicPage>
+
 
 
 <main>

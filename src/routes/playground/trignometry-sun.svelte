@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     import { onMount } from 'svelte';
     
     let shape;
@@ -88,7 +88,7 @@ const createPolygon = ()=>{
 
 
 </script>
-<BasicPage title='Shapes using Trignometry' path='/playground'></BasicPage>
+
 
 
 <main>

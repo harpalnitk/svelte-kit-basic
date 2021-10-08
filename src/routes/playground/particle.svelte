@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
     import { onMount } from 'svelte';
     let js1Ready = false;
     let js2Ready = false;
@@ -34,7 +34,7 @@
     <script src="../js/particles/particles.js" on:load={js2Loaded}></script>
 </svelte:head>
 
-<BasicPage title='Particle Effect on Mouse Move' path='/playground'></BasicPage>
+
 
 
 <main>

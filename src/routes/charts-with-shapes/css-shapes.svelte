@@ -1,7 +1,4 @@
-<script>
-  import BasicPage from '$lib/components/UI/BasicPage.svelte';
-</script>
-<BasicPage title='Charts With CSS Shapes' path='/charts-with-shapes'></BasicPage>
+
 
 
 <div id="chart">

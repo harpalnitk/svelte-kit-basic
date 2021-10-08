@@ -1,8 +1,8 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     export let width = 320;
 </script>
-<BasicPage title='Card Border Animation' path='/cards'></BasicPage>
+
 
 
 <main>

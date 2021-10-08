@@ -1,9 +1,3 @@
-<script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
-</script>
-<BasicPage title='Twelve Column Layout System' path='/grid-layout'></BasicPage>
-
-
 <main>
     <div class="wrapper">
         <header class="main-head">The header</header>

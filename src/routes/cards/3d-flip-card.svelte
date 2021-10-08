@@ -1,7 +1,7 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
 </script>
-<BasicPage title='3D Flip Card' path='/cards'></BasicPage>
+
 
 
 <main>

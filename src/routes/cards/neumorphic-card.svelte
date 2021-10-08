@@ -1,7 +1,4 @@
-<script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
-</script>
-<BasicPage title='Neumorphic Cards' path='/cards'></BasicPage>
+
 
 
 <main>

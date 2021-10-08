@@ -1,7 +1,7 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
 </script>
-<BasicPage title='How to make curved backgrounds' path='/playground2'></BasicPage>
+
 
 
 <main>

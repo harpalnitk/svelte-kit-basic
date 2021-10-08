@@ -1,11 +1,11 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     let style = "rotateX(-30deg) rotateY(50deg)";
     const rotateBox = (e) => {
         style = "rotateX(-30deg) rotateY(" + e.clientX + "deg)";
     }
 </script>
-<BasicPage title='3D-Moving Box' path='/playground2'></BasicPage>
+
 
 
 <main>

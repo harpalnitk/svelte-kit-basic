@@ -1,8 +1,8 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     let showPW = false;
 </script>
-<BasicPage title='Show Hide Password' path='/playground2'></BasicPage>
+
 
 
 <main>

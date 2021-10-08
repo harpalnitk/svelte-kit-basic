@@ -1,40 +1,55 @@
 <script>
-	import BasicPage from '$lib/components/UI/BasicPage.svelte';
+		    import  store  from '$lib/stores/pageData';
+		import { onMount } from 'svelte';
+		import { goto } from '$app/navigation';
+        onMount(async () => {
+			store.setTitle('Playground');
+			store.setUrl('/')
+        });
+		const changePage = (i) => {
+			store.setTitle(content[i].name);
+			store.setUrl(`/playground`);
+			 goto(`/playground/`+ content[i].url);
+		}
+	let content= [
+		{url:'http-firebase', name: 'Http Firebase'},
+		{url:'image-fragmentation', name: 'Image Fragmentation'},
+		{url:'spring', name: 'Spring Animation'},
+		{url:'svg-graphics', name: 'SVG Graphics'},
+		{url:'tweened', name: 'Tweened'},
+		{url:'css-hexagon', name: 'CSS Hexagon'},
+		{url:'box-shadow', name: 'Box Shadow Designs'},
+		{url:'clip-path-animations', name: 'Clip Path Animations'},
+		{url:'trignometry-sun', name: 'Shapes Using Trignometry'},
+		{url:'star-rating', name: 'Scalable Star rating'},
+		{url:'curved-menu', name: 'Curved Outside Sidebar Menu'},
+		{url:'conic-spinner', name: 'Conic Gradient Spinner'},
+		{url:'ripple-button', name: 'Ripple-Button-Animation'},
+		{url:'creative-menu', name: 'Creative Menu'},
+		{url:'svg-animation', name: 'SVG Animation'},
+		{url:'ripple-animation', name: 'Ripple-Animation'},
+		{url:'shadows', name: 'CSS Shadows'},
+		{url:'clock', name: 'Clock using CSS'},
+		{url:'wavy-text', name: 'Wavy Text'},
+		{url:'water-drops', name: 'Water Drops'},
+		{url:'radio-glow', name: 'Neon Glowing Radio Butotns'},
+		{url:'scale-video-scroll', name: 'Scale Video/Image on scroll'},
+		{url:'particle', name: 'Particle Effect'},
+		{url:'calculator', name: 'Calculator'},
+		{url:'liquid', name: 'Liquid Animation Effect'},
+		{url:'rotating-images', name: 'Rotating Images on Mouse Move'},
+		{url:'shape-outside', name: 'CSS Shape Outside Property'},
+		{url:'text-emphasis', name: 'CSS Text Emphasis Property'},
+		{url:'dialog-backdrop', name: 'Dialog with CSS Backdrop Property'},
+		{url:'rating-bar', name: 'Rating Bar'},
+		];
 </script>
 
-<BasicPage title="Playground 1 for CSS" path="/" />
 <main class='main-index'>
 	<ul class="link-grid">
-		<li>1. <a href="/playground/http-firebase">Http Firebase</a></li>
-		<li>2. <a href="/playground/image-fragmentation">Image Fragmentation</a></li>
-		<li>3. <a href="/playground/spring">Spring Animation</a></li>
-		<li>4. <a href="/playground/svg-graphics">SVG Graphics</a></li>
-		<li>5. <a href="/playground/tweened">Tweened</a></li>
-		<li>6. <a href="/playground/css-hexagon">CSS Hexagon</a></li>
-		<li>7. <a href="/playground/box-shadow">Box Shadow Designs</a></li>
-		<li>8. <a href="/playground/clip-path-animations">Clip Path Animations</a></li>
-		<li>9. <a href="/playground/trignometry-sun">Shapes Using Trignometry</a></li>
-		<li>10. <a href="/playground/star-rating">Scalable Star rating</a></li>
-		<li>11. <a href="/playground/curved-menu">Curved Outside Sidebar Menu</a></li>
-		<li>12. <a href="/playground/conic-spinner">Conic Gradient Spinner</a></li>
-		<li>13. <a href="/playground/ripple-button">Ripple Button</a></li>
-		<li>14. <a href="/playground/creative-menu">Creative Menu</a></li>
-		<li>15. <a href="/playground/svg-animation">SVG Animation</a></li>
-		<li>16. <a href="/playground/ripple-animation">Ripple-Animation</a></li>
-		<li>17. <a href="/playground/shadows">CSS Shadows</a></li>
-     	<li>18. <a href="/playground/clock">Clock using CSS</a></li>
-		<li>19. <a href="/playground/wavy-text">Wavy Text</a></li>
-		<li>20. <a href="/playground/water-drops">Water Drops</a></li>
-		<li>21. <a href="/playground/radio-glow">Neon Glowing Radio Butotns</a></li>
-		<li>22. <a href="/playground/scale-video-scroll">Scale Video/Image on scroll</a></li>
-		<li>23. <a href="/playground/particle">Particle Effect</a></li>
-		<li>24. <a href="/playground/calculator">Calculator</a></li>
-		<li>25. <a href="/playground/liquid">Liquid Animation Effect</a></li>
-		<li>26. <a href="/playground/rotating-images">Rotating Images on Mouse Move</a></li>
-		<li>27. <a href="/playground/shape-outside">CSS Shape Outside Property</a></li>
-		<li>28. <a href="/playground/text-emphasis">CSS Text Emphasis Property</a></li>
-		<li>29. <a href="/playground/dialog-backdrop">Dialog with CSS Backdrop Property</a></li>
-		<li>30. <a href="/playground/rating-bar">Rating Bar</a></li>
+		{#each content as item, i}
+		<li>{i+1}. <span on:click={()=> changePage(i)}>{item.name}</span></li>
+		{/each}
 	</ul>
 </main>
 

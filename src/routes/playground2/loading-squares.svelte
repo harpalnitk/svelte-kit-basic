@@ -1,8 +1,8 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+
     export let size = '1';
 </script>
-<BasicPage title='Colorful Loading Squares' path='/playground2'></BasicPage>
+
 
 
 <!-- <main> -->

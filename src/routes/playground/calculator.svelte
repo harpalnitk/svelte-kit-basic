@@ -1,12 +1,12 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     let value='';
 
     const evaluate = ()=>{
         value = eval(value);
     }
 </script>
-<BasicPage title='Calculator' path='/playground'></BasicPage>
+
 
 
 <main>

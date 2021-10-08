@@ -20,7 +20,7 @@
 <main class='main-index'>
 	<ul class="link-grid">
 		{#each content as item, i}
-		<li>{i+1}. <span on:click|preventDefault={()=> changePage(i)}>{item.name}</span></li>
+		<li>{i+1}. <span on:click={()=> changePage(i)}>{item.name}</span></li>
 		{/each}
 	</ul>
 </main>

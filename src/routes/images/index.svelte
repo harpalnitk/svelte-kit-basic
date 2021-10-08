@@ -1,17 +1,33 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+		    import  store  from '$lib/stores/pageData';
+		import { onMount } from 'svelte';
+		import { goto } from '$app/navigation';
+        onMount(async () => {
+			store.setTitle('Images');
+			store.setUrl('/')
+        });
+		const changePage = (i) => {
+			store.setTitle(content[i].name);
+			store.setUrl(`/images`);
+			 goto(`/images/`+ content[i].url);
+		}
+   	let content= [
+		{url:'images-para-two-column', name: 'Images Paragraph Two Columns'},
+		{url:'overlay-content', name: 'Positioning overlay content with Images'},
+		{url:'gallery', name: 'Gallery Using Svelte'},
+		{url:'portfolio-gallery', name: 'Portfolio Gallery Using Svelte'},
+		{url:'slideshow', name: 'Slideshow'},
+		{url:'image-paint', name: 'Image Fragmentation with CSS Paint API'},
+		{url:'image-blob-paint', name: 'Blob Effect with CSS Paint API'},
+		{url:'image-blob-paint-all', name: 'Blob Effect with CSS Paint API-All'},
+		];
 </script>
-<BasicPage title='Images CSS' path='/'></BasicPage>
+
 <main class='main-index'>
     <ul class='link-grid'>
-        <li>1. <a href="/images/images-para-two-column">Images Paragraph Two Columns</a></li>
-        <li>2. <a href="/images/overlay-content">Positioning overlay content with Images</a></li>
-		<li>3. <a href="/images/gallery">Gallery Using Svelte</a></li>
-		<li>4. <a href="/images/portfolio-gallery">Portfolio Gallery Using Svelte</a></li>
-		<li>5. <a href="/images/slideshow">Slideshow</a></li>
-		<li>6. <a href="/images/image-paint">Image Fragmentation with CSS Paint API</a></li>
-		<li>7. <a href="/images/image-blob-paint">Blob Effect with CSS Paint API</a></li>
-		<li>8. <a href="/images/image-blob-paint-all">Blob Effect with CSS Paint API-All</a></li>
+		{#each content as item, i}
+		<li>{i+1}. <span on:click={()=> changePage(i)}>{item.name}</span></li>
+		{/each}
     </ul>
 </main>
 

@@ -1,5 +1,5 @@
 <script>
-     import BasicPage from '$lib/components/UI/BasicPage.svelte';
+    
     //udemy-ng-http    project on firebase used
     // Your web app's Firebase configuration
     //   var firebaseConfig = {
@@ -100,7 +100,7 @@
     }
   </script>
 
-<BasicPage title='Http Firebase' path='/playground'></BasicPage>
+
 
 <section>
     <label for="hobby">Hobby</label>

@@ -1,7 +1,4 @@
-<script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
-</script>
-<BasicPage title='1 to 3 Column Fluid Layout' path='/grid-layout'></BasicPage>
+
 
 
 <main>

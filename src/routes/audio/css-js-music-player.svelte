@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
     import { audioData } from './audioData';
     let audioPlayer;
 	let trackIndex = 0;
@@ -53,7 +53,7 @@ let playPauseHtml = ' <i class="fas fa-play"></i>';
 
 
 </script>
-<BasicPage title='CSS JS Music Player' path='/audio'></BasicPage>
+
 
 
 <main>

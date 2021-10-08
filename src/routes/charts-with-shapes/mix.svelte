@@ -1,7 +1,4 @@
-<script>
-  import BasicPage from '$lib/components/UI/BasicPage.svelte';
-</script>
-<BasicPage title='Mixed Shapes' path='/charts-with-shapes'></BasicPage>
+
 <main>
     <section>
       <div class=charts-1>

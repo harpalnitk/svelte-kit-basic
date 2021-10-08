@@ -1,5 +1,5 @@
 <script>
-	import BasicPage from '$lib/components/UI/BasicPage.svelte';
+
 	import { onMount } from 'svelte';
 
 	let wrapper;
@@ -45,7 +45,7 @@
 		</div>
 	</div>
 </div>
-<BasicPage title="Skeleton Loading" path="/playground2" />
+
 
 <main bind:this={wrapper}>
 	<div class="grid" />

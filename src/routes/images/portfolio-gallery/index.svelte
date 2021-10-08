@@ -1,5 +1,5 @@
 <script>
-	import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
 	import { images } from './imgData';
 	import { categories } from './imgData';
 	import ButtonContainer from '$lib/components/UI/ButtonContainer.svelte';
@@ -10,7 +10,7 @@
 
 	const filterSelection = (e) => (selected = e.target.dataset.name);
 </script>
-<BasicPage title='Portfolio Gallery' path='/images'></BasicPage>
+
 <div class="page-container">
 	<main>
 		<ButtonContainer>

@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     import { onMount } from 'svelte';
     let jsReady = false;
     let mounted= false;
@@ -51,7 +51,7 @@ shadowScale:0.94
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js" on:load={jsLoaded}></script>
 </svelte:head>
-<BasicPage title='Cube Slider With Swiper.js' path='/cards'></BasicPage>
+
 
 
 <main>

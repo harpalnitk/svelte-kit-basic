@@ -1,7 +1,3 @@
-<script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
-</script>
-<BasicPage title='Image Scale on hover Card' path='/cards'></BasicPage>
 
 
 <main>

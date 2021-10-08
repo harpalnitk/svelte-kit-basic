@@ -1,8 +1,8 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
     export let size = 3 ;
 </script>
-<BasicPage title='Loading plane Animation' path='/playground2'></BasicPage>
+
 
 
 <main>

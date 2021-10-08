@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     let toggle = false;
     let paused = true; // paused is a two way svelte binding on media elements
     let audioPlayer;
@@ -9,7 +9,7 @@
         audioPlayer.play();
     }
 </script>
-<BasicPage title='Light Bulb On/Off with Sound' path='/playground2'></BasicPage>
+
 
 
 <main class:on={toggle}>

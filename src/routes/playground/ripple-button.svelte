@@ -1,11 +1,11 @@
 <script>
-	import BasicPage from '$lib/components/UI/BasicPage.svelte';
+
 	import RippleButton from '$lib/components/UI/RippleButton.svelte';
 	import ShineButton from '$lib/components/UI/ShineButton.svelte';
 	import CreativeButton from '$lib/components/UI/CreativeButton.svelte';
 </script>
 
-<BasicPage title="Ripple Button" path="/playground" />
+
 
 <main>
 	<section class="ripple">

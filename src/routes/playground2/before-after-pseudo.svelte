@@ -1,7 +1,7 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
 </script>
-<BasicPage title='Before After Pseudo Element 7 use Cases' path='/playground2'></BasicPage>
+
 
 
 <main>

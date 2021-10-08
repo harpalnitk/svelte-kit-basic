@@ -1,16 +1,32 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+    	    import  store  from '$lib/stores/pageData';
+		import { onMount } from 'svelte';
+		import { goto } from '$app/navigation';
+        onMount(async () => {
+			store.setTitle('CSS SVG Polygons Shapes');
+			store.setUrl('/')
+        });
+		const changePage = (i) => {
+			store.setTitle(content[i].name);
+			store.setUrl(`/charts-with-shapes`);
+			 goto(`/charts-with-shapes/`+ content[i].url);
+		}
+   	let content= [
+		{url:'pentagon', name: 'Pentagon With Glyphs'},
+		{url:'pentagon-2', name: 'Pentagon With SVG'},
+        {url:'css-shapes', name: 'With CSS Shapes'},
+		{url:'emojis', name: 'With Emojis'},
+        {url:'mix', name: 'Mix Shapes'},
+		{url:'polygon-border', name: 'Polygon Border With CSS Paint API'},
+		];
 </script>
-<BasicPage title='How to Create CSS Charts With Interesting Shapes, Glyphs and Emoji ' path='/'></BasicPage>
+
 
 <main class='main-index'>
     <ul class='link-grid'>
-        <li>1. <a href="/charts-with-shapes/pentagon">Pentagon With Glyphs</a></li>
-        <li>2. <a href="/charts-with-shapes/pentagon-2">Pentagon With SVG</a></li>
-        <li>3. <a href="/charts-with-shapes/css-shapes">With CSS Shapes</a></li>
-        <li>4. <a href="/charts-with-shapes/emojis">With Emojis</a></li>
-        <li>5. <a href="/charts-with-shapes/mix">Mix Shapes</a></li>
-		<li>6. <a href="/charts-with-shapes/polygon-border">Polygon Border With CSS Paint API</a></li>
+		{#each content as item, i}
+		<li>{i+1}. <span on:click={()=> changePage(i)}>{item.name}</span></li>
+		{/each}
     </ul>
 </main>
 

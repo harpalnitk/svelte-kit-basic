@@ -1,8 +1,8 @@
 <script>
-	import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
 </script>
 
-<BasicPage title="AirPlane" path="/playground2" />
+
 
 <main>
 	<section>

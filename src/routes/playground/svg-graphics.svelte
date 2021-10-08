@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
 
     let darkColor = '#635bff';
     let lightColor = '#80e9ff';
@@ -10,7 +10,7 @@
      lightColor = rando();
  }
 </script>
-<BasicPage title='SVG Graphics' path='/playground'></BasicPage>
+
 
 <main>
     <div class="svg-div" >

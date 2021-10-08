@@ -1,7 +1,7 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
 </script>
-<BasicPage title='Clip Path Animations' path='/playground'></BasicPage>
+
 
 <main>
     <!-- clip-path using inset -->

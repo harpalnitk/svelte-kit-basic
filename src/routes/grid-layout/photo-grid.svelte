@@ -1,8 +1,4 @@
-<script>
-	import BasicPage from '$lib/components/UI/BasicPage.svelte';
-</script>
 
-<BasicPage title="Photo Grid" path="/grid-layout" />
 
 <main>
 	<div class="grid-body">

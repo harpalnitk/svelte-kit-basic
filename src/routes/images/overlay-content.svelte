@@ -1,8 +1,8 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+   
     let hideOverflow;
 </script>
-<BasicPage title='Positioning overlay content with Images' path='/images'></BasicPage>
+
 
 
 <main>

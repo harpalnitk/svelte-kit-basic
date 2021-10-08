@@ -1,5 +1,5 @@
 <script>
-	 import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
 	import Gallery from './Gallery.svelte';
 	import ImageDisplay from './ImageDisplay.svelte';
 	import Button from '$lib/components/UI/Button.svelte';
@@ -12,7 +12,7 @@
 		modalOpen = true;
 	};
 </script>
-<BasicPage title='LightBox Gallery' path='/images'></BasicPage>
+
 <div class="page-container">
 	{#if modalOpen}
 		<Gallery on:click={() => (modalOpen = !modalOpen)} {imageShowingIndex} />

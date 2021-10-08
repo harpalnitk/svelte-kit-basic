@@ -1,10 +1,10 @@
 <script>
-      import BasicPage from '$lib/components/UI/BasicPage.svelte';
+     
     import PasswordGen from './PasswordGen.svelte';
     import RegForm from './RegForm.svelte';
     let modalShowing = false;
 </script>
-<BasicPage title='Password Generator' path='/svelte-components'></BasicPage>
+
 <div class="page-container">
     <section>
         <RegForm on:showPwdGenModal={()=>modalShowing= true}/>

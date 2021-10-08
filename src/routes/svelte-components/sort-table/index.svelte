@@ -1,5 +1,5 @@
 <script>
-	import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
 	import { personData } from './personData';
 	//console.log(personData);
 
@@ -33,7 +33,7 @@
         selectedHeader= tableHeader;
 	};
 </script>
-<BasicPage title='Sort Table' path='/svelte-components'></BasicPage>
+
 <div class="page-container">
 	<table id="myTable">
 		<tr>

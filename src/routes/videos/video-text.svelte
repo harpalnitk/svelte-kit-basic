@@ -1,5 +1,5 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
 
     let x;
     let y;
@@ -12,7 +12,7 @@ function handleMousemove(event) {
     console.log(x)
 }
 </script>
-<BasicPage title='Video Text Effect' path='/playground2'></BasicPage>
+
 
 
 <main>

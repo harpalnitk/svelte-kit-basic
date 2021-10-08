@@ -1,5 +1,5 @@
 <script>
-	 import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
 	//Svelte imports
 	import { onMount } from 'svelte';
 	//User Imports
@@ -61,7 +61,7 @@
         setTimeout(()=> searchTerm = "",1000);
     }
 </script>
-<BasicPage title='Timeline' path='/svelte-components'></BasicPage>
+
 <div class="page-container">
 	<header>
 		<SearchForm bind:searchTerm on:submit={getResults} placeholder="Enter event name"/>

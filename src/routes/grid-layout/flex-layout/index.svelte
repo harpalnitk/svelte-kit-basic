@@ -2,7 +2,7 @@
    
 </script>
 
-<main>
+<section>
     <h2>Flex Containers</h2>
     <div class="container">
       <div class="third">
@@ -61,14 +61,11 @@
       <div class="third">
         <a href="/grid-layout/flex-layout/hexagon">Hexagon</a>
       </div>
-      <!-- <div class="third">
-        <a href="nesting.html">Nesting Flexboxes</a>
-      </div> -->
-    </div>
-</main>
 
-<style lang="scss">
+    </div>
+</section>
+ <style lang="scss">
 	@import '../../../styles/vars';
-  @import 'index';
+  @import 'flex';
     
-    </style>
+    </style> 

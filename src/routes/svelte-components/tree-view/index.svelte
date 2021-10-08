@@ -1,9 +1,9 @@
 <script>
-   import BasicPage from '$lib/components/UI/BasicPage.svelte';
+ 
 	import { tree } from './treeData';
 	import TreeView from './TreeView.svelte';
 </script>
-<BasicPage title='Tree View' path='/svelte-components'></BasicPage>
+
 <div class="page-container">
 	<section class="tree-view">
 		<TreeView {tree} />

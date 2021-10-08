@@ -1,25 +1,41 @@
 <script>
-	import BasicPage from '$lib/components/UI/BasicPage.svelte';
+		    import  store  from '$lib/stores/pageData';
+		import { onMount } from 'svelte';
+		import { goto } from '$app/navigation';
+        onMount(async () => {
+			store.setTitle('Svelte Components');
+			store.setUrl('/')
+        });
+		const changePage = (i) => {
+			store.setTitle(content[i].name);
+			store.setUrl(`/svelte-components`);
+			 goto(`/svelte-components/`+ content[i].url);
+		}
+	let content= [
+		{url:'timeline', name: 'Timeline'},
+		{url:'tree-view', name: 'Tree View'},
+		{url:'skill-bars', name: 'Skill Bars'},
+		{url:'sort-table', name: 'Sort Table'},
+		{url:'calendar', name: 'Calendar'},
+		{url:'autocomplete', name: 'Autocomplete'},
+		{url:'flip-box', name: 'Flip Box'},
+		{url:'emoji-chat', name: 'Emoji Chat'},
+		{url:'product-filter', name: 'Product Filter'},
+		{url:'progress-bar', name: 'Progress Bar'},
+		{url:'pwd-gen', name: 'Password Generator'},
+		{url:'checkbox', name: 'Checkbox'},
+		{url:'yes-no-checkbox', name: 'Yes No Checkbox'},
+		{url:'toggle-light-dark', name: 'Toggle Button Light and Dark Mode'},
+		{url:'vertical-expand-menu', name: 'Vertical Expandable Menu'},
+		];
 </script>
 
-<BasicPage title="Svelte Components" path="/" />
+
 <main class='main-index'>
 	<ul class="link-grid">
-		<li>1. <a href="/svelte-components/timeline">Timeline</a></li>
-		<li>2. <a href="/svelte-components/tree-view">Tree View</a></li>
-		<li>3. <a href="/svelte-components/skill-bars">Skill Bars</a></li>
-		<li>4. <a href="/svelte-components/sort-table">Sort Table</a></li>
-		<li>5. <a href="/svelte-components/calendar">Calendar</a></li>
-		<li>6. <a href="/svelte-components/autocomplete">Autocomplete</a></li>
-		<li>7. <a href="/svelte-components/flip-box">Flip Box</a></li>
-		<li>8. <a href="/svelte-components/emoji-chat">Emoji Chat</a></li>
-		<li>9. <a href="/svelte-components/product-filter">Product Filter</a></li>
-		<li>10. <a href="/svelte-components/progress-bar">Progress Bar</a></li>
-		<li>11. <a href="/svelte-components/pwd-gen">Password Generator</a></li>
-		<li>12. <a href="/svelte-components/checkbox">Checkbox</a></li>
-		<li>13. <a href="/svelte-components/yes-no-checkbox">Yes No Checkbox</a></li>
-		<li>14. <a href="/svelte-components/toggle-light-dark">Toggle Button Light and Dark Mode</a></li>
-		<li>15. <a href="/svelte-components/vertical-expand-menu">Vertical Expandable Menu</a></li>
+		{#each content as item, i}
+		<li>{i+1}. <span on:click={()=> changePage(i)}>{item.name}</span></li>
+		{/each}
 	</ul>
 </main>
 

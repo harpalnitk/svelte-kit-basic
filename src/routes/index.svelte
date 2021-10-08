@@ -1,23 +1,45 @@
 
-
+<script>
+			    import  store  from '$lib/stores/pageData';
+		import { onMount } from 'svelte';
+		import { goto } from '$app/navigation';
+        onMount(async () => {
+			store.setTitle('CSS-Svelte-Tricks');
+			store.setUrl('/')
+        });
+		const changePage = (i) => {
+			store.setTitle(content[i].name);
+			store.setUrl(`/`);
+			 goto(`/`+ content[i].url);
+		}
+		let content= [
+		{url:'playground', name: 'CSS Playground'},
+		{url:'playground2', name: 'CSS Playground 2'},
+		{url:'playground3', name: 'CSS Playground 3'},
+		{url:'cards', name: 'Cards'},
+		{url:'grid-layout', name: 'Grid and Flex layout Properties'},
+		{url:'images', name: 'Images CSS properties'},
+		{url:'audio', name: 'Audio CSS Properties'},
+		{url:'videos', name: 'Videos CSS Properties'},
+		{url:'svelte-components', name: 'Svelte Components'},
+		{url:'web-pages', name: 'WebSite Designs'},
+		{url:'charts-with-shapes', name: 'Charts SVG Polygons Shapes'},
+		
+		];
+</script>
 <main class='main-index'>
-	<h1>Hello world!</h1>
+	<h1>CSS-Svelte-Tricks!</h1>
 	<ul class="link-grid">
-		<li>1. <a href="/playground">Go To Playground</a></li>
-		<li>2. <a href="/playground2">Go To Playground 2</a></li>
-		<li>3. <a href="/playground3">Go To Playground 3</a></li>
-		<li>4. <a href="/charts-with-shapes">Charts With Shapes</a></li>
-		<li>5. <a href="/images">Images CSS</a></li>
-		<li>6. <a href="/grid-layout">Grid layout</a></li>
-		<li>7. <a href="/cards">Cards</a></li>
-		<li>8. <a href="/videos">Videos</a></li>
-		<li>9. <a href="/audio">Audio</a></li>
-		<li>10. <a href="/web-pages">WebSite Designs</a></li>
-		<li>11. <a href="/svelte-components">Svelte Components</a></li>
+		{#each content as item, i}
+		<li>{i+1}. <span on:click={()=> changePage(i)}>{item.name}</span></li>
+		{/each}
 	</ul>
 
 </main>
 
 <style lang="scss">
 	@import '../styles/vars';
+	h1{
+		margin: 1rem 0;
+	}
 </style>

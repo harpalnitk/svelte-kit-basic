@@ -1,5 +1,5 @@
 <script>
-   import BasicPage from '$lib/components/UI/BasicPage.svelte';
+  
     import Bar from './Bar.svelte';
 
     const barArray = [
@@ -12,7 +12,7 @@
     ];
     
 </script>
-<BasicPage title='Skill Bars' path='/svelte-components'></BasicPage>
+
 <div class="page-container">
     <section>
       {#each barArray as {title, percent, color, delTime}}

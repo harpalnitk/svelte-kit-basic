@@ -1,5 +1,5 @@
 <script>
-	 import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
 	import { onDestroy } from 'svelte';
 	import itemsData from './itemsStore.js';
 	import Item from './Item.svelte';
@@ -87,7 +87,7 @@
 </script>
 
 <svelte:window on:keydown={navigateList} />
-<BasicPage title='Autocomplete' path='/svelte-components'></BasicPage>
+
 <div class="page-container">
 	<!--Make sure the form has the autocomplete function switched off:-->
 	<form autocomplete="off" on:submit|preventDefault={submitValue}>

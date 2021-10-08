@@ -1,5 +1,5 @@
 <script>
-	 import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
     	import { fade, fly } from 'svelte/transition';
 	import Button from '$lib/components/UI/Button.svelte';
    let barWidth = 0;
@@ -39,7 +39,7 @@
 		barWidth = 0;
 	};
 </script>
-<BasicPage title='Progress Bar' path='/svelte-components'></BasicPage>
+
 <div class="page-container">
 	<section>
 		<div id="complete-msg-cont">

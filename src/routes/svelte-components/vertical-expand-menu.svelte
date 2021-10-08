@@ -1,4 +1,6 @@
 <script>
+    export let size = 300;
+    export let color = '#6843d1';
     let toggle= false;
     const webpages = [
         {name:'Home', url: 'home', icon:'fas fa-home'},
@@ -11,8 +13,8 @@
     ];
 </script>
 <main class='flex-center main-page'>
-    <div class="container" >
-        <div class="navigation" class:active={toggle}>
+    <div class="container" style='--size:{size};--color:{color};'>
+        <div class="navigation" class:active={toggle} >
             <ul>
                 {#each webpages as page}
                 <li>
@@ -45,16 +47,16 @@ background: #6843d1;
     }
     .container .navigation{
         position: relative;
-        width: 300px;
-        height: 420px;
+        width: calc(var(--size) * 1px);
+        height: calc(var(--size) * 7px / 5);
         background: #fff;
         border-radius: 10px;
-        overflow-y: hidden;
+        overflow: hidden;
         box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         transition: 0.5s;
     }
     .container .navigation.active{
-         width:80px
+         width: calc(var(--size) * 4px / 15);
     }
     .container .navigation ul{
         position: absolute;
@@ -76,46 +78,48 @@ display: block;
 width: 100%;
 display: flex;
 text-decoration: none;
-color: #6843cf;
+color: var(--color);
 font-weight: 500;
     }
     .container .navigation ul li a .icon{
 position: relative;
 display: block;
-min-width: 80px;
-height: 60px;
-line-height: 60px;
+min-width: calc(var(--size) * 4px / 15);
+height: calc(var(--size) * 1px / 5);
+line-height:calc(var(--size) * 1px / 5);
 text-align: center;
     }
     .container .navigation ul li a .icon i{
-        font-size: 24px;
+        font-size: calc(var(--size) * 2px / 25);
     }
     .container .navigation ul li a .title{
 position: relative;
 display: block;
-height: 60px;
-line-height: 60px;
+height: calc(var(--size) * 1px / 5);
+line-height: calc(var(--size) * 1px / 5);
+font-size: calc(var(--size) * 2px / 25);
 white-space: nowrap;
     }
 .toggle{
     position: absolute;
-    top: calc(50% - 20px);
-    right: -20px;
-    width: 40px;
-    height: 40px;
+    top: calc(50% - var(--size) * 1px / 15);
+    right:  calc(var(--size) * -1px / 15);
+    width: calc(var(--size) * 2px / 15);
+    height: calc(var(--size) * 2px / 15);
     background: #f5f5f5;
     cursor: pointer;
-    border: 5px solid #6843d1;
+    border: calc(var(--size) * 1px / 60) solid #6843d1;
     border-radius: 50%;
 }
 .toggle i{
-    line-height: 30px;
-    font-size: 16px;
-    color: #6843d1;
+    line-height: calc(var(--size) * 1px / 10);
+    font-size: calc(var(--size) * 4px / 75);
+    color: var(--color);
     transition: 0.5s;
+    transform: rotate(180deg);
 }
 .toggle.active i{
-    transform: rotate(180deg);
+    transform: rotate(0deg);
 }
 
 </style>

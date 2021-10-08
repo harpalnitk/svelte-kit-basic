@@ -1,6 +1,28 @@
 <script>
-	let toggle = false;
+	import Charts from '$lib/components/Charts.svelte';
 
+
+	//CHARTS INPUT DATA
+	//CHART1
+	    // Chart data Input Variables
+	 let type = 'polarArea';
+     let labels = ['Facebook', 'Youtube', 'Amazon'];
+     let label = 'Traffic Source';
+     let data = [1200, 1950, 3000];
+     let backgroundColor = ['rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1)'];
+
+	 	//CHART2
+	    // Chart data Input Variables
+		let type1 = 'bar';
+     let labels1 = ['Jan', 'Feb', 'Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+     let label1 = 'Earnings';
+     let data1 = [1200, 1900, 3000, 500, 2200, 3100,1090,1450,400,700,900,1200];
+     let backgroundColor1 = ['rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1)',
+	 'rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1)',
+	 'rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)'];
+	
+	let toggle = false;
+	let selected = 0;
 	const navigationList = [
 		{ id: 1, name: 'Brand Name', icon: 'fab fa-apple', url: 'home' },
 		{ id: 2, name: 'Dashboard', icon: 'fas fa-home', url: 'dashboard' },
@@ -45,6 +67,10 @@
     ];
 </script>
 
+
+
+
+
 <main>
 	<div class="container">
 		<div class="navigation" class:active={toggle}>
@@ -58,7 +84,7 @@
 							</a>
 						</li>
 					{:else}
-						<li>
+						<li  on:mouseenter={()=>selected = i+1} class:selected={selected=== (i+1)}>
 							<a href={item.url}>
 								<span class="icon"><i class={item.icon} /></span>
 								<span class="title">{item.name}</span>
@@ -96,6 +122,16 @@
 					</div>
 				{/each}
 			</div>
+			<!-- CHARTS ADDED HERE -->
+			<div class="graphBox">
+				<div class="box">
+					<Charts {type} {labels} {label} {data} {backgroundColor}/>
+				</div>
+				<div class="box">
+					<Charts type={type1} labels={labels1} label={label1} data={data1} backgroundColor={backgroundColor1}/>
+				</div>
+			</div>
+			
 			<div class="details">
 				<div class="recentOrders">
 					<div class="cardHeader">
@@ -155,6 +191,9 @@
 		overflow-x: hidden;
 	}
 	.container {
+		--white: #fff;
+		--clr-primary:#003147;
+		--clr-secondary:#03a9f4;
 		// position: relative;
 		width: 100%;
 	}
@@ -162,7 +201,7 @@
 		position: fixed;
 		width: 300px;
 		height: 100%;
-		background: #003147;
+		background: var(--clr-primary);
 		transition: 0.5s;
 		overflow: hidden;
 	}
@@ -179,9 +218,12 @@
 		position: relative;
 		width: 100%;
 		list-style: none;
+		border-top-left-radius: 30px;
+		border-bottom-left-radius: 30px;
 	}
-	.navigation ul li:hover {
-		background: #02a6f2;
+	.navigation ul li:hover,
+	.navigation ul li.selected {
+		background: var(--white);
 	}
 	.navigation ul li:nth-child(1) {
 		margin-bottom: 20px;
@@ -194,7 +236,11 @@
 		display: flex;
 		width: 100%;
 		text-decoration: none;
-		color: #fff;
+		color: var(--white);
+	}
+	.navigation ul li:not(:first-child):hover a,
+	.navigation ul li:not(:first-child).selected a {
+		color: var(--clr-primary);
 	}
 	.navigation ul li a .icon {
 		position: relative;
@@ -217,6 +263,36 @@
 		line-height: 60px;
 		white-space: nowrap;
 	}
+/**CURVE OUTSIDE ON HOVER*/
+
+.navigation ul li:not(:first-child):hover a::before,
+.navigation ul li:not(:first-child).selected a::before{
+content: '';
+position: absolute;
+right: 0;
+top: -50px;
+width: 50px;
+height: 50px;
+background: transaprent;
+border-radius: 50%;
+box-shadow: 35px 35px 0 10px var(--white);
+pointer-events: none;
+}
+.navigation ul li:not(:first-child):hover a::after,
+.navigation ul li:not(:first-child).selected a::after{
+content: '';
+position: absolute;
+right: 0;
+bottom: -50px;
+width: 50px;
+height: 50px;
+background: transaprent;
+border-radius: 50%;
+box-shadow: 35px -35px 0 10px var(--white);
+pointer-events: none;
+}
+
+
 	//SECOND COLUMN MAIN CSS
 	.main {
 		position: absolute;
@@ -314,6 +390,15 @@
 		justify-content: space-between;
 		cursor: pointer;
 	}
+	.cardBox .card:hover {
+     background: var(--clr-secondary);
+	}
+	.cardBox .card:hover .numbers,
+	.cardBox .card:hover .cardName,
+	.cardBox .card:hover .iconBox{
+     color: var(--white);
+	}
+
 	.cardBox .card .numbers {
 		position: relative;
 		font-size: 2em;
@@ -324,8 +409,30 @@
 	}
 	.cardBox .card .iconBox {
 		font-size: 2.5em;
-		color: #03a9f4;
+		color: var(--clr-secondary);
 	}
+
+// charts
+
+.graphBox{
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 30px;
+	min-height: 200px;
+}
+.graphBox .box{
+	position: relative;
+	background: #fff;
+	padding: 20px;
+	width: 100%;
+	box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+	border-radius: 20px;
+	
+}
+
     .details{
         position: relative;
         width: 100%;
@@ -352,7 +459,7 @@ padding: 20px;
     .btn{
         position: relative;
         padding: 5px 10px;
-        background: #03a9f4;
+        background: var(--clr-secondary);
         color: #fff;
         text-decoration: none;
         border-radius: 6px;
@@ -373,7 +480,7 @@ font-weight: 600;
         border-bottom: none;
     }
     .details .recentOrders table tbody tr:hover{
-        background: #03a9f4;
+        background: var(--clr-secondary);
         color: #fff;
     }
     .details .recentOrders table tr td{
@@ -433,7 +540,7 @@ overflow: hidden;
   }
   .details .recentCustomers table tr:hover,
   .details .recentCustomers table tr:hover td h4 span{
-background: #03a9f4;
+background: var(--clr-secondary);
 color: #fff;
   }
   .details .recentCustomers table tr td{
@@ -450,7 +557,7 @@ color: #999;
   }
 
 //   CODE FOR RESPONSIVE WEBSITE NOW
-  @media(max-width:992px){
+  @media(max-width:991px){
       .navigation{
           left: -300px;
       }
@@ -470,6 +577,10 @@ width: 300px;
     .cardBox{
         grid-template-columns: repeat(2, 1fr);
     }
+	.graphBox{
+		grid-template-columns: 1fr;
+		height: auto;
+	}
   }
   @media(max-width:768px){
 .details{

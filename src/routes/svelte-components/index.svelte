@@ -27,7 +27,7 @@
 
 				//Buttons
 		{url:'radio-glow', name: 'Neon Glowing Radio Butotns'},
-		{url:'ripple-button', name: 'Ripple-Button-Animation'},
+		{url:'all-buttons', name: 'Different Kind Of Buttons'},
 		{url:'neumorphism-button', name: 'Neumorphism-Button'},
         //CheckBoxes
 		{url:'glowing-checkbox', name: 'Glowing Checkbox'},

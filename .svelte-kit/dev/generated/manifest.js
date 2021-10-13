@@ -26,10 +26,10 @@ const c = [
 	() => import("..\\..\\..\\src\\routes\\svelte-components\\product-filter\\index.svelte"),
 	() => import("..\\..\\..\\src\\routes\\svelte-components\\product-filter\\Book.svelte"),
 	() => import("..\\..\\..\\src\\routes\\svelte-components\\product-filter\\Menu.svelte"),
-	() => import("..\\..\\..\\src\\routes\\svelte-components\\ripple-button.svelte"),
 	() => import("..\\..\\..\\src\\routes\\svelte-components\\autocomplete\\index.svelte"),
 	() => import("..\\..\\..\\src\\routes\\svelte-components\\autocomplete\\Item.svelte"),
 	() => import("..\\..\\..\\src\\routes\\svelte-components\\progress-bar\\index.svelte"),
+	() => import("..\\..\\..\\src\\routes\\svelte-components\\all-buttons.svelte"),
 	() => import("..\\..\\..\\src\\routes\\svelte-components\\emoji-chat\\index.svelte"),
 	() => import("..\\..\\..\\src\\routes\\svelte-components\\radio-glow.svelte"),
 	() => import("..\\..\\..\\src\\routes\\svelte-components\\skill-bars\\index.svelte"),
@@ -302,20 +302,20 @@ export const routes = [
 	// src/routes/svelte-components/product-filter/Menu.svelte
 	[/^\/svelte-components\/product-filter\/Menu\/?$/, [c[18], c[26]], []],
 
-	// src/routes/svelte-components/ripple-button.svelte
-	[/^\/svelte-components\/ripple-button\/?$/, [c[18], c[27]], []],
-
 	// src/routes/svelte-components/autocomplete/index.svelte
-	[/^\/svelte-components\/autocomplete\/?$/, [c[18], c[28]], []],
+	[/^\/svelte-components\/autocomplete\/?$/, [c[18], c[27]], []],
 
 	// src/routes/svelte-components/autocomplete/itemsStore.js
 	[/^\/svelte-components\/autocomplete\/itemsStore\/?$/],
 
 	// src/routes/svelte-components/autocomplete/Item.svelte
-	[/^\/svelte-components\/autocomplete\/Item\/?$/, [c[18], c[29]], []],
+	[/^\/svelte-components\/autocomplete\/Item\/?$/, [c[18], c[28]], []],
 
 	// src/routes/svelte-components/progress-bar/index.svelte
-	[/^\/svelte-components\/progress-bar\/?$/, [c[18], c[30]], []],
+	[/^\/svelte-components\/progress-bar\/?$/, [c[18], c[29]], []],
+
+	// src/routes/svelte-components/all-buttons.svelte
+	[/^\/svelte-components\/all-buttons\/?$/, [c[18], c[30]], []],
 
 	// src/routes/svelte-components/emoji-chat/index.svelte
 	[/^\/svelte-components\/emoji-chat\/?$/, [c[18], c[31]], []],

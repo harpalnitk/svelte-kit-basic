@@ -3,6 +3,7 @@
 	import RippleButton from '$lib/components/UI/RippleButton.svelte';
 	import ShineButton from '$lib/components/UI/ShineButton.svelte';
 	import CreativeButton from '$lib/components/UI/CreativeButton.svelte';
+	import GradientButton from '$lib/components/UI/GradientButton.svelte';
 </script>
 
 
@@ -21,6 +22,17 @@
 	<section class="creative">
 		<h1>Creative Button</h1>
 		<CreativeButton/>
+	</section>
+	<section class="gradient">
+		<h1>Gradient Button</h1>
+		<div class="container">
+			<GradientButton background1 = {'#a18cd1'} background2 = {'#fbc2eb'}/>
+			<GradientButton background1 = {'#43e97b'} background2 = {'#38f9d7'}/>
+			<GradientButton background1 = {'#fa709a'} background2 = {'#fee140'}/>
+			<GradientButton background1 = {'#4481eb'} background2 = {'#04befe'}/>
+			<GradientButton background1 = {'#ffe29f'} background2 = {'#ffa99f'}/>
+			<GradientButton background1 = {'#fdfc47'} background2 = {'#24fe41'}/>
+		</div>
 	</section>
 </main>
 
@@ -53,5 +65,14 @@
             color: #000;
         }
 		background: #FFF;
+	}
+	.gradient{
+		.container{
+			width: 480px;
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			gap: 20px;
+		}
 	}
 </style>

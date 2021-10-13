@@ -12,36 +12,31 @@
 			 goto(`/playground/`+ content[i].url);
 		}
 	let content= [
-		{url:'http-firebase', name: 'Http Firebase'},
-		{url:'image-fragmentation', name: 'Image Fragmentation'},
-		{url:'spring', name: 'Spring Animation'},
-		{url:'svg-graphics', name: 'SVG Graphics'},
-		{url:'tweened', name: 'Tweened'},
-		{url:'css-hexagon', name: 'CSS Hexagon'},
+		//Box-Shadows
 		{url:'box-shadow', name: 'Box Shadow Designs'},
-		{url:'clip-path-animations', name: 'Clip Path Animations'},
-		{url:'trignometry-sun', name: 'Shapes Using Trignometry'},
-		{url:'star-rating', name: 'Scalable Star rating'},
-		{url:'curved-menu', name: 'Curved Outside Sidebar Menu'},
-		{url:'conic-spinner', name: 'Conic Gradient Spinner'},
-		{url:'ripple-button', name: 'Ripple-Button-Animation'},
-		{url:'creative-menu', name: 'Creative Menu'},
-		{url:'svg-animation', name: 'SVG Animation'},
-		{url:'ripple-animation', name: 'Ripple-Animation'},
 		{url:'shadows', name: 'CSS Shadows'},
+
+
+		//Utilities
 		{url:'clock', name: 'Clock using CSS'},
-		{url:'wavy-text', name: 'Wavy Text'},
-		{url:'water-drops', name: 'Water Drops'},
-		{url:'radio-glow', name: 'Neon Glowing Radio Butotns'},
-		{url:'scale-video-scroll', name: 'Scale Video/Image on scroll'},
-		{url:'particle', name: 'Particle Effect'},
+		{url:'glass-calendar', name: 'Glassmorphism Calendar'},
 		{url:'calculator', name: 'Calculator'},
-		{url:'liquid', name: 'Liquid Animation Effect'},
-		{url:'rotating-images', name: 'Rotating Images on Mouse Move'},
-		{url:'shape-outside', name: 'CSS Shape Outside Property'},
-		{url:'text-emphasis', name: 'CSS Text Emphasis Property'},
-		{url:'dialog-backdrop', name: 'Dialog with CSS Backdrop Property'},
+		{url:'search-box', name: 'Search Box'},
+		//Utilities::Rating Bar
 		{url:'rating-bar', name: 'Rating Bar'},
+		{url:'star-rating', name: 'Scalable Star rating'},
+		//Misc
+		{url:'ripple-animation', name: 'Ripple-Animation'},
+		{url:'particle', name: 'Particle Effect'},
+		{url:'liquid', name: 'Liquid Animation Effect'},
+		{url:'before-after-pseudo', name: 'Before After Pseudo Element 7 use Cases'},
+		{url:'fancy-border', name: 'Fancy Border in Heading'},
+		{url:'show-hide-pwd', name: 'Show Hide Password'},
+		{url:'dialog-backdrop', name: 'Dialog with CSS Backdrop Property'},
+		{url:'li-pseudo-commas', name: 'Li element pseudo commas'},
+		{url:'http-firebase', name: 'Http Firebase'},
+		{url:'spring', name: 'Spring Animation'},
+		{url:'abstract-bg', name: 'Abstract Background'},
 		];
 </script>
 

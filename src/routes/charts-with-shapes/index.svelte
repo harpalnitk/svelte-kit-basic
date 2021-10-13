@@ -15,9 +15,16 @@
 		{url:'pentagon', name: 'Pentagon With Glyphs'},
 		{url:'pentagon-2', name: 'Pentagon With SVG'},
         {url:'css-shapes', name: 'With CSS Shapes'},
+		{url:'css-hexagon', name: 'CSS Hexagon'},
 		{url:'emojis', name: 'With Emojis'},
         {url:'mix', name: 'Mix Shapes'},
 		{url:'polygon-border', name: 'Polygon Border With CSS Paint API'},
+		{url:'clip-path-animations', name: 'Clip Path Animations'},
+		{url:'trignometry-sun', name: 'Shapes Using Trignometry'},
+		{url:'svg-graphics', name: 'SVG Graphics'},
+		{url:'svg-animation', name: 'SVG Animation'},
+		{url:'shape-outside', name: 'CSS Shape Outside Property'},
+		{url:'cutout', name: 'Cutouts using SVG, Clip Path, Mask'},
 		];
 </script>
 

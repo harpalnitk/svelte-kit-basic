@@ -1,5 +1,5 @@
 <script>
-	 import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
 	import Button from '$lib/components/UI/Button.svelte';
 	import { vocab } from './vocabData';
 	import Flashcard from './FlashCard.svelte';
@@ -30,7 +30,7 @@
 		}
 	};
 </script>
-<BasicPage title='Flip Box' path='/svelte-components'></BasicPage>
+
 <div class="page-container">
 	<main>
 		<!-- FLASHCARD -->

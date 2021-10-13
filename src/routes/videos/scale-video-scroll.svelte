@@ -36,7 +36,7 @@
 }
 
 .banner{
-    position: fixed;
+    position: absolute;// change this to position fixed on full page
     top: 0;
     left: 0;
     width: 100%;

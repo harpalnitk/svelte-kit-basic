@@ -1,5 +1,5 @@
 <script>
-	 import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
 	import { onDestroy } from 'svelte';
 
 	import Calendar from './Calendar.svelte';
@@ -68,7 +68,7 @@
 
 	$: console.log(schedule);
 </script>
-<BasicPage title='Calendar With Scheduler' path='/svelte-components'></BasicPage>
+
 <div class="page-container">
 		<Calendar on:click={handleScheduler} {schedule} />
 	{#if schedulerShowing}

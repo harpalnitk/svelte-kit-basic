@@ -1,65 +1,41 @@
 <script>
-	import BasicPage from '$lib/components/UI/BasicPage.svelte';
+			import  store  from '$lib/stores/pageData';
+		import { onMount } from 'svelte';
+		import { goto } from '$app/navigation';
+        onMount(async () => {
+			store.setTitle('Web Pages');
+			store.setUrl('/')
+        });
+		const changePage = (i) => {
+			store.setTitle(content[i].name);
+			store.setUrl(`/web-pages`);
+			 goto(`/web-pages/`+ content[i].url);
+		}
+		let content= [
+		{url:'full-page-tabs', name: 'Full Page Tabs'},
+		{url:'fruits', name: 'Fruits Website'},
+		{url:'personal-portfolio', name: 'Responsive Personal Portfolio Website'},
+		{url:'e-commerce', name: 'E-Commerce Product Cards page'},
+		{url:'advanced-css', name: 'Advanced CSS'},
+		{url:'advanced-flex', name: 'Advanced Flex'},
+		{url:'advanced-grid', name: 'Advanced Grid'},
+		{url:'admin-dashboard', name: 'Admin Dashboard'},
+		{url:'three-js', name: '3D Website using three.js'},
+		{url:'dropdown-menu', name: 'Responsive Dropdown Menu'},
+		{url:'light-dark', name: 'Light Dark Mode'},
+		{url:'contact-us', name: 'Responsive Contact us Page'},
+		{url:'auth-page', name: 'Responsive Auth Page'},
+		{url:'services-page', name: 'Our Services page'},
+		];
 </script>
 
-<BasicPage title="Web Site Designs" path="/" />
-<main>
-	<ul class="link-grid">
-		<li>1. <a href="/web-pages/full-page-tabs">Full Page Tabs</a></li>
-		<li>2. <a href="/web-pages/fruits">Fruits Website</a></li>
-		<li>3. <a href="/web-pages/personal-portfolio">Responsive Personal Portfolio Website</a></li>
-		<li>4. <a href="/web-pages/e-commerce">E-Commerce Product Cards page</a></li>
-		<li>5. <a href="/web-pages/advanced-css">Advanced CSS</a></li>
-		<li>6. <a href="/web-pages/advanced-flex">Advanced Flex</a></li>
-		<li>7. <a href="/web-pages/advanced-grid">Advanced Grid</a></li>
-		<li>8. <a href="/web-pages/admin-dashboard">Admin Dashboard</a></li>
-		<li>9. <a href="/web-pages/three-js">3D Website using three.js</a></li>
-		<li>10. <a href="/web-pages/dropdown-menu">Responsive Dropdown Menu</a></li>
-		<li>11. <a href="/web-pages/light-dark">Light Dark Mode</a></li>
-		<li>12. <a href="/web-pages/contact-us">Responsive Contact us Page</a></li>
-		<li>13. <a href="/web-pages/auth-page">Responsive Auth Page</a></li>
-	</ul>
+<main class='main-index'>
+    <ul class='link-grid'>
+		{#each content as item, i}
+		<li>{i+1}. <span on:click={()=> changePage(i)}>{item.name}</span></li>
+		{/each}
+    </ul>
 </main>
-
 <style lang="scss">
 	@import '../../styles/vars';
-
-	main {
-		padding: 1rem;
-		margin: 0 auto;
-		width: fit-content;
-	}
-	.link-grid li {
-		 display: flex;
-	}
-	.link-grid li a {
-		text-decoration: none;
-		// color: #a9a39f;
-		position: relative;
-		display: inline-block;
-		overflow: hidden;
-		margin-left: 1rem;
-	}
-	.link-grid li a:before {
-		content: '';
-		transition: 0.2s;
-		position: absolute;
-		top: calc(100% - 1px);
-		left: 0;
-		width: 100%;
-		height: 1px;
-		background: #333;
-		transform: translateX(-101%);
-	}
-
-	.link-grid li a:focus,
-	.link-grid li a:hover {
-		// color: #fff;
-		opacity: 1;
-	}
-
-	.link-grid li a:focus:before,
-	.link-grid li a:hover:before {
-		transform: translateX(0);
-	}
 </style>

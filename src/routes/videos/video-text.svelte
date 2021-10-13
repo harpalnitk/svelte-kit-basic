@@ -1,6 +1,4 @@
 <script>
-    import BasicPage from '$lib/components/UI/BasicPage.svelte';
-
     let x;
     let y;
     let toggle = false;
@@ -12,10 +10,8 @@ function handleMousemove(event) {
     console.log(x)
 }
 </script>
-<BasicPage title='Video Text Effect' path='/playground2'></BasicPage>
 
-
-<main>
+<main class='main-page flex-center'>
 <section class="sec" class:active={toggle} on:mousemove={handleMousemove}>
    <video autoplay muted loop>
        <source src='/vid/Fish.mp4' type='video/mp4'/>
@@ -31,11 +27,8 @@ function handleMousemove(event) {
 <style lang="scss">
 	@import '../../styles/vars';
     main{
-    // min-height: 100vh;
-    // position: relative;
-    // width: min(70rem, 90vw);
-    // margin: 0 auto;
-}
+        min-height: 100vh;
+    }
 .sec{
     position: absolute;
     width: 100%;

@@ -17,9 +17,11 @@
 		{url:'gallery', name: 'Gallery Using Svelte'},
 		{url:'portfolio-gallery', name: 'Portfolio Gallery Using Svelte'},
 		{url:'slideshow', name: 'Slideshow'},
+		{url:'image-fragmentation', name: 'Image Fragmentation'},
 		{url:'image-paint', name: 'Image Fragmentation with CSS Paint API'},
 		{url:'image-blob-paint', name: 'Blob Effect with CSS Paint API'},
 		{url:'image-blob-paint-all', name: 'Blob Effect with CSS Paint API-All'},
+		{url:'rotating-images', name: 'Rotating Images on Mouse Move'},
 		];
 </script>
 

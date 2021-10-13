@@ -1,5 +1,5 @@
 <script>
-	 import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	
 	import { fly } from 'svelte/transition';
 	import Button from '$lib/components/UI/Button.svelte';
 	// console.log(String.fromCodePoint(129504));
@@ -55,7 +55,7 @@
 		message = '';
 	};
 </script>
-<BasicPage title='Emoji Chat' path='/svelte-components'></BasicPage>
+
 <div class="page-container">
 	<section>
 		<div class="chat-popup" id="myForm">

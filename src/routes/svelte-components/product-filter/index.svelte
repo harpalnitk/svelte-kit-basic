@@ -1,5 +1,5 @@
 <script>
-	  import BasicPage from '$lib/components/UI/BasicPage.svelte';
+	 
 	import { onMount } from 'svelte';
 	import SearchForm from '$lib/components/UI/SearchForm.svelte';
 	import Book from './Book.svelte';
@@ -51,7 +51,7 @@
 		}));
 	};
 </script>
-<BasicPage title='Product-Filter' path='/svelte-components'></BasicPage>
+
 <div class="page-container">
 	<section id="query-section">
 		<Menu bind:selectedLang {languages} />

@@ -1,0 +1,47 @@
+.composition {
+    position: relative;
+    &__photo {
+        width: 55%;
+        box-shadow: 0 calc(1.5rem * 5/8) calc(4rem * 5/8) rgba($color-black, .4);
+        /* x-axis y-axis blur color*/
+        position: absolute;
+        z-index: 10;
+        transition: all 0.2s;
+        outline-offset: calc(2rem * 5/8);
+        /*gives space between border and picture on hover*/
+        &--p1 {
+            left: 0;
+            top: calc(-2rem * 5/8);
+        }
+
+        &--p2 {
+            right: 0;
+            top: calc(2rem * 5/8);
+        }
+
+        &--p3 {
+            left: 20%;
+            top: calc(10rem * 5/8);
+        }
+
+        &:hover {
+            outline: calc(1.5rem * 5/8) solid $color-primary;
+            transform: scale(1.05) translateY(calc(-.5rem * 5/8));
+            box-shadow: 0 calc(2.5rem * 5/8) calc(4rem * 5/8) rgba($color-black, .5);
+            z-index: 20;
+        }
+    }
+    &:hover &__photo:not(:hover) {
+        transform: scale(.95);
+    }
+}
+
+
+/*
+
+.composition:hover .composition__photo:not(:hover)
+
+on hover of entire composition select the photos which are not hovered
+to reduce them in size
+
+*/

@@ -1,0 +1,109 @@
+main#advanced-css {
+    
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /*    font-size: 16px;*/
+    line-height: 1.7;
+    color: $color-grey-dark;
+}
+
+.heading-primary {
+    color: $color-white;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+    /*    this property is used to control the animation shaking towards top in the end*/
+    margin-bottom: calc(6rem * 5/8);
+
+    //Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.
+    //The <div> element is a block-level element.
+//Examples of block-level elements:
+//
+//<div>
+//<h1> - <h6>
+//<p>
+//<form>
+//<header>
+//<footer>
+//<section>
+    
+//    An inline element does not start on a new line and only takes up as much width as necessary.
+//
+//This is an inline <span> element inside a paragraph.
+//
+//Examples of inline elements:
+//
+//<span>
+//<a>
+//<img>
+    &--main {
+        display: block;
+        font-size: calc(6rem * 5/8);
+        font-weight: 400;
+        letter-spacing: calc(3.5rem * 5/8);
+
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        /* faster then slower*/
+        /*    animation-iteration-count: 3;*/
+        /*    animation-delay: 3s;*/
+    }
+    &--sub {
+        display: block;
+        font-size: calc(2rem * 5/8);
+        font-weight: 700;
+        //normal	Standard weight. Equivalent of 400.
+//bold	Bold weight. Equivalent of 700.
+//bolder	Bolder than the inherited font weight.
+//lighter	Lighter than the inherited font weight.
+//100	Lightest.
+//200	Bolder than 100, lighter than 300.
+//300	Bolder than 200, lighter than 400.
+//400	Bolder than 300, lighter than 500. Equivalent of normal.
+//500	Bolder than 400, lighter than 600.
+//600	Bolder than 500, lighter than 700.
+//700	Bolder than 600, lighter than 800. Equivalent of bold.
+//800	Bolder than 700, lighter than 900.
+//900	Boldest.
+        letter-spacing: calc(1.75rem * 5/8);
+
+        animation: moveInRight 1s ease-out;
+        /*    shorthand for all 3 properties*/
+    }
+}
+
+.heading-secondary {
+    font-size: calc(3.5rem * 5/8);
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    //inline-block	Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply //height and width values
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: calc(.2rem * 5/8);
+   // all transitions of transform on hover will take .2s
+    transition: all .2s;
+
+    &:hover {
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: calc(.5rem * 5/8) calc(1rem * 5/8) calc(2rem * 5/8) rgba($color-black, .2);
+        /* x-direction y-direction blur and color for shadow property*/
+    }
+}
+
+.heading-tertiary {
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+    //TODO THIS IS NOT WORKING CHECK LATER FROM THE VIDEO
+    &:not(:last-child) {
+        margin-bottom:calc(3rem * 5/8);
+    }
+
+}

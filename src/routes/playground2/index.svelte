@@ -1,0 +1,64 @@
+<script>
+	    import  store  from '$lib/stores/pageData';
+		import { onMount } from 'svelte';
+		import { goto } from '$app/navigation';
+        onMount(async () => {
+			store.setTitle('Playground 2');
+			store.setUrl('/')
+        });
+		const changePage = (i) => {
+			store.setTitle(content[i].name);
+			store.setUrl(`/playground2`);
+			 goto(`/playground2/`+ content[i].url);
+		}
+	let content= [
+		//pages
+		{url:'social-icon-hover', name: 'Social Media Icon Hover Effect'},
+		{url:'contact-info', name: 'Contact Info Page-Glassmorphism'},
+		//Menu
+		{url:'dropdown-menu', name: 'Dropdown Menu'},
+		{url:'magic-line-nav', name: 'Magic Line Indicator on Nav List'},
+		{url:'menu-hover', name: 'Menu Hover Effect'},
+		{url:'curved-menu', name: 'Curved Outside Sidebar Menu'},
+		{url:'creative-menu', name: 'Creative Menu'},
+		{url:'vertical-expand-menu', name: 'Vertical Expandable Menu'},
+		//Text
+		{url:'icon-text-anim', name: 'Glowing Icon With Text Typing Animation'},
+		{url:'circle-text-logo', name: 'Circle Text Logo'},
+		{url:'3d-anim-text', name: '3D Anim Text'},
+		{url:'intro-text', name: 'Intro Text'},
+		{url:'wavy-text', name: 'Wavy Text'},
+		{url:'text-emphasis', name: 'CSS Text Emphasis Property'},
+		//Loading
+		{url:'loading-squares', name: 'Colorful Loading Squares'},
+		{url:'loading-anim', name: 'Loading Animation'},
+		{url:'loading-plane', name: 'Loading Plane Animation'},
+		{url:'skeleton', name: 'Skeleton Loading'},
+		{url:'conic-spinner', name: 'Conic Gradient Spinner'},
+		{url:'tweened', name: 'Tweened'},
+		{url:'loading-bar', name: 'Loading Bar'},
+
+	     //Cartoons
+		{url:'truck-anim', name: 'Truck Animation Svelte'},
+		{url:'airplane', name: 'AirPlane'},
+		{url:'moving-box', name: '3D-Moving Box'},
+		{url:'light-bulb', name: 'Light Bulb On/Off with Sound'},
+		{url:'indian-flag', name: 'Indian Flag Using CSS'},
+		{url:'eye-move', name: 'Eye Movement on mouse move'},
+		{url:'falling-leaves', name: 'Falling leaves Animation'},
+		{url:'water-drops', name: 'Water Drops'},
+		
+		];
+</script>
+
+<main class='main-index'>
+	<ul class="link-grid">
+		{#each content as item, i}
+		<li>{i+1}. <span on:click={()=> changePage(i)}>{item.name}</span></li>
+		{/each}
+	</ul>
+</main>
+
+<style lang="scss">
+	@import '../../styles/vars';
+</style>

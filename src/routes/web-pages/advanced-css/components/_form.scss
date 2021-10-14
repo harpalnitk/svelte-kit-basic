@@ -1,0 +1,89 @@
+.form {
+    &__group:not(:last-child) {
+        margin-bottom: calc(2rem * 5/8);
+    }
+    &__input {
+        font-size: calc(1.5rem * 5/8);
+        font-family: inherit; // forms do not inherit font-family
+        color: inherit;
+        padding: calc(1.5rem * 5/8) calc(2rem * 5/8); // always more padding on sides in form elements
+        border-radius: 2px;
+        background-color: rgba($color-white, .5);
+        border: none;
+        border-bottom: 3px solid transparent; // so that on focus when green border becomes visivle all elements do not move down
+        width: 90%;
+        display: block;
+        transition: all .3s;
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 1rem 2rem rgba($color-black, .1);
+            border-bottom: 3px solid $color-primary;
+        }
+
+        &:focus:invalid {
+            border-bottom: 3px solid $color-secondary-dark;
+        }
+
+        &::-webkit-input-placeholder {
+            //this is a pseudo elemnt as two colons are used
+            color: $color-grey-dark-2;
+        }
+    }
+
+
+
+    &__label {
+        font-size: calc(1.2rem * 5/8);
+        font-weight: 700;
+        margin-left: calc(.7rem * 5/8);
+        margin-top: calc(.7rem * 5/8);
+        display: block;
+        transition: all .3s;
+    } // + is css adjacent sibling selector
+    &__input:placeholder-shown + &__label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(calc(-4rem * 5/8));
+    }
+
+    &__radio-group {
+        width: 49%;
+        display: inline-block;
+    }
+
+    &__radio-input {
+        display: none;
+    }
+
+    &__radio-label {
+        font-size: $default-font-size;
+        cursor: pointer;
+        position: relative;
+        padding-left: calc(4.5rem * 5/8);
+    } // in css there is no way we can style a radio button. therefore, we will create our own radio button and hide the original radio button
+    &__radio-button {
+        height: calc(3rem * 5/8);
+        width: calc(3rem * 5/8);
+        border: 5px solid $color-primary;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: calc(-.4rem * 5/8); //after pseudo element not present in original html but created in css
+        &::after {
+            content: "";
+            display: block; //pseudo element must have content and display properties set
+            height: calc(1.3rem * 5/8);
+            width: calc(1.3rem * 5/8);
+            border-radius: 50%;
+            @include absCenter;
+            background-color: $color-primary;
+            opacity: 0;
+            transition: opacity .2s;
+        }
+    } // ~ general sibling selector
+    &__radio-input:checked ~ &__radio-label &__radio-button::after {
+        opacity: 1;
+    }
+}

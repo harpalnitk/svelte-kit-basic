@@ -1,0 +1,136 @@
+.navigation {
+    &__checkbox {
+        display: none;
+    }
+
+    &__button {
+        background-color: $color-white;
+        height: calc(7rem * 5/8);
+        width: calc(7rem * 5/8);
+        position: fixed;
+        top: calc(6rem * 5/8);
+        right: calc(6rem * 5/8);
+        border-radius: 50%;
+        z-index: 2000;
+        box-shadow: 0 calc(1rem * 5/8) calc(3rem * 5/8) rgba($color-black, .1);
+        text-align: center;
+        cursor: pointer;
+    }
+
+    &__background {
+        height: calc(6rem * 5/8);
+        width: calc(6rem * 5/8);
+        border-radius: 50%;
+        position: fixed;
+        top: calc(6.5rem * 5/8);
+        right:calc(6.5rem * 5/8);
+        background-image: radial-gradient($color-primary-light, $color-primary-dark);
+        z-index: 1000; //transform: scale(80);
+        transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1); //see website easings.net
+    }
+
+    &__nav {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1500; //Initial
+        opacity: 0;
+        width: 0; //beacause links will work and hand pointer will show if width is not set to 0
+        transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    &__list {
+        @include absCenter;
+        list-style: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    &__item {
+        margin: calc(1rem * 5/8);
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+
+            display: none; // transform and padding will work only on block level elements
+            font-size: calc(3rem * 5/8);
+            font-weight: 300;
+            padding: calc(1rem * 5/8) calc(2rem * 5/8);
+            color: $color-white;
+            text-decoration: none;
+            text-transform: uppercase;
+            background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-white 50%);
+            background-size: 220%;
+            transition: all .4s;
+
+            span {
+                display: inline-block;
+                margin-right: calc(1rem * 5/8);
+            }
+        }
+
+        &:hover,
+        &:active {
+            background-position: 100%;
+            color: $color-primary;
+            transform: translateX(calc(-1rem * 5/8));
+        }
+    } //FUNCTIONALITY
+    &__checkbox:checked ~ &__background {
+        transform: scale(80);
+    }
+    &__checkbox:checked ~ &__nav {
+        opacity: 1;
+        width: 100%
+    }
+    &__checkbox:checked ~ &__nav &__list &__item &__link {
+        display: inline-block;
+    } //ICON
+    &__icon {
+        position: relative;
+        margin-top: calc(3.5rem * 5/8);
+        &,
+        &::before,
+        &::after {
+            width: calc(3rem * 5/8);
+            height: 2px;
+            background-color: $color-grey-dark-3;
+            display: inline-block;
+        }
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            transition: all .2s; // transform-origin: left;  rotate not from center but left of the element
+        }
+
+        &::before {
+            top: calc(-.8rem * 5/8);
+        }
+        &::after {
+            top: calc(.8rem * 5/8);
+        }
+    }
+
+    &__button:hover &__icon::before {
+        top: calc(-1rem * 5/8);
+    }
+    &__button:hover &__icon::after {
+        top: 1rem;
+    } //checkbox hack adjacent sibling
+    &__checkbox:checked + &__button &__icon {
+        background-color: transparent;
+    } // disappear the middle line by transparent and rotate the pseudo lines
+    &__checkbox:checked + &__button &__icon::before {
+        top: 0;
+        transform: rotate(135deg);
+    }
+    &__checkbox:checked + &__button &__icon::after {
+        top: 0;
+        transform: rotate(-135deg);
+    }
+}

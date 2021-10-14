@@ -1,0 +1,70 @@
+/*CSS ARCHITECTURE 7 1 pattern followed
+abstracts
+base
+componenets
+layout 
+pages
+themes
+vendors
+*/
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "components/button";
+@import "components/card";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/form";
+@import "components/story";
+@import "components/bg-video";
+@import "components/popup";
+
+
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/grid";
+@import "layout/footer";
+
+@import "pages/home";
+
+
+
+
+/* Google Material icons */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/material-icons/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/*
+<i class="material-icons">person</i>
+
+*/

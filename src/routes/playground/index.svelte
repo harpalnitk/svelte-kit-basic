@@ -19,6 +19,7 @@
 
 		//Utilities
 		{url:'clock', name: 'Clock using CSS'},
+		{url:'clock-2', name: 'Clock-2 using CSS'},
 		{url:'glass-calendar', name: 'Glassmorphism Calendar'},
 		{url:'calculator', name: 'Calculator'},
 		{url:'search-box', name: 'Search Box'},
@@ -31,6 +32,7 @@
 		{url:'liquid', name: 'Liquid Animation Effect'},
 		{url:'before-after-pseudo', name: 'Before After Pseudo Element 7 use Cases'},
 		{url:'fancy-border', name: 'Fancy Border in Heading'},
+		{url:'fancy-ribbon', name: 'Fancy Ribbon in Card'},
 		{url:'show-hide-pwd', name: 'Show Hide Password'},
 		{url:'dialog-backdrop', name: 'Dialog with CSS Backdrop Property'},
 		{url:'li-pseudo-commas', name: 'Li element pseudo commas'},

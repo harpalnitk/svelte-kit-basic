@@ -20,6 +20,7 @@
         {url:'product-listing', name: 'Product Listing With Auto Placement'},
         {url:'grid-concept', name: 'Grid Concepts'},
         {url:'flex-layout', name: 'Flex Concepts'},
+		{url:'expand-section-grid', name: 'Expandable Section Using CSS Grid'},
 		];
 </script>
 

@@ -34,6 +34,7 @@
 		{url:'checkbox', name: 'Checkbox'},
 		{url:'yes-no-checkbox', name: 'Yes No Checkbox'},
 		{url:'toggle-light-dark', name: 'Toggle Button Light and Dark Mode'},
+		{url:'smiley-toggle', name: 'Smiley Toggle Button'},
 		
 		];
 </script>

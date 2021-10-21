@@ -14,6 +14,7 @@
 	let content= [
 		{url:'video-text', name: 'Video Text Effect'},
 		{url:'scale-video-scroll', name: 'Scale Video/Image on scroll'},
+		{url:'video-slider', name: 'Video Slider'},
 		];
 </script>
 <main class='main-index'>

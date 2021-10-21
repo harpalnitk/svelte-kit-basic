@@ -47,6 +47,8 @@
 		{url:'eye-move', name: 'Eye Movement on mouse move'},
 		{url:'falling-leaves', name: 'Falling leaves Animation'},
 		{url:'water-drops', name: 'Water Drops'},
+		{url:'bounce-balls', name: 'Bounce Balls With Semi-Circle'},
+		{url:'rotate-earth-text', name: 'Rotating Earth Text Animation'},
 		
 		];
 </script>

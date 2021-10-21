@@ -14,7 +14,7 @@ function handleMousemove(event) {
 <main class='main-page flex-center'>
 <section class="sec" class:active={toggle} on:mousemove={handleMousemove}>
    <video autoplay muted loop>
-       <source src='/vid/Fish.mp4' type='video/mp4'/>
+       <source src='/vid/video5.mp4' type='video/mp4'/>
    </video>
     <h2>Run</h2>
     <div class="dot"  style="left:{x};top:{y}"

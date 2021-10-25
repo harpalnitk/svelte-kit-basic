@@ -4,6 +4,7 @@
 	import ShineButton from '$lib/components/UI/ShineButton.svelte';
 	import CreativeButton from '$lib/components/UI/CreativeButton.svelte';
 	import GradientButton from '$lib/components/UI/GradientButton.svelte';
+	import BorderGlowButton from '$lib/components/UI/BorderGlowButton.svelte';
 </script>
 
 
@@ -33,6 +34,11 @@
 			<GradientButton background1 = {'#ffe29f'} background2 = {'#ffa99f'}/>
 			<GradientButton background1 = {'#fdfc47'} background2 = {'#24fe41'}/>
 		</div>
+	</section>
+	<section class='border-glow'>
+		<BorderGlowButton color={'#ff22bb'} index={0}/>
+		<BorderGlowButton color={'#00ccff'} index={1}/>
+		<BorderGlowButton color={'#22e622'} index={2}/>
 	</section>
 </main>
 
@@ -74,5 +80,16 @@
 			flex-wrap: wrap;
 			gap: 20px;
 		}
+	}
+	.border-glow{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		min-height: 20vh;
+		background: #0e1538;
+		gap:40px;
+		padding:20px;
+
 	}
 </style>

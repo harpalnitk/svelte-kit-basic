@@ -19,6 +19,8 @@
 		{url:'emojis', name: 'With Emojis'},
         {url:'mix', name: 'Mix Shapes'},
 		{url:'polygon-border', name: 'Polygon Border With CSS Paint API'},
+		{url:'rounded-corner-shapes', name: 'Rounded Corner Shapes with CSS'},
+		{url:'rounded-corner-shapes2', name: 'Rounded Corner Shapes with CSS Paint API'},
 		{url:'clip-path-animations', name: 'Clip Path Animations'},
 		{url:'trignometry-sun', name: 'Shapes Using Trignometry'},
 		{url:'svg-graphics', name: 'SVG Graphics'},

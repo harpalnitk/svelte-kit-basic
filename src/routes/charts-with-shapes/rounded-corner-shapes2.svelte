@@ -170,6 +170,17 @@ onMount(() => {
     <div class="nav-item" href="#"><i>👱</i>profile</div>
   </nav>
     </section> 
+    <h1>Gooey Effect Menu Another Variation</h1>
+    <section class="gooey2">
+      <!-- using "div" instead of "a" because for unkown reasons it's not working with "a" (probably bug)-->
+         <nav class='navigation'>
+          <div class="nav-item" href="#"><i>🏠</i>home</div>
+          <div class="nav-item" href="#"><i>🔍</i>search</div>
+          <div class="nav-item" href="#"><i>🖤</i>likes</div>
+          <div class="nav-item" href="#"><i>🔔</i>notification</div>
+          <div class="nav-item" href="#"><i>👱</i>profile</div>
+        </nav>
+          </section> 
 </main>
 <style lang="scss">
     main{
@@ -816,6 +827,79 @@ ul li.active a{
   top:0;
   opacity:1;
 }
+
+.nav-item:focus { outline: none }
+.nav-item:focus,.nav-item:hover { --hl: 1 }
+}
+
+//GOOEY EFFECT MENU ANOTHER VARIATION
+@property --d1{
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 18px;
+}
+.gooey2{
+    display:grid;
+    place-content: center;
+  margin: 0;
+  height: 100vh;
+  background: 
+    repeating-radial-gradient(circle at 25% 25%, 
+        transparent 0, hsla(0, 0%, 0%, .2) 1px 4px, transparent 5px 8px)
+    #f03;
+    nav {
+      display:grid;
+  grid-auto-flow: column;
+  padding: 0 20px;
+  border-radius: 10px;
+  background:
+    linear-gradient(#fff 0 0) left,
+    linear-gradient(#fff 0 0) right;
+  background-size:20px 100%;
+  background-repeat:no-repeat;
+  font: .625em/ 1.5 ubuntu, sans-serif;
+}
+    .nav-item {
+      display:grid;
+  box-sizing: border-box;
+  cursor:pointer;
+  place-content: center;
+  width: 7.5em; 
+  height: 7.5em;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  position:relative;
+  z-index:0;
+}
+.nav-item i {
+  font-style:initial;
+  font-size: 2em;
+  transition: .4s;
+  filter: brightness(0) contrast(var(--hl,0))
+}
+.nav-item::after {
+  content:"";
+  position:absolute;
+  z-index:-1;
+ inset: -18px 0 0 0; //MOVE 18PX ABOVE
+ background: #fff;
+ --t: 0;
+ --path: 0 18px,10px 18px 50px,50% var(--d1,18px) 50px,calc(100% - 10px) 18px 50px,100% 18px,100% 100%,0 100%;
+  --radius: 0px;
+  -webkit-mask:paint(separate-radius);
+  mask:paint(separate-radius);
+  transition:--d1 .4s;
+}
+
+.nav-item:hover::after {
+  --d1:0;
+}
+.nav-item:hover i {
+  transform:translateY(-15px);
+}
+
 
 .nav-item:focus { outline: none }
 .nav-item:focus,.nav-item:hover { --hl: 1 }

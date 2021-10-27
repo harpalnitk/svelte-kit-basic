@@ -139,7 +139,7 @@ onMount(() => {
         <div class="frame f5"></div>
         <div class="frame f6" style="--dash:10,5"></div>
     </section> 
-    <h1>Navigation Menu</h1>
+    <h1>Side Navigation Menu</h1>
     <section class="menu">
         <nav>
             <ul>
@@ -149,7 +149,7 @@ onMount(() => {
             </ul>
           </nav>
     </section> 
-    <h1>Navigation Menu 2</h1>
+    <h1>Side Navigation Menu 2</h1>
     <section class="menu2">
         <nav>
             <ul>
@@ -181,6 +181,93 @@ onMount(() => {
           <div class="nav-item" href="#"><i>👱</i>profile</div>
         </nav>
           </section> 
+          <h1>Top Navigation Menu</h1>
+          <section class="top-nav">
+            <nav>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+                </section> 
+                <h1>Bouncing Ball</h1>
+                <!-- not using section here because section has 
+                additional general css which is not needed here -->
+                <div class="outer-box">
+                  <div class="bouncing-ball">
+                    <div class="box"></div>
+                        </div> 
+                </div>
+
+                <h1>Shape Morphing</h1>
+                <section class="shape-morphing">
+                  <div style="filter:drop-shadow(2px 2px 1px #333);">
+                    <div class="box" style="--path:50% 0%, 0% 100%, 100% 100%;--r:0.866"></div>
+                    
+                    <div class="box" style="--path:50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%;--r:0.951"></div>
+                    
+                    <div class="box" style="--path:0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%;--r:1.154"></div>
+                    
+                    <div class="box" style="--path:30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%;--r:1"></div>
+                    </div>
+                      </section> 
+
+                      <h1>Breathing Shapes</h1>
+                      <section class="breathing-shapes">
+                        <div style="filter:drop-shadow(2px 2px 1px #333);">
+
+                          <div class="box" style="--path:50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%;--r:0.951;"></div>
+                          
+                          <div class="box" style="--path:0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%;--r:1.154"></div>
+                          
+                          <div class="box" style="--path:30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%;--r:1"></div>
+                          </div>
+                            </section> 
+      <h1>Hexagonal Background</h1>
+      <div class="body-div">
+        <div class="main">
+          <div class="container">
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+            <div><div></div></div>
+          </div>
+        </div>
+      </div>
+
 </main>
 <style lang="scss">
     main{
@@ -903,5 +990,308 @@ ul li.active a{
 
 .nav-item:focus { outline: none }
 .nav-item:focus,.nav-item:hover { --hl: 1 }
+}
+
+//TOP NAVIGATION MENU
+
+@property --v{
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 0;
+}
+@property --e{
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 0;
+}
+.top-nav{
+  nav {
+  display:table;
+  margin:20px auto;
+}
+ul {
+  margin:0;
+  padding:0 20px;
+  border-radius:10px; 
+  font-size:25px;
+  font-family:sans-serif;
+  text-transform:uppercase;
+  list-style:none;
+  display:flex;
+  background:
+    linear-gradient(#33ace3 0 0)left/20px 100% no-repeat,
+    linear-gradient(#33ace3 0 0)right/20px 100% no-repeat;
+}
+ul li {
+  padding:0 20px 10px;
+  margin:0 0 -10px;
+  line-height:2em;
+  --v:0px;
+  --e:calc(10px - var(--v));
+  --path:0 0 0,10px 0,20px var(--v),calc(100% - 20px) var(--v),calc(100% - 10px) 0,100% 0 0,100% calc(100% - 10px) 0,calc(100% - 10px) calc(100% - 10px),calc(100% - 20px) calc(100% - var(--e)),20px calc(100% - var(--e)),10px calc(100% - 10px),0 calc(100% - 10px) 0;
+  --radius:50px;
+  --t:0;
+  -webkit-mask:paint(separate-radius);
+  mask:paint(separate-radius);
+  background:#33ace3;
+  box-shadow:0 0 0 30px #33ace3;
+  transition:--v 0.4s;
+}
+ul li:hover {
+  --v:10px;
+}
+ul li a {
+  display:block;
+  text-decoration:none;
+  color:#fff;
+  transition:0.4s;
+}
+ul li:hover a {
+  transform:translateY(10px)
+}
+}
+//BOUNCING BALL
+@property --a{
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 0;
+}
+@property --b{
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 0;
+}
+
+.outer-box{
+  background: pink;
+  width:100%;
+  height: 50vh;
+}
+.bouncing-ball{
+  margin:0 auto;
+  border:1px solid #0000;
+  max-width:600px;
+  -webkit-mask:linear-gradient(90deg,#0000,#000 8% 92%,#0000);
+  mask:linear-gradient(90deg,#0000,#000 8% 92%,#0000);
+  background:linear-gradient(#8f8f8f 0 0) bottom/100% 50px no-repeat;
+  .box {
+  height:50px;
+  margin-top:100px;
+  position:relative;
+  background:pink;
+  width:200px;
+  display:grid;
+  --radius:100px;
+  --path:0 0 0,10% 0,25% var(--a),40% 0,60% 0,75% var(--b),90% 0,100% 0 0,100% 100% 0,0 100% 0;
+  animation:
+    a 1s  linear  infinite,
+    c 7s steps(7) infinite;
+}
+.box:before {
+  content:"";
+  --t:0;
+  -webkit-mask:paint(separate-radius);
+  mask:paint(separate-radius);
+  background:#8f8f8f;
+}
+.box:after {
+  content:"";
+  position:absolute;
+  border-radius:50%;
+  width:20px;
+  height:20px;
+  background: radial-gradient(at 30% 30%,#0000,#000a) #514b82;
+  left:calc(50% - 10px);
+  animation:m 1s linear infinite;
+}
+
+@keyframes m{
+  0% ,5% {transform: rotate(-180deg) translate(50px) rotate(180deg)}
+  95%,100% {transform: rotate(0deg) translate(50px)  rotate(0deg)}
+}
+
+@keyframes a{
+  0%,5%    {--a:28px;--b:0}
+  18%,82%  {--a:0   ;--b:0}
+  95%,100% {--a:0   ;--b:28px}
+}
+
+@keyframes c {
+  0%  {transform:translate(-50%)}
+  100%{transform:translate(300%)}
+}
+
+}
+
+//SHAPE MORPHING
+.shape-morphing{
+  .box {
+  display:inline-block;
+  vertical-align:middle;
+  width:150px;
+  height:calc(150px*var(--r,1));
+  margin:5px;
+  --t:0;
+  --radius:10px;
+  -webkit-mask:paint(separate-radius);
+  mask:paint(separate-radius);
+  background:linear-gradient(45deg,#f03355,#25b09b);
+  animation:radius 2s infinite alternate;
+}
+
+@keyframes radius {
+  from {--radius:150px;}
+}
+}
+
+.breathing-shapes{
+  .box {
+  display:inline-grid;
+  vertical-align:middle;
+  width:150px;
+  height:calc(150px*var(--r,1));
+  margin:5px;
+  --t:0;
+  --radius:100px;
+  -webkit-mask:paint(separate-radius);
+  mask:paint(separate-radius);
+  animation:radius 3s infinite alternate;
+}
+.box:before {
+  content:"";
+  background:linear-gradient(45deg,#f03355,#25b09b);
+  --t:1;
+  --border:6px;
+  -webkit-mask:paint(separate-radius);
+  mask:paint(separate-radius);
+  animation:border 3s infinite alternate;
+}
+
+@keyframes radius{
+  40%,60% {
+    --radius:10px;
+  }
+}
+@keyframes border{
+  40%,60% {
+    --border:75px;
+  }
+}
+
+}
+
+.body-div{
+  background:#ccc;
+  width:100vw;
+  height:100vh;
+  .main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,calc(var(--s) + 2*var(--mh)));
+  justify-content:center;
+  --s: 80px; /* size */
+  --r: 1.15; /* ratio */
+  /* clip-path */
+  --h: 0.5;  
+  --v: 0.25; 
+  --hc:40px;
+  --vc:23px; 
+  
+  /*margin */
+  --mv: 2px; /* vertical */
+  --mh: calc(var(--mv) + (var(--s) - 2*var(--hc))/2); /* horizontal */
+  /* for the float*/
+  --f: calc(2*var(--s)*var(--r) + 4*var(--mv)  - 2*var(--vc) - 2px);
+}
+
+.container {
+  grid-column: 1/-1;
+  max-width:790px;
+  margin:0 auto;
+  font-size: 0; /*disable white space between inline block element */
+  position:relative;
+  padding-bottom:50px;
+  filter:drop-shadow(2px 2px 1px #333)
+}
+
+.container::before{
+  content: "";
+  width: calc(var(--s)/2 + var(--mh));
+  float: left;
+  height: 120%;
+  shape-outside: repeating-linear-gradient(     
+                   transparent 0 calc(var(--f) - 2px),      
+                   #fff        0 var(--f));
+}
+
+.container > div {
+  width: var(--s);
+  margin: var(--mv) var(--mh);
+  height: calc(var(--s)*var(--r)); 
+  display: inline-block;
+  font-size:initial;
+  vertical-align: top;
+  --path:var(--hc) 0,100% var(--vc),100% calc(100% - var(--vc)), calc(100% - var(--hc)) 100%,0 calc(100% - var(--vc)),0 var(--vc);
+  --t:0;
+  --radius:50px;
+  -webkit-mask:paint(separate-radius);
+  mask:paint(separate-radius);
+  margin-bottom: calc(var(--mv) - var(--vc)); 
+}
+
+.container div div{
+   height:100%;
+   width:100%;
+   margin:0;
+  --t:1;
+  --border:4px;
+  -webkit-mask:paint(separate-radius);
+  mask:paint(separate-radius);
+}
+
+
+.container div div::before {
+  padding-top:80px;
+  content:"Thank you \A for reading";
+  text-transform:uppercase;
+  white-space:pre;
+  font-size:75px;
+  font-family:sans-serif;
+  font-weight:bold;
+  text-align:center;
+  position:absolute;
+  color:#fff;
+  background:linear-gradient(45deg,#f03355,#25b09b);
+  inset:0;
+}
+
+.container > div {
+  animation:round 3s infinite;
+}
+.container > div div {
+  animation:bor 3s infinite;
+}
+@for $i from 1 through 43 {
+  .container > div:nth-child(#{$i}) {
+     animation-delay:(2*random())*1s
+  }
+}
+.container > div div {
+  animation-delay:inherit;
+}
+
+@keyframes round{
+  40%,60% {
+    --radius:0;
+  }
+}
+@keyframes bor{
+  40%,60% {
+    --border:45px;
+  }
+}
+
+
+  
+
 }
     </style>

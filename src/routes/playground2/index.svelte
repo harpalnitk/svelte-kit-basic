@@ -49,6 +49,7 @@
 		{url:'water-drops', name: 'Water Drops'},
 		{url:'bounce-balls', name: 'Bounce Balls With Semi-Circle'},
 		{url:'rotate-earth-text', name: 'Rotating Earth Text Animation'},
+		{url:'tea-cup', name: 'Tea Cup'},
 		
 		];
 </script>

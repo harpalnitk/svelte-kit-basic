@@ -22,6 +22,7 @@
 		{url:'image-blob-paint', name: 'Blob Effect with CSS Paint API'},
 		{url:'image-blob-paint-all', name: 'Blob Effect with CSS Paint API-All'},
 		{url:'rotating-images', name: 'Rotating Images on Mouse Move'},
+		{url:'image-with-text', name: 'Images in corners of text box'},
 		];
 </script>
 

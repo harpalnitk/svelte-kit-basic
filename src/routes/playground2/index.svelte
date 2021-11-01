@@ -22,6 +22,7 @@
 		{url:'curved-menu', name: 'Curved Outside Sidebar Menu'},
 		{url:'creative-menu', name: 'Creative Menu'},
 		{url:'vertical-expand-menu', name: 'Vertical Expandable Menu'},
+		{url:'menu-icon-hover', name: 'Menu Icon Hover Effect'},
 		//Text
 		{url:'icon-text-anim', name: 'Glowing Icon With Text Typing Animation'},
 		{url:'circle-text-logo', name: 'Circle Text Logo'},
@@ -37,6 +38,8 @@
 		{url:'conic-spinner', name: 'Conic Gradient Spinner'},
 		{url:'tweened', name: 'Tweened'},
 		{url:'loading-bar', name: 'Loading Bar'},
+		{url:'circular-ring-loading', name: 'Circular Ring Loading'},
+		{url:'glassmorphism-loading', name: 'Glassmorphism Loading Circle'},
 
 	     //Cartoons
 		{url:'truck-anim', name: 'Truck Animation Svelte'},
@@ -50,6 +53,7 @@
 		{url:'bounce-balls', name: 'Bounce Balls With Semi-Circle'},
 		{url:'rotate-earth-text', name: 'Rotating Earth Text Animation'},
 		{url:'tea-cup', name: 'Tea Cup'},
+		{url:'squid-games', name: 'Squid Games Icons'},
 		
 		];
 </script>

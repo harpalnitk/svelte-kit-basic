@@ -39,6 +39,7 @@
 		{url:'http-firebase', name: 'Http Firebase'},
 		{url:'spring', name: 'Spring Animation'},
 		{url:'abstract-bg', name: 'Abstract Background'},
+		{url:'paper-bg', name: 'Cut Paper Background'},
 		{url:'bg-anim', name: 'Background Animation'},
 		];
 </script>

@@ -14,7 +14,13 @@
     <div class="box shadow6">Shadow 6</div>
     <div class="box shadow7">Shadow 7</div>
  </div>
+
 </main>
+<h1>Soft Shadow</h1>
+<section class="flex-center">
+   
+    <div class="card"></div>
+</section>
 
 
 
@@ -134,5 +140,36 @@
                 15px  15px 15px rgba(0,0,0,0.1),
                 inset -5px -5px 5px rgba(255,255,255,0.2),
                 inset 5px  5px 5px rgba(0,0,0,0.1);
+}
+section{
+    margin-top: 1rem;
+    background: #ac53ec;
+    min-height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+
+}
+section .card{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    background: #ac53ec;
+    border-radius: 40px;
+    box-shadow: inset 5px 5px 15px rgba(0,0,0,0.15),
+    inset -5px -5px 15px rgba(255,255,255,0.15),
+     5px 5px 15px rgba(0,0,0,0.15),
+     -5px -5px 15px rgba(255,255,255,0.15);
+}
+section .card::before{
+    content: '';
+    position: absolute;
+    inset: 5px;
+    background: #fff;
+    border-radius: 35px;
+    transition: 0.5s;
+}
+section .card:hover::before{
+    transform: translate(40px,-40px);
+    box-shadow: -30px 30px 50px rgba(0,0,0,0.25);
 }
 </style>

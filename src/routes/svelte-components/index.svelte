@@ -15,6 +15,7 @@
 		//Box-Shadows
 		{url:'timeline', name: 'Timeline'},
 		{url:'tree-view', name: 'Tree View'},
+		{url:'data-list', name: 'Sticky Header Data List'},
 		{url:'skill-bars', name: 'Skill Bars'},
 		{url:'sort-table', name: 'Sort Table'},
 		{url:'calendar', name: 'Calendar'},

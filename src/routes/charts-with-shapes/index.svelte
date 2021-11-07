@@ -16,6 +16,7 @@
 		{url:'pentagon-2', name: 'Pentagon With SVG'},
         {url:'css-shapes', name: 'With CSS Shapes'},
 		{url:'css-hexagon', name: 'CSS Hexagon'},
+		{url:'triangle', name: 'Triangle With Images'},
 		{url:'emojis', name: 'With Emojis'},
         {url:'mix', name: 'Mix Shapes'},
 		{url:'polygon-border', name: 'Polygon Border With CSS Paint API'},
@@ -27,6 +28,7 @@
 		{url:'svg-animation', name: 'SVG Animation'},
 		{url:'shape-outside', name: 'CSS Shape Outside Property'},
 		{url:'cutout', name: 'Cutouts using SVG, Clip Path, Mask'},
+		{url:'mask-border', name: 'Mask Border CSS Property'},
 		];
 </script>
 

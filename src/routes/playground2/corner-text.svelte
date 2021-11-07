@@ -1,0 +1,66 @@
+<script>
+let parallax;
+let h;
+
+function parallaxText(e){
+    parallax.querySelectorAll('.layer').forEach(layer=>{
+        let x = h - e.pageX;
+        layer.style.transform = `translateX(${x}px)`;
+    })
+}
+
+</script>
+<svelte:window bind:innerHeight={h}/>
+<main>
+    <section bind:this={parallax} on:mousemove="{parallaxText}">
+        <div class="skew1">
+            <h2 class='layer'>Corner Text</h2>
+        </div>
+        <div class="textBox">
+            <div class="skew2">
+                <h2 class='layer'>Corner Text</h2>
+            </div>
+        </div>
+    </section>
+</main>
+<style>
+    section{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: #222;
+        overflow: hidden;
+    }
+    section .textBox{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #333;
+        clip-path: polygon(0 0,50% 0,50% 100%,0 100%);
+    }
+    .skew1 h2,
+    .textBox .skew2 h2{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        font-size: 12em;
+        line-height: 1em;
+        color: #0488f5;
+        cursor: pointer;
+    }
+    .skew1 h2{
+        opacity: 0.6;
+    }
+    .skew1{
+        position: relative;
+        top: 50px;
+        transform: skewY(20deg);
+    }
+    .skew2{
+        position: relative;
+        top: 50px;
+        transform: skewY(340deg);
+    }
+</style>

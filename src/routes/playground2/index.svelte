@@ -17,6 +17,7 @@
 		{url:'contact-info', name: 'Contact Info Page-Glassmorphism'},
 		//Menu
 		{url:'dropdown-menu', name: 'Dropdown Menu'},
+		{url:'dropdown-menu2', name: 'Dropdown Menu 2'},
 		{url:'magic-line-nav', name: 'Magic Line Indicator on Nav List'},
 		{url:'menu-hover', name: 'Menu Hover Effect'},
 		{url:'curved-menu', name: 'Curved Outside Sidebar Menu'},
@@ -30,6 +31,9 @@
 		{url:'intro-text', name: 'Intro Text'},
 		{url:'wavy-text', name: 'Wavy Text'},
 		{url:'text-emphasis', name: 'CSS Text Emphasis Property'},
+		{url:'corner-text', name: 'Corner Text Parallax Effect'},
+		{url:'happy-diwali', name: 'Twinkle Happy Diwali'},
+		{url:'happy-diwali2', name: 'Twinkle Happy Diwali 2'},
 		//Loading
 		{url:'loading-squares', name: 'Colorful Loading Squares'},
 		{url:'loading-anim', name: 'Loading Animation'},
@@ -40,6 +44,7 @@
 		{url:'loading-bar', name: 'Loading Bar'},
 		{url:'circular-ring-loading', name: 'Circular Ring Loading'},
 		{url:'glassmorphism-loading', name: 'Glassmorphism Loading Circle'},
+		{url:'spiral-loading', name: '3-Spiral-Loaders'},
 
 	     //Cartoons
 		{url:'truck-anim', name: 'Truck Animation Svelte'},
@@ -48,6 +53,7 @@
 		{url:'light-bulb', name: 'Light Bulb On/Off with Sound'},
 		{url:'indian-flag', name: 'Indian Flag Using CSS'},
 		{url:'eye-move', name: 'Eye Movement on mouse move'},
+		{url:'cartoon-eye-move', name: 'Cartoon Eye Movement on mouse move'},
 		{url:'falling-leaves', name: 'Falling leaves Animation'},
 		{url:'water-drops', name: 'Water Drops'},
 		{url:'bounce-balls', name: 'Bounce Balls With Semi-Circle'},

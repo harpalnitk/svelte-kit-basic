@@ -37,6 +37,7 @@ password    fas fa-lock
 password        fa fa-key
 signout     fas fa-sign-out-alt
 services  <i class="fas fa-people-carry"></i>
+portfolio       <i class="far fa-images"></i>
 
 
 ######### SOCIAL MEDIA #######################

@@ -26,6 +26,7 @@
 		{url:'contact-us', name: 'Responsive Contact us Page'},
 		{url:'auth-page', name: 'Responsive Auth Page'},
 		{url:'services-page', name: 'Our Services page'},
+		{url:'newsletter', name: 'Newsletter Page'},
 		];
 </script>
 

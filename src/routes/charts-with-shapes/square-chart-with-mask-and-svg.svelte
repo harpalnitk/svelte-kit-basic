@@ -81,13 +81,6 @@ const remapDataSetValueToSvgDimension = valueRemapper(
 // remapDataSetValueToSvgDimension(6321); // 167
 // remapDataSetValueToSvgDimension(12123); // 320
 
-//Creating and inserting the DOM elements
- onMount(async () => {
-//What remains has to do with DOM manipulation. 
-//We have to create the <svg> and the five <rect> elements, 
-//set their attributes, and append them to the DOM.
-// We can do all this with the basic createElementNS,
-// setAttribute, and the appendChild functions.
 
 // Notice that we are using the createElementNS
 //  instead of the more common createElement.
@@ -101,8 +94,17 @@ const remapDataSetValueToSvgDimension = valueRemapper(
 
 const createSvgNSElement = (element: string): SVGElement => {
    
-  return document.createElementNS('http://www.w3.org/2000/svg', element);
-};
+   return document.createElementNS('http://www.w3.org/2000/svg', element);
+ };
+ 
+//Creating and inserting the DOM elements
+ onMount(async () => {
+//What remains has to do with DOM manipulation. 
+//We have to create the <svg> and the five <rect> elements, 
+//set their attributes, and append them to the DOM.
+// We can do all this with the basic createElementNS,
+// setAttribute, and the appendChild functions.
+
 
 //When we are appending the rectangles to the DOM,
 // we have to pay attention to their order. Otherwise,
@@ -174,6 +176,30 @@ container2.appendChild(svg);
 //   </mask>
 //   <rect width="320" height="320" y="0" fill="#264653" mask="url(#theMask)"></rect>
 // </svg>
+
+
+const maskIdForDimension = (dimension: number): string => {
+    const fixedDimension = dimension.toFixed();
+
+    return `maskW${fixedDimension}`;
+};
+
+const createRect = (
+    dimension: number,
+    x: number,
+    y: number,
+    fill: string
+): SVGRectElement => {
+    const rect: SVGRectElement = createSvgNSElement("rect") as SVGRectElement;
+
+    rect.setAttribute("width", `${dimension}`);
+    rect.setAttribute("height", `${dimension}`);
+    rect.setAttribute("x", `${x}`);
+    rect.setAttribute("y", `${y}`);
+    rect.setAttribute("fill", fill);
+
+    return rect;
+};
 </script>
 
 
@@ -198,34 +224,63 @@ container2.appendChild(svg);
     <h3>Basic Mask with white fill</h3>
     <section class="basic-mask">
         <svg viewBox="0 0 320 320" width="320" height="320">
-            <mask id="theMask">
+            <mask id="theMask1">
               <rect width="264" height="264" y="56" fill="white"></rect>
             </mask>
-            <rect width="320" height="320" y="0" fill="#264653" mask="url(#theMask)"></rect>
+            <rect width="320" height="320" y="0" fill="#264653" mask="url(#theMask1)"></rect>
           </svg>
     </section>
-
+    <!-- //We don’t see anything. That’s because what is
+       filled with black is what becomes invisible.
+        We control the visibility of masks using white
+         and black fills.  -->
     <h3>Basic Mask with black fill</h3>
     <section class="basic-mask">
         <svg viewBox="0 0 320 320" width="320" height="320">
-            <mask id="theMask">
+            <mask id="theMask2">
               <rect width="264" height="264" y="56" fill="black"></rect>
             </mask>
-            <rect width="320" height="320" y="0" fill="#264653" mask="url(#theMask)"></rect>
+            <rect width="320" height="320" y="0" fill="#264653" mask="url(#theMask2)"></rect>
           </svg>
     </section>
 
     <h3>Basic Mask with grey fill</h3>
     <section class="basic-mask">
         <svg viewBox="0 0 320 320" width="320" height="320">
-            <mask id="theMask">
+            <mask id="theMask3">
               <rect width="264" height="264" y="56" fill="grey"></rect>
             </mask>
-            <rect width="320" height="320" y="0" fill="#264653" mask="url(#theMask)"></rect>
+            <rect width="320" height="320" y="0" fill="#264653" mask="url(#theMask3)"></rect>
           </svg>
     </section>
 </main>
 
+<!--DEsigning our final chart element-->
+<!--We have only used one shape for the mask,
+   but as with any general purpose HTML tag,
+    we can nest as many child elements in ther
+    e as we want. In fact, the trick to achieve
+     what we want is using two SVG <rect> elements.
+        We have to stack them one on top of the other:
+      
+      <svg viewBox="0 0 320 320" width="320" height="320">
+  <mask id="maskW320">
+    <rect width="320" height="320" y="0" fill="???"></rect>
+    <rect width="264" height="264" y="56" fill="???"></rect>
+  </mask>
+  <rect width="320" height="320" y="0" fill="#264653" mask="url(#maskW320)"></rect>
+</svg>
+
+The <mask> is the dimension of the largest element and the largest element is filled with black. That means everything under that area is invisible. And everything under the smaller rectangle is visible.
+      
+  
+  Now let’s do flip things where the black rectangle is on top:
+
+<mask id="maskW320">
+  <rect width="320" height="320" y="0" fill="white"></rect>
+  <rect width="264" height="264" y="56" fill="black"></rect>
+</mask>
+      -->
 
    
 
@@ -276,5 +331,8 @@ container2.appendChild(svg);
 :global(svg:hover > rect:hover ~ rect) {
     transform: translate(-8px, 8px);
 }
+    }
+    .basic-mask{
+      background: cornflowerblue;
     }
     </style>

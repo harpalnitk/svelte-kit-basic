@@ -2,8 +2,8 @@
 
 import {onMount} from 'svelte';
 
-	let container1;
-    let container2;
+	let container1,container2,container3;
+  
 
     
     type DataSetEntry = {
@@ -28,6 +28,17 @@ const rawDataSet: DataSet = [
   { label: 'Accomplished', value: 12123 },
   { label: 'Exemplary', value: 2120 }
 ];
+
+//When we are appending the rectangles to the DOM,
+// we have to pay attention to their order. Otherwise,
+// we would have to specify the z-index explicitly. 
+//The first rectangle has to be the largest, and the
+// last rectangle has to be the smallest. 
+//Best to sort the data before the loop.
+const data = rawDataSet.sort(
+  (a: DataSetEntry, b: DataSetEntry) => b.value - a.value
+);
+
 //It will become apparent in a moment why we need the 
 // highest value. We can use the Math.max() 
 // to get it. It accepts any number of arguments
@@ -99,37 +110,94 @@ const createSvgNSElement = (element: string): SVGElement => {
  
 //Creating and inserting the DOM elements
  onMount(async () => {
-//What remains has to do with DOM manipulation. 
+  const svg1 = getSquareChart();
+  container1.appendChild(svg1);
+  const svg2 = getSquareChart();
+  container2.appendChild(svg2);
+  const svg3 = getMaskedSquareChart();
+  container3.appendChild(svg3);
+	});
+
+  const getSquareChart = ()=>{
+    //What remains has to do with DOM manipulation. 
 //We have to create the <svg> and the five <rect> elements, 
 //set their attributes, and append them to the DOM.
 // We can do all this with the basic createElementNS,
 // setAttribute, and the appendChild functions.
+ const svg = getSVG();
 
+data.forEach((d: DataSetEntry, index: number) => {
+    const rect = getRect(d.value,index);
+    svg.appendChild(rect);
+});
+return svg;		
+  }
 
-//When we are appending the rectangles to the DOM,
-// we have to pay attention to their order. Otherwise,
-// we would have to specify the z-index explicitly. 
-//The first rectangle has to be the largest, and the
-// last rectangle has to be the smallest. 
-//Best to sort the data before the loop.
-const data = rawDataSet.sort(
-  (a: DataSetEntry, b: DataSetEntry) => b.value - a.value
-);
-
-
-
-    const svg: SVGSVGElement = createSvgNSElement("svg") as SVGSVGElement;
-
-svg.setAttribute("viewBox", `0 0 ${svgDimension} ${svgDimension}`);
-svg.setAttribute("width", `${svgDimension}`);
-svg.setAttribute("height", `${svgDimension}`);
-
-
-
-
+  const getMaskedSquareChart = ()=>{
+    const svg = getSVG();
     data.forEach((d: DataSetEntry, index: number) => {
-    const rect: SVGRectElement = createSvgNSElement("rect") as SVGRectElement;
+    const mask: SVGMaskElement = createSvgNSElement("mask") as SVGMaskElement;
+
     const rectDimension: number = remapDataSetValueToSvgDimension(d.value);
+    const rect = createRect(
+        rectDimension,
+        0,
+        svgDimension - rectDimension,
+        "white"
+    );
+
+    mask.setAttribute("id", maskIdForDimension(rectDimension));
+
+    mask.appendChild(rect);
+
+    const smallerRectIndex = index + 1;
+
+    if (data[smallerRectIndex] !== undefined) {
+        const smallerRectDimension: number = remapDataSetValueToSvgDimension(
+            data[smallerRectIndex].value
+        );
+        const smallerRect = createRect(
+            smallerRectDimension,
+            0,
+            svgDimension - smallerRectDimension,
+            "black"
+        );
+
+        mask.appendChild(smallerRect);
+    }
+
+    svg.appendChild(mask);
+});
+
+data.forEach((d: DataSetEntry, index: number) => {
+    const rectDimension: number = remapDataSetValueToSvgDimension(d.value);
+    const rect = createRect(
+        rectDimension,
+        0,
+        svgDimension - rectDimension,
+        colors[index] ?? fallbackColor
+    );
+
+    rect.setAttribute("mask", `url(#${maskIdForDimension(rectDimension)})`);
+
+    svg.appendChild(rect);
+});
+
+return svg;
+  }
+
+
+  function getSVG(){
+    const svg: SVGSVGElement = createSvgNSElement("svg") as SVGSVGElement;
+     svg.setAttribute("viewBox", `0 0 ${svgDimension} ${svgDimension}`);
+     svg.setAttribute("width", `${svgDimension}`);
+     svg.setAttribute("height", `${svgDimension}`);
+     return svg;
+  }
+
+  function getRect(value,index){
+    const rect: SVGRectElement = createSvgNSElement("rect") as SVGRectElement;
+    const rectDimension: number = remapDataSetValueToSvgDimension(value);
 
     rect.setAttribute("width", `${rectDimension}`);
     rect.setAttribute("height", `${rectDimension}`);
@@ -141,15 +209,8 @@ svg.setAttribute("height", `${svgDimension}`);
     //difference between the dimension of the chart and the particular rectangle
     rect.setAttribute("y", `${svgDimension - rectDimension}`);
     rect.setAttribute("fill", colors[index] ?? fallbackColor);
-
-    svg.appendChild(rect);
-});
-container1.appendChild(svg);		
-container2.appendChild(svg);
-
-
-
-	});
+    return rect;
+  }
 
     //Masking 101
 // A mask is something you define and later apply to an element. 
@@ -253,9 +314,9 @@ const createRect = (
             <rect width="320" height="320" y="0" fill="#264653" mask="url(#theMask3)"></rect>
           </svg>
     </section>
-</main>
 
-<!--DEsigning our final chart element-->
+
+    <!--DEsigning our final chart element-->
 <!--We have only used one shape for the mask,
    but as with any general purpose HTML tag,
     we can nest as many child elements in ther
@@ -282,6 +343,12 @@ The <mask> is the dimension of the largest element and the largest element is fi
 </mask>
       -->
 
+      <h3> Final Result Masked Square Chart</h3>
+      <section bind:this={container3} class='masked-square-chart'></section>
+</main>
+
+
+
    
 
 
@@ -301,7 +368,7 @@ The <mask> is the dimension of the largest element and the largest element is fi
         margin: 1rem auto;
       
     }
-    .square-hover{
+    .square-hover,.masked-square-chart{
     background: #f0f0f0;
     display: grid;
     place-items: center;

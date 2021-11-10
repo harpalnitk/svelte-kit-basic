@@ -1,9 +1,16 @@
 <main class='flex-center'>
     <div class="card">
-        <div class="cover"></div>
+        <div class="cover">
+            <div class="imgBx">
+                <img src="/img/misc/apple_watch.jpg" alt="Apple Watch">
+            </div>
+        </div>
         <div class="details">
-            <div>
-                <img src="/img/misc/apple_watch2.jpg" alt="Apple Watch">
+            <div class='content'>
+                <div class="imgBx">
+                    <img src="/img/misc/apple_watch2.jpg" alt="Apple Watch">
+                </div>
+               
                 <h3>New Apple Watch</h3>
                 <h2><sup>$</sup> 450</h2>
                 <a href="#buy_now">Buy Now</a>
@@ -23,6 +30,63 @@
         height: 400px;
         background: #fff;
         transform-style: preserve-3d;
+       transform: perspective(2000px);
+       transition: 1s;
+       box-shadow: inset 300px 0 50px rgba(0,0,0,0.15),
+       0 20px 20px rgba(0,0,0,0.15);
+    }
+    .card:hover{
+        transform: perspective(2000px) translateX(50%);
+        box-shadow: inset 20px 0 50px rgba(0,0,0,0.15),
+       0 10px 10px rgba(0,0,0,0.15);
+    }
+    .card .cover{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform-style: preserve-3d;
+        overflow: hidden;
+        transition: 1s ease-in-out;
+        transform-origin: left;
+    }
+    .card:hover .cover{
+transform: rotateY(-180deg);
+    }
+    .card .cover::before{
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 150%;
+        background: #fff;
+        transform: rotate(36.5deg);
+        box-shadow: 0 0 0 20px #47bfce;
+        transition: 0.5s;
+        transition-delay: 1s;
+    }
+    .card:hover .cover::before{
+        width: 0;
+        box-shadow: 0 0 0 250px #47bfce;
+        transform: rotate(143.5deg);
+    }
+    .card .cover .imgBx{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    z-index: 1;
+    }
+    .card .cover .imgBx img{
+        position: absolute;
+        top: 0;
+        left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
     }
     .card .details{
         position: absolute;
@@ -35,17 +99,38 @@
         align-items: center;
         overflow: hidden;
         text-align: center;
+        z-index: 1;
     }
-    .card .details h3{
+    .card .details .content{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .card .details .content .imgBx{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    }
+    .card .details .content .imgBx img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* background-position: center; */
+        object-fit: cover;
+    }
+    .card .details .content h3{
         font-weight: 500;
         margin: 5px 0;
     }
-    .card .details h2{
+    .card .details .content h2{
         font-size: 1.5em;
         color: #e82a5b;
         font-weight: 600;
     }
-    .card .details a{
+    .card .details .content a{
         display: inline-block;
         padding: 8px 20px;
         background: #47bfce;
@@ -53,5 +138,6 @@
         letter-spacing: 1px;
         border-radius: 25px;
         text-decoration: none;
+        font-weight: 500;
     }
 </style>

@@ -225,6 +225,7 @@ const c = [
 	() => import("..\\..\\..\\src\\routes\\cards\\__layout.reset.svelte"),
 	() => import("..\\..\\..\\src\\routes\\cards\\index.svelte"),
 	() => import("..\\..\\..\\src\\routes\\cards\\testimonial-with-swiper.svelte"),
+	() => import("..\\..\\..\\src\\routes\\cards\\3d-flip-product-card.svelte"),
 	() => import("..\\..\\..\\src\\routes\\cards\\gradient-border-card.svelte"),
 	() => import("..\\..\\..\\src\\routes\\cards\\gradient-card-shadow.svelte"),
 	() => import("..\\..\\..\\src\\routes\\cards\\cube-slider-swiper.svelte"),
@@ -952,92 +953,95 @@ export const routes = [
 	// src/routes/cards/testimonial-with-swiper.svelte
 	[/^\/cards\/testimonial-with-swiper\/?$/, [c[223], c[225]], []],
 
+	// src/routes/cards/3d-flip-product-card.svelte
+	[/^\/cards\/3d-flip-product-card\/?$/, [c[223], c[226]], []],
+
 	// src/routes/cards/gradient-border-card.svelte
-	[/^\/cards\/gradient-border-card\/?$/, [c[223], c[226]], []],
+	[/^\/cards\/gradient-border-card\/?$/, [c[223], c[227]], []],
 
 	// src/routes/cards/gradient-card-shadow.svelte
-	[/^\/cards\/gradient-card-shadow\/?$/, [c[223], c[227]], []],
+	[/^\/cards\/gradient-card-shadow\/?$/, [c[223], c[228]], []],
 
 	// src/routes/cards/cube-slider-swiper.svelte
-	[/^\/cards\/cube-slider-swiper\/?$/, [c[223], c[228]], []],
+	[/^\/cards\/cube-slider-swiper\/?$/, [c[223], c[229]], []],
 
 	// src/routes/cards/neumorphic-card-d.svelte
-	[/^\/cards\/neumorphic-card-d\/?$/, [c[223], c[229]], []],
+	[/^\/cards\/neumorphic-card-d\/?$/, [c[223], c[230]], []],
 
 	// src/routes/cards/neumorphic-card-l.svelte
-	[/^\/cards\/neumorphic-card-l\/?$/, [c[223], c[230]], []],
+	[/^\/cards\/neumorphic-card-l\/?$/, [c[223], c[231]], []],
 
 	// src/routes/cards/overlapping-cards.svelte
-	[/^\/cards\/overlapping-cards\/?$/, [c[223], c[231]], []],
+	[/^\/cards\/overlapping-cards\/?$/, [c[223], c[232]], []],
 
 	// src/routes/cards/3d-foldable-card.svelte
-	[/^\/cards\/3d-foldable-card\/?$/, [c[223], c[232]], []],
+	[/^\/cards\/3d-foldable-card\/?$/, [c[223], c[233]], []],
 
 	// src/routes/cards/card-border-anim.svelte
-	[/^\/cards\/card-border-anim\/?$/, [c[223], c[233]], []],
+	[/^\/cards\/card-border-anim\/?$/, [c[223], c[234]], []],
 
 	// src/routes/cards/image-hover-card.svelte
-	[/^\/cards\/image-hover-card\/?$/, [c[223], c[234]], []],
+	[/^\/cards\/image-hover-card\/?$/, [c[223], c[235]], []],
 
 	// src/routes/cards/weird-shape-card.svelte
-	[/^\/cards\/weird-shape-card\/?$/, [c[223], c[235]], []],
+	[/^\/cards\/weird-shape-card\/?$/, [c[223], c[236]], []],
 
 	// src/routes/cards/neumorphic-card.svelte
-	[/^\/cards\/neumorphic-card\/?$/, [c[223], c[236]], []],
+	[/^\/cards\/neumorphic-card\/?$/, [c[223], c[237]], []],
 
 	// src/routes/cards/3d-stack-cards.svelte
-	[/^\/cards\/3d-stack-cards\/?$/, [c[223], c[237]], []],
+	[/^\/cards\/3d-stack-cards\/?$/, [c[223], c[238]], []],
 
 	// src/routes/cards/hovering-cards.svelte
-	[/^\/cards\/hovering-cards\/?$/, [c[223], c[238]], []],
+	[/^\/cards\/hovering-cards\/?$/, [c[223], c[239]], []],
 
 	// src/routes/cards/instagram-card.svelte
-	[/^\/cards\/instagram-card\/?$/, [c[223], c[239]], []],
+	[/^\/cards\/instagram-card\/?$/, [c[223], c[240]], []],
 
 	// src/routes/cards/3d-flip-card2.svelte
-	[/^\/cards\/3d-flip-card2\/?$/, [c[223], c[240]], []],
+	[/^\/cards\/3d-flip-card2\/?$/, [c[223], c[241]], []],
 
 	// src/routes/cards/profile-hover.svelte
-	[/^\/cards\/profile-hover\/?$/, [c[223], c[241]], []],
+	[/^\/cards\/profile-hover\/?$/, [c[223], c[242]], []],
 
 	// src/routes/cards/3d-flip-card.svelte
-	[/^\/cards\/3d-flip-card\/?$/, [c[223], c[242]], []],
+	[/^\/cards\/3d-flip-card\/?$/, [c[223], c[243]], []],
 
 	// src/routes/cards/contact-info.svelte
-	[/^\/cards\/contact-info\/?$/, [c[223], c[243]], []],
+	[/^\/cards\/contact-info\/?$/, [c[223], c[244]], []],
 
 	// src/routes/cards/glowing-card.svelte
-	[/^\/cards\/glowing-card\/?$/, [c[223], c[244]], []],
+	[/^\/cards\/glowing-card\/?$/, [c[223], c[245]], []],
 
 	// src/routes/cards/hexagon-card.svelte
-	[/^\/cards\/hexagon-card\/?$/, [c[223], c[245]], []],
+	[/^\/cards\/hexagon-card\/?$/, [c[223], c[246]], []],
 
 	// src/routes/cards/product-card.svelte
-	[/^\/cards\/product-card\/?$/, [c[223], c[246]], []],
+	[/^\/cards\/product-card\/?$/, [c[223], c[247]], []],
 
 	// src/routes/cards/profile-card.svelte
-	[/^\/cards\/profile-card\/?$/, [c[223], c[247]], []],
+	[/^\/cards\/profile-card\/?$/, [c[223], c[248]], []],
 
 	// src/routes/cards/curved-card.svelte
-	[/^\/cards\/curved-card\/?$/, [c[223], c[248]], []],
+	[/^\/cards\/curved-card\/?$/, [c[223], c[249]], []],
 
 	// src/routes/cards/glass-hover.svelte
-	[/^\/cards\/glass-hover\/?$/, [c[223], c[249]], []],
+	[/^\/cards\/glass-hover\/?$/, [c[223], c[250]], []],
 
 	// src/routes/cards/player-card.svelte
-	[/^\/cards\/player-card\/?$/, [c[223], c[250]], []],
+	[/^\/cards\/player-card\/?$/, [c[223], c[251]], []],
 
 	// src/routes/cards/glass-card.svelte
-	[/^\/cards\/glass-card\/?$/, [c[223], c[251]], []],
+	[/^\/cards\/glass-card\/?$/, [c[223], c[252]], []],
 
 	// src/routes/cards/glow-card.svelte
-	[/^\/cards\/glow-card\/?$/, [c[223], c[252]], []],
+	[/^\/cards\/glow-card\/?$/, [c[223], c[253]], []],
 
 	// src/routes/cards/glass.svelte
-	[/^\/cards\/glass\/?$/, [c[223], c[253]], []],
+	[/^\/cards\/glass\/?$/, [c[223], c[254]], []],
 
 	// src/routes/auth/index.svelte
-	[/^\/auth\/?$/, [c[0], c[254]], [c[1]]]
+	[/^\/auth\/?$/, [c[0], c[255]], [c[1]]]
 ];
 
 // we import the root layout/error components eagerly, so that

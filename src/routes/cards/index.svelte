@@ -41,6 +41,8 @@
 		{url:'weird-shape-card', name: 'Weird Shape Card'},
 		{url:'card-border-anim', name: 'Card Border Animation'},
 		{url:'hexagon-card', name: 'Hexagon Card'},
+		{url:'3d-flip-product-card', name: '3D Flip Product Card'},
+
 		];
 </script>
 

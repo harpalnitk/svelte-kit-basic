@@ -9,11 +9,11 @@
     <p>Are you 18 years old ?</p>
     <div>
         <label for="age">
-            <input type="radio" name="age">
+            <input type="radio" name="age" class='sr-only'>
             <i class='fa fa-check' aria-hidden="true"></i>
         </label>
         <label for="age">
-            <input type="radio" name="age">
+            <input type="radio" name="age" class='sr-only'>
             <i class='fa fa-times' aria-hidden="true"></i>
         </label>
     </div>
@@ -54,9 +54,22 @@ main{
 }
 .container label input{
      appearance: none;
-     -webkit-appearance: none;
+     -webkit-appearance: none !important;
      cursor: pointer;
 }
+.container label .sr-only {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+  }
+
+  .container label input[type="radio"] {
+    position: absolute;
+  }
 .container label .fa{
 position: relative;
 width: 2.5rem;
@@ -79,7 +92,7 @@ box-shadow: -1px -1px 3px rgba(255,255,255,0.1),
             inset 2px 2px 10px rgba(0,0,0,0.5);
 }
 
-.container label input:checked ~ .fa{
+.container label input[type="radio"]:checked ~ .fa{
 color: #00fff1;
 box-shadow: inset -1px -1px 3px rgba(255,255,255,0.1),
             inset 2px 2px 6px rgba(0,0,0,1);

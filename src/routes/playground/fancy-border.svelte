@@ -42,6 +42,10 @@
           </li>
         </ul>
       </div>
+
+      <section class='zig-zag-border flex-center'>
+<div class="box"></div>
+      </section>
     
 </main>
 
@@ -61,6 +65,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .sidebar {
   margin: 5em;
@@ -144,6 +149,43 @@ top: calc(var(--fs)/2 + var(--offset-top));
 right: 0;
 width: .65em;
 height: 1px;
+}
+
+section.zig-zag-border{
+  padding: 1rem;
+  min-height: 80vh;
+  width: 100%;
+  background: #f8f8f8;
+  .box{
+ position: relative;
+ width: 300px;
+ height: 400px;
+ background: #62baea;
+  }
+  .box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 24px;
+    background: 
+    linear-gradient(-135deg,#f8f8f8 12px, transparent 0%),
+    linear-gradient(135deg,#f8f8f8 12px, transparent 0%);
+    background-size: 24px;
+  }
+  .box::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 24px;
+    background: 
+    linear-gradient(-45deg,#f8f8f8 12px, transparent 0%),
+    linear-gradient(45deg,#f8f8f8 12px, transparent 0%);
+    background-size: 24px;
+  }
 }
 
 </style>

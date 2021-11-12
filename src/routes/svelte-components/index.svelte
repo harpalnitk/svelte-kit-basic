@@ -27,7 +27,8 @@
 		{url:'pwd-gen', name: 'Password Generator'},
 
 				//Buttons
-		{url:'radio-glow', name: 'Neon Glowing Radio Butotns'},
+		{url:'radio-glow', name: 'Radio Buttons-Neon Glowing'},
+		{url:'radio-dark', name: 'Radio Button-Dark Mode'},
 		{url:'all-buttons', name: 'Different Kind Of Buttons'},
 		{url:'all-buttons2', name: 'Different Kind Of Buttons 2'},
 		{url:'neumorphism-button', name: 'Neumorphism-Button'},

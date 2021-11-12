@@ -42,6 +42,7 @@
 		{url:'paper-bg', name: 'Cut Paper Background'},
 		{url:'bg-anim', name: 'Background Animation'},
 		{url:'icon-glassmorphism', name: 'Icon Glassmorphism'},
+		{url:'rare-html-tags', name: 'Rare But useful HTML Tags'},
 		];
 </script>
 

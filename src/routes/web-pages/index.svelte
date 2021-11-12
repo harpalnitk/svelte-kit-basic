@@ -27,6 +27,7 @@
 		{url:'auth-page', name: 'Responsive Auth Page'},
 		{url:'services-page', name: 'Our Services page'},
 		{url:'newsletter', name: 'Newsletter Page'},
+		{url:'whatsapp-web', name: 'Whatsapp Web Clone'},
 		];
 </script>
 

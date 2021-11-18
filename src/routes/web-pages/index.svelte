@@ -28,6 +28,7 @@
 		{url:'services-page', name: 'Our Services page'},
 		{url:'newsletter', name: 'Newsletter Page'},
 		{url:'whatsapp-web', name: 'Whatsapp Web Clone'},
+		{url:'sticky-header', name: 'Sticky Header CSS Trick'},
 		];
 </script>
 

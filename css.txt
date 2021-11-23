@@ -309,6 +309,34 @@ get low-positive numbers. It’s a toggle. You’ll
  either get 8px or 0px and nothing in between.
 
 
+####BACKGROUND
+
+      Background is shorthand for
+background-attachment  scroll,fixed,local
+background-clip    border-box,padding-box,content-box,text
+ background-color    rgba(255, 255, 128, .5);
+ background-image   linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                      url("../../media/examples/lizard.png");
+                     The background images are drawn on stacking context layers on top of each other. The first layer specified is drawn as if it is closest to the user.
+
+                    The borders of the element are then drawn on top of them, and the background-color is drawn beneath them. How the images are drawn relative to the box and its borders is defined by the background-clip and background-origin CSS properties.
+ background-origin         border-box,padding-box,content-box
+                             The background-origin CSS property sets the background's origin: from the border start, inside the border, or inside the padding.
+ background-position      top,bottom,left,center,right,25% 75%
+                             /* Multiple images */
+                              background-position: 0 0, center;
+ background-repeat           repeat-x,repeat-y,repeat,space,round,no-repeat
+                                  /* Two-value syntax: horizontal | vertical */
+                                     background-repeat: repeat space;
+                                     By default, the repeated images are clipped to the size of the element, but they can be scaled to fit (using round) or evenly distributed from end to end (using space).
+ background-size                      The background-size CSS property sets the size of the element's background image. The image can be left to its natural size, stretched, or constrained to fit the available space.
+                                     cover,contain,50%(height auto),12px(height auto),50% auto,3em 25%
+                                     / Multiple backgrounds */
+                                       background-size: auto, auto; /* Not to be confused with `auto auto` */
+                                       background-size: 50%, 25%, 25%;
+                                       background-size: 6px, auto, contain;
+
+
 
 
 

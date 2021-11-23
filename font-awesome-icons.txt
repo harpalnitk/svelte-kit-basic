@@ -23,14 +23,15 @@ gaming-gamepad      fas fa-gamepad
 singing-microphone      fas fa-microphone-alt
 reading-book        fas fa-book
 cooking-utensils        fas fa-utensils  
+video-camera        <i class="fas fa-video"></i>
 
 ##########    MENU   ##################
 user-profile        fa fa-user
 home       fas fa-home
 contact         <i class="fas fa-address-card"></i>
 about-info      fa fa-info-circle
-message,chat    fas fa-comment-alt
-message         fa fa-envelope-o
+chat    fas fa-comment-alt
+message,mail        <i class="fas fa-envelope"></i>
 help        fas fa-question-circle
 settings    fas fa-cog
 password    fas fa-lock
@@ -56,6 +57,7 @@ pause       <i class="fas fa-pause"></i>
 prev        <i class="fas fa-backward"></i>
 next        <i class="fas fa-forward"></i>
 video       <i class="fas fa-video"></i>
+camera      <i class="fas fa-camera"></i>
 
 
 ######### SETTINGS ################
@@ -85,3 +87,4 @@ chart       <i class="fas fa-chart-bar"></i>
 square      <i class="far fa-square"></i>    &#9634;
 triangle        &#9651;
 circle      <i class="far fa-circle"></i>   &#9711;
+plus        <i class="fas fa-plus"></i>

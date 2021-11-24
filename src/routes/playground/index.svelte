@@ -43,6 +43,8 @@
 		{url:'bg-anim', name: 'Background Animation'},
 		{url:'icon-glassmorphism', name: 'Icon Glassmorphism'},
 		{url:'rare-html-tags', name: 'Rare But useful HTML Tags'},
+		{url:'ambient-light', name: 'Ambient Light Effect'},
+		{url:'3D-social-media-icon', name: '3D Social Media Icon Effect'},
 		];
 </script>
 

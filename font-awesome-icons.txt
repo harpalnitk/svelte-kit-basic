@@ -42,12 +42,12 @@ portfolio       <i class="far fa-images"></i>
 
 
 ######### SOCIAL MEDIA #######################
-facebook        fab fa-facebook-f
+facebook        fab fa-facebook-f   #3b5999
 youtube         fab fa-youtube
-twitter         fab fa-twitter
-instagram       fab fa-instagram
-whatsapp        fab fa-whatsapp
-linkedin        fab fa-linkedin-in
+twitter         fab fa-twitter  #55acee
+instagram       fab fa-instagram        #e4405f
+whatsapp        fab fa-whatsapp     #25d366
+linkedin        fab fa-linkedin-in      #007b55
 
 
 ######### AUDIO PLAYER ################

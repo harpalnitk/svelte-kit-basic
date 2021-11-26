@@ -31,6 +31,7 @@
 		{url:'mask-border', name: 'Mask Border CSS Property'},
 		{url:'how-to-draw-svg-shapes', name: 'How To Draw SVG Shapes'},
 		{url:'square-chart-with-mask-and-svg', name: 'Square Chart With Mask And SVG'},
+		{url:'paint-generative-pattern', name: 'Random Generative Patterns with Paint API'},
 		];
 </script>
 

@@ -18,6 +18,10 @@
             width: 100%;
             padding: 1rem;
             margin-bottom: 1rem;
+            border: 1px solid grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
     </style>

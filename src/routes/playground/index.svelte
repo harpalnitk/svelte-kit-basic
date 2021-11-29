@@ -33,6 +33,7 @@
 		{url:'before-after-pseudo', name: 'Before After Pseudo Element 7 use Cases'},
 		{url:'fancy-border', name: 'Fancy Border in Heading'},
 		{url:'fancy-ribbon', name: 'Fancy Ribbon in Card'},
+		{url:'fancy-ribbon-2', name: 'Fancy Ribbon in Card-2'},
 		{url:'show-hide-pwd', name: 'Show Hide Password'},
 		{url:'dialog-backdrop', name: 'Dialog with CSS Backdrop Property'},
 		{url:'li-pseudo-commas', name: 'Li element pseudo commas'},

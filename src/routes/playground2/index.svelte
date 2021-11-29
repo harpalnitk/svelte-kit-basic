@@ -61,6 +61,7 @@
 		{url:'rotate-earth-text', name: 'Rotating Earth Text Animation'},
 		{url:'tea-cup', name: 'Tea Cup'},
 		{url:'squid-games', name: 'Squid Games Icons'},
+		{url:'stairs', name: 'Stairs and clouds'},
 		
 		];
 </script>

@@ -15,6 +15,7 @@
 		{url:'random-particles', name: 'Random Particles'},
 		{url:'circles-anim', name: 'Animated Circles'},
 		{url:'color-use', name: 'Right Way to Use CSS Colors'},
+		{url:'animations', name: 'All animtions with only CSS'},
 		];
 </script>
 

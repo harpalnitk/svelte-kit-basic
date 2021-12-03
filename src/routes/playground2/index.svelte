@@ -25,6 +25,7 @@
 		{url:'vertical-expand-menu', name: 'Vertical Expandable Menu'},
 		{url:'menu-icon-hover', name: 'Menu Icon Hover Effect'},
 		{url:'circular-menu', name: 'Circular Menu'},
+		{url:'curved-magic-menu', name: 'Curved Magic Menu'},
 		//Text
 		{url:'icon-text-anim', name: 'Glowing Icon With Text Typing Animation'},
 		{url:'circle-text-logo', name: 'Circle Text Logo'},

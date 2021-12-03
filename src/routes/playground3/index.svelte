@@ -16,6 +16,8 @@
 		{url:'circles-anim', name: 'Animated Circles'},
 		{url:'color-use', name: 'Right Way to Use CSS Colors'},
 		{url:'animations', name: 'All animtions with only CSS'},
+		{url:'linear-range-mapping', name: 'Custom property linear range mapping'},
+		{url:'cartesian-system-css', name: 'Building a coordinate system in CSS and HTML'},
 		];
 </script>
 

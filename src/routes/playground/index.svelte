@@ -46,6 +46,8 @@
 		{url:'rare-html-tags', name: 'Rare But useful HTML Tags'},
 		{url:'ambient-light', name: 'Ambient Light Effect'},
 		{url:'3D-social-media-icon', name: '3D Social Media Icon Effect'},
+		{url:'apple-music', name: 'Apple Music Animation Effect'},
+		{url:'diagnol-stripes', name: 'Diagnol Stripes'},
 		];
 </script>
 

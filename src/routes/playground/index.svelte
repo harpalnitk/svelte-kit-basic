@@ -26,6 +26,7 @@
 		//Utilities::Rating Bar
 		{url:'rating-bar', name: 'Rating Bar'},
 		{url:'star-rating', name: 'Scalable Star rating'},
+		{url:'star-rating-icons', name: 'Star Rating using HTML icons'},
 		//Misc
 		{url:'ripple-animation', name: 'Ripple-Animation'},
 		{url:'particle', name: 'Particle Effect'},

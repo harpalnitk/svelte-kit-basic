@@ -47,6 +47,7 @@
 		{url:'circular-ring-loading', name: 'Circular Ring Loading'},
 		{url:'glassmorphism-loading', name: 'Glassmorphism Loading Circle'},
 		{url:'spiral-loading', name: '3-Spiral-Loaders'},
+		{url:'neumorphism loading', name: 'Neumorphism Loading'},
 
 	     //Cartoons
 		{url:'truck-anim', name: 'Truck Animation Svelte'},
@@ -57,6 +58,7 @@
 		{url:'eye-move', name: 'Eye Movement on mouse move'},
 		{url:'cartoon-eye-move', name: 'Cartoon Eye Movement on mouse move'},
 		{url:'falling-leaves', name: 'Falling leaves Animation'},
+		{url:'rain', name: 'Colorful Rain Animation'},
 		{url:'water-drops', name: 'Water Drops'},
 		{url:'bounce-balls', name: 'Bounce Balls With Semi-Circle'},
 		{url:'rotate-earth-text', name: 'Rotating Earth Text Animation'},

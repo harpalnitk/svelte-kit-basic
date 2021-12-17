@@ -112,6 +112,7 @@ const c = [
 	() => import("..\\..\\..\\src\\routes\\playground2\\creative-menu.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground2\\dropdown-menu.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground2\\happy-diwali2.svelte"),
+	() => import("..\\..\\..\\src\\routes\\playground2\\keyboard-keys.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground2\\loading-plane.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground2\\text-emphasis.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground2\\3d-anim-text.svelte"),
@@ -120,6 +121,7 @@ const c = [
 	() => import("..\\..\\..\\src\\routes\\playground2\\happy-diwali.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground2\\loading-anim.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground2\\corner-text.svelte"),
+	() => import("..\\..\\..\\src\\routes\\playground2\\cursor-text.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground2\\curved-menu.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground2\\indian-flag.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground2\\loading-bar.svelte"),
@@ -157,12 +159,14 @@ const c = [
 	() => import("..\\..\\..\\src\\routes\\playground\\ripple-animation.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground\\diagnol-stripes.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground\\dialog-backdrop.svelte"),
+	() => import("..\\..\\..\\src\\routes\\playground\\gradient-shadow.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground\\fancy-ribbon-2.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground\\glass-calendar.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground\\rare-html-tags.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground\\ambient-light.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground\\http-firebase.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground\\show-hide-pwd.svelte"),
+	() => import("..\\..\\..\\src\\routes\\playground\\ball-balance.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground\\fancy-border.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground\\fancy-ribbon.svelte"),
 	() => import("..\\..\\..\\src\\routes\\playground\\abstract-bg.svelte"),
@@ -634,269 +638,281 @@ export const routes = [
 	// src/routes/playground2/happy-diwali2.svelte
 	[/^\/playground2\/happy-diwali2\/?$/, [c[90], c[112]], []],
 
+	// src/routes/playground2/keyboard-keys.svelte
+	[/^\/playground2\/keyboard-keys\/?$/, [c[90], c[113]], []],
+
 	// src/routes/playground2/loading-plane.svelte
-	[/^\/playground2\/loading-plane\/?$/, [c[90], c[113]], []],
+	[/^\/playground2\/loading-plane\/?$/, [c[90], c[114]], []],
 
 	// src/routes/playground2/text-emphasis.svelte
-	[/^\/playground2\/text-emphasis\/?$/, [c[90], c[114]], []],
+	[/^\/playground2\/text-emphasis\/?$/, [c[90], c[115]], []],
 
 	// src/routes/playground2/3d-anim-text.svelte
-	[/^\/playground2\/3d-anim-text\/?$/, [c[90], c[115]], []],
+	[/^\/playground2\/3d-anim-text\/?$/, [c[90], c[116]], []],
 
 	// src/routes/playground2/bounce-balls.svelte
-	[/^\/playground2\/bounce-balls\/?$/, [c[90], c[116]], []],
+	[/^\/playground2\/bounce-balls\/?$/, [c[90], c[117]], []],
 
 	// src/routes/playground2/contact-info.svelte
-	[/^\/playground2\/contact-info\/?$/, [c[90], c[117]], []],
+	[/^\/playground2\/contact-info\/?$/, [c[90], c[118]], []],
 
 	// src/routes/playground2/happy-diwali.svelte
-	[/^\/playground2\/happy-diwali\/?$/, [c[90], c[118]], []],
+	[/^\/playground2\/happy-diwali\/?$/, [c[90], c[119]], []],
 
 	// src/routes/playground2/loading-anim.svelte
-	[/^\/playground2\/loading-anim\/?$/, [c[90], c[119]], []],
+	[/^\/playground2\/loading-anim\/?$/, [c[90], c[120]], []],
 
 	// src/routes/playground2/corner-text.svelte
-	[/^\/playground2\/corner-text\/?$/, [c[90], c[120]], []],
+	[/^\/playground2\/corner-text\/?$/, [c[90], c[121]], []],
+
+	// src/routes/playground2/cursor-text.svelte
+	[/^\/playground2\/cursor-text\/?$/, [c[90], c[122]], []],
 
 	// src/routes/playground2/curved-menu.svelte
-	[/^\/playground2\/curved-menu\/?$/, [c[90], c[121]], []],
+	[/^\/playground2\/curved-menu\/?$/, [c[90], c[123]], []],
 
 	// src/routes/playground2/indian-flag.svelte
-	[/^\/playground2\/indian-flag\/?$/, [c[90], c[122]], []],
+	[/^\/playground2\/indian-flag\/?$/, [c[90], c[124]], []],
 
 	// src/routes/playground2/loading-bar.svelte
-	[/^\/playground2\/loading-bar\/?$/, [c[90], c[123]], []],
+	[/^\/playground2\/loading-bar\/?$/, [c[90], c[125]], []],
 
 	// src/routes/playground2/squid-games.svelte
-	[/^\/playground2\/squid-games\/?$/, [c[90], c[124]], []],
+	[/^\/playground2\/squid-games\/?$/, [c[90], c[126]], []],
 
 	// src/routes/playground2/water-drops.svelte
-	[/^\/playground2\/water-drops\/?$/, [c[90], c[125]], []],
+	[/^\/playground2\/water-drops\/?$/, [c[90], c[127]], []],
 
 	// src/routes/playground2/intro-text.svelte
-	[/^\/playground2\/intro-text\/?$/, [c[90], c[126]], []],
+	[/^\/playground2\/intro-text\/?$/, [c[90], c[128]], []],
 
 	// src/routes/playground2/light-bulb.svelte
-	[/^\/playground2\/light-bulb\/?$/, [c[90], c[127]], []],
+	[/^\/playground2\/light-bulb\/?$/, [c[90], c[129]], []],
 
 	// src/routes/playground2/menu-hover.svelte
-	[/^\/playground2\/menu-hover\/?$/, [c[90], c[128]], []],
+	[/^\/playground2\/menu-hover\/?$/, [c[90], c[130]], []],
 
 	// src/routes/playground2/moving-box.svelte
-	[/^\/playground2\/moving-box\/?$/, [c[90], c[129]], []],
+	[/^\/playground2\/moving-box\/?$/, [c[90], c[131]], []],
 
 	// src/routes/playground2/truck-anim.svelte
-	[/^\/playground2\/truck-anim\/?$/, [c[90], c[130]], []],
+	[/^\/playground2\/truck-anim\/?$/, [c[90], c[132]], []],
 
 	// src/routes/playground2/wavy-text.svelte
-	[/^\/playground2\/wavy-text\/?$/, [c[90], c[131]], []],
+	[/^\/playground2\/wavy-text\/?$/, [c[90], c[133]], []],
 
 	// src/routes/playground2/airplane.svelte
-	[/^\/playground2\/airplane\/?$/, [c[90], c[132]], []],
+	[/^\/playground2\/airplane\/?$/, [c[90], c[134]], []],
 
 	// src/routes/playground2/eye-move.svelte
-	[/^\/playground2\/eye-move\/?$/, [c[90], c[133]], []],
+	[/^\/playground2\/eye-move\/?$/, [c[90], c[135]], []],
 
 	// src/routes/playground2/skeleton.svelte
-	[/^\/playground2\/skeleton\/?$/, [c[90], c[134]], []],
+	[/^\/playground2\/skeleton\/?$/, [c[90], c[136]], []],
 
 	// src/routes/playground2/tea-cup.svelte
-	[/^\/playground2\/tea-cup\/?$/, [c[90], c[135]], []],
+	[/^\/playground2\/tea-cup\/?$/, [c[90], c[137]], []],
 
 	// src/routes/playground2/tweened.svelte
-	[/^\/playground2\/tweened\/?$/, [c[90], c[136]], []],
+	[/^\/playground2\/tweened\/?$/, [c[90], c[138]], []],
 
 	// src/routes/playground2/curves.svelte
-	[/^\/playground2\/curves\/?$/, [c[90], c[137]], []],
+	[/^\/playground2\/curves\/?$/, [c[90], c[139]], []],
 
 	// src/routes/playground2/stairs.svelte
-	[/^\/playground2\/stairs\/?$/, [c[90], c[138]], []],
+	[/^\/playground2\/stairs\/?$/, [c[90], c[140]], []],
 
 	// src/routes/playground2/rain.svelte
-	[/^\/playground2\/rain\/?$/, [c[90], c[139]], []],
+	[/^\/playground2\/rain\/?$/, [c[90], c[141]], []],
 
 	// src/routes/playground3/index.svelte
-	[/^\/playground3\/?$/, [c[140], c[141]], []],
+	[/^\/playground3\/?$/, [c[142], c[143]], []],
 
 	// src/routes/playground3/cartesian-system-css.svelte
-	[/^\/playground3\/cartesian-system-css\/?$/, [c[140], c[142]], []],
+	[/^\/playground3\/cartesian-system-css\/?$/, [c[142], c[144]], []],
 
 	// src/routes/playground3/linear-range-mapping.svelte
-	[/^\/playground3\/linear-range-mapping\/?$/, [c[140], c[143]], []],
+	[/^\/playground3\/linear-range-mapping\/?$/, [c[142], c[145]], []],
 
 	// src/routes/playground3/random-particles.svelte
-	[/^\/playground3\/random-particles\/?$/, [c[140], c[144]], []],
+	[/^\/playground3\/random-particles\/?$/, [c[142], c[146]], []],
 
 	// src/routes/playground3/circles-anim.svelte
-	[/^\/playground3\/circles-anim\/?$/, [c[140], c[145]], []],
+	[/^\/playground3\/circles-anim\/?$/, [c[142], c[147]], []],
 
 	// src/routes/playground3/animations.svelte
-	[/^\/playground3\/animations\/?$/, [c[140], c[146]], []],
+	[/^\/playground3\/animations\/?$/, [c[142], c[148]], []],
 
 	// src/routes/playground3/color-use.svelte
-	[/^\/playground3\/color-use\/?$/, [c[140], c[147]], []],
+	[/^\/playground3\/color-use\/?$/, [c[142], c[149]], []],
 
 	// src/routes/playground/index.svelte
-	[/^\/playground\/?$/, [c[148], c[149]], []],
+	[/^\/playground\/?$/, [c[150], c[151]], []],
 
 	// src/routes/playground/3D-social-media-icon.svelte
-	[/^\/playground\/3D-social-media-icon\/?$/, [c[148], c[150]], []],
+	[/^\/playground\/3D-social-media-icon\/?$/, [c[150], c[152]], []],
 
 	// src/routes/playground/before-after-pseudo.svelte
-	[/^\/playground\/before-after-pseudo\/?$/, [c[148], c[151]], []],
+	[/^\/playground\/before-after-pseudo\/?$/, [c[150], c[153]], []],
 
 	// src/routes/playground/icon-glassmorphism.svelte
-	[/^\/playground\/icon-glassmorphism\/?$/, [c[148], c[152]], []],
+	[/^\/playground\/icon-glassmorphism\/?$/, [c[150], c[154]], []],
 
 	// src/routes/playground/star-rating-icons.svelte
-	[/^\/playground\/star-rating-icons\/?$/, [c[148], c[153]], []],
+	[/^\/playground\/star-rating-icons\/?$/, [c[150], c[155]], []],
 
 	// src/routes/playground/li-pseudo-commas.svelte
-	[/^\/playground\/li-pseudo-commas\/?$/, [c[148], c[154]], []],
+	[/^\/playground\/li-pseudo-commas\/?$/, [c[150], c[156]], []],
 
 	// src/routes/playground/ripple-animation.svelte
-	[/^\/playground\/ripple-animation\/?$/, [c[148], c[155]], []],
+	[/^\/playground\/ripple-animation\/?$/, [c[150], c[157]], []],
 
 	// src/routes/playground/diagnol-stripes.svelte
-	[/^\/playground\/diagnol-stripes\/?$/, [c[148], c[156]], []],
+	[/^\/playground\/diagnol-stripes\/?$/, [c[150], c[158]], []],
 
 	// src/routes/playground/dialog-backdrop.svelte
-	[/^\/playground\/dialog-backdrop\/?$/, [c[148], c[157]], []],
+	[/^\/playground\/dialog-backdrop\/?$/, [c[150], c[159]], []],
+
+	// src/routes/playground/gradient-shadow.svelte
+	[/^\/playground\/gradient-shadow\/?$/, [c[150], c[160]], []],
 
 	// src/routes/playground/fancy-ribbon-2.svelte
-	[/^\/playground\/fancy-ribbon-2\/?$/, [c[148], c[158]], []],
+	[/^\/playground\/fancy-ribbon-2\/?$/, [c[150], c[161]], []],
 
 	// src/routes/playground/glass-calendar.svelte
-	[/^\/playground\/glass-calendar\/?$/, [c[148], c[159]], []],
+	[/^\/playground\/glass-calendar\/?$/, [c[150], c[162]], []],
 
 	// src/routes/playground/rare-html-tags.svelte
-	[/^\/playground\/rare-html-tags\/?$/, [c[148], c[160]], []],
+	[/^\/playground\/rare-html-tags\/?$/, [c[150], c[163]], []],
 
 	// src/routes/playground/ambient-light.svelte
-	[/^\/playground\/ambient-light\/?$/, [c[148], c[161]], []],
+	[/^\/playground\/ambient-light\/?$/, [c[150], c[164]], []],
 
 	// src/routes/playground/http-firebase.svelte
-	[/^\/playground\/http-firebase\/?$/, [c[148], c[162]], []],
+	[/^\/playground\/http-firebase\/?$/, [c[150], c[165]], []],
 
 	// src/routes/playground/show-hide-pwd.svelte
-	[/^\/playground\/show-hide-pwd\/?$/, [c[148], c[163]], []],
+	[/^\/playground\/show-hide-pwd\/?$/, [c[150], c[166]], []],
+
+	// src/routes/playground/ball-balance.svelte
+	[/^\/playground\/ball-balance\/?$/, [c[150], c[167]], []],
 
 	// src/routes/playground/fancy-border.svelte
-	[/^\/playground\/fancy-border\/?$/, [c[148], c[164]], []],
+	[/^\/playground\/fancy-border\/?$/, [c[150], c[168]], []],
 
 	// src/routes/playground/fancy-ribbon.svelte
-	[/^\/playground\/fancy-ribbon\/?$/, [c[148], c[165]], []],
+	[/^\/playground\/fancy-ribbon\/?$/, [c[150], c[169]], []],
 
 	// src/routes/playground/abstract-bg.svelte
-	[/^\/playground\/abstract-bg\/?$/, [c[148], c[166]], []],
+	[/^\/playground\/abstract-bg\/?$/, [c[150], c[170]], []],
 
 	// src/routes/playground/apple-music.svelte
-	[/^\/playground\/apple-music\/?$/, [c[148], c[167]], []],
+	[/^\/playground\/apple-music\/?$/, [c[150], c[171]], []],
 
 	// src/routes/playground/star-rating.svelte
-	[/^\/playground\/star-rating\/?$/, [c[148], c[168]], []],
+	[/^\/playground\/star-rating\/?$/, [c[150], c[172]], []],
 
 	// src/routes/playground/box-shadow.svelte
-	[/^\/playground\/box-shadow\/?$/, [c[148], c[169]], []],
+	[/^\/playground\/box-shadow\/?$/, [c[150], c[173]], []],
 
 	// src/routes/playground/calculator.svelte
-	[/^\/playground\/calculator\/?$/, [c[148], c[170]], []],
+	[/^\/playground\/calculator\/?$/, [c[150], c[174]], []],
 
 	// src/routes/playground/http-store.js
 	[/^\/playground\/http-store\/?$/],
 
 	// src/routes/playground/rating-bar.svelte
-	[/^\/playground\/rating-bar\/?$/, [c[148], c[171]], []],
+	[/^\/playground\/rating-bar\/?$/, [c[150], c[175]], []],
 
 	// src/routes/playground/search-box.svelte
-	[/^\/playground\/search-box\/?$/, [c[148], c[172]], []],
+	[/^\/playground\/search-box\/?$/, [c[150], c[176]], []],
 
 	// src/routes/playground/paper-bg.svelte
-	[/^\/playground\/paper-bg\/?$/, [c[148], c[173]], []],
+	[/^\/playground\/paper-bg\/?$/, [c[150], c[177]], []],
 
 	// src/routes/playground/particle.svelte
-	[/^\/playground\/particle\/?$/, [c[148], c[174]], []],
+	[/^\/playground\/particle\/?$/, [c[150], c[178]], []],
 
 	// src/routes/playground/bg-anim.svelte
-	[/^\/playground\/bg-anim\/?$/, [c[148], c[175]], []],
+	[/^\/playground\/bg-anim\/?$/, [c[150], c[179]], []],
 
 	// src/routes/playground/clock-2.svelte
-	[/^\/playground\/clock-2\/?$/, [c[148], c[176]], []],
+	[/^\/playground\/clock-2\/?$/, [c[150], c[180]], []],
 
 	// src/routes/playground/shadows.svelte
-	[/^\/playground\/shadows\/?$/, [c[148], c[177]], []],
+	[/^\/playground\/shadows\/?$/, [c[150], c[181]], []],
 
 	// src/routes/playground/liquid.svelte
-	[/^\/playground\/liquid\/?$/, [c[148], c[178]], []],
+	[/^\/playground\/liquid\/?$/, [c[150], c[182]], []],
 
 	// src/routes/playground/spring.svelte
-	[/^\/playground\/spring\/?$/, [c[148], c[179]], []],
+	[/^\/playground\/spring\/?$/, [c[150], c[183]], []],
 
 	// src/routes/playground/basic.svelte
-	[/^\/playground\/basic\/?$/, [c[148], c[180]], []],
+	[/^\/playground\/basic\/?$/, [c[150], c[184]], []],
 
 	// src/routes/playground/clock.svelte
-	[/^\/playground\/clock\/?$/, [c[148], c[181]], []],
+	[/^\/playground\/clock\/?$/, [c[150], c[185]], []],
 
 	// src/routes/dashboard/index.svelte
-	[/^\/dashboard\/?$/, [c[0], c[182]], [c[1]]],
+	[/^\/dashboard\/?$/, [c[0], c[186]], [c[1]]],
 
 	// src/routes/web-pages/index.svelte
-	[/^\/web-pages\/?$/, [c[183], c[184]], []],
+	[/^\/web-pages\/?$/, [c[187], c[188]], []],
 
 	// src/routes/web-pages/personal-portfolio/index.svelte
-	[/^\/web-pages\/personal-portfolio\/?$/, [c[183], c[185]], []],
+	[/^\/web-pages\/personal-portfolio\/?$/, [c[187], c[189]], []],
 
 	// src/routes/web-pages/personal-portfolio/resume.svelte
-	[/^\/web-pages\/personal-portfolio\/resume\/?$/, [c[183], c[186]], []],
+	[/^\/web-pages\/personal-portfolio\/resume\/?$/, [c[187], c[190]], []],
 
 	// src/routes/web-pages/admin-dashboard.svelte
-	[/^\/web-pages\/admin-dashboard\/?$/, [c[183], c[187]], []],
+	[/^\/web-pages\/admin-dashboard\/?$/, [c[187], c[191]], []],
 
 	// src/routes/web-pages/full-page-tabs/index.svelte
-	[/^\/web-pages\/full-page-tabs\/?$/, [c[183], c[188]], []],
+	[/^\/web-pages\/full-page-tabs\/?$/, [c[187], c[192]], []],
 
 	// src/routes/web-pages/full-page-tabs/NewsPageContent.svelte
-	[/^\/web-pages\/full-page-tabs\/NewsPageContent\/?$/, [c[183], c[189]], []],
+	[/^\/web-pages\/full-page-tabs\/NewsPageContent\/?$/, [c[187], c[193]], []],
 
 	// src/routes/web-pages/full-page-tabs/ContactPage.svelte
-	[/^\/web-pages\/full-page-tabs\/ContactPage\/?$/, [c[183], c[190]], []],
+	[/^\/web-pages\/full-page-tabs\/ContactPage\/?$/, [c[187], c[194]], []],
 
 	// src/routes/web-pages/full-page-tabs/AboutPage.svelte
-	[/^\/web-pages\/full-page-tabs\/AboutPage\/?$/, [c[183], c[191]], []],
+	[/^\/web-pages\/full-page-tabs\/AboutPage\/?$/, [c[187], c[195]], []],
 
 	// src/routes/web-pages/full-page-tabs/HomePage.svelte
-	[/^\/web-pages\/full-page-tabs\/HomePage\/?$/, [c[183], c[192]], []],
+	[/^\/web-pages\/full-page-tabs\/HomePage\/?$/, [c[187], c[196]], []],
 
 	// src/routes/web-pages/full-page-tabs/NewsPage.svelte
-	[/^\/web-pages\/full-page-tabs\/NewsPage\/?$/, [c[183], c[193]], []],
+	[/^\/web-pages\/full-page-tabs\/NewsPage\/?$/, [c[187], c[197]], []],
 
 	// src/routes/web-pages/full-page-tabs/Footer.svelte
-	[/^\/web-pages\/full-page-tabs\/Footer\/?$/, [c[183], c[194]], []],
+	[/^\/web-pages\/full-page-tabs\/Footer\/?$/, [c[187], c[198]], []],
 
 	// src/routes/web-pages/advanced-flex/index.svelte
-	[/^\/web-pages\/advanced-flex\/?$/, [c[183], c[195]], []],
+	[/^\/web-pages\/advanced-flex\/?$/, [c[187], c[199]], []],
 
 	// src/routes/web-pages/advanced-flex/sass/main.scss
 	[/^\/web-pages\/advanced-flex\/sass\/main\/?$/],
 
 	// src/routes/web-pages/advanced-grid/index.svelte
-	[/^\/web-pages\/advanced-grid\/?$/, [c[183], c[196]], []],
+	[/^\/web-pages\/advanced-grid\/?$/, [c[187], c[200]], []],
 
 	// src/routes/web-pages/advanced-grid/sass/main.scss
 	[/^\/web-pages\/advanced-grid\/sass\/main\/?$/],
 
 	// src/routes/web-pages/dropdown-menu.svelte
-	[/^\/web-pages\/dropdown-menu\/?$/, [c[183], c[197]], []],
+	[/^\/web-pages\/dropdown-menu\/?$/, [c[187], c[201]], []],
 
 	// src/routes/web-pages/services-page.svelte
-	[/^\/web-pages\/services-page\/?$/, [c[183], c[198]], []],
+	[/^\/web-pages\/services-page\/?$/, [c[187], c[202]], []],
 
 	// src/routes/web-pages/sticky-header.svelte
-	[/^\/web-pages\/sticky-header\/?$/, [c[183], c[199]], []],
+	[/^\/web-pages\/sticky-header\/?$/, [c[187], c[203]], []],
 
 	// src/routes/web-pages/advanced-css/index.svelte
-	[/^\/web-pages\/advanced-css\/?$/, [c[183], c[200]], []],
+	[/^\/web-pages\/advanced-css\/?$/, [c[187], c[204]], []],
 
 	// src/routes/web-pages/advanced-css/fonts/material-icons/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2
 	[/^\/web-pages\/advanced-css\/fonts\/material-icons\/flUhRq6tzZclQEJ-Vdg-IuiaDsNc\/?$/],
@@ -905,247 +921,247 @@ export const routes = [
 	[/^\/web-pages\/advanced-css\/main\/?$/],
 
 	// src/routes/web-pages/whatsapp-web.svelte
-	[/^\/web-pages\/whatsapp-web\/?$/, [c[183], c[201]], []],
+	[/^\/web-pages\/whatsapp-web\/?$/, [c[187], c[205]], []],
 
 	// src/routes/web-pages/contact-us.svelte
-	[/^\/web-pages\/contact-us\/?$/, [c[183], c[202]], []],
+	[/^\/web-pages\/contact-us\/?$/, [c[187], c[206]], []],
 
 	// src/routes/web-pages/e-commerce.svelte
-	[/^\/web-pages\/e-commerce\/?$/, [c[183], c[203]], []],
+	[/^\/web-pages\/e-commerce\/?$/, [c[187], c[207]], []],
 
 	// src/routes/web-pages/light-dark.svelte
-	[/^\/web-pages\/light-dark\/?$/, [c[183], c[204]], []],
+	[/^\/web-pages\/light-dark\/?$/, [c[187], c[208]], []],
 
 	// src/routes/web-pages/newsletter.svelte
-	[/^\/web-pages\/newsletter\/?$/, [c[183], c[205]], []],
+	[/^\/web-pages\/newsletter\/?$/, [c[187], c[209]], []],
 
 	// src/routes/web-pages/auth-page.svelte
-	[/^\/web-pages\/auth-page\/?$/, [c[183], c[206]], []],
+	[/^\/web-pages\/auth-page\/?$/, [c[187], c[210]], []],
 
 	// src/routes/web-pages/three-js.svelte
-	[/^\/web-pages\/three-js\/?$/, [c[183], c[207]], []],
+	[/^\/web-pages\/three-js\/?$/, [c[187], c[211]], []],
 
 	// src/routes/web-pages/fruits.svelte
-	[/^\/web-pages\/fruits\/?$/, [c[183], c[208]], []],
+	[/^\/web-pages\/fruits\/?$/, [c[187], c[212]], []],
 
 	// src/routes/web-pages/basic.svelte
-	[/^\/web-pages\/basic\/?$/, [c[183], c[209]], []],
+	[/^\/web-pages\/basic\/?$/, [c[187], c[213]], []],
 
 	// src/routes/images/index.svelte
-	[/^\/images\/?$/, [c[210], c[211]], []],
+	[/^\/images\/?$/, [c[214], c[215]], []],
 
 	// src/routes/images/images-para-two-column.svelte
-	[/^\/images\/images-para-two-column\/?$/, [c[210], c[212]], []],
+	[/^\/images\/images-para-two-column\/?$/, [c[214], c[216]], []],
 
 	// src/routes/images/image-blob-paint-all.svelte
-	[/^\/images\/image-blob-paint-all\/?$/, [c[210], c[213]], []],
+	[/^\/images\/image-blob-paint-all\/?$/, [c[214], c[217]], []],
 
 	// src/routes/images/image-fragmentation.svelte
-	[/^\/images\/image-fragmentation\/?$/, [c[210], c[214]], []],
+	[/^\/images\/image-fragmentation\/?$/, [c[214], c[218]], []],
 
 	// src/routes/images/portfolio-gallery/index.svelte
-	[/^\/images\/portfolio-gallery\/?$/, [c[210], c[215]], []],
+	[/^\/images\/portfolio-gallery\/?$/, [c[214], c[219]], []],
 
 	// src/routes/images/portfolio-gallery/ImageCard.svelte
-	[/^\/images\/portfolio-gallery\/ImageCard\/?$/, [c[210], c[216]], []],
+	[/^\/images\/portfolio-gallery\/ImageCard\/?$/, [c[214], c[220]], []],
 
 	// src/routes/images/portfolio-gallery/Gallery.svelte
-	[/^\/images\/portfolio-gallery\/Gallery\/?$/, [c[210], c[217]], []],
+	[/^\/images\/portfolio-gallery\/Gallery\/?$/, [c[214], c[221]], []],
 
 	// src/routes/images/portfolio-gallery/imgData.js
 	[/^\/images\/portfolio-gallery\/imgData\/?$/],
 
 	// src/routes/images/image-blob-paint.svelte
-	[/^\/images\/image-blob-paint\/?$/, [c[210], c[218]], []],
+	[/^\/images\/image-blob-paint\/?$/, [c[214], c[222]], []],
 
 	// src/routes/images/image-with-text.svelte
-	[/^\/images\/image-with-text\/?$/, [c[210], c[219]], []],
+	[/^\/images\/image-with-text\/?$/, [c[214], c[223]], []],
 
 	// src/routes/images/overlay-content.svelte
-	[/^\/images\/overlay-content\/?$/, [c[210], c[220]], []],
+	[/^\/images\/overlay-content\/?$/, [c[214], c[224]], []],
 
 	// src/routes/images/rotating-images.svelte
-	[/^\/images\/rotating-images\/?$/, [c[210], c[221]], []],
+	[/^\/images\/rotating-images\/?$/, [c[214], c[225]], []],
 
 	// src/routes/images/text-portrait.svelte
-	[/^\/images\/text-portrait\/?$/, [c[210], c[222]], []],
+	[/^\/images\/text-portrait\/?$/, [c[214], c[226]], []],
 
 	// src/routes/images/image-paint.svelte
-	[/^\/images\/image-paint\/?$/, [c[210], c[223]], []],
+	[/^\/images\/image-paint\/?$/, [c[214], c[227]], []],
 
 	// src/routes/images/image-pixel.svelte
-	[/^\/images\/image-pixel\/?$/, [c[210], c[224]], []],
+	[/^\/images\/image-pixel\/?$/, [c[214], c[228]], []],
 
 	// src/routes/images/slideshow/index.svelte
-	[/^\/images\/slideshow\/?$/, [c[210], c[225]], []],
+	[/^\/images\/slideshow\/?$/, [c[214], c[229]], []],
 
 	// src/routes/images/slideshow/slideData.js
 	[/^\/images\/slideshow\/slideData\/?$/],
 
 	// src/routes/images/slideshow/Slide.svelte
-	[/^\/images\/slideshow\/Slide\/?$/, [c[210], c[226]], []],
+	[/^\/images\/slideshow\/Slide\/?$/, [c[214], c[230]], []],
 
 	// src/routes/images/slideshow/Dot.svelte
-	[/^\/images\/slideshow\/Dot\/?$/, [c[210], c[227]], []],
+	[/^\/images\/slideshow\/Dot\/?$/, [c[214], c[231]], []],
 
 	// src/routes/images/gallery/index.svelte
-	[/^\/images\/gallery\/?$/, [c[210], c[228]], []],
+	[/^\/images\/gallery\/?$/, [c[214], c[232]], []],
 
 	// src/routes/images/gallery/ImageDisplay.svelte
-	[/^\/images\/gallery\/ImageDisplay\/?$/, [c[210], c[229]], []],
+	[/^\/images\/gallery\/ImageDisplay\/?$/, [c[214], c[233]], []],
 
 	// src/routes/images/gallery/Thumbnail.svelte
-	[/^\/images\/gallery\/Thumbnail\/?$/, [c[210], c[230]], []],
+	[/^\/images\/gallery\/Thumbnail\/?$/, [c[214], c[234]], []],
 
 	// src/routes/images/gallery/imageData.js
 	[/^\/images\/gallery\/imageData\/?$/],
 
 	// src/routes/images/gallery/Caption.svelte
-	[/^\/images\/gallery\/Caption\/?$/, [c[210], c[231]], []],
+	[/^\/images\/gallery\/Caption\/?$/, [c[214], c[235]], []],
 
 	// src/routes/images/gallery/Gallery.svelte
-	[/^\/images\/gallery\/Gallery\/?$/, [c[210], c[232]], []],
+	[/^\/images\/gallery\/Gallery\/?$/, [c[214], c[236]], []],
 
 	// src/routes/images/gallery/Slide.svelte
-	[/^\/images\/gallery\/Slide\/?$/, [c[210], c[233]], []],
+	[/^\/images\/gallery\/Slide\/?$/, [c[214], c[237]], []],
 
 	// src/routes/videos/index.svelte
-	[/^\/videos\/?$/, [c[234], c[235]], []],
+	[/^\/videos\/?$/, [c[238], c[239]], []],
 
 	// src/routes/videos/scale-video-scroll.svelte
-	[/^\/videos\/scale-video-scroll\/?$/, [c[234], c[236]], []],
+	[/^\/videos\/scale-video-scroll\/?$/, [c[238], c[240]], []],
 
 	// src/routes/videos/video-slider.svelte
-	[/^\/videos\/video-slider\/?$/, [c[234], c[237]], []],
+	[/^\/videos\/video-slider\/?$/, [c[238], c[241]], []],
 
 	// src/routes/videos/video-text.svelte
-	[/^\/videos\/video-text\/?$/, [c[234], c[238]], []],
+	[/^\/videos\/video-text\/?$/, [c[238], c[242]], []],
 
 	// src/routes/audio/index.svelte
-	[/^\/audio\/?$/, [c[239], c[240]], []],
+	[/^\/audio\/?$/, [c[243], c[244]], []],
 
 	// src/routes/audio/css-js-music-player.svelte
-	[/^\/audio\/css-js-music-player\/?$/, [c[239], c[241]], []],
+	[/^\/audio\/css-js-music-player\/?$/, [c[243], c[245]], []],
 
 	// src/routes/audio/audio-player/index.svelte
-	[/^\/audio\/audio-player\/?$/, [c[239], c[242]], []],
+	[/^\/audio\/audio-player\/?$/, [c[243], c[246]], []],
 
 	// src/routes/audio/audio-player/ProgressBarTime.svelte
-	[/^\/audio\/audio-player\/ProgressBarTime\/?$/, [c[239], c[243]], []],
+	[/^\/audio\/audio-player\/ProgressBarTime\/?$/, [c[243], c[247]], []],
 
 	// src/routes/audio/audio-player/TrackHeading.svelte
-	[/^\/audio\/audio-player\/TrackHeading\/?$/, [c[239], c[244]], []],
+	[/^\/audio\/audio-player\/TrackHeading\/?$/, [c[243], c[248]], []],
 
 	// src/routes/audio/audio-player/VolumeSlider.svelte
-	[/^\/audio\/audio-player\/VolumeSlider\/?$/, [c[239], c[245]], []],
+	[/^\/audio\/audio-player\/VolumeSlider\/?$/, [c[243], c[249]], []],
 
 	// src/routes/audio/audio-player/Controls.svelte
-	[/^\/audio\/audio-player\/Controls\/?$/, [c[239], c[246]], []],
+	[/^\/audio\/audio-player\/Controls\/?$/, [c[243], c[250]], []],
 
 	// src/routes/audio/audio-player/PlayList.svelte
-	[/^\/audio\/audio-player\/PlayList\/?$/, [c[239], c[247]], []],
+	[/^\/audio\/audio-player\/PlayList\/?$/, [c[243], c[251]], []],
 
 	// src/routes/audio/audioData.js
 	[/^\/audio\/audioData\/?$/],
 
 	// src/routes/cards/index.svelte
-	[/^\/cards\/?$/, [c[248], c[249]], []],
+	[/^\/cards\/?$/, [c[252], c[253]], []],
 
 	// src/routes/cards/testimonial-with-swiper.svelte
-	[/^\/cards\/testimonial-with-swiper\/?$/, [c[248], c[250]], []],
+	[/^\/cards\/testimonial-with-swiper\/?$/, [c[252], c[254]], []],
 
 	// src/routes/cards/3d-flip-product-card.svelte
-	[/^\/cards\/3d-flip-product-card\/?$/, [c[248], c[251]], []],
+	[/^\/cards\/3d-flip-product-card\/?$/, [c[252], c[255]], []],
 
 	// src/routes/cards/gradient-border-card.svelte
-	[/^\/cards\/gradient-border-card\/?$/, [c[248], c[252]], []],
+	[/^\/cards\/gradient-border-card\/?$/, [c[252], c[256]], []],
 
 	// src/routes/cards/gradient-card-shadow.svelte
-	[/^\/cards\/gradient-card-shadow\/?$/, [c[248], c[253]], []],
+	[/^\/cards\/gradient-card-shadow\/?$/, [c[252], c[257]], []],
 
 	// src/routes/cards/cube-slider-swiper.svelte
-	[/^\/cards\/cube-slider-swiper\/?$/, [c[248], c[254]], []],
+	[/^\/cards\/cube-slider-swiper\/?$/, [c[252], c[258]], []],
 
 	// src/routes/cards/neumorphic-card-d.svelte
-	[/^\/cards\/neumorphic-card-d\/?$/, [c[248], c[255]], []],
+	[/^\/cards\/neumorphic-card-d\/?$/, [c[252], c[259]], []],
 
 	// src/routes/cards/neumorphic-card-l.svelte
-	[/^\/cards\/neumorphic-card-l\/?$/, [c[248], c[256]], []],
+	[/^\/cards\/neumorphic-card-l\/?$/, [c[252], c[260]], []],
 
 	// src/routes/cards/overlapping-cards.svelte
-	[/^\/cards\/overlapping-cards\/?$/, [c[248], c[257]], []],
+	[/^\/cards\/overlapping-cards\/?$/, [c[252], c[261]], []],
 
 	// src/routes/cards/3d-foldable-card.svelte
-	[/^\/cards\/3d-foldable-card\/?$/, [c[248], c[258]], []],
+	[/^\/cards\/3d-foldable-card\/?$/, [c[252], c[262]], []],
 
 	// src/routes/cards/card-border-anim.svelte
-	[/^\/cards\/card-border-anim\/?$/, [c[248], c[259]], []],
+	[/^\/cards\/card-border-anim\/?$/, [c[252], c[263]], []],
 
 	// src/routes/cards/image-hover-card.svelte
-	[/^\/cards\/image-hover-card\/?$/, [c[248], c[260]], []],
+	[/^\/cards\/image-hover-card\/?$/, [c[252], c[264]], []],
 
 	// src/routes/cards/weird-shape-card.svelte
-	[/^\/cards\/weird-shape-card\/?$/, [c[248], c[261]], []],
+	[/^\/cards\/weird-shape-card\/?$/, [c[252], c[265]], []],
 
 	// src/routes/cards/neumorphic-card.svelte
-	[/^\/cards\/neumorphic-card\/?$/, [c[248], c[262]], []],
+	[/^\/cards\/neumorphic-card\/?$/, [c[252], c[266]], []],
 
 	// src/routes/cards/3d-stack-cards.svelte
-	[/^\/cards\/3d-stack-cards\/?$/, [c[248], c[263]], []],
+	[/^\/cards\/3d-stack-cards\/?$/, [c[252], c[267]], []],
 
 	// src/routes/cards/hovering-cards.svelte
-	[/^\/cards\/hovering-cards\/?$/, [c[248], c[264]], []],
+	[/^\/cards\/hovering-cards\/?$/, [c[252], c[268]], []],
 
 	// src/routes/cards/instagram-card.svelte
-	[/^\/cards\/instagram-card\/?$/, [c[248], c[265]], []],
+	[/^\/cards\/instagram-card\/?$/, [c[252], c[269]], []],
 
 	// src/routes/cards/3d-flip-card2.svelte
-	[/^\/cards\/3d-flip-card2\/?$/, [c[248], c[266]], []],
+	[/^\/cards\/3d-flip-card2\/?$/, [c[252], c[270]], []],
 
 	// src/routes/cards/profile-hover.svelte
-	[/^\/cards\/profile-hover\/?$/, [c[248], c[267]], []],
+	[/^\/cards\/profile-hover\/?$/, [c[252], c[271]], []],
 
 	// src/routes/cards/3d-flip-card.svelte
-	[/^\/cards\/3d-flip-card\/?$/, [c[248], c[268]], []],
+	[/^\/cards\/3d-flip-card\/?$/, [c[252], c[272]], []],
 
 	// src/routes/cards/contact-info.svelte
-	[/^\/cards\/contact-info\/?$/, [c[248], c[269]], []],
+	[/^\/cards\/contact-info\/?$/, [c[252], c[273]], []],
 
 	// src/routes/cards/glowing-card.svelte
-	[/^\/cards\/glowing-card\/?$/, [c[248], c[270]], []],
+	[/^\/cards\/glowing-card\/?$/, [c[252], c[274]], []],
 
 	// src/routes/cards/hexagon-card.svelte
-	[/^\/cards\/hexagon-card\/?$/, [c[248], c[271]], []],
+	[/^\/cards\/hexagon-card\/?$/, [c[252], c[275]], []],
 
 	// src/routes/cards/product-card.svelte
-	[/^\/cards\/product-card\/?$/, [c[248], c[272]], []],
+	[/^\/cards\/product-card\/?$/, [c[252], c[276]], []],
 
 	// src/routes/cards/profile-card.svelte
-	[/^\/cards\/profile-card\/?$/, [c[248], c[273]], []],
+	[/^\/cards\/profile-card\/?$/, [c[252], c[277]], []],
 
 	// src/routes/cards/curved-card.svelte
-	[/^\/cards\/curved-card\/?$/, [c[248], c[274]], []],
+	[/^\/cards\/curved-card\/?$/, [c[252], c[278]], []],
 
 	// src/routes/cards/glass-hover.svelte
-	[/^\/cards\/glass-hover\/?$/, [c[248], c[275]], []],
+	[/^\/cards\/glass-hover\/?$/, [c[252], c[279]], []],
 
 	// src/routes/cards/player-card.svelte
-	[/^\/cards\/player-card\/?$/, [c[248], c[276]], []],
+	[/^\/cards\/player-card\/?$/, [c[252], c[280]], []],
 
 	// src/routes/cards/glass-card.svelte
-	[/^\/cards\/glass-card\/?$/, [c[248], c[277]], []],
+	[/^\/cards\/glass-card\/?$/, [c[252], c[281]], []],
 
 	// src/routes/cards/glow-card.svelte
-	[/^\/cards\/glow-card\/?$/, [c[248], c[278]], []],
+	[/^\/cards\/glow-card\/?$/, [c[252], c[282]], []],
 
 	// src/routes/cards/glass.svelte
-	[/^\/cards\/glass\/?$/, [c[248], c[279]], []],
+	[/^\/cards\/glass\/?$/, [c[252], c[283]], []],
 
 	// src/routes/cards/book.svelte
-	[/^\/cards\/book\/?$/, [c[248], c[280]], []],
+	[/^\/cards\/book\/?$/, [c[252], c[284]], []],
 
 	// src/routes/auth/index.svelte
-	[/^\/auth\/?$/, [c[0], c[281]], [c[1]]]
+	[/^\/auth\/?$/, [c[0], c[285]], [c[1]]]
 ];
 
 // we import the root layout/error components eagerly, so that

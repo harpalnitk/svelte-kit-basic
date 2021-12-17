@@ -15,6 +15,7 @@
 		//Box-Shadows
 		{url:'box-shadow', name: 'Box Shadow Designs'},
 		{url:'shadows', name: 'CSS Shadows'},
+		{url:'gradient-shadow', name: 'CSS Gradient Shadow'},
 
 
 		//Utilities
@@ -49,6 +50,7 @@
 		{url:'3D-social-media-icon', name: '3D Social Media Icon Effect'},
 		{url:'apple-music', name: 'Apple Music Animation Effect'},
 		{url:'diagnol-stripes', name: 'Diagnol Stripes'},
+		{url:'ball-balance', name: 'Physics Ball Balance'},
 		];
 </script>
 

@@ -36,6 +36,8 @@
 		{url:'corner-text', name: 'Corner Text Parallax Effect'},
 		{url:'happy-diwali', name: 'Twinkle Happy Diwali'},
 		{url:'happy-diwali2', name: 'Twinkle Happy Diwali 2'},
+		{url:'keyboard-keys', name: 'KeyBoard Keys'},
+		{url:'cursor-text', name: 'Cursor Text Animation Effect'},
 		//Loading
 		{url:'loading-squares', name: 'Colorful Loading Squares'},
 		{url:'loading-anim', name: 'Loading Animation'},

@@ -24,6 +24,7 @@
 		{url:'glass-calendar', name: 'Glassmorphism Calendar'},
 		{url:'calculator', name: 'Calculator'},
 		{url:'search-box', name: 'Search Box'},
+		{url:'countdown-timer', name: 'CountDown Timer'},
 		//Utilities::Rating Bar
 		{url:'rating-bar', name: 'Rating Bar'},
 		{url:'star-rating', name: 'Scalable Star rating'},

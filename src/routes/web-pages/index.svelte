@@ -29,6 +29,7 @@
 		{url:'newsletter', name: 'Newsletter Page'},
 		{url:'whatsapp-web', name: 'Whatsapp Web Clone'},
 		{url:'sticky-header', name: 'Sticky Header CSS Trick'},
+		{url:'404-page', name: 'Animated 404 Page'},
 		];
 </script>
 

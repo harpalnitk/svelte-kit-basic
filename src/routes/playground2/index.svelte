@@ -25,7 +25,8 @@
 		{url:'vertical-expand-menu', name: 'Vertical Expandable Menu'},
 		{url:'menu-icon-hover', name: 'Menu Icon Hover Effect'},
 		{url:'circular-menu', name: 'Circular Menu'},
-		{url:'curved-magic-menu', name: 'Curved Magic Menu'},
+		{url:'curved-magic-menu', name: 'Curved Magic Menu Below'},
+		{url:'curved-magic-menu-2', name: 'Curved Magic Menu Above'},
 		//Text
 		{url:'icon-text-anim', name: 'Glowing Icon With Text Typing Animation'},
 		{url:'circle-text-logo', name: 'Circle Text Logo'},
@@ -67,6 +68,7 @@
 		{url:'tea-cup', name: 'Tea Cup'},
 		{url:'squid-games', name: 'Squid Games Icons'},
 		{url:'stairs', name: 'Stairs and clouds'},
+		{url:'christmas', name: '3D-Animated Christmas Tree'},
 		
 		];
 </script>

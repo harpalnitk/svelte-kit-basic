@@ -1,6 +1,6 @@
 <script>
    
-
+let toggle = false;
     const deg = 6;
     let day= new Date();
 
@@ -19,7 +19,7 @@
 
 
 
-<main>
+<main class:light={toggle}>
 <div class="clock">
     <div class="hour">
         <div class="hr" id="hr" 
@@ -40,6 +40,7 @@
     <div class="disp six">6</div>
     <div class="disp nine">9</div>
 </div>
+<div class="toggleClass" on:click="{()=>{toggle= !toggle}}"></div>
 </main>
 
 
@@ -59,7 +60,11 @@
 
     --size: 20rem;
     --disp-size: calc(var(--size)/ 15);
-    --shadow:  calc(var(--size)*(15/350));
+    --shadow:  calc(var(--size)*(15/700));
+    --shadow-light:  calc(var(--size)*(15/700));
+}
+main.light{
+    background: #d1dae3;;
 }
 .clock{
     position: relative;
@@ -77,6 +82,14 @@
                 0 var(--shadow) var(--shadow) rgba(0, 0, 0, 0.3),
                 inset 0 var(--shadow) var(--shadow) rgba(0,0,0,0.3);
 }
+
+main.light .clock{
+    border: 4px solid #cad3dc;
+    box-shadow: 0 calc(var(--shadow) * -1) var(--shadow) rgba(255,255,255,0.5),
+                inset 0 calc(var(--shadow) * -1) var(--shadow) rgba(255,255,255,0.5),
+                0 var(--shadow-light) var(--shadow-light) rgba(0, 0, 0, 0.1),
+                inset 0 var(--shadow-light) var(--shadow-light) rgba(0,0,0,0.1);
+}
 .clock:before{
     content: '';
     position: absolute;
@@ -85,6 +98,9 @@
     background: #fff;
     border-radius: 50%;
     z-index: 10000;
+}
+main.light .clock:before{
+background: #008eff;
 }
 .clock .hour,
 .clock .min,
@@ -131,6 +147,9 @@
     border-radius: 6px 6px 0 0;
 
 }
+main.light .mn::before{
+    background: #091921;
+}
 .sc::before{
     content: '';
     position: absolute;
@@ -159,5 +178,56 @@
 .nine{
     top: calc((100% - var(--disp-size))/2);
     left: 5%;
+}
+.toggle{
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    border-radius: 50%;
+    background: #d1dae3;
+    color: #d1dae3;
+    font-family: consolas;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+}
+.toggle::before{
+    position: absolute;
+    content: 'Light Mode';
+    left: 25px;
+    white-space: nowrap;
+}
+.toggleClass{
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    border-radius: 50%;
+    background: #d1dae3;
+    color: #d1dae3;
+    font-family: consolas;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+.toggleClass::before{
+    position: absolute;
+    content: 'Light Mode';
+    left: 25px;
+    white-space: nowrap;
+}
+main.light .toggleClass{
+    background: #091921;
+    color: #091921;
+}
+main.light .toggleClass::before{
+    content: 'Dark Mode'; 
 }
 </style>

@@ -2,19 +2,33 @@
     <div class="cube">
         <div class="top"></div>
         <div>
-            <span style='--i:0;'></span> 
-            <span style='--i:1;'></span>  
-            <span style='--i:2;'></span>  
-            <span style='--i:3;'></span>     
+            <span style='--i:0;'>
+                <h2>02</h2>
+                <h2>02</h2>
+            </span> 
+            <span style='--i:1;'>
+                <h2>02</h2>
+                <h2>02</h2>
+            </span>  
+            <span style='--i:2;'>
+                <h2>02</h2>
+                <h2>02</h2>
+            </span>  
+            <span style='--i:3;'>
+                <h2>02</h2>
+                <h2>02</h2>
+            </span>     
         </div>
     </div>
 </main>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
     main{
-        --size: 50px;
+        --size: 150px;
         min-height: 80vh;
         background: #050505;
+        font-family: 'Oswald', sans-serif;
     }
     .cube{
         position: relative;
@@ -49,7 +63,21 @@
         height: 100%;
         background: linear-gradient(#151515,#00ec00);
         transform: rotateY(calc(90deg * var(--i))) translateZ(calc(var(--size) / 2));
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform-style: preserve-3d;
+    }
+    .cube div span h2{
+       position: absolute;
+       font-size: calc(var(--size) / 3); 
+       color: #fff;
+       transform: translateZ(calc(var(--size) / 5));
+    }
+    .cube div span h2:nth-child(1){
+        transform: translateZ(0) translateY(calc(var(--size) * (1 / 50) ));
+        color: rgba(0,0,0,0.1);
+        filter: blur(2px);
     }
     .top{
         position: absolute;

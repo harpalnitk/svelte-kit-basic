@@ -22,6 +22,7 @@
 		{url:'clock', name: 'Clock using CSS'},
 		{url:'clock-2', name: 'Clock-2 using CSS'},
 		{url:'glass-calendar', name: 'Glassmorphism Calendar'},
+		{url:'full-calendar', name: 'Full Year Calendar'},
 		{url:'calculator', name: 'Calculator'},
 		{url:'search-box', name: 'Search Box'},
 		{url:'countdown-timer', name: 'CountDown Timer'},

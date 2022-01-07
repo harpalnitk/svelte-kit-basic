@@ -19,7 +19,8 @@
 		{url:'linear-range-mapping', name: 'Custom property linear range mapping'},
 		{url:'cartesian-system-css', name: 'Building a coordinate system in CSS and HTML'},
 		{url:'rare-css-properties', name: 'Rare CSS Properties'},
-	
+		{url:'neumorphism-in-css', name: 'Neumorphism in CSS'},
+		
 		];
 </script>
 

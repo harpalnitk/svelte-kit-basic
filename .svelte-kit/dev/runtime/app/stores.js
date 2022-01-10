@@ -1,6 +1,8 @@
 import { getContext } from 'svelte';
+import { browser } from './env.js';
+import '../env.js';
 
-const ssr = import.meta.env.SSR;
+const ssr = !browser;
 
 // TODO remove this (for 1.0? after 1.0?)
 let warned = false;
@@ -55,7 +57,7 @@ const navigating = {
 };
 
 /** @param {string} verb */
-const error = (verb) => {
+const throw_error = (verb) => {
 	throw new Error(
 		ssr
 			? `Can only ${verb} session store in browser`
@@ -75,8 +77,8 @@ const session = {
 
 		return store.subscribe(fn);
 	},
-	set: () => error('set'),
-	update: () => error('update')
+	set: () => throw_error('set'),
+	update: () => throw_error('update')
 };
 
 export { getStores, navigating, page, session, stores };

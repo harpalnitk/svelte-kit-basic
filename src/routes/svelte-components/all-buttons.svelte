@@ -40,6 +40,18 @@
 		<BorderGlowButton color={'#00ccff'} index={1}/>
 		<BorderGlowButton color={'#22e622'} index={2}/>
 	</section>
+	<section class="link">
+		<a href="#1">Sick Hover</a>
+	</section>
+	<section class="link-2">
+		<p><a href="#1">Multiline<br/>effect</a></p>
+<p><a href="#1" class="underline">Underline<br/>version</a></p>
+	</section>
+
+	<section class="link-3">
+		<h1>Using Just background transitions</h1>
+		<a href="#1">Hover Me</a>
+	</section>
 </main>
 
 <style lang="scss">
@@ -91,5 +103,79 @@
 		gap:40px;
 		padding:20px;
 
+	}
+	.link{
+		a {
+  color: #000;
+  position: relative;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+a::before {
+  background: hsl(45 100% 70%);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+	}
+	.link-2{
+		a {
+			font-size: 3rem;
+  background: linear-gradient(0deg, slateblue, slateblue) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+}
+a:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+}
+
+.underline {
+  padding-bottom: 2px;
+  --bg-h: 2px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+}
+	}
+	.link-3{
+		h1{
+			font-size: 1rem;
+			color: #000;
+			margin: 0 1rem;
+		}
+		--mainColor: #ff9800;
+		a {
+			font-size: 3rem;
+  background:
+     linear-gradient(
+       to bottom,
+       var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 0 100%;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+a:hover {
+  background-size: 100% 100%;
+  background-position: left center;
+}
 	}
 </style>

@@ -384,8 +384,7 @@ export const routes = [
 	// src/routes/svelte-components/product-filter/index.svelte
 	[/^\/svelte-components\/product-filter\/?$/, [c[26], c[32]], []],
 
-	// src/routes/svelte-components/product-filter/bookData.js
-	[/^\/svelte-components\/product-filter\/bookData\/?$/],
+	,
 
 	// src/routes/svelte-components/product-filter/Book.svelte
 	[/^\/svelte-components\/product-filter\/Book\/?$/, [c[26], c[33]], []],
@@ -402,8 +401,7 @@ export const routes = [
 	// src/routes/svelte-components/autocomplete/index.svelte
 	[/^\/svelte-components\/autocomplete\/?$/, [c[26], c[37]], []],
 
-	// src/routes/svelte-components/autocomplete/itemsStore.js
-	[/^\/svelte-components\/autocomplete\/itemsStore\/?$/],
+	,
 
 	// src/routes/svelte-components/autocomplete/Item.svelte
 	[/^\/svelte-components\/autocomplete\/Item\/?$/, [c[26], c[38]], []],
@@ -432,8 +430,7 @@ export const routes = [
 	// src/routes/svelte-components/sort-table/index.svelte
 	[/^\/svelte-components\/sort-table\/?$/, [c[26], c[46]], []],
 
-	// src/routes/svelte-components/sort-table/personData.js
-	[/^\/svelte-components\/sort-table\/personData\/?$/],
+	,
 
 	// src/routes/svelte-components/data-list.svelte
 	[/^\/svelte-components\/data-list\/?$/, [c[26], c[47]], []],
@@ -444,14 +441,12 @@ export const routes = [
 	// src/routes/svelte-components/tree-view/TreeView.svelte
 	[/^\/svelte-components\/tree-view\/TreeView\/?$/, [c[26], c[49]], []],
 
-	// src/routes/svelte-components/tree-view/treeData.js
-	[/^\/svelte-components\/tree-view\/treeData\/?$/],
+	,
 
 	// src/routes/svelte-components/calendar/index.svelte
 	[/^\/svelte-components\/calendar\/?$/, [c[26], c[50]], []],
 
-	// src/routes/svelte-components/calendar/schedule-store.js
-	[/^\/svelte-components\/calendar\/schedule-store\/?$/],
+	,
 
 	// src/routes/svelte-components/calendar/Appointment.svelte
 	[/^\/svelte-components\/calendar\/Appointment\/?$/, [c[26], c[51]], []],
@@ -471,17 +466,14 @@ export const routes = [
 	// src/routes/svelte-components/flip-box/FlashCard.svelte
 	[/^\/svelte-components\/flip-box\/FlashCard\/?$/, [c[26], c[56]], []],
 
-	// src/routes/svelte-components/flip-box/vocabData.js
-	[/^\/svelte-components\/flip-box\/vocabData\/?$/],
+	,
 
 	// src/routes/svelte-components/timeline/index.svelte
 	[/^\/svelte-components\/timeline\/?$/, [c[26], c[57]], []],
 
-	// src/routes/svelte-components/timeline/holidaysAPI.js
-	[/^\/svelte-components\/timeline\/holidaysAPI\/?$/],
+	,
 
-	// src/routes/svelte-components/timeline/histData.js
-	[/^\/svelte-components\/timeline\/histData\/?$/],
+	,
 
 	// src/routes/svelte-components/timeline/Event.svelte
 	[/^\/svelte-components\/timeline\/Event\/?$/, [c[26], c[58]], []],
@@ -519,8 +511,7 @@ export const routes = [
 	// src/routes/grid-layout/grid-concept.svelte
 	[/^\/grid-layout\/grid-concept\/?$/, [c[62], c[70]], []],
 
-	// src/routes/grid-layout/flex-layout/index.css
-	[/^\/grid-layout\/flex-layout\/?$/],
+	,
 
 	// src/routes/grid-layout/flex-layout/index.svelte
 	[/^\/grid-layout\/flex-layout\/?$/, [c[62], c[71]], []],
@@ -843,8 +834,7 @@ export const routes = [
 	// src/routes/playground/calculator.svelte
 	[/^\/playground\/calculator\/?$/, [c[154], c[180]], []],
 
-	// src/routes/playground/http-store.js
-	[/^\/playground\/http-store\/?$/],
+	,
 
 	// src/routes/playground/rating-bar.svelte
 	[/^\/playground\/rating-bar\/?$/, [c[154], c[181]], []],
@@ -918,14 +908,12 @@ export const routes = [
 	// src/routes/web-pages/advanced-flex/index.svelte
 	[/^\/web-pages\/advanced-flex\/?$/, [c[193], c[205]], []],
 
-	// src/routes/web-pages/advanced-flex/sass/main.scss
-	[/^\/web-pages\/advanced-flex\/sass\/main\/?$/],
+	,
 
 	// src/routes/web-pages/advanced-grid/index.svelte
 	[/^\/web-pages\/advanced-grid\/?$/, [c[193], c[206]], []],
 
-	// src/routes/web-pages/advanced-grid/sass/main.scss
-	[/^\/web-pages\/advanced-grid\/sass\/main\/?$/],
+	,
 
 	// src/routes/web-pages/dropdown-menu.svelte
 	[/^\/web-pages\/dropdown-menu\/?$/, [c[193], c[207]], []],
@@ -939,11 +927,9 @@ export const routes = [
 	// src/routes/web-pages/advanced-css/index.svelte
 	[/^\/web-pages\/advanced-css\/?$/, [c[193], c[210]], []],
 
-	// src/routes/web-pages/advanced-css/fonts/material-icons/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2
-	[/^\/web-pages\/advanced-css\/fonts\/material-icons\/flUhRq6tzZclQEJ-Vdg-IuiaDsNc\/?$/],
+	,
 
-	// src/routes/web-pages/advanced-css/main.scss
-	[/^\/web-pages\/advanced-css\/main\/?$/],
+	,
 
 	// src/routes/web-pages/whatsapp-web.svelte
 	[/^\/web-pages\/whatsapp-web\/?$/, [c[193], c[211]], []],
@@ -996,8 +982,7 @@ export const routes = [
 	// src/routes/images/portfolio-gallery/Gallery.svelte
 	[/^\/images\/portfolio-gallery\/Gallery\/?$/, [c[221], c[228]], []],
 
-	// src/routes/images/portfolio-gallery/imgData.js
-	[/^\/images\/portfolio-gallery\/imgData\/?$/],
+	,
 
 	// src/routes/images/image-blob-paint.svelte
 	[/^\/images\/image-blob-paint\/?$/, [c[221], c[229]], []],
@@ -1023,8 +1008,7 @@ export const routes = [
 	// src/routes/images/slideshow/index.svelte
 	[/^\/images\/slideshow\/?$/, [c[221], c[236]], []],
 
-	// src/routes/images/slideshow/slideData.js
-	[/^\/images\/slideshow\/slideData\/?$/],
+	,
 
 	// src/routes/images/slideshow/Slide.svelte
 	[/^\/images\/slideshow\/Slide\/?$/, [c[221], c[237]], []],
@@ -1041,8 +1025,7 @@ export const routes = [
 	// src/routes/images/gallery/Thumbnail.svelte
 	[/^\/images\/gallery\/Thumbnail\/?$/, [c[221], c[241]], []],
 
-	// src/routes/images/gallery/imageData.js
-	[/^\/images\/gallery\/imageData\/?$/],
+	,
 
 	// src/routes/images/gallery/Caption.svelte
 	[/^\/images\/gallery\/Caption\/?$/, [c[221], c[242]], []],
@@ -1089,8 +1072,7 @@ export const routes = [
 	// src/routes/audio/audio-player/PlayList.svelte
 	[/^\/audio\/audio-player\/PlayList\/?$/, [c[250], c[258]], []],
 
-	// src/routes/audio/audioData.js
-	[/^\/audio\/audioData\/?$/],
+	,
 
 	// src/routes/cards/index.svelte
 	[/^\/cards\/?$/, [c[259], c[260]], []],

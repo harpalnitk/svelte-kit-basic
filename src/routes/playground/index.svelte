@@ -53,6 +53,7 @@
 		{url:'apple-music', name: 'Apple Music Animation Effect'},
 		{url:'diagnol-stripes', name: 'Diagnol Stripes'},
 		{url:'ball-balance', name: 'Physics Ball Balance'},
+		{url:'thunderbolt', name: 'ThunderBolt Lightining'},
 		];
 </script>
 

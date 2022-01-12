@@ -19,6 +19,7 @@
 		{url:'dropdown-menu', name: 'Dropdown Menu'},
 		{url:'dropdown-menu2', name: 'Dropdown Menu 2'},
 		{url:'magic-line-nav', name: 'Magic Line Indicator on Nav List'},
+		{url:'magic-line-nav-below', name: 'Magic Line Nav Below'},
 		{url:'menu-hover', name: 'Menu Hover Effect'},
 		{url:'curved-menu', name: 'Curved Outside Sidebar Menu'},
 		{url:'creative-menu', name: 'Creative Menu'},
@@ -27,6 +28,7 @@
 		{url:'circular-menu', name: 'Circular Menu'},
 		{url:'curved-magic-menu', name: 'Curved Magic Menu Below'},
 		{url:'curved-magic-menu-2', name: 'Curved Magic Menu Above'},
+
 		//Text
 		{url:'icon-text-anim', name: 'Glowing Icon With Text Typing Animation'},
 		{url:'circle-text-logo', name: 'Circle Text Logo'},

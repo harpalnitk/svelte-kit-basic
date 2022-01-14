@@ -43,6 +43,8 @@
 		{url:'hexagon-card', name: 'Hexagon Card'},
 		{url:'3d-flip-product-card', name: '3D Flip Product Card'},
 		{url:'book', name: '3D Book Display'},
+		{url:'light-dark-switch-card', name: 'Light Dark Mode Switch Card'},
+		
 
 		];
 </script>

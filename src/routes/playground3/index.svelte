@@ -20,6 +20,9 @@
 		{url:'cartesian-system-css', name: 'Building a coordinate system in CSS and HTML'},
 		{url:'rare-css-properties', name: 'Rare CSS Properties'},
 		{url:'neumorphism-in-css', name: 'Neumorphism in CSS'},
+		{url:'sass-mixins', name: 'SASS Default parameters in mixins: Usage'},
+		{url:'glassmorphism-list', name: 'Glassmorphism List'},
+		
 		
 		];
 </script>

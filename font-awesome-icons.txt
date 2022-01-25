@@ -48,6 +48,7 @@ twitter         fab fa-twitter  #55acee
 instagram       fab fa-instagram        #e4405f
 whatsapp        fab fa-whatsapp     #25d366
 linkedin        fab fa-linkedin-in      #007b55
+apple       <i class="fab fa-apple"></i>
 
 
 ######### AUDIO PLAYER ################

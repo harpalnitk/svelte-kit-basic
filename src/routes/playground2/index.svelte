@@ -41,6 +41,7 @@
 		{url:'happy-diwali2', name: 'Twinkle Happy Diwali 2'},
 		{url:'keyboard-keys', name: 'KeyBoard Keys'},
 		{url:'cursor-text', name: 'Cursor Text Animation Effect'},
+		{url:'glowing-text', name: 'Glowing Text Dark background Effect'},
 		//Loading
 		{url:'loading-squares', name: 'Colorful Loading Squares'},
 		{url:'loading-anim', name: 'Loading Animation'},
@@ -65,6 +66,7 @@
 		{url:'falling-leaves', name: 'Falling leaves Animation'},
 		{url:'rain', name: 'Colorful Rain Animation'},
 		{url:'water-drops', name: 'Water Drops'},
+		{url:'water-drop-logo', name: 'Water Drop Logo effect'},
 		{url:'bounce-balls', name: 'Bounce Balls With Semi-Circle'},
 		{url:'rotate-earth-text', name: 'Rotating Earth Text Animation'},
 		{url:'tea-cup', name: 'Tea Cup'},

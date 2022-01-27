@@ -28,6 +28,7 @@
 		{url:'svg-animation', name: 'SVG Animation'},
 		{url:'shape-outside', name: 'CSS Shape Outside Property'},
 		{url:'cutout', name: 'Cutouts using SVG, Clip Path, Mask'},
+		{url:'mask-border-basic', name: 'Mask Border CSS Property Basic'},
 		{url:'mask-border', name: 'Mask Border CSS Property'},
 		{url:'how-to-draw-svg-shapes', name: 'How To Draw SVG Shapes'},
 		{url:'square-chart-with-mask-and-svg', name: 'Square Chart With Mask And SVG'},

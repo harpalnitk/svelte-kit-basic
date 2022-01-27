@@ -10,6 +10,7 @@ const c = [
 	() => import("..\\..\\..\\src\\routes\\charts-with-shapes\\rounded-corner-shapes2.svelte"),
 	() => import("..\\..\\..\\src\\routes\\charts-with-shapes\\rounded-corner-shapes.svelte"),
 	() => import("..\\..\\..\\src\\routes\\charts-with-shapes\\clip-path-animations.svelte"),
+	() => import("..\\..\\..\\src\\routes\\charts-with-shapes\\mask-border-basic.svelte"),
 	() => import("..\\..\\..\\src\\routes\\charts-with-shapes\\trignometry-sun.svelte"),
 	() => import("..\\..\\..\\src\\routes\\charts-with-shapes\\polygon-border.svelte"),
 	() => import("..\\..\\..\\src\\routes\\charts-with-shapes\\shape-outside.svelte"),
@@ -330,884 +331,887 @@ export const routes = [
 	// src/routes/charts-with-shapes/clip-path-animations.svelte
 	[/^\/charts-with-shapes\/clip-path-animations\/?$/, [c[3], c[10]], []],
 
+	// src/routes/charts-with-shapes/mask-border-basic.svelte
+	[/^\/charts-with-shapes\/mask-border-basic\/?$/, [c[3], c[11]], []],
+
 	// src/routes/charts-with-shapes/trignometry-sun.svelte
-	[/^\/charts-with-shapes\/trignometry-sun\/?$/, [c[3], c[11]], []],
+	[/^\/charts-with-shapes\/trignometry-sun\/?$/, [c[3], c[12]], []],
 
 	// src/routes/charts-with-shapes/polygon-border.svelte
-	[/^\/charts-with-shapes\/polygon-border\/?$/, [c[3], c[12]], []],
+	[/^\/charts-with-shapes\/polygon-border\/?$/, [c[3], c[13]], []],
 
 	// src/routes/charts-with-shapes/shape-outside.svelte
-	[/^\/charts-with-shapes\/shape-outside\/?$/, [c[3], c[13]], []],
+	[/^\/charts-with-shapes\/shape-outside\/?$/, [c[3], c[14]], []],
 
 	// src/routes/charts-with-shapes/svg-animation.svelte
-	[/^\/charts-with-shapes\/svg-animation\/?$/, [c[3], c[14]], []],
+	[/^\/charts-with-shapes\/svg-animation\/?$/, [c[3], c[15]], []],
 
 	// src/routes/charts-with-shapes/svg-graphics.svelte
-	[/^\/charts-with-shapes\/svg-graphics\/?$/, [c[3], c[15]], []],
+	[/^\/charts-with-shapes\/svg-graphics\/?$/, [c[3], c[16]], []],
 
 	// src/routes/charts-with-shapes/css-hexagon.svelte
-	[/^\/charts-with-shapes\/css-hexagon\/?$/, [c[3], c[16]], []],
+	[/^\/charts-with-shapes\/css-hexagon\/?$/, [c[3], c[17]], []],
 
 	// src/routes/charts-with-shapes/mask-border.svelte
-	[/^\/charts-with-shapes\/mask-border\/?$/, [c[3], c[17]], []],
+	[/^\/charts-with-shapes\/mask-border\/?$/, [c[3], c[18]], []],
 
 	// src/routes/charts-with-shapes/css-shapes.svelte
-	[/^\/charts-with-shapes\/css-shapes\/?$/, [c[3], c[18]], []],
+	[/^\/charts-with-shapes\/css-shapes\/?$/, [c[3], c[19]], []],
 
 	// src/routes/charts-with-shapes/pentagon-2.svelte
-	[/^\/charts-with-shapes\/pentagon-2\/?$/, [c[3], c[19]], []],
+	[/^\/charts-with-shapes\/pentagon-2\/?$/, [c[3], c[20]], []],
 
 	// src/routes/charts-with-shapes/css-blob.svelte
-	[/^\/charts-with-shapes\/css-blob\/?$/, [c[3], c[20]], []],
+	[/^\/charts-with-shapes\/css-blob\/?$/, [c[3], c[21]], []],
 
 	// src/routes/charts-with-shapes/pentagon.svelte
-	[/^\/charts-with-shapes\/pentagon\/?$/, [c[3], c[21]], []],
+	[/^\/charts-with-shapes\/pentagon\/?$/, [c[3], c[22]], []],
 
 	// src/routes/charts-with-shapes/triangle.svelte
-	[/^\/charts-with-shapes\/triangle\/?$/, [c[3], c[22]], []],
+	[/^\/charts-with-shapes\/triangle\/?$/, [c[3], c[23]], []],
 
 	// src/routes/charts-with-shapes/cutout.svelte
-	[/^\/charts-with-shapes\/cutout\/?$/, [c[3], c[23]], []],
+	[/^\/charts-with-shapes\/cutout\/?$/, [c[3], c[24]], []],
 
 	// src/routes/charts-with-shapes/emojis.svelte
-	[/^\/charts-with-shapes\/emojis\/?$/, [c[3], c[24]], []],
+	[/^\/charts-with-shapes\/emojis\/?$/, [c[3], c[25]], []],
 
 	// src/routes/charts-with-shapes/mix.svelte
-	[/^\/charts-with-shapes\/mix\/?$/, [c[3], c[25]], []],
+	[/^\/charts-with-shapes\/mix\/?$/, [c[3], c[26]], []],
 
 	// src/routes/svelte-components/index.svelte
-	[/^\/svelte-components\/?$/, [c[26], c[27]], []],
+	[/^\/svelte-components\/?$/, [c[27], c[28]], []],
 
 	// src/routes/svelte-components/neumorphism-button.svelte
-	[/^\/svelte-components\/neumorphism-button\/?$/, [c[26], c[28]], []],
+	[/^\/svelte-components\/neumorphism-button\/?$/, [c[27], c[29]], []],
 
 	// src/routes/svelte-components/toggle-light-dark.svelte
-	[/^\/svelte-components\/toggle-light-dark\/?$/, [c[26], c[29]], []],
+	[/^\/svelte-components\/toggle-light-dark\/?$/, [c[27], c[30]], []],
 
 	// src/routes/svelte-components/glowing-checkbox.svelte
-	[/^\/svelte-components\/glowing-checkbox\/?$/, [c[26], c[30]], []],
+	[/^\/svelte-components\/glowing-checkbox\/?$/, [c[27], c[31]], []],
 
 	// src/routes/svelte-components/yes-no-checkbox.svelte
-	[/^\/svelte-components\/yes-no-checkbox\/?$/, [c[26], c[31]], []],
+	[/^\/svelte-components\/yes-no-checkbox\/?$/, [c[27], c[32]], []],
 
 	// src/routes/svelte-components/product-filter/index.svelte
-	[/^\/svelte-components\/product-filter\/?$/, [c[26], c[32]], []],
+	[/^\/svelte-components\/product-filter\/?$/, [c[27], c[33]], []],
 
 	,
 
 	// src/routes/svelte-components/product-filter/Book.svelte
-	[/^\/svelte-components\/product-filter\/Book\/?$/, [c[26], c[33]], []],
+	[/^\/svelte-components\/product-filter\/Book\/?$/, [c[27], c[34]], []],
 
 	// src/routes/svelte-components/product-filter/Menu.svelte
-	[/^\/svelte-components\/product-filter\/Menu\/?$/, [c[26], c[34]], []],
+	[/^\/svelte-components\/product-filter\/Menu\/?$/, [c[27], c[35]], []],
 
 	// src/routes/svelte-components/smiley-toggle.svelte
-	[/^\/svelte-components\/smiley-toggle\/?$/, [c[26], c[35]], []],
+	[/^\/svelte-components\/smiley-toggle\/?$/, [c[27], c[36]], []],
 
 	// src/routes/svelte-components/all-buttons2.svelte
-	[/^\/svelte-components\/all-buttons2\/?$/, [c[26], c[36]], []],
+	[/^\/svelte-components\/all-buttons2\/?$/, [c[27], c[37]], []],
 
 	// src/routes/svelte-components/autocomplete/index.svelte
-	[/^\/svelte-components\/autocomplete\/?$/, [c[26], c[37]], []],
+	[/^\/svelte-components\/autocomplete\/?$/, [c[27], c[38]], []],
 
 	,
 
 	// src/routes/svelte-components/autocomplete/Item.svelte
-	[/^\/svelte-components\/autocomplete\/Item\/?$/, [c[26], c[38]], []],
+	[/^\/svelte-components\/autocomplete\/Item\/?$/, [c[27], c[39]], []],
 
 	// src/routes/svelte-components/progress-bar/index.svelte
-	[/^\/svelte-components\/progress-bar\/?$/, [c[26], c[39]], []],
+	[/^\/svelte-components\/progress-bar\/?$/, [c[27], c[40]], []],
 
 	// src/routes/svelte-components/all-buttons.svelte
-	[/^\/svelte-components\/all-buttons\/?$/, [c[26], c[40]], []],
+	[/^\/svelte-components\/all-buttons\/?$/, [c[27], c[41]], []],
 
 	// src/routes/svelte-components/emoji-chat/index.svelte
-	[/^\/svelte-components\/emoji-chat\/?$/, [c[26], c[41]], []],
+	[/^\/svelte-components\/emoji-chat\/?$/, [c[27], c[42]], []],
 
 	// src/routes/svelte-components/radio-dark.svelte
-	[/^\/svelte-components\/radio-dark\/?$/, [c[26], c[42]], []],
+	[/^\/svelte-components\/radio-dark\/?$/, [c[27], c[43]], []],
 
 	// src/routes/svelte-components/radio-glow.svelte
-	[/^\/svelte-components\/radio-glow\/?$/, [c[26], c[43]], []],
+	[/^\/svelte-components\/radio-glow\/?$/, [c[27], c[44]], []],
 
 	// src/routes/svelte-components/search-box.svelte
-	[/^\/svelte-components\/search-box\/?$/, [c[26], c[44]], []],
+	[/^\/svelte-components\/search-box\/?$/, [c[27], c[45]], []],
 
 	// src/routes/svelte-components/skill-bars/index.svelte
-	[/^\/svelte-components\/skill-bars\/?$/, [c[26], c[45]], []],
+	[/^\/svelte-components\/skill-bars\/?$/, [c[27], c[46]], []],
 
 	// src/routes/svelte-components/skill-bars/Bar.svelte
-	[/^\/svelte-components\/skill-bars\/Bar\/?$/, [c[26], c[46]], []],
+	[/^\/svelte-components\/skill-bars\/Bar\/?$/, [c[27], c[47]], []],
 
 	// src/routes/svelte-components/sort-table/index.svelte
-	[/^\/svelte-components\/sort-table\/?$/, [c[26], c[47]], []],
+	[/^\/svelte-components\/sort-table\/?$/, [c[27], c[48]], []],
 
 	,
 
 	// src/routes/svelte-components/data-list.svelte
-	[/^\/svelte-components\/data-list\/?$/, [c[26], c[48]], []],
+	[/^\/svelte-components\/data-list\/?$/, [c[27], c[49]], []],
 
 	// src/routes/svelte-components/tree-view/index.svelte
-	[/^\/svelte-components\/tree-view\/?$/, [c[26], c[49]], []],
+	[/^\/svelte-components\/tree-view\/?$/, [c[27], c[50]], []],
 
 	// src/routes/svelte-components/tree-view/TreeView.svelte
-	[/^\/svelte-components\/tree-view\/TreeView\/?$/, [c[26], c[50]], []],
+	[/^\/svelte-components\/tree-view\/TreeView\/?$/, [c[27], c[51]], []],
 
 	,
 
 	// src/routes/svelte-components/calendar/index.svelte
-	[/^\/svelte-components\/calendar\/?$/, [c[26], c[51]], []],
+	[/^\/svelte-components\/calendar\/?$/, [c[27], c[52]], []],
 
 	,
 
 	// src/routes/svelte-components/calendar/Appointment.svelte
-	[/^\/svelte-components\/calendar\/Appointment\/?$/, [c[26], c[52]], []],
+	[/^\/svelte-components\/calendar\/Appointment\/?$/, [c[27], c[53]], []],
 
 	// src/routes/svelte-components/calendar/Scheduler.svelte
-	[/^\/svelte-components\/calendar\/Scheduler\/?$/, [c[26], c[53]], []],
+	[/^\/svelte-components\/calendar\/Scheduler\/?$/, [c[27], c[54]], []],
 
 	// src/routes/svelte-components/calendar/Calendar.svelte
-	[/^\/svelte-components\/calendar\/Calendar\/?$/, [c[26], c[54]], []],
+	[/^\/svelte-components\/calendar\/Calendar\/?$/, [c[27], c[55]], []],
 
 	// src/routes/svelte-components/checkbox.svelte
-	[/^\/svelte-components\/checkbox\/?$/, [c[26], c[55]], []],
+	[/^\/svelte-components\/checkbox\/?$/, [c[27], c[56]], []],
 
 	// src/routes/svelte-components/flip-box/index.svelte
-	[/^\/svelte-components\/flip-box\/?$/, [c[26], c[56]], []],
+	[/^\/svelte-components\/flip-box\/?$/, [c[27], c[57]], []],
 
 	// src/routes/svelte-components/flip-box/FlashCard.svelte
-	[/^\/svelte-components\/flip-box\/FlashCard\/?$/, [c[26], c[57]], []],
+	[/^\/svelte-components\/flip-box\/FlashCard\/?$/, [c[27], c[58]], []],
 
 	,
 
 	// src/routes/svelte-components/timeline/index.svelte
-	[/^\/svelte-components\/timeline\/?$/, [c[26], c[58]], []],
+	[/^\/svelte-components\/timeline\/?$/, [c[27], c[59]], []],
 
 	,
 
 	,
 
 	// src/routes/svelte-components/timeline/Event.svelte
-	[/^\/svelte-components\/timeline\/Event\/?$/, [c[26], c[59]], []],
+	[/^\/svelte-components\/timeline\/Event\/?$/, [c[27], c[60]], []],
 
 	// src/routes/svelte-components/pwd-gen/index.svelte
-	[/^\/svelte-components\/pwd-gen\/?$/, [c[26], c[60]], []],
+	[/^\/svelte-components\/pwd-gen\/?$/, [c[27], c[61]], []],
 
 	// src/routes/svelte-components/pwd-gen/PasswordGen.svelte
-	[/^\/svelte-components\/pwd-gen\/PasswordGen\/?$/, [c[26], c[61]], []],
+	[/^\/svelte-components\/pwd-gen\/PasswordGen\/?$/, [c[27], c[62]], []],
 
 	// src/routes/svelte-components/pwd-gen/RegForm.svelte
-	[/^\/svelte-components\/pwd-gen\/RegForm\/?$/, [c[26], c[62]], []],
+	[/^\/svelte-components\/pwd-gen\/RegForm\/?$/, [c[27], c[63]], []],
 
 	// src/routes/grid-layout/index.svelte
-	[/^\/grid-layout\/?$/, [c[63], c[64]], []],
+	[/^\/grid-layout\/?$/, [c[64], c[65]], []],
 
 	// src/routes/grid-layout/layout-without-media-query.svelte
-	[/^\/grid-layout\/layout-without-media-query\/?$/, [c[63], c[65]], []],
+	[/^\/grid-layout\/layout-without-media-query\/?$/, [c[64], c[66]], []],
 
 	// src/routes/grid-layout/twelve-column-system.svelte
-	[/^\/grid-layout\/twelve-column-system\/?$/, [c[63], c[66]], []],
+	[/^\/grid-layout\/twelve-column-system\/?$/, [c[64], c[67]], []],
 
 	// src/routes/grid-layout/expand-section-grid.svelte
-	[/^\/grid-layout\/expand-section-grid\/?$/, [c[63], c[67]], []],
+	[/^\/grid-layout\/expand-section-grid\/?$/, [c[64], c[68]], []],
 
 	// src/routes/grid-layout/photo-grid-animated.svelte
-	[/^\/grid-layout\/photo-grid-animated\/?$/, [c[63], c[68]], []],
+	[/^\/grid-layout\/photo-grid-animated\/?$/, [c[64], c[69]], []],
 
 	// src/routes/grid-layout/three-column-fluid.svelte
-	[/^\/grid-layout\/three-column-fluid\/?$/, [c[63], c[69]], []],
+	[/^\/grid-layout\/three-column-fluid\/?$/, [c[64], c[70]], []],
 
 	// src/routes/grid-layout/product-listing.svelte
-	[/^\/grid-layout\/product-listing\/?$/, [c[63], c[70]], []],
+	[/^\/grid-layout\/product-listing\/?$/, [c[64], c[71]], []],
 
 	// src/routes/grid-layout/grid-concept.svelte
-	[/^\/grid-layout\/grid-concept\/?$/, [c[63], c[71]], []],
+	[/^\/grid-layout\/grid-concept\/?$/, [c[64], c[72]], []],
 
 	,
 
 	// src/routes/grid-layout/flex-layout/index.svelte
-	[/^\/grid-layout\/flex-layout\/?$/, [c[63], c[72]], []],
+	[/^\/grid-layout\/flex-layout\/?$/, [c[64], c[73]], []],
 
 	// src/routes/grid-layout/flex-layout/growshrinkbasis.svelte
-	[/^\/grid-layout\/flex-layout\/growshrinkbasis\/?$/, [c[63], c[73]], []],
+	[/^\/grid-layout\/flex-layout\/growshrinkbasis\/?$/, [c[64], c[74]], []],
 
 	// src/routes/grid-layout/flex-layout/flowdirection.svelte
-	[/^\/grid-layout\/flex-layout\/flowdirection\/?$/, [c[63], c[74]], []],
+	[/^\/grid-layout\/flex-layout\/flowdirection\/?$/, [c[64], c[75]], []],
 
 	// src/routes/grid-layout/flex-layout/aligncontent.svelte
-	[/^\/grid-layout\/flex-layout\/aligncontent\/?$/, [c[63], c[75]], []],
+	[/^\/grid-layout\/flex-layout\/aligncontent\/?$/, [c[64], c[76]], []],
 
 	// src/routes/grid-layout/flex-layout/mediaobjects.svelte
-	[/^\/grid-layout\/flex-layout\/mediaobjects\/?$/, [c[63], c[76]], []],
+	[/^\/grid-layout\/flex-layout\/mediaobjects\/?$/, [c[64], c[77]], []],
 
 	// src/routes/grid-layout/flex-layout/flexshrink.svelte
-	[/^\/grid-layout\/flex-layout\/flexshrink\/?$/, [c[63], c[77]], []],
+	[/^\/grid-layout\/flex-layout\/flexshrink\/?$/, [c[64], c[78]], []],
 
 	// src/routes/grid-layout/flex-layout/alignment.svelte
-	[/^\/grid-layout\/flex-layout\/alignment\/?$/, [c[63], c[78]], []],
+	[/^\/grid-layout\/flex-layout\/alignment\/?$/, [c[64], c[79]], []],
 
 	// src/routes/grid-layout/flex-layout/alignself.svelte
-	[/^\/grid-layout\/flex-layout\/alignself\/?$/, [c[63], c[79]], []],
+	[/^\/grid-layout\/flex-layout\/alignself\/?$/, [c[64], c[80]], []],
 
 	// src/routes/grid-layout/flex-layout/flexbasis.svelte
-	[/^\/grid-layout\/flex-layout\/flexbasis\/?$/, [c[63], c[80]], []],
+	[/^\/grid-layout\/flex-layout\/flexbasis\/?$/, [c[64], c[81]], []],
 
 	// src/routes/grid-layout/flex-layout/holygrail.svelte
-	[/^\/grid-layout\/flex-layout\/holygrail\/?$/, [c[63], c[81]], []],
+	[/^\/grid-layout\/flex-layout\/holygrail\/?$/, [c[64], c[82]], []],
 
 	// src/routes/grid-layout/flex-layout/flexgrow.svelte
-	[/^\/grid-layout\/flex-layout\/flexgrow\/?$/, [c[63], c[82]], []],
+	[/^\/grid-layout\/flex-layout\/flexgrow\/?$/, [c[64], c[83]], []],
 
 	// src/routes/grid-layout/flex-layout/flexwrap.svelte
-	[/^\/grid-layout\/flex-layout\/flexwrap\/?$/, [c[63], c[83]], []],
+	[/^\/grid-layout\/flex-layout\/flexwrap\/?$/, [c[64], c[84]], []],
 
 	// src/routes/grid-layout/flex-layout/vertical.svelte
-	[/^\/grid-layout\/flex-layout\/vertical\/?$/, [c[63], c[84]], []],
+	[/^\/grid-layout\/flex-layout\/vertical\/?$/, [c[64], c[85]], []],
 
 	// src/routes/grid-layout/flex-layout/hexagon.svelte
-	[/^\/grid-layout\/flex-layout\/hexagon\/?$/, [c[63], c[85]], []],
+	[/^\/grid-layout\/flex-layout\/hexagon\/?$/, [c[64], c[86]], []],
 
 	// src/routes/grid-layout/flex-layout/justify.svelte
-	[/^\/grid-layout\/flex-layout\/justify\/?$/, [c[63], c[86]], []],
+	[/^\/grid-layout\/flex-layout\/justify\/?$/, [c[64], c[87]], []],
 
 	// src/routes/grid-layout/flex-layout/grids.svelte
-	[/^\/grid-layout\/flex-layout\/grids\/?$/, [c[63], c[87]], []],
+	[/^\/grid-layout\/flex-layout\/grids\/?$/, [c[64], c[88]], []],
 
 	// src/routes/grid-layout/flex-layout/order.svelte
-	[/^\/grid-layout\/flex-layout\/order\/?$/, [c[63], c[88]], []],
+	[/^\/grid-layout\/flex-layout\/order\/?$/, [c[64], c[89]], []],
 
 	// src/routes/grid-layout/photo-grid.svelte
-	[/^\/grid-layout\/photo-grid\/?$/, [c[63], c[89]], []],
+	[/^\/grid-layout\/photo-grid\/?$/, [c[64], c[90]], []],
 
 	// src/routes/grid-layout/responsive.svelte
-	[/^\/grid-layout\/responsive\/?$/, [c[63], c[90]], []],
+	[/^\/grid-layout\/responsive\/?$/, [c[64], c[91]], []],
 
 	// src/routes/playground2/index.svelte
-	[/^\/playground2\/?$/, [c[91], c[92]], []],
+	[/^\/playground2\/?$/, [c[92], c[93]], []],
 
 	// src/routes/playground2/circular-ring-loading.svelte
-	[/^\/playground2\/circular-ring-loading\/?$/, [c[91], c[93]], []],
+	[/^\/playground2\/circular-ring-loading\/?$/, [c[92], c[94]], []],
 
 	// src/routes/playground2/glassmorphism-loading.svelte
-	[/^\/playground2\/glassmorphism-loading\/?$/, [c[91], c[94]], []],
+	[/^\/playground2\/glassmorphism-loading\/?$/, [c[92], c[95]], []],
 
 	// src/routes/playground2/magic-line-nav-below.svelte
-	[/^\/playground2\/magic-line-nav-below\/?$/, [c[91], c[95]], []],
+	[/^\/playground2\/magic-line-nav-below\/?$/, [c[92], c[96]], []],
 
 	// src/routes/playground2/vertical-expand-menu.svelte
-	[/^\/playground2\/vertical-expand-menu\/?$/, [c[91], c[96]], []],
+	[/^\/playground2\/vertical-expand-menu\/?$/, [c[92], c[97]], []],
 
 	// src/routes/playground2/curved-magic-menu-2.svelte
-	[/^\/playground2\/curved-magic-menu-2\/?$/, [c[91], c[97]], []],
+	[/^\/playground2\/curved-magic-menu-2\/?$/, [c[92], c[98]], []],
 
 	// src/routes/playground2/neumorphism loading.svelte
-	[/^\/playground2\/neumorphism loading\/?$/, [c[91], c[98]], []],
+	[/^\/playground2\/neumorphism loading\/?$/, [c[92], c[99]], []],
 
 	// src/routes/playground2/curved-magic-menu.svelte
-	[/^\/playground2\/curved-magic-menu\/?$/, [c[91], c[99]], []],
+	[/^\/playground2\/curved-magic-menu\/?$/, [c[92], c[100]], []],
 
 	// src/routes/playground2/rotate-earth-text.svelte
-	[/^\/playground2\/rotate-earth-text\/?$/, [c[91], c[100]], []],
+	[/^\/playground2\/rotate-earth-text\/?$/, [c[92], c[101]], []],
 
 	// src/routes/playground2/social-icon-hover.svelte
-	[/^\/playground2\/social-icon-hover\/?$/, [c[91], c[101]], []],
+	[/^\/playground2\/social-icon-hover\/?$/, [c[92], c[102]], []],
 
 	// src/routes/playground2/cartoon-eye-move.svelte
-	[/^\/playground2\/cartoon-eye-move\/?$/, [c[91], c[102]], []],
+	[/^\/playground2\/cartoon-eye-move\/?$/, [c[92], c[103]], []],
 
 	// src/routes/playground2/circle-text-logo.svelte
-	[/^\/playground2\/circle-text-logo\/?$/, [c[91], c[103]], []],
+	[/^\/playground2\/circle-text-logo\/?$/, [c[92], c[104]], []],
 
 	// src/routes/playground2/loading-squares.svelte
-	[/^\/playground2\/loading-squares\/?$/, [c[91], c[104]], []],
+	[/^\/playground2\/loading-squares\/?$/, [c[92], c[105]], []],
 
 	// src/routes/playground2/menu-icon-hover.svelte
-	[/^\/playground2\/menu-icon-hover\/?$/, [c[91], c[105]], []],
+	[/^\/playground2\/menu-icon-hover\/?$/, [c[92], c[106]], []],
 
 	// src/routes/playground2/water-drop-logo.svelte
-	[/^\/playground2\/water-drop-logo\/?$/, [c[91], c[106]], []],
+	[/^\/playground2\/water-drop-logo\/?$/, [c[92], c[107]], []],
 
 	// src/routes/playground2/dropdown-menu2.svelte
-	[/^\/playground2\/dropdown-menu2\/?$/, [c[91], c[107]], []],
+	[/^\/playground2\/dropdown-menu2\/?$/, [c[92], c[108]], []],
 
 	// src/routes/playground2/falling-leaves.svelte
-	[/^\/playground2\/falling-leaves\/?$/, [c[91], c[108]], []],
+	[/^\/playground2\/falling-leaves\/?$/, [c[92], c[109]], []],
 
 	// src/routes/playground2/icon-text-anim.svelte
-	[/^\/playground2\/icon-text-anim\/?$/, [c[91], c[109]], []],
+	[/^\/playground2\/icon-text-anim\/?$/, [c[92], c[110]], []],
 
 	// src/routes/playground2/magic-line-nav.svelte
-	[/^\/playground2\/magic-line-nav\/?$/, [c[91], c[110]], []],
+	[/^\/playground2\/magic-line-nav\/?$/, [c[92], c[111]], []],
 
 	// src/routes/playground2/spiral-loading.svelte
-	[/^\/playground2\/spiral-loading\/?$/, [c[91], c[111]], []],
+	[/^\/playground2\/spiral-loading\/?$/, [c[92], c[112]], []],
 
 	// src/routes/playground2/circular-menu.svelte
-	[/^\/playground2\/circular-menu\/?$/, [c[91], c[112]], []],
+	[/^\/playground2\/circular-menu\/?$/, [c[92], c[113]], []],
 
 	// src/routes/playground2/conic-spinner.svelte
-	[/^\/playground2\/conic-spinner\/?$/, [c[91], c[113]], []],
+	[/^\/playground2\/conic-spinner\/?$/, [c[92], c[114]], []],
 
 	// src/routes/playground2/creative-menu.svelte
-	[/^\/playground2\/creative-menu\/?$/, [c[91], c[114]], []],
+	[/^\/playground2\/creative-menu\/?$/, [c[92], c[115]], []],
 
 	// src/routes/playground2/dropdown-menu.svelte
-	[/^\/playground2\/dropdown-menu\/?$/, [c[91], c[115]], []],
+	[/^\/playground2\/dropdown-menu\/?$/, [c[92], c[116]], []],
 
 	// src/routes/playground2/happy-diwali2.svelte
-	[/^\/playground2\/happy-diwali2\/?$/, [c[91], c[116]], []],
+	[/^\/playground2\/happy-diwali2\/?$/, [c[92], c[117]], []],
 
 	// src/routes/playground2/keyboard-keys.svelte
-	[/^\/playground2\/keyboard-keys\/?$/, [c[91], c[117]], []],
+	[/^\/playground2\/keyboard-keys\/?$/, [c[92], c[118]], []],
 
 	// src/routes/playground2/loading-plane.svelte
-	[/^\/playground2\/loading-plane\/?$/, [c[91], c[118]], []],
+	[/^\/playground2\/loading-plane\/?$/, [c[92], c[119]], []],
 
 	// src/routes/playground2/text-emphasis.svelte
-	[/^\/playground2\/text-emphasis\/?$/, [c[91], c[119]], []],
+	[/^\/playground2\/text-emphasis\/?$/, [c[92], c[120]], []],
 
 	// src/routes/playground2/3d-anim-text.svelte
-	[/^\/playground2\/3d-anim-text\/?$/, [c[91], c[120]], []],
+	[/^\/playground2\/3d-anim-text\/?$/, [c[92], c[121]], []],
 
 	// src/routes/playground2/bounce-balls.svelte
-	[/^\/playground2\/bounce-balls\/?$/, [c[91], c[121]], []],
+	[/^\/playground2\/bounce-balls\/?$/, [c[92], c[122]], []],
 
 	// src/routes/playground2/contact-info.svelte
-	[/^\/playground2\/contact-info\/?$/, [c[91], c[122]], []],
+	[/^\/playground2\/contact-info\/?$/, [c[92], c[123]], []],
 
 	// src/routes/playground2/glowing-text.svelte
-	[/^\/playground2\/glowing-text\/?$/, [c[91], c[123]], []],
+	[/^\/playground2\/glowing-text\/?$/, [c[92], c[124]], []],
 
 	// src/routes/playground2/happy-diwali.svelte
-	[/^\/playground2\/happy-diwali\/?$/, [c[91], c[124]], []],
+	[/^\/playground2\/happy-diwali\/?$/, [c[92], c[125]], []],
 
 	// src/routes/playground2/light-effect.svelte
-	[/^\/playground2\/light-effect\/?$/, [c[91], c[125]], []],
+	[/^\/playground2\/light-effect\/?$/, [c[92], c[126]], []],
 
 	// src/routes/playground2/loading-anim.svelte
-	[/^\/playground2\/loading-anim\/?$/, [c[91], c[126]], []],
+	[/^\/playground2\/loading-anim\/?$/, [c[92], c[127]], []],
 
 	// src/routes/playground2/corner-text.svelte
-	[/^\/playground2\/corner-text\/?$/, [c[91], c[127]], []],
+	[/^\/playground2\/corner-text\/?$/, [c[92], c[128]], []],
 
 	// src/routes/playground2/cursor-text.svelte
-	[/^\/playground2\/cursor-text\/?$/, [c[91], c[128]], []],
+	[/^\/playground2\/cursor-text\/?$/, [c[92], c[129]], []],
 
 	// src/routes/playground2/curved-menu.svelte
-	[/^\/playground2\/curved-menu\/?$/, [c[91], c[129]], []],
+	[/^\/playground2\/curved-menu\/?$/, [c[92], c[130]], []],
 
 	// src/routes/playground2/indian-flag.svelte
-	[/^\/playground2\/indian-flag\/?$/, [c[91], c[130]], []],
+	[/^\/playground2\/indian-flag\/?$/, [c[92], c[131]], []],
 
 	// src/routes/playground2/loading-bar.svelte
-	[/^\/playground2\/loading-bar\/?$/, [c[91], c[131]], []],
+	[/^\/playground2\/loading-bar\/?$/, [c[92], c[132]], []],
 
 	// src/routes/playground2/squid-games.svelte
-	[/^\/playground2\/squid-games\/?$/, [c[91], c[132]], []],
+	[/^\/playground2\/squid-games\/?$/, [c[92], c[133]], []],
 
 	// src/routes/playground2/water-drops.svelte
-	[/^\/playground2\/water-drops\/?$/, [c[91], c[133]], []],
+	[/^\/playground2\/water-drops\/?$/, [c[92], c[134]], []],
 
 	// src/routes/playground2/intro-text.svelte
-	[/^\/playground2\/intro-text\/?$/, [c[91], c[134]], []],
+	[/^\/playground2\/intro-text\/?$/, [c[92], c[135]], []],
 
 	// src/routes/playground2/light-bulb.svelte
-	[/^\/playground2\/light-bulb\/?$/, [c[91], c[135]], []],
+	[/^\/playground2\/light-bulb\/?$/, [c[92], c[136]], []],
 
 	// src/routes/playground2/menu-hover.svelte
-	[/^\/playground2\/menu-hover\/?$/, [c[91], c[136]], []],
+	[/^\/playground2\/menu-hover\/?$/, [c[92], c[137]], []],
 
 	// src/routes/playground2/moving-box.svelte
-	[/^\/playground2\/moving-box\/?$/, [c[91], c[137]], []],
+	[/^\/playground2\/moving-box\/?$/, [c[92], c[138]], []],
 
 	// src/routes/playground2/truck-anim.svelte
-	[/^\/playground2\/truck-anim\/?$/, [c[91], c[138]], []],
+	[/^\/playground2\/truck-anim\/?$/, [c[92], c[139]], []],
 
 	// src/routes/playground2/christmas.svelte
-	[/^\/playground2\/christmas\/?$/, [c[91], c[139]], []],
+	[/^\/playground2\/christmas\/?$/, [c[92], c[140]], []],
 
 	// src/routes/playground2/wavy-text.svelte
-	[/^\/playground2\/wavy-text\/?$/, [c[91], c[140]], []],
+	[/^\/playground2\/wavy-text\/?$/, [c[92], c[141]], []],
 
 	// src/routes/playground2/airplane.svelte
-	[/^\/playground2\/airplane\/?$/, [c[91], c[141]], []],
+	[/^\/playground2\/airplane\/?$/, [c[92], c[142]], []],
 
 	// src/routes/playground2/eye-move.svelte
-	[/^\/playground2\/eye-move\/?$/, [c[91], c[142]], []],
+	[/^\/playground2\/eye-move\/?$/, [c[92], c[143]], []],
 
 	// src/routes/playground2/skeleton.svelte
-	[/^\/playground2\/skeleton\/?$/, [c[91], c[143]], []],
+	[/^\/playground2\/skeleton\/?$/, [c[92], c[144]], []],
 
 	// src/routes/playground2/tea-cup.svelte
-	[/^\/playground2\/tea-cup\/?$/, [c[91], c[144]], []],
+	[/^\/playground2\/tea-cup\/?$/, [c[92], c[145]], []],
 
 	// src/routes/playground2/tweened.svelte
-	[/^\/playground2\/tweened\/?$/, [c[91], c[145]], []],
+	[/^\/playground2\/tweened\/?$/, [c[92], c[146]], []],
 
 	// src/routes/playground2/curves.svelte
-	[/^\/playground2\/curves\/?$/, [c[91], c[146]], []],
+	[/^\/playground2\/curves\/?$/, [c[92], c[147]], []],
 
 	// src/routes/playground2/stairs.svelte
-	[/^\/playground2\/stairs\/?$/, [c[91], c[147]], []],
+	[/^\/playground2\/stairs\/?$/, [c[92], c[148]], []],
 
 	// src/routes/playground2/rain.svelte
-	[/^\/playground2\/rain\/?$/, [c[91], c[148]], []],
+	[/^\/playground2\/rain\/?$/, [c[92], c[149]], []],
 
 	// src/routes/playground3/index.svelte
-	[/^\/playground3\/?$/, [c[149], c[150]], []],
+	[/^\/playground3\/?$/, [c[150], c[151]], []],
 
 	// src/routes/playground3/cartesian-system-css.svelte
-	[/^\/playground3\/cartesian-system-css\/?$/, [c[149], c[151]], []],
+	[/^\/playground3\/cartesian-system-css\/?$/, [c[150], c[152]], []],
 
 	// src/routes/playground3/linear-range-mapping.svelte
-	[/^\/playground3\/linear-range-mapping\/?$/, [c[149], c[152]], []],
+	[/^\/playground3\/linear-range-mapping\/?$/, [c[150], c[153]], []],
 
 	// src/routes/playground3/rare-css-properties.svelte
-	[/^\/playground3\/rare-css-properties\/?$/, [c[149], c[153]], []],
+	[/^\/playground3\/rare-css-properties\/?$/, [c[150], c[154]], []],
 
 	// src/routes/playground3/glassmorphism-list.svelte
-	[/^\/playground3\/glassmorphism-list\/?$/, [c[149], c[154]], []],
+	[/^\/playground3\/glassmorphism-list\/?$/, [c[150], c[155]], []],
 
 	// src/routes/playground3/neumorphism-in-css.svelte
-	[/^\/playground3\/neumorphism-in-css\/?$/, [c[149], c[155]], []],
+	[/^\/playground3\/neumorphism-in-css\/?$/, [c[150], c[156]], []],
 
 	// src/routes/playground3/random-particles.svelte
-	[/^\/playground3\/random-particles\/?$/, [c[149], c[156]], []],
+	[/^\/playground3\/random-particles\/?$/, [c[150], c[157]], []],
 
 	// src/routes/playground3/circles-anim.svelte
-	[/^\/playground3\/circles-anim\/?$/, [c[149], c[157]], []],
+	[/^\/playground3\/circles-anim\/?$/, [c[150], c[158]], []],
 
 	// src/routes/playground3/sass-mixins.svelte
-	[/^\/playground3\/sass-mixins\/?$/, [c[149], c[158]], []],
+	[/^\/playground3\/sass-mixins\/?$/, [c[150], c[159]], []],
 
 	// src/routes/playground3/animations.svelte
-	[/^\/playground3\/animations\/?$/, [c[149], c[159]], []],
+	[/^\/playground3\/animations\/?$/, [c[150], c[160]], []],
 
 	// src/routes/playground3/color-use.svelte
-	[/^\/playground3\/color-use\/?$/, [c[149], c[160]], []],
+	[/^\/playground3\/color-use\/?$/, [c[150], c[161]], []],
 
 	// src/routes/playground/index.svelte
-	[/^\/playground\/?$/, [c[161], c[162]], []],
+	[/^\/playground\/?$/, [c[162], c[163]], []],
 
 	// src/routes/playground/3D-social-media-icon.svelte
-	[/^\/playground\/3D-social-media-icon\/?$/, [c[161], c[163]], []],
+	[/^\/playground\/3D-social-media-icon\/?$/, [c[162], c[164]], []],
 
 	// src/routes/playground/before-after-pseudo.svelte
-	[/^\/playground\/before-after-pseudo\/?$/, [c[161], c[164]], []],
+	[/^\/playground\/before-after-pseudo\/?$/, [c[162], c[165]], []],
 
 	// src/routes/playground/icon-glassmorphism.svelte
-	[/^\/playground\/icon-glassmorphism\/?$/, [c[161], c[165]], []],
+	[/^\/playground\/icon-glassmorphism\/?$/, [c[162], c[166]], []],
 
 	// src/routes/playground/star-rating-icons.svelte
-	[/^\/playground\/star-rating-icons\/?$/, [c[161], c[166]], []],
+	[/^\/playground\/star-rating-icons\/?$/, [c[162], c[167]], []],
 
 	// src/routes/playground/li-pseudo-commas.svelte
-	[/^\/playground\/li-pseudo-commas\/?$/, [c[161], c[167]], []],
+	[/^\/playground\/li-pseudo-commas\/?$/, [c[162], c[168]], []],
 
 	// src/routes/playground/ripple-animation.svelte
-	[/^\/playground\/ripple-animation\/?$/, [c[161], c[168]], []],
+	[/^\/playground\/ripple-animation\/?$/, [c[162], c[169]], []],
 
 	// src/routes/playground/countdown-timer.svelte
-	[/^\/playground\/countdown-timer\/?$/, [c[161], c[169]], []],
+	[/^\/playground\/countdown-timer\/?$/, [c[162], c[170]], []],
 
 	// src/routes/playground/diagnol-stripes.svelte
-	[/^\/playground\/diagnol-stripes\/?$/, [c[161], c[170]], []],
+	[/^\/playground\/diagnol-stripes\/?$/, [c[162], c[171]], []],
 
 	// src/routes/playground/dialog-backdrop.svelte
-	[/^\/playground\/dialog-backdrop\/?$/, [c[161], c[171]], []],
+	[/^\/playground\/dialog-backdrop\/?$/, [c[162], c[172]], []],
 
 	// src/routes/playground/gradient-shadow.svelte
-	[/^\/playground\/gradient-shadow\/?$/, [c[161], c[172]], []],
+	[/^\/playground\/gradient-shadow\/?$/, [c[162], c[173]], []],
 
 	// src/routes/playground/fancy-ribbon-2.svelte
-	[/^\/playground\/fancy-ribbon-2\/?$/, [c[161], c[173]], []],
+	[/^\/playground\/fancy-ribbon-2\/?$/, [c[162], c[174]], []],
 
 	// src/routes/playground/glass-calendar.svelte
-	[/^\/playground\/glass-calendar\/?$/, [c[161], c[174]], []],
+	[/^\/playground\/glass-calendar\/?$/, [c[162], c[175]], []],
 
 	// src/routes/playground/rare-html-tags.svelte
-	[/^\/playground\/rare-html-tags\/?$/, [c[161], c[175]], []],
+	[/^\/playground\/rare-html-tags\/?$/, [c[162], c[176]], []],
 
 	// src/routes/playground/ambient-light.svelte
-	[/^\/playground\/ambient-light\/?$/, [c[161], c[176]], []],
+	[/^\/playground\/ambient-light\/?$/, [c[162], c[177]], []],
 
 	// src/routes/playground/full-calendar.svelte
-	[/^\/playground\/full-calendar\/?$/, [c[161], c[177]], []],
+	[/^\/playground\/full-calendar\/?$/, [c[162], c[178]], []],
 
 	// src/routes/playground/http-firebase.svelte
-	[/^\/playground\/http-firebase\/?$/, [c[161], c[178]], []],
+	[/^\/playground\/http-firebase\/?$/, [c[162], c[179]], []],
 
 	// src/routes/playground/show-hide-pwd.svelte
-	[/^\/playground\/show-hide-pwd\/?$/, [c[161], c[179]], []],
+	[/^\/playground\/show-hide-pwd\/?$/, [c[162], c[180]], []],
 
 	// src/routes/playground/ball-balance.svelte
-	[/^\/playground\/ball-balance\/?$/, [c[161], c[180]], []],
+	[/^\/playground\/ball-balance\/?$/, [c[162], c[181]], []],
 
 	// src/routes/playground/fancy-border.svelte
-	[/^\/playground\/fancy-border\/?$/, [c[161], c[181]], []],
+	[/^\/playground\/fancy-border\/?$/, [c[162], c[182]], []],
 
 	// src/routes/playground/fancy-ribbon.svelte
-	[/^\/playground\/fancy-ribbon\/?$/, [c[161], c[182]], []],
+	[/^\/playground\/fancy-ribbon\/?$/, [c[162], c[183]], []],
 
 	// src/routes/playground/abstract-bg.svelte
-	[/^\/playground\/abstract-bg\/?$/, [c[161], c[183]], []],
+	[/^\/playground\/abstract-bg\/?$/, [c[162], c[184]], []],
 
 	// src/routes/playground/apple-music.svelte
-	[/^\/playground\/apple-music\/?$/, [c[161], c[184]], []],
+	[/^\/playground\/apple-music\/?$/, [c[162], c[185]], []],
 
 	// src/routes/playground/star-rating.svelte
-	[/^\/playground\/star-rating\/?$/, [c[161], c[185]], []],
+	[/^\/playground\/star-rating\/?$/, [c[162], c[186]], []],
 
 	// src/routes/playground/thunderbolt.svelte
-	[/^\/playground\/thunderbolt\/?$/, [c[161], c[186]], []],
+	[/^\/playground\/thunderbolt\/?$/, [c[162], c[187]], []],
 
 	// src/routes/playground/box-shadow.svelte
-	[/^\/playground\/box-shadow\/?$/, [c[161], c[187]], []],
+	[/^\/playground\/box-shadow\/?$/, [c[162], c[188]], []],
 
 	// src/routes/playground/calculator.svelte
-	[/^\/playground\/calculator\/?$/, [c[161], c[188]], []],
+	[/^\/playground\/calculator\/?$/, [c[162], c[189]], []],
 
 	,
 
 	// src/routes/playground/rating-bar.svelte
-	[/^\/playground\/rating-bar\/?$/, [c[161], c[189]], []],
+	[/^\/playground\/rating-bar\/?$/, [c[162], c[190]], []],
 
 	// src/routes/playground/search-box.svelte
-	[/^\/playground\/search-box\/?$/, [c[161], c[190]], []],
+	[/^\/playground\/search-box\/?$/, [c[162], c[191]], []],
 
 	// src/routes/playground/paper-bg.svelte
-	[/^\/playground\/paper-bg\/?$/, [c[161], c[191]], []],
+	[/^\/playground\/paper-bg\/?$/, [c[162], c[192]], []],
 
 	// src/routes/playground/particle.svelte
-	[/^\/playground\/particle\/?$/, [c[161], c[192]], []],
+	[/^\/playground\/particle\/?$/, [c[162], c[193]], []],
 
 	// src/routes/playground/bg-anim.svelte
-	[/^\/playground\/bg-anim\/?$/, [c[161], c[193]], []],
+	[/^\/playground\/bg-anim\/?$/, [c[162], c[194]], []],
 
 	// src/routes/playground/clock-2.svelte
-	[/^\/playground\/clock-2\/?$/, [c[161], c[194]], []],
+	[/^\/playground\/clock-2\/?$/, [c[162], c[195]], []],
 
 	// src/routes/playground/shadows.svelte
-	[/^\/playground\/shadows\/?$/, [c[161], c[195]], []],
+	[/^\/playground\/shadows\/?$/, [c[162], c[196]], []],
 
 	// src/routes/playground/liquid.svelte
-	[/^\/playground\/liquid\/?$/, [c[161], c[196]], []],
+	[/^\/playground\/liquid\/?$/, [c[162], c[197]], []],
 
 	// src/routes/playground/spring.svelte
-	[/^\/playground\/spring\/?$/, [c[161], c[197]], []],
+	[/^\/playground\/spring\/?$/, [c[162], c[198]], []],
 
 	// src/routes/playground/basic.svelte
-	[/^\/playground\/basic\/?$/, [c[161], c[198]], []],
+	[/^\/playground\/basic\/?$/, [c[162], c[199]], []],
 
 	// src/routes/playground/clock.svelte
-	[/^\/playground\/clock\/?$/, [c[161], c[199]], []],
+	[/^\/playground\/clock\/?$/, [c[162], c[200]], []],
 
 	// src/routes/dashboard/index.svelte
-	[/^\/dashboard\/?$/, [c[0], c[200]], [c[1]]],
+	[/^\/dashboard\/?$/, [c[0], c[201]], [c[1]]],
 
 	// src/routes/web-pages/index.svelte
-	[/^\/web-pages\/?$/, [c[201], c[202]], []],
+	[/^\/web-pages\/?$/, [c[202], c[203]], []],
 
 	// src/routes/web-pages/personal-portfolio/index.svelte
-	[/^\/web-pages\/personal-portfolio\/?$/, [c[201], c[203]], []],
+	[/^\/web-pages\/personal-portfolio\/?$/, [c[202], c[204]], []],
 
 	// src/routes/web-pages/personal-portfolio/resume.svelte
-	[/^\/web-pages\/personal-portfolio\/resume\/?$/, [c[201], c[204]], []],
+	[/^\/web-pages\/personal-portfolio\/resume\/?$/, [c[202], c[205]], []],
 
 	// src/routes/web-pages/admin-dashboard.svelte
-	[/^\/web-pages\/admin-dashboard\/?$/, [c[201], c[205]], []],
+	[/^\/web-pages\/admin-dashboard\/?$/, [c[202], c[206]], []],
 
 	// src/routes/web-pages/full-page-tabs/index.svelte
-	[/^\/web-pages\/full-page-tabs\/?$/, [c[201], c[206]], []],
+	[/^\/web-pages\/full-page-tabs\/?$/, [c[202], c[207]], []],
 
 	// src/routes/web-pages/full-page-tabs/NewsPageContent.svelte
-	[/^\/web-pages\/full-page-tabs\/NewsPageContent\/?$/, [c[201], c[207]], []],
+	[/^\/web-pages\/full-page-tabs\/NewsPageContent\/?$/, [c[202], c[208]], []],
 
 	// src/routes/web-pages/full-page-tabs/ContactPage.svelte
-	[/^\/web-pages\/full-page-tabs\/ContactPage\/?$/, [c[201], c[208]], []],
+	[/^\/web-pages\/full-page-tabs\/ContactPage\/?$/, [c[202], c[209]], []],
 
 	// src/routes/web-pages/full-page-tabs/AboutPage.svelte
-	[/^\/web-pages\/full-page-tabs\/AboutPage\/?$/, [c[201], c[209]], []],
+	[/^\/web-pages\/full-page-tabs\/AboutPage\/?$/, [c[202], c[210]], []],
 
 	// src/routes/web-pages/full-page-tabs/HomePage.svelte
-	[/^\/web-pages\/full-page-tabs\/HomePage\/?$/, [c[201], c[210]], []],
+	[/^\/web-pages\/full-page-tabs\/HomePage\/?$/, [c[202], c[211]], []],
 
 	// src/routes/web-pages/full-page-tabs/NewsPage.svelte
-	[/^\/web-pages\/full-page-tabs\/NewsPage\/?$/, [c[201], c[211]], []],
+	[/^\/web-pages\/full-page-tabs\/NewsPage\/?$/, [c[202], c[212]], []],
 
 	// src/routes/web-pages/full-page-tabs/Footer.svelte
-	[/^\/web-pages\/full-page-tabs\/Footer\/?$/, [c[201], c[212]], []],
+	[/^\/web-pages\/full-page-tabs\/Footer\/?$/, [c[202], c[213]], []],
 
 	// src/routes/web-pages/advanced-flex/index.svelte
-	[/^\/web-pages\/advanced-flex\/?$/, [c[201], c[213]], []],
+	[/^\/web-pages\/advanced-flex\/?$/, [c[202], c[214]], []],
 
 	,
 
 	// src/routes/web-pages/advanced-grid/index.svelte
-	[/^\/web-pages\/advanced-grid\/?$/, [c[201], c[214]], []],
+	[/^\/web-pages\/advanced-grid\/?$/, [c[202], c[215]], []],
 
 	,
 
 	// src/routes/web-pages/dropdown-menu.svelte
-	[/^\/web-pages\/dropdown-menu\/?$/, [c[201], c[215]], []],
+	[/^\/web-pages\/dropdown-menu\/?$/, [c[202], c[216]], []],
 
 	// src/routes/web-pages/services-page.svelte
-	[/^\/web-pages\/services-page\/?$/, [c[201], c[216]], []],
+	[/^\/web-pages\/services-page\/?$/, [c[202], c[217]], []],
 
 	// src/routes/web-pages/sticky-header.svelte
-	[/^\/web-pages\/sticky-header\/?$/, [c[201], c[217]], []],
+	[/^\/web-pages\/sticky-header\/?$/, [c[202], c[218]], []],
 
 	// src/routes/web-pages/advanced-css/index.svelte
-	[/^\/web-pages\/advanced-css\/?$/, [c[201], c[218]], []],
+	[/^\/web-pages\/advanced-css\/?$/, [c[202], c[219]], []],
 
 	,
 
 	,
 
 	// src/routes/web-pages/whatsapp-web.svelte
-	[/^\/web-pages\/whatsapp-web\/?$/, [c[201], c[219]], []],
+	[/^\/web-pages\/whatsapp-web\/?$/, [c[202], c[220]], []],
 
 	// src/routes/web-pages/contact-us.svelte
-	[/^\/web-pages\/contact-us\/?$/, [c[201], c[220]], []],
+	[/^\/web-pages\/contact-us\/?$/, [c[202], c[221]], []],
 
 	// src/routes/web-pages/e-commerce.svelte
-	[/^\/web-pages\/e-commerce\/?$/, [c[201], c[221]], []],
+	[/^\/web-pages\/e-commerce\/?$/, [c[202], c[222]], []],
 
 	// src/routes/web-pages/light-dark.svelte
-	[/^\/web-pages\/light-dark\/?$/, [c[201], c[222]], []],
+	[/^\/web-pages\/light-dark\/?$/, [c[202], c[223]], []],
 
 	// src/routes/web-pages/newsletter.svelte
-	[/^\/web-pages\/newsletter\/?$/, [c[201], c[223]], []],
+	[/^\/web-pages\/newsletter\/?$/, [c[202], c[224]], []],
 
 	// src/routes/web-pages/auth-page.svelte
-	[/^\/web-pages\/auth-page\/?$/, [c[201], c[224]], []],
+	[/^\/web-pages\/auth-page\/?$/, [c[202], c[225]], []],
 
 	// src/routes/web-pages/404-page.svelte
-	[/^\/web-pages\/404-page\/?$/, [c[201], c[225]], []],
+	[/^\/web-pages\/404-page\/?$/, [c[202], c[226]], []],
 
 	// src/routes/web-pages/three-js.svelte
-	[/^\/web-pages\/three-js\/?$/, [c[201], c[226]], []],
+	[/^\/web-pages\/three-js\/?$/, [c[202], c[227]], []],
 
 	// src/routes/web-pages/fruits.svelte
-	[/^\/web-pages\/fruits\/?$/, [c[201], c[227]], []],
+	[/^\/web-pages\/fruits\/?$/, [c[202], c[228]], []],
 
 	// src/routes/web-pages/basic.svelte
-	[/^\/web-pages\/basic\/?$/, [c[201], c[228]], []],
+	[/^\/web-pages\/basic\/?$/, [c[202], c[229]], []],
 
 	// src/routes/images/index.svelte
-	[/^\/images\/?$/, [c[229], c[230]], []],
+	[/^\/images\/?$/, [c[230], c[231]], []],
 
 	// src/routes/images/images-para-two-column.svelte
-	[/^\/images\/images-para-two-column\/?$/, [c[229], c[231]], []],
+	[/^\/images\/images-para-two-column\/?$/, [c[230], c[232]], []],
 
 	// src/routes/images/image-blob-paint-all.svelte
-	[/^\/images\/image-blob-paint-all\/?$/, [c[229], c[232]], []],
+	[/^\/images\/image-blob-paint-all\/?$/, [c[230], c[233]], []],
 
 	// src/routes/images/image-fragmentation.svelte
-	[/^\/images\/image-fragmentation\/?$/, [c[229], c[233]], []],
+	[/^\/images\/image-fragmentation\/?$/, [c[230], c[234]], []],
 
 	// src/routes/images/portfolio-gallery/index.svelte
-	[/^\/images\/portfolio-gallery\/?$/, [c[229], c[234]], []],
+	[/^\/images\/portfolio-gallery\/?$/, [c[230], c[235]], []],
 
 	// src/routes/images/portfolio-gallery/ImageCard.svelte
-	[/^\/images\/portfolio-gallery\/ImageCard\/?$/, [c[229], c[235]], []],
+	[/^\/images\/portfolio-gallery\/ImageCard\/?$/, [c[230], c[236]], []],
 
 	// src/routes/images/portfolio-gallery/Gallery.svelte
-	[/^\/images\/portfolio-gallery\/Gallery\/?$/, [c[229], c[236]], []],
+	[/^\/images\/portfolio-gallery\/Gallery\/?$/, [c[230], c[237]], []],
 
 	,
 
 	// src/routes/images/image-blob-paint.svelte
-	[/^\/images\/image-blob-paint\/?$/, [c[229], c[237]], []],
+	[/^\/images\/image-blob-paint\/?$/, [c[230], c[238]], []],
 
 	// src/routes/images/image-with-text.svelte
-	[/^\/images\/image-with-text\/?$/, [c[229], c[238]], []],
+	[/^\/images\/image-with-text\/?$/, [c[230], c[239]], []],
 
 	// src/routes/images/overlay-content.svelte
-	[/^\/images\/overlay-content\/?$/, [c[229], c[239]], []],
+	[/^\/images\/overlay-content\/?$/, [c[230], c[240]], []],
 
 	// src/routes/images/rotating-images.svelte
-	[/^\/images\/rotating-images\/?$/, [c[229], c[240]], []],
+	[/^\/images\/rotating-images\/?$/, [c[230], c[241]], []],
 
 	// src/routes/images/text-portrait.svelte
-	[/^\/images\/text-portrait\/?$/, [c[229], c[241]], []],
+	[/^\/images\/text-portrait\/?$/, [c[230], c[242]], []],
 
 	// src/routes/images/image-paint.svelte
-	[/^\/images\/image-paint\/?$/, [c[229], c[242]], []],
+	[/^\/images\/image-paint\/?$/, [c[230], c[243]], []],
 
 	// src/routes/images/image-pixel.svelte
-	[/^\/images\/image-pixel\/?$/, [c[229], c[243]], []],
+	[/^\/images\/image-pixel\/?$/, [c[230], c[244]], []],
 
 	// src/routes/images/slideshow/index.svelte
-	[/^\/images\/slideshow\/?$/, [c[229], c[244]], []],
+	[/^\/images\/slideshow\/?$/, [c[230], c[245]], []],
 
 	,
 
 	// src/routes/images/slideshow/Slide.svelte
-	[/^\/images\/slideshow\/Slide\/?$/, [c[229], c[245]], []],
+	[/^\/images\/slideshow\/Slide\/?$/, [c[230], c[246]], []],
 
 	// src/routes/images/slideshow/Dot.svelte
-	[/^\/images\/slideshow\/Dot\/?$/, [c[229], c[246]], []],
+	[/^\/images\/slideshow\/Dot\/?$/, [c[230], c[247]], []],
 
 	// src/routes/images/gallery/index.svelte
-	[/^\/images\/gallery\/?$/, [c[229], c[247]], []],
+	[/^\/images\/gallery\/?$/, [c[230], c[248]], []],
 
 	// src/routes/images/gallery/ImageDisplay.svelte
-	[/^\/images\/gallery\/ImageDisplay\/?$/, [c[229], c[248]], []],
+	[/^\/images\/gallery\/ImageDisplay\/?$/, [c[230], c[249]], []],
 
 	// src/routes/images/gallery/Thumbnail.svelte
-	[/^\/images\/gallery\/Thumbnail\/?$/, [c[229], c[249]], []],
+	[/^\/images\/gallery\/Thumbnail\/?$/, [c[230], c[250]], []],
 
 	,
 
 	// src/routes/images/gallery/Caption.svelte
-	[/^\/images\/gallery\/Caption\/?$/, [c[229], c[250]], []],
+	[/^\/images\/gallery\/Caption\/?$/, [c[230], c[251]], []],
 
 	// src/routes/images/gallery/Gallery.svelte
-	[/^\/images\/gallery\/Gallery\/?$/, [c[229], c[251]], []],
+	[/^\/images\/gallery\/Gallery\/?$/, [c[230], c[252]], []],
 
 	// src/routes/images/gallery/Slide.svelte
-	[/^\/images\/gallery\/Slide\/?$/, [c[229], c[252]], []],
+	[/^\/images\/gallery\/Slide\/?$/, [c[230], c[253]], []],
 
 	// src/routes/videos/index.svelte
-	[/^\/videos\/?$/, [c[253], c[254]], []],
+	[/^\/videos\/?$/, [c[254], c[255]], []],
 
 	// src/routes/videos/scale-video-scroll.svelte
-	[/^\/videos\/scale-video-scroll\/?$/, [c[253], c[255]], []],
+	[/^\/videos\/scale-video-scroll\/?$/, [c[254], c[256]], []],
 
 	// src/routes/videos/video-slider.svelte
-	[/^\/videos\/video-slider\/?$/, [c[253], c[256]], []],
+	[/^\/videos\/video-slider\/?$/, [c[254], c[257]], []],
 
 	// src/routes/videos/video-text.svelte
-	[/^\/videos\/video-text\/?$/, [c[253], c[257]], []],
+	[/^\/videos\/video-text\/?$/, [c[254], c[258]], []],
 
 	// src/routes/audio/index.svelte
-	[/^\/audio\/?$/, [c[258], c[259]], []],
+	[/^\/audio\/?$/, [c[259], c[260]], []],
 
 	// src/routes/audio/css-js-music-player.svelte
-	[/^\/audio\/css-js-music-player\/?$/, [c[258], c[260]], []],
+	[/^\/audio\/css-js-music-player\/?$/, [c[259], c[261]], []],
 
 	// src/routes/audio/audio-player/index.svelte
-	[/^\/audio\/audio-player\/?$/, [c[258], c[261]], []],
+	[/^\/audio\/audio-player\/?$/, [c[259], c[262]], []],
 
 	// src/routes/audio/audio-player/ProgressBarTime.svelte
-	[/^\/audio\/audio-player\/ProgressBarTime\/?$/, [c[258], c[262]], []],
+	[/^\/audio\/audio-player\/ProgressBarTime\/?$/, [c[259], c[263]], []],
 
 	// src/routes/audio/audio-player/TrackHeading.svelte
-	[/^\/audio\/audio-player\/TrackHeading\/?$/, [c[258], c[263]], []],
+	[/^\/audio\/audio-player\/TrackHeading\/?$/, [c[259], c[264]], []],
 
 	// src/routes/audio/audio-player/VolumeSlider.svelte
-	[/^\/audio\/audio-player\/VolumeSlider\/?$/, [c[258], c[264]], []],
+	[/^\/audio\/audio-player\/VolumeSlider\/?$/, [c[259], c[265]], []],
 
 	// src/routes/audio/audio-player/Controls.svelte
-	[/^\/audio\/audio-player\/Controls\/?$/, [c[258], c[265]], []],
+	[/^\/audio\/audio-player\/Controls\/?$/, [c[259], c[266]], []],
 
 	// src/routes/audio/audio-player/PlayList.svelte
-	[/^\/audio\/audio-player\/PlayList\/?$/, [c[258], c[266]], []],
+	[/^\/audio\/audio-player\/PlayList\/?$/, [c[259], c[267]], []],
 
 	,
 
 	// src/routes/cards/index.svelte
-	[/^\/cards\/?$/, [c[267], c[268]], []],
+	[/^\/cards\/?$/, [c[268], c[269]], []],
 
 	// src/routes/cards/testimonial-with-swiper.svelte
-	[/^\/cards\/testimonial-with-swiper\/?$/, [c[267], c[269]], []],
+	[/^\/cards\/testimonial-with-swiper\/?$/, [c[268], c[270]], []],
 
 	// src/routes/cards/light-dark-switch-card.svelte
-	[/^\/cards\/light-dark-switch-card\/?$/, [c[267], c[270]], []],
+	[/^\/cards\/light-dark-switch-card\/?$/, [c[268], c[271]], []],
 
 	// src/routes/cards/3d-flip-product-card.svelte
-	[/^\/cards\/3d-flip-product-card\/?$/, [c[267], c[271]], []],
+	[/^\/cards\/3d-flip-product-card\/?$/, [c[268], c[272]], []],
 
 	// src/routes/cards/gradient-border-card.svelte
-	[/^\/cards\/gradient-border-card\/?$/, [c[267], c[272]], []],
+	[/^\/cards\/gradient-border-card\/?$/, [c[268], c[273]], []],
 
 	// src/routes/cards/gradient-card-shadow.svelte
-	[/^\/cards\/gradient-card-shadow\/?$/, [c[267], c[273]], []],
+	[/^\/cards\/gradient-card-shadow\/?$/, [c[268], c[274]], []],
 
 	// src/routes/cards/cube-slider-swiper.svelte
-	[/^\/cards\/cube-slider-swiper\/?$/, [c[267], c[274]], []],
+	[/^\/cards\/cube-slider-swiper\/?$/, [c[268], c[275]], []],
 
 	// src/routes/cards/neumorphic-card-d.svelte
-	[/^\/cards\/neumorphic-card-d\/?$/, [c[267], c[275]], []],
+	[/^\/cards\/neumorphic-card-d\/?$/, [c[268], c[276]], []],
 
 	// src/routes/cards/neumorphic-card-l.svelte
-	[/^\/cards\/neumorphic-card-l\/?$/, [c[267], c[276]], []],
+	[/^\/cards\/neumorphic-card-l\/?$/, [c[268], c[277]], []],
 
 	// src/routes/cards/overlapping-cards.svelte
-	[/^\/cards\/overlapping-cards\/?$/, [c[267], c[277]], []],
+	[/^\/cards\/overlapping-cards\/?$/, [c[268], c[278]], []],
 
 	// src/routes/cards/3d-foldable-card.svelte
-	[/^\/cards\/3d-foldable-card\/?$/, [c[267], c[278]], []],
+	[/^\/cards\/3d-foldable-card\/?$/, [c[268], c[279]], []],
 
 	// src/routes/cards/card-border-anim.svelte
-	[/^\/cards\/card-border-anim\/?$/, [c[267], c[279]], []],
+	[/^\/cards\/card-border-anim\/?$/, [c[268], c[280]], []],
 
 	// src/routes/cards/image-hover-card.svelte
-	[/^\/cards\/image-hover-card\/?$/, [c[267], c[280]], []],
+	[/^\/cards\/image-hover-card\/?$/, [c[268], c[281]], []],
 
 	// src/routes/cards/weird-shape-card.svelte
-	[/^\/cards\/weird-shape-card\/?$/, [c[267], c[281]], []],
+	[/^\/cards\/weird-shape-card\/?$/, [c[268], c[282]], []],
 
 	// src/routes/cards/neumorphic-card.svelte
-	[/^\/cards\/neumorphic-card\/?$/, [c[267], c[282]], []],
+	[/^\/cards\/neumorphic-card\/?$/, [c[268], c[283]], []],
 
 	// src/routes/cards/3d-stack-cards.svelte
-	[/^\/cards\/3d-stack-cards\/?$/, [c[267], c[283]], []],
+	[/^\/cards\/3d-stack-cards\/?$/, [c[268], c[284]], []],
 
 	// src/routes/cards/hovering-cards.svelte
-	[/^\/cards\/hovering-cards\/?$/, [c[267], c[284]], []],
+	[/^\/cards\/hovering-cards\/?$/, [c[268], c[285]], []],
 
 	// src/routes/cards/instagram-card.svelte
-	[/^\/cards\/instagram-card\/?$/, [c[267], c[285]], []],
+	[/^\/cards\/instagram-card\/?$/, [c[268], c[286]], []],
 
 	// src/routes/cards/3d-flip-card2.svelte
-	[/^\/cards\/3d-flip-card2\/?$/, [c[267], c[286]], []],
+	[/^\/cards\/3d-flip-card2\/?$/, [c[268], c[287]], []],
 
 	// src/routes/cards/profile-hover.svelte
-	[/^\/cards\/profile-hover\/?$/, [c[267], c[287]], []],
+	[/^\/cards\/profile-hover\/?$/, [c[268], c[288]], []],
 
 	// src/routes/cards/3d-flip-card.svelte
-	[/^\/cards\/3d-flip-card\/?$/, [c[267], c[288]], []],
+	[/^\/cards\/3d-flip-card\/?$/, [c[268], c[289]], []],
 
 	// src/routes/cards/contact-info.svelte
-	[/^\/cards\/contact-info\/?$/, [c[267], c[289]], []],
+	[/^\/cards\/contact-info\/?$/, [c[268], c[290]], []],
 
 	// src/routes/cards/glowing-card.svelte
-	[/^\/cards\/glowing-card\/?$/, [c[267], c[290]], []],
+	[/^\/cards\/glowing-card\/?$/, [c[268], c[291]], []],
 
 	// src/routes/cards/hexagon-card.svelte
-	[/^\/cards\/hexagon-card\/?$/, [c[267], c[291]], []],
+	[/^\/cards\/hexagon-card\/?$/, [c[268], c[292]], []],
 
 	// src/routes/cards/product-card.svelte
-	[/^\/cards\/product-card\/?$/, [c[267], c[292]], []],
+	[/^\/cards\/product-card\/?$/, [c[268], c[293]], []],
 
 	// src/routes/cards/profile-card.svelte
-	[/^\/cards\/profile-card\/?$/, [c[267], c[293]], []],
+	[/^\/cards\/profile-card\/?$/, [c[268], c[294]], []],
 
 	// src/routes/cards/curved-card.svelte
-	[/^\/cards\/curved-card\/?$/, [c[267], c[294]], []],
+	[/^\/cards\/curved-card\/?$/, [c[268], c[295]], []],
 
 	// src/routes/cards/glass-hover.svelte
-	[/^\/cards\/glass-hover\/?$/, [c[267], c[295]], []],
+	[/^\/cards\/glass-hover\/?$/, [c[268], c[296]], []],
 
 	// src/routes/cards/player-card.svelte
-	[/^\/cards\/player-card\/?$/, [c[267], c[296]], []],
+	[/^\/cards\/player-card\/?$/, [c[268], c[297]], []],
 
 	// src/routes/cards/glass-card.svelte
-	[/^\/cards\/glass-card\/?$/, [c[267], c[297]], []],
+	[/^\/cards\/glass-card\/?$/, [c[268], c[298]], []],
 
 	// src/routes/cards/glow-card.svelte
-	[/^\/cards\/glow-card\/?$/, [c[267], c[298]], []],
+	[/^\/cards\/glow-card\/?$/, [c[268], c[299]], []],
 
 	// src/routes/cards/glass.svelte
-	[/^\/cards\/glass\/?$/, [c[267], c[299]], []],
+	[/^\/cards\/glass\/?$/, [c[268], c[300]], []],
 
 	// src/routes/cards/book.svelte
-	[/^\/cards\/book\/?$/, [c[267], c[300]], []],
+	[/^\/cards\/book\/?$/, [c[268], c[301]], []],
 
 	// src/routes/auth/index.svelte
-	[/^\/auth\/?$/, [c[0], c[301]], [c[1]]]
+	[/^\/auth\/?$/, [c[0], c[302]], [c[1]]]
 ];
 
 // we import the root layout/error components eagerly, so that

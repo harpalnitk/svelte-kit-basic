@@ -44,6 +44,7 @@
 		{url:'http-firebase', name: 'Http Firebase'},
 		{url:'spring', name: 'Spring Animation'},
 		{url:'abstract-bg', name: 'Abstract Background'},
+		{url:'abstract-bg-2', name: 'Abstract Background-2'},
 		{url:'paper-bg', name: 'Cut Paper Background'},
 		{url:'bg-anim', name: 'Background Animation'},
 		{url:'icon-glassmorphism', name: 'Icon Glassmorphism'},

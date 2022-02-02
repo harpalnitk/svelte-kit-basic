@@ -22,7 +22,9 @@
 		{url:'neumorphism-in-css', name: 'Neumorphism in CSS'},
 		{url:'sass-mixins', name: 'SASS Default parameters in mixins: Usage'},
 		{url:'glassmorphism-list', name: 'Glassmorphism List'},
-		
+		//Claymorphism
+		{url:'claymorphism-list', name: 'Claymorphism List'},
+		{url:'claymorphism-login', name: 'Claymorphism Login'},
 		
 		];
 </script>

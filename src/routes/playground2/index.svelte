@@ -28,6 +28,7 @@
 		{url:'circular-menu', name: 'Circular Menu'},
 		{url:'curved-magic-menu', name: 'Curved Magic Menu Below'},
 		{url:'curved-magic-menu-2', name: 'Curved Magic Menu Above'},
+		{url:'nine-dots-menu', name: 'Nine Dots Menu'},
 
 		//Text
 		{url:'icon-text-anim', name: 'Glowing Icon With Text Typing Animation'},

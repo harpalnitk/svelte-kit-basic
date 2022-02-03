@@ -24,6 +24,8 @@
 		{url:'glass-calendar', name: 'Glassmorphism Calendar'},
 		{url:'full-calendar', name: 'Full Year Calendar'},
 		{url:'calculator', name: 'Calculator'},
+		{url:'calculator-2', name: 'Calculator-Neomorphism'},
+		{url:'calculator-3', name: 'Calculator-Claymorphism'},
 		{url:'search-box', name: 'Search Box'},
 		{url:'countdown-timer', name: 'CountDown Timer'},
 		//Utilities::Rating Bar

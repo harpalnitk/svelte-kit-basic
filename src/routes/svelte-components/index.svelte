@@ -41,6 +41,8 @@
 
 		//Search
 		{url:'search-box', name: 'Search Box'},
+
+		
 		];
 </script>
 

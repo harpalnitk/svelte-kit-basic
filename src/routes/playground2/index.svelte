@@ -43,6 +43,7 @@
 		{url:'keyboard-keys', name: 'KeyBoard Keys'},
 		{url:'cursor-text', name: 'Cursor Text Animation Effect'},
 		{url:'glowing-text', name: 'Glowing Text Dark background Effect'},
+		{url:'glowing-text-2', name: 'Glowing Text-2 Dark background Effect'},
 		//Loading
 		{url:'loading-squares', name: 'Colorful Loading Squares'},
 		{url:'loading-anim', name: 'Loading Animation'},
@@ -55,6 +56,7 @@
 		{url:'glassmorphism-loading', name: 'Glassmorphism Loading Circle'},
 		{url:'spiral-loading', name: '3-Spiral-Loaders'},
 		{url:'neumorphism loading', name: 'Neumorphism Loading'},
+		{url:'circular-loading', name: 'Circular Loading'},
 
 	     //Cartoons
 		{url:'truck-anim', name: 'Truck Animation Svelte'},

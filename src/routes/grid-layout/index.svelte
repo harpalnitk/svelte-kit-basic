@@ -22,6 +22,7 @@
         {url:'flex-layout', name: 'Flex Concepts'},
 		{url:'expand-section-grid', name: 'Expandable Section Using CSS Grid'},
 		{url:'layout-without-media-query', name: 'Responsive CSS Layouts without Media Queries'},
+		{url:'auto-filling-grid', name: 'Auto Filling Grid'},
 		];
 </script>
 

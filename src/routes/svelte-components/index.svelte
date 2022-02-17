@@ -41,7 +41,8 @@
 
 		//Search
 		{url:'search-box', name: 'Search Box'},
-
+		//links
+		{url:'link-hover-effects', name: 'Link Hover Effects'},
 		
 		];
 </script>

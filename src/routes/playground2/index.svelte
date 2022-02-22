@@ -29,6 +29,7 @@
 		{url:'curved-magic-menu', name: 'Curved Magic Menu Below'},
 		{url:'curved-magic-menu-2', name: 'Curved Magic Menu Above'},
 		{url:'nine-dots-menu', name: 'Nine Dots Menu'},
+		{url:'three-dots-menu', name: 'Three Dots Menu'},
 
 		//Text
 		{url:'icon-text-anim', name: 'Glowing Icon With Text Typing Animation'},
@@ -55,7 +56,8 @@
 		{url:'circular-ring-loading', name: 'Circular Ring Loading'},
 		{url:'glassmorphism-loading', name: 'Glassmorphism Loading Circle'},
 		{url:'spiral-loading', name: '3-Spiral-Loaders'},
-		{url:'neumorphism loading', name: 'Neumorphism Loading'},
+		{url:'neumorphism-loading', name: 'Neumorphism Loading'},
+		{url:'neumorphism-loading-bars', name: 'Neumorphism Loading Bars'},
 		{url:'circular-loading', name: 'Circular Loading'},
 
 	     //Cartoons

@@ -1,5 +1,5 @@
 <script>
-import Item from "../svelte-components/autocomplete/Item.svelte";
+
 
 
     let creatorList = [
@@ -8,8 +8,8 @@ import Item from "../svelte-components/autocomplete/Item.svelte";
         {id:3,img:'avatar-3.png',rank:3,name:'Clara Jones',profession:'Backend Developer'},
         {id:4,img:'avatar-4.png',rank:4,name:'Mark Davis',profession:'Illustrator Designer'},
         {id:5,img:'avatar-5.png',rank:5,name:'Shara Anderson',profession:'Food Vlogger'},
-        {id:5,img:'avatar-6.png',rank:6,name:'Mohammad Irshad',profession:'UX/UI Designer'},
-        {id:5,img:'avatar-7.png',rank:7,name:'Erik Karine',profession:'Food Vlogger'},
+        {id:6,img:'avatar-6.png',rank:6,name:'Mohammad Irshad',profession:'UX/UI Designer'},
+        {id:7,img:'avatar-7.png',rank:7,name:'Erik Karine',profession:'Food Vlogger'},
     ];
 </script>
 <main class='flex-center'>

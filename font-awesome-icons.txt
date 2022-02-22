@@ -83,6 +83,10 @@ code        <i class="fas fa-code"></i>
 chart       <i class="fas fa-chart-bar"></i>
 
 
+edit        <i class="far fa-edit"></i>
+delete      <i class="fas fa-trash-alt"></i>
+
+
 ######### SHAPES ################
 
 square      <i class="far fa-square"></i>    &#9634;

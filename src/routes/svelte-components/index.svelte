@@ -38,9 +38,15 @@
 		{url:'yes-no-checkbox', name: 'Yes No Checkbox'},
 		{url:'toggle-light-dark', name: 'Toggle Button Light and Dark Mode'},
 		{url:'smiley-toggle', name: 'Smiley Toggle Button'},
+		{url:'square-button-checkbox', name: 'Square Button CheckBox'},
+		{url:'sleek-checkbox', name: 'Sleek CheckBox'},
+
+		
 
 		//Search
 		{url:'search-box', name: 'Search Box'},
+		{url:'show_hide_pwd', name: 'Show Hide Password'},
+		{url:'show_hide_pwd-2', name: 'Show Hide Password 2-Using HTML icon'},
 		//links
 		{url:'link-hover-effects', name: 'Link Hover Effects'},
 		

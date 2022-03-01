@@ -47,6 +47,7 @@
 		{url:'spring', name: 'Spring Animation'},
 		{url:'abstract-bg', name: 'Abstract Background'},
 		{url:'abstract-bg-2', name: 'Abstract Background-2'},
+		{url:'abstract-bg-color-dots', name: 'Abstract Background Colorful Dots'},
 		{url:'paper-bg', name: 'Cut Paper Background'},
 		{url:'bg-anim', name: 'Background Animation'},
 		{url:'icon-glassmorphism', name: 'Icon Glassmorphism'},
@@ -57,6 +58,7 @@
 		{url:'diagnol-stripes', name: 'Diagnol Stripes'},
 		{url:'ball-balance', name: 'Physics Ball Balance'},
 		{url:'thunderbolt', name: 'ThunderBolt Lightining'},
+		{url:'colorful-dots', name: 'Colorfull Dots Hover Effect'},
 		];
 </script>
 

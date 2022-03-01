@@ -44,8 +44,8 @@
 		{url:'3d-flip-product-card', name: '3D Flip Product Card'},
 		{url:'book', name: '3D Book Display'},
 		{url:'light-dark-switch-card', name: 'Light Dark Mode Switch Card'},
+		{url:'claymorphism-card', name: 'Claymorphism Card'},
 		
-
 		];
 </script>
 

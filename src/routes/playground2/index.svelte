@@ -29,6 +29,7 @@
 		{url:'curved-magic-menu', name: 'Curved Magic Menu Below'},
 		{url:'curved-magic-menu-2', name: 'Curved Magic Menu Above'},
 		{url:'nine-dots-menu', name: 'Nine Dots Menu'},
+		{url:'three-dots-menu', name: 'Three Dots Menu'},
 
 		//Text
 		{url:'icon-text-anim', name: 'Glowing Icon With Text Typing Animation'},
@@ -43,6 +44,8 @@
 		{url:'keyboard-keys', name: 'KeyBoard Keys'},
 		{url:'cursor-text', name: 'Cursor Text Animation Effect'},
 		{url:'glowing-text', name: 'Glowing Text Dark background Effect'},
+		{url:'glowing-text-2', name: 'Glowing Text-2 Dark background Effect'},
+		{url:'text-cubes', name: 'Text Cubes Year Date'},
 		//Loading
 		{url:'loading-squares', name: 'Colorful Loading Squares'},
 		{url:'loading-anim', name: 'Loading Animation'},
@@ -54,7 +57,9 @@
 		{url:'circular-ring-loading', name: 'Circular Ring Loading'},
 		{url:'glassmorphism-loading', name: 'Glassmorphism Loading Circle'},
 		{url:'spiral-loading', name: '3-Spiral-Loaders'},
-		{url:'neumorphism loading', name: 'Neumorphism Loading'},
+		{url:'neumorphism-loading', name: 'Neumorphism Loading'},
+		{url:'neumorphism-loading-bars', name: 'Neumorphism Loading Bars'},
+		{url:'circular-loading', name: 'Circular Loading'},
 
 	     //Cartoons
 		{url:'truck-anim', name: 'Truck Animation Svelte'},

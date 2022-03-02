@@ -10,7 +10,7 @@ let country="US";
 /*API endpoint to get holiday data*/
 
 const apiURL = `https://holidayapi.com/v1/holidays?
-pretty&key=${key}&country=${country}&year=2020&language=${language}`;
+pretty&key=${key}&country=${country}&year=2021&language=${language}`;
 
 export const getData = async ()=>{
     try {

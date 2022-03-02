@@ -1,5 +1,5 @@
 <script>
-  
+  let index = 0;
     const links =[
         { id:1, name: 'Edit Profile', icon: 'fa fa-user' },
         { id:2, name: 'Inbox', icon: 'fas fa-comment-alt' },

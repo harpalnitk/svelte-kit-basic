@@ -18,6 +18,8 @@
 		//Menu
 		{url:'dropdown-menu', name: 'Dropdown Menu'},
 		{url:'dropdown-menu2', name: 'Dropdown Menu 2'},
+		{url:'dropdown-menu3', name: 'Dropdown Menu 3 : Select'},
+		{url:'sidebar-menu', name: 'Sidebar Menu'},
 		{url:'magic-line-nav', name: 'Magic Line Indicator on Nav List'},
 		{url:'magic-line-nav-below', name: 'Magic Line Nav Below'},
 		{url:'menu-hover', name: 'Menu Hover Effect'},
@@ -67,6 +69,7 @@
 		{url:'moving-box', name: '3D-Moving Box'},
 		{url:'light-bulb', name: 'Light Bulb On/Off with Sound'},
 		{url:'indian-flag', name: 'Indian Flag Using CSS'},
+		{url:'ukraine-russia-india-flag', name: 'Ukraine Russia India Flag'},
 		{url:'eye-move', name: 'Eye Movement on mouse move'},
 		{url:'cartoon-eye-move', name: 'Cartoon Eye Movement on mouse move'},
 		{url:'falling-leaves', name: 'Falling leaves Animation'},

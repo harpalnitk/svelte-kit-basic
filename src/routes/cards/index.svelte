@@ -16,6 +16,7 @@
 		{url:'glow-card', name: 'Double color neon glow card'},
 		{url:'glass', name: 'Transparent Cards-Glasmorphism'},
 		{url:'product-card', name: 'Product card'},
+		{url:'product-card-2', name: 'Product card-2'},
 		{url:'player-card', name: 'Player card'},
 		{url:'profile-card', name: 'Profile card'},
 		{url:'hovering-cards', name: 'Hovering cards'},

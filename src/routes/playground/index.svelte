@@ -21,6 +21,7 @@
 		//Utilities
 		{url:'clock', name: 'Clock using CSS'},
 		{url:'clock-2', name: 'Clock-2 using CSS'},
+		{url:'clock-3', name: 'Clock-3 using CSS'},
 		{url:'glass-calendar', name: 'Glassmorphism Calendar'},
 		{url:'full-calendar', name: 'Full Year Calendar'},
 		{url:'calculator', name: 'Calculator'},

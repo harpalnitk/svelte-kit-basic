@@ -120,7 +120,7 @@ let dispatch= createEventDispatcher();
 
 	/* Add a blue text color to links */
 	a {
-		color: #049DBF;
+		color: hsl(191, 96%, 38%);
 	}
 
 	/* Set a grey background color and center the text of the "sign in" section */

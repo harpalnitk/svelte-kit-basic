@@ -35,6 +35,7 @@
 		{url:'paint-generative-pattern', name: 'Random Generative Patterns with Paint API'},
 		{url:'css-blob', name: 'CSS SVG Blob'},
 		{url:'brick-pattern-svg', name: 'Brick Pattern With SVG'},
+		{url:'cut-corners-mask', name: 'Cut Corners with CSS Mask property'},
 		
 		];
 </script>

@@ -60,6 +60,7 @@
 		{url:'ball-balance', name: 'Physics Ball Balance'},
 		{url:'thunderbolt', name: 'ThunderBolt Lightining'},
 		{url:'colorful-dots', name: 'Colorfull Dots Hover Effect'},
+		{url:'glass-anim', name: 'Glassmorphism-Animation'},
 		];
 </script>
 

@@ -61,6 +61,7 @@
 		{url:'thunderbolt', name: 'ThunderBolt Lightining'},
 		{url:'colorful-dots', name: 'Colorfull Dots Hover Effect'},
 		{url:'glass-anim', name: 'Glassmorphism-Animation'},
+		{url:'two-smiley-faces', name: 'Only Two Smiley Faces'},
 		];
 </script>
 

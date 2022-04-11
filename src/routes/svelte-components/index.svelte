@@ -46,7 +46,7 @@
 		//Search
 		{url:'search-box', name: 'Search Box'},
 		{url:'show_hide_pwd', name: 'Show Hide Password'},
-		{url:'show_hide_pwd-2', name: 'Show Hide Password 2-Using HTML icon'},
+		{url:'show-hide-pwd-2', name: 'Show Hide Password 2-Using HTML icon'},
 		//links
 		{url:'link-hover-effects', name: 'Link Hover Effects'},
 		

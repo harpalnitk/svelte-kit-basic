@@ -30,6 +30,7 @@
 		{url:'whatsapp-web', name: 'Whatsapp Web Clone'},
 		{url:'sticky-header', name: 'Sticky Header CSS Trick'},
 		{url:'404-page', name: 'Animated 404 Page'},
+		{url:'anim-footer', name: 'Animated Footer'},
 		];
 </script>
 

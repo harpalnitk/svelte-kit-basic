@@ -49,6 +49,7 @@
 		{url:'show-hide-pwd-2', name: 'Show Hide Password 2-Using HTML icon'},
 		//links
 		{url:'link-hover-effects', name: 'Link Hover Effects'},
+		{url:'link-hover-effects-2', name: 'Link Hover Effects-2'},
 		
 		];
 </script>

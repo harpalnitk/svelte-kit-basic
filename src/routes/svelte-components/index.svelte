@@ -50,6 +50,7 @@
 		//links
 		{url:'link-hover-effects', name: 'Link Hover Effects'},
 		{url:'link-hover-effects-2', name: 'Link Hover Effects-2'},
+		{url:'link-hover-effects-3', name: 'Link Hover Effects-3 Using Text Shadows'},
 		
 		];
 </script>

@@ -19,6 +19,7 @@
 		{url:'product-card-2', name: 'Product card-2'},
 		{url:'player-card', name: 'Player card'},
 		{url:'profile-card', name: 'Profile card'},
+		{url:'profile-card-2', name: 'Profile card 2'},
 		{url:'hovering-cards', name: 'Hovering cards'},
 		{url:'glowing-card', name: 'Glowing Card'},
 		{url:'3d-stack-cards', name: '3D Stack of a Card'},

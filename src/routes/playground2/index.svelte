@@ -32,6 +32,10 @@
 		{url:'curved-magic-menu-2', name: 'Curved Magic Menu Above'},
 		{url:'nine-dots-menu', name: 'Nine Dots Menu'},
 		{url:'three-dots-menu', name: 'Three Dots Menu'},
+		{url:'isometric-menu', name: 'Isometric 3D Menu'},
+		{url:'floating-menu-pic', name: 'Floating Action Menu with Pic'},
+		{url:'popup-box', name: 'Simple pop up Box'},
+
 
 		//Text
 		{url:'icon-text-anim', name: 'Glowing Icon With Text Typing Animation'},

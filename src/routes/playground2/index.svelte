@@ -19,6 +19,7 @@
 		{url:'dropdown-menu', name: 'Dropdown Menu'},
 		{url:'dropdown-menu2', name: 'Dropdown Menu 2'},
 		{url:'dropdown-menu3', name: 'Dropdown Menu 3 : Select'},
+		{url:'dropdown-menu4', name: 'Dropdown Menu With Pic'},
 		{url:'sidebar-menu', name: 'Sidebar Menu'},
 		{url:'magic-line-nav', name: 'Magic Line Indicator on Nav List'},
 		{url:'magic-line-nav-below', name: 'Magic Line Nav Below'},
@@ -35,6 +36,7 @@
 		{url:'isometric-menu', name: 'Isometric 3D Menu'},
 		{url:'floating-menu-pic', name: 'Floating Action Menu with Pic'},
 		{url:'popup-box', name: 'Simple pop up Box'},
+		{url:'arrow-menu', name: 'Arrow Menu Indicator'},
 
 
 		//Text

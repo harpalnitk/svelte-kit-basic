@@ -31,6 +31,7 @@
 		{url:'sticky-header', name: 'Sticky Header CSS Trick'},
 		{url:'404-page', name: 'Animated 404 Page'},
 		{url:'anim-footer', name: 'Animated Footer'},
+		{url:'table-of-content', name: 'Table of Content using HTML and CSS'},
 		];
 </script>
 

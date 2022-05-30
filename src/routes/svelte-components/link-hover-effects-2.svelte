@@ -359,9 +359,10 @@
 //     linear-gradient(#1095c1 0 0);
 //   background-repeat: no-repeat;
 //   background-size: 50% .08em;
-//   background-position:
+//   background-position:                 background position is with respect to size; -100% means that 50% size background will move entirely 100% to left
+
 //     -100% 100%,
-//     200% 0;
+//     200% 0;           and 200% will mean that 50% background element will move 100% to right
 //   transition: background-size .3s, background-position .3s .3s;
 // }
 // .hover-3:hover {

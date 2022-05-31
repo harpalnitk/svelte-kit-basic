@@ -50,6 +50,46 @@
     <h3 class="hover four">Hover Me</h3>
     <h3 class="hover five">Hover Me</h3>
 	</section>
+  <h2>11. Wavy Line examples</h2>
+	<section class="background-clip-11">
+    <h3 class="hover one">Hover Me</h3>
+    <h3 class="hover two">Hover Me</h3>
+    <h3 class="hover three">Hover Me</h3>
+    <h3 class="hover four">Hover Me</h3>
+    <h3 class="hover five">Hover Me</h3>
+	</section>
+  <h2>12. Challenge- Decode code on own</h2>
+	<section class="background-clip-12">
+    <h3 class="hover">Hover Me</h3>
+	</section>
+  <h2>13. 3-d</h2>
+	<section class="background-clip-13">
+    <h3 class="d-1">Hover Me</h3>
+	</section>
+  <h2>14. 3-d with Translate function</h2>
+	<section class="background-clip-14">
+    <h3 class="d-1">Hover Me</h3>
+    <h3 class="d-1" style="--b:.2em;--d:35px;--c:purple">Hover Me</h3>
+    <h3 class="d-1" style="--b:3px;--d:10px;--c:darkred">Hover Me</h3>
+	</section>
+  <h2>15. 3-d with clip and perspective</h2>
+	<section class="background-clip-15">
+    <div class="d-1">1. Hover me </div>
+    <div class="d-2">2. Hover me </div>
+    <div class="d-3">3. Hover me </div>
+    <div class="d-4">4. Hover me </div>
+	</section>
+  <h2>16. 3-d Effect used in picture</h2>
+	<section class="background-clip-16">
+    <div class="box">
+      <h2>Jelly Fish</h2>
+      <img src="https://picsum.photos/id/1069/400/250" alt='pic-1'>
+    </div>
+    <div class="box">
+      <h2>Kayak Day</h2>
+      <img src="https://picsum.photos/id/1011/400/250" alt='pic-2'>
+    </div>
+	</section>
 </main>
 
 <style lang="scss">
@@ -571,4 +611,320 @@
   --_p: 50.5%;
 }
   }
+
+  .background-clip-11{
+    .hover {
+  --c: #1095c1;
+  --s: .15em;
+  
+  line-height: 1.1em;
+  padding-bottom: calc(2.1*var(--s));
+  //here only line changed from zig zag to wavy
+  background: 
+    radial-gradient(35% 100% at 50% -20%,#0000 50%,var(--c) 53% 96%,#0000) 
+     left 0 bottom 0,
+    radial-gradient(35% 100% at 50% 120%,#0000 50%,var(--c) 53% 96%,#0000) 
+     left calc(3*var(--s)/2) bottom var(--s);
+  background-size: calc(3*var(--s)) var(--s);
+  background-repeat: repeat-x;
+}
+.hover:hover {
+  color: var(--c);
+}
+
+.one {
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+  transition: .5s;
+}
+.one:hover {
+  --_p: 100%;
+}
+.two {
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 100%/var(--_p,0%) padding-box no-repeat;
+  transition: .5s;
+}
+.two:hover {
+  --_p: 100%;
+}
+.three {
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) calc(100% - var(--_p,0%))/var(--_p,0%) padding-box no-repeat;
+  transition: .5s,-webkit-mask-position 0s .5s;
+}
+.three:hover {
+  --_p: 100%;
+}
+.four {
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 50% 100%/var(--_p,0%) padding-box no-repeat;
+  transition: .5s;
+}
+.four:hover {
+  --_p: 100%;
+}
+.five {
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0%   100%/var(--_p,0%) padding-box no-repeat,
+    linear-gradient(#000 0 0) 100% 100%/var(--_p,0%) padding-box no-repeat;
+  transition: .5s;
+}
+.five:hover {
+  --_p: 50.5%;
+}
+  }
+
+
+  //CHALANGE
+  .background-clip-12{
+    .hover {
+  border: 8px solid;
+  border-image: repeating-linear-gradient(135deg,#F8CA00 0 10px,#E97F02 0 20px,#BD1550 0 30px) 8;
+  -webkit-mask: 
+    conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+     var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+    conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+     0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+    linear-gradient(#000 0 0) padding-box no-repeat
+    ;
+  transition: .3s, -webkit-mask-position .3s .3s;
+}
+.hover:hover {
+  --_i: 100%;
+  color: #CC333F;
+  transition: .3s, -webkit-mask-size .3s .3s;
+}
+  }
+
+
+
+
+
+
+  //3D
+.background-clip-13{
+  .d-1 {
+  --c: #1095c1; /* the color */
+  --b: .1em;    /* border length*/
+  --d: 20px;    /* the cube depth */
+  
+  --_s: calc(var(--d) + var(--b));
+  color: var(--c);
+  border: solid #0000;
+  // The top and right sides of the element both 
+  // need to equal the --b value while the bottom
+  //  and left sides need to equal to the sum of
+  //   --b and --d (which is the --_s variable).
+  border-width: var(--b) var(--b) var(--_s) var(--_s);
+  // For the second part of the trick, we need to define
+  //  one gradient that covers all the border areas we
+  //   previously defined. A conic-gradient will work for that:
+  background:
+//   A conic gradient is a gradient with
+// color transitions rotated around a center point.
+
+// To create a conic gradient you must define at least two colors.
+//By default, angle is 0deg and position is center.
+//If no degree is specified, the colors will be spread 
+//equally around the center point.
+
+//in circle transparent color till 90deg; 0.3 color from 0 225deg i.e. from 90deg to 225deg and 0.6 color from 225 deg to 100%
+
+//We add another gradient for the third part of
+//  the trick. This one will use two semi-transparent
+//   white color values that overlap the first 
+//   previous gradient to create different shades
+//    of the main color, giving us the illusion of shading and depth.   
+//see picture  https://css-tricks.com/css-hover-effects-background-masks-3d/
+conic-gradient(at left var(--d)  bottom var(--d),
+      #0000 90deg, rgb(255 255 255 /0.3) 0 225deg,rgb(255 255 255 /0.6) 0) border-box,
+    //For the second part of the trick, we need to define one gradient that covers all the border areas we previously defined
+      conic-gradient(at left var(--_s) bottom var(--_s),
+      #0000 90deg,var(--c) 0) 0 100%/calc(100% - var(--b)) calc(100% - var(--b))  border-box;
+      // The last step is to apply a CSS clip-path to cut
+      // the corners for that long shadow sorta feel:
+      clip-path: 
+    polygon(
+     var(--d) 0%, 
+     var(--d) 0%, 
+     100% 0%, 
+     100% calc(100% - var(--d)),
+     100% calc(100% - var(--d)),
+     var(--d) calc(100% - var(--d))
+    );
+  transition: 0.5s;
+}
+.d-1:hover {
+  //see picture  https://css-tricks.com/css-hover-effects-background-masks-3d/
+  //Notice the coordinates from the previous figure (indicated in red). Let’s update those to create the animation:
+  clip-path: 
+    polygon(
+     0% var(--d), 
+     var(--d) 0%, 
+     100% 0%, 
+     100% calc(100% - var(--d)), 
+     calc(100% - var(--d)) 100%, 
+     0% 100%
+   );
+}
+}
+
+// //The final touch is to move the element in the
+//  opposite direction using translate — and the
+//   illusion is perfect! Here’s the effect using 
+//   different custom property values for varying depths:
+
+.background-clip-14{
+  .d-1 {
+  --c: #1095c1; /* the color */
+  --b: .1em;    /* border length*/
+  --d: 20px;    /* the cube depth */
+  
+  --_s: calc(var(--d) + var(--b));
+  color: var(--c);
+  border: solid #0000;
+  border-width: var(--b) var(--b) var(--_s) var(--_s);
+  background:
+    conic-gradient(at left var(--d)  bottom var(--d),
+      #0000 90deg, rgb(255 255 255 /0.3) 0 225deg,rgb(255 255 255 /0.6) 0) border-box,
+    conic-gradient(at left var(--_s) bottom var(--_s),
+      #0000 90deg,var(--c) 0) 0 100%/calc(100% - var(--b)) calc(100% - var(--b))  border-box;
+  transform: translate(calc(var(--d)/-1),var(--d));
+  clip-path: 
+    polygon(
+     var(--d) 0%, 
+     var(--d) 0%, 
+     100% 0%, 
+     100% calc(100% - var(--d)),
+     100% calc(100% - var(--d)),
+     var(--d) calc(100% - var(--d))
+    );
+  transition: 0.5s;
+}
+.d-1:hover {
+  transform: translate(0,0);
+  clip-path: 
+    polygon(
+     0% var(--d), 
+     var(--d) 0%, 
+     100% 0%, 
+     100% calc(100% - var(--d)), 
+     calc(100% - var(--d)) 100%, 
+     0% 100%
+   );
+}
+}
+
+.background-clip-15{
+  .d-1 {
+   --d:14px;
+   
+   padding: 8px 8px 8px calc(8px + var(--d));
+   background: linear-gradient(rgba(255,255,255,0.4) 0 0) left/var(--d) 100% no-repeat;
+   clip-path: polygon(var(--d) 3px,var(--d) 0,100% 0,100% 100%,var(--d) 100%,var(--d) calc(100% - 3px));
+   transform: perspective(1000px) rotateY(0deg);
+   transition: 0.4s,color 0.4s 0.4s,background-color 0.4s 0.4s;
+ }
+ .d-1:hover {
+   background-color: #000;
+   color: #fff;
+   clip-path: polygon(0px 3px,var(--d) 0,100% 0,100% 100%,var(--d) 100%,0  calc(100% - 3px));
+   transform: perspective(1000px) rotateY(40deg);
+   transition: 0.4s,clip-path 0.4s 0.4s,transform 0.4s 0.4s;
+ }
+ 
+  .d-2 {
+   --d:14px;
+   
+   padding: 8px calc(8px + var(--d)) 8px 8px;
+   background: linear-gradient(rgba(255,255,255,0.4) 0 0) right/var(--d) 100% no-repeat;
+   clip-path: polygon(0 0,calc(100% - var(--d)) 0,calc(100% - var(--d)) 3px,calc(100% - var(--d)) calc(100% - 3px),calc(100% - var(--d)) 100%,0 100%); 
+   transform: perspective(1000px) rotateY(0deg);
+   transition: 0.4s,color 0.4s 0.4s,background-color 0.4s 0.4s;
+ }
+ .d-2:hover {
+   background-color: blue;
+   color: #fff;
+   clip-path: polygon(0 0,calc(100% - var(--d)) 0,100% 3px,100% calc(100% - 3px),calc(100% - var(--d)) 100%,0 100%); 
+   transform: perspective(1000px) rotateY(-40deg);
+   transition: 0.4s,clip-path 0.4s 0.4s,transform 0.4s 0.4s;
+ }
+ .d-3 {
+   --d:14px;
+   
+   padding: 8px 8px calc(8px + var(--d)) 8px;
+   background: linear-gradient(rgba(255,255,255,0.4) 0 0) bottom/100% var(--d) no-repeat;
+   clip-path: polygon(0 0,100% 0,100% calc(100% - var(--d)),calc(100% - 3px) calc(100% - var(--d)),3px calc(100% - var(--d)) ,0 calc(100% - var(--d))); 
+   transform: perspective(1000px) rotateX(0deg);
+   transition: 0.4s,color 0.4s 0.4s,background-color 0.4s 0.4s;
+ }
+ .d-3:hover {
+   background-color: #000;
+   color: #fff;
+   clip-path: polygon(0 0,100% 0,100% calc(100% - var(--d)),calc(100% - 3px) 100%,3px 100% ,0 calc(100% - var(--d)));
+   transform: perspective(1000px) rotateX(40deg);
+   transition: 0.4s,clip-path 0.4s 0.4s,transform 0.4s 0.4s;
+ }
+  .d-4 {
+   --d:14px;
+   
+   padding: calc(8px + var(--d)) 8px 8px 8px;
+   background: linear-gradient(rgba(255,255,255,0.4) 0 0) top/100% var(--d) no-repeat;
+   clip-path: polygon(0 var(--d),3px var(--d),calc(100% - 3px) var(--d),100% var(--d),100% 100%,0 100%); 
+   transform: perspective(1000px) rotateX(0deg);
+   transition: 0.4s,color 0.4s 0.4s,background-color 0.4s 0.4s;
+ }
+ .d-4:hover {
+   background-color: blue;
+   color: #fff;
+   clip-path: polygon(0 var(--d),3px 0,calc(100% - 3px) 0,100% var(--d),100% 100%,0 100%); 
+   transform: perspective(1000px) rotateX(-40deg);
+   transition: 0.4s,clip-path 0.4s 0.4s,transform 0.4s 0.4s;
+ }
+}
+//IMAGES
+.background-clip-16{
+  h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  transform: translateY(250%);
+  transition: .8s;
+}
+.box:hover h2{
+  transform: translateY(0%);
+  transition: .8s .2s;
+}
+  img {
+  /* adjust the below to control the 3D effect */
+  --x: 10px;
+  --y: 20px;
+  transform: perspective(1000px) rotateX(var(--_a,40deg));
+  /* */
+  clip-path: polygon(       
+     var(--y)              var(--y),       
+     calc(100% - var(--y)) var(--y),       
+     calc(100% - var(--y)) calc(100% - var(--y)),       
+     calc(100% - var(--y) - var(--x)) var(--_c,100%),       
+     calc(var(--x) + var(--y))        var(--_c,100%),      
+     var(--y)        calc(100% - var(--y))       
+     );
+  outline: var(--y) solid rgba(0,0,0,0.4);
+  outline-offset: calc(-1*var(--y));
+  padding: var(--y) var(--y) 0 var(--y);
+  transition: 1s;
+}
+.box:hover img {
+  --_a: 0deg;
+  --_c: calc(100% - var(--y));
+}
+}
 </style>

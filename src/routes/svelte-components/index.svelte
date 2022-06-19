@@ -52,6 +52,8 @@
 		{url:'link-hover-effects-2', name: 'Link Hover Effects-2 using Backgrounds'},
 		{url:'link-hover-effects-3', name: 'Link Hover Effects-3 Using Text Shadows'},
 		{url:'link-hover-effects-4', name: 'Link Hover Effects-3 Using Clipping, Masks etc.'},
+
+		{url:'css-only-loaders', name: 'CSS Only Loaders'},
 		
 		];
 </script>

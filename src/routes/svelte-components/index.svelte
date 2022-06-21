@@ -53,7 +53,8 @@
 		{url:'link-hover-effects-3', name: 'Link Hover Effects-3 Using Text Shadows'},
 		{url:'link-hover-effects-4', name: 'Link Hover Effects-3 Using Clipping, Masks etc.'},
 
-		{url:'css-only-loaders', name: 'CSS Only Loaders'},
+		{url:'css-only-loaders', name: 'CSS Only Loaders- Circles'},
+		{url:'css-only-loaders-2', name: 'CSS Only Loaders- Spheres '},
 		
 		];
 </script>

@@ -26,6 +26,19 @@
     <section class="with-background-masking">
 		<div class="loader"></div>
 	</section>
+
+
+<h3>Round Edge Bars</h3>
+<section class="round-edges-bars">
+<div class="loader"></div>
+</section>
+
+<h3>Round Edge Bars- different size and colors</h3>
+<section class="round-edges-bars">
+  <div class="loader" ></div>
+  <div class="loader" style="--c:radial-gradient(red,blue);--s:100px;"></div>
+  <div class="loader" style="--c:repeating-linear-gradient(45deg,#000 0 10%,red 0 20%);--s:120px;"></div>
+</section>
 </main>
 
 <style lang="scss">
@@ -487,6 +500,71 @@
   60% {-webkit-mask-position: 0% 100%,50% 0%  ,100% 50% } 
   80% {-webkit-mask-position: 0% 100%,50% 100%,100% 0%  } 
   100%{-webkit-mask-position: 0% 100%,50% 100%,100% 100%} 
+}
+    }
+
+
+    .round-edges-bars{
+      padding: 5rem;
+      
+      .loader {
+  --s: 100px; /* control the size */
+  --c: linear-gradient(135deg,#00A8C6,#8FBE00); /* control the coloration */
+  
+  display: grid;
+  place-items: center;
+  place-content: center;
+  margin: 0 calc(var(--s)/2);/* 50px */
+}
+//Using one element and its 
+// ::before and ::after pseudos,
+//  we define three identical bars
+.loader:before,
+.loader:after{
+  content: "";
+  grid-area: 1/1;
+}
+.loader,
+.loader:before,
+.loader:after{
+  height: var(--s);
+  width: calc(var(--s)/5);/* 20px */
+  border-radius: var(--s);
+  //Now the trick is to fill in those bars with a lovely gradient.
+  //  To simulate a continuous gradient, we need to play with 
+  //  background properties. In the above figure, the green 
+  //  area defines the area covered by the loader. That area
+  //  should be the size of the gradient and, if we do the math,
+   
+  //  it’s equal to multiplying both sides labeled S in the diagram,
+  //   or background-size: var(--s) var(--s)   100px 100px
+
+
+
+  // Since our elements are individually placed, we need to
+  //  update the position of the gradient inside each one
+  //   to make sure all of them overlap. This way, we’re 
+  //   simulating one continuous gradient even though it’s
+  //    really three of them.
+
+//For the main element (placed at the center), the background 
+//needs to be at the center i.e. 
+//background: linear-gradient() 50% / var(--s) var(--s);
+//for left    background: linear-gradient() 0% / var(--s) var(--s);
+//for right   background: linear-gradient() 100% / var(--s) var(--s);
+  background: var(--c) calc(50% + var(--_i,0)*50%)/var(--s) var(--s);
+  /* translate -200%  left side bar
+     translate 200%   right side bar
+  */
+  transform: translate(calc(var(--_i,0)*200%));
+  animation: l .6s infinite alternate calc(var(--_i,0)*.3s) both;
+}
+.loader:before {--_i: -1}
+.loader:after  {--_i:  1}
+
+@keyframes l {
+  /*Height 100px to 50px*/
+  from {height: calc(var(--s)/2)}
 }
     }
 </style>

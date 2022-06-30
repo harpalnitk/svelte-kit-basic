@@ -27,7 +27,10 @@
 		{url:'claymorphism-list', name: 'Claymorphism List'},
 		{url:'claymorphism-login', name: 'Claymorphism Login'},
 	    //Lists
-		{url:'card-list', name: 'Card List'},	
+		{url:'card-list', name: 'Card List'},
+		{url:'creative-list', name: 'Creative List'},
+		{url:'accordian-list', name: 'Simple Accordian List'},
+
 		];
 </script>
 

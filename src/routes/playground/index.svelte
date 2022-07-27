@@ -48,6 +48,7 @@
      	{url:'spring', name: 'Spring Animation'},
 		{url:'abstract-bg', name: 'Abstract Background'},
 		{url:'abstract-bg-2', name: 'Abstract Background-2'},
+		{url:'abstract-bg-3', name: 'Abstract Background-3'},
 		{url:'abstract-bg-color-dots', name: 'Abstract Background Colorful Dots'},
 		{url:'paper-bg', name: 'Cut Paper Background'},
 		{url:'bg-anim', name: 'Background Animation'},

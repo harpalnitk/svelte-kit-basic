@@ -1,0 +1,65 @@
+<main class='flex-center'>
+<h2>
+    <span><i></i>F</span>
+    <span><i></i>O</span>
+    <span><i></i>C</span>
+    <span><i></i>U</span>
+    <span><i></i>S</span>
+</h2>
+</main>
+<style>
+    main{
+        position: relative;
+        font-family: monospace !important;
+        min-height: 100vh;
+        background: linear-gradient(45deg,#ff0057,#2196f3);
+    }
+    h2{
+        position: relative;
+        display: flex;
+        gap: 5px;
+        color: #fff;
+        font-size: 4em;
+        cursor: pointer;
+    }
+    h2 span{
+        position: relative;
+        filter: blur(5px);
+        padding: 0 5px;
+        transition: 0.5s;
+    }
+    h2 span:hover{
+      filter: blur(0px);
+      transition: 0s;  
+    }
+    h2 span i {
+        position: absolute;
+        inset: 0;
+        background: transparent;
+    }
+    h2 span:hover i::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2px;
+        height: 8px;
+        background: #fff;
+        box-shadow: 0 53px #fff,
+        36px 53px #fff,
+        36px 0 #fff;
+    }
+    h2 span:hover i::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 8px;
+        height: 2px;
+        background: #fff;
+        box-shadow: 0 60px #fff,
+        30px 60px #fff,
+        30px 0 #fff;
+    }
+
+</style>

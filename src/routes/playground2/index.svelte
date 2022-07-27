@@ -55,6 +55,7 @@
 		{url:'glowing-text-2', name: 'Glowing Text-2 Dark background Effect'},
 		{url:'text-cubes', name: 'Text Cubes Year Date'},
 		{url:'distortion-text', name: 'Distortion Text'},
+		{url:'text-focus', name: 'Text-Focus'},
 		//Loading
 		{url:'loading-squares', name: 'Colorful Loading Squares'},
 		{url:'loading-anim', name: 'Loading Animation'},

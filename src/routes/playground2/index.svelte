@@ -56,6 +56,7 @@
 		{url:'text-cubes', name: 'Text Cubes Year Date'},
 		{url:'distortion-text', name: 'Distortion Text'},
 		{url:'text-focus', name: 'Text-Focus'},
+		{url:'truncate-text', name: 'Truncate Text in cards'},
 		//Loading
 		{url:'loading-squares', name: 'Colorful Loading Squares'},
 		{url:'loading-anim', name: 'Loading Animation'},

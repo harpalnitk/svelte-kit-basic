@@ -54,7 +54,9 @@
 		{ url: 'css-only-loaders', name: 'CSS Only Loaders- Circles' },
 		{ url: 'css-only-loaders-2', name: 'CSS Only Loaders- Dots' },
 		{ url: 'css-only-loaders-3', name: 'CSS Only Loaders- Bars' },
-		{ url: 'css-only-loaders-4-3d', name: 'CSS Only Loaders- 3D' }
+		{ url: 'css-only-loaders-4-3d', name: 'CSS Only Loaders- 3D' },
+
+		{ url: 'scroll-shadows', name: 'Scroll Shadows' }
 	];
 </script>
 

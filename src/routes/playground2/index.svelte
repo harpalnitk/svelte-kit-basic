@@ -84,6 +84,7 @@
 		{url:'falling-leaves', name: 'Falling leaves Animation'},
 		{url:'rain', name: 'Colorful Rain Animation'},
 		{url:'water-drops', name: 'Water Drops'},
+		{url:'water-drops-dark', name: 'Water Drops Dark'},
 		{url:'water-drop-logo', name: 'Water Drop Logo effect'},
 		{url:'bounce-balls', name: 'Bounce Balls With Semi-Circle'},
 		{url:'rotate-earth-text', name: 'Rotating Earth Text Animation'},

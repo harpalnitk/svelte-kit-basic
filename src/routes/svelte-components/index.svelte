@@ -56,7 +56,8 @@
 		{ url: 'css-only-loaders-3', name: 'CSS Only Loaders- Bars' },
 		{ url: 'css-only-loaders-4-3d', name: 'CSS Only Loaders- 3D' },
 
-		{ url: 'scroll-shadows', name: 'Scroll Shadows' }
+		{ url: 'scroll-shadows', name: 'Scroll Shadows' },
+		{ url: 'range-slider', name: 'Custom Range Slider' }
 	];
 </script>
 

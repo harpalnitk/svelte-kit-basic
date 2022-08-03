@@ -24,8 +24,8 @@
 		{ url: 'layout-without-media-query', name: 'Responsive CSS Layouts without Media Queries' },
 		{ url: 'auto-filling-grid', name: 'Auto Filling Grid' },
 		{ url: 'fit-content-use-cases', name: 'Use Cases: fit-content' },
-
-		{ url: 'condition-style-grid-elements', name: 'Conditionally styling Grid elements' }
+		{ url: 'condition-style-grid-elements', name: 'Conditionally styling Grid elements' },
+		{ url: 'implicit-grid', name: 'Implicit Grid and Auto Placement Powers' },
 	];
 </script>
 

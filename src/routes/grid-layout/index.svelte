@@ -15,6 +15,7 @@
 		{ url: 'responsive', name: 'Responsive' },
 		{ url: 'photo-grid', name: 'Photo Grid' },
 		{ url: 'photo-grid-animated', name: 'Photo Grid Animated' },
+		{ url: 'photo-grid-hover', name: 'Photo Grid Hover' },
 		{ url: 'three-column-fluid', name: '1 to 3 Column Fluid Layout' },
 		{ url: 'twelve-column-system', name: 'Layout using 12 column system' },
 		{ url: 'product-listing', name: 'Product Listing With Auto Placement' },

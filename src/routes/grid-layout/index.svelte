@@ -27,6 +27,7 @@
 		{ url: 'fit-content-use-cases', name: 'Use Cases: fit-content' },
 		{ url: 'condition-style-grid-elements', name: 'Conditionally styling Grid elements' },
 		{ url: 'implicit-grid', name: 'Implicit Grid and Auto Placement Powers' },
+		{ url: 'grid-shapes', name: 'Grid Shapes' },
 	];
 </script>
 

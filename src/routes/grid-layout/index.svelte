@@ -28,6 +28,7 @@
 		{ url: 'condition-style-grid-elements', name: 'Conditionally styling Grid elements' },
 		{ url: 'implicit-grid', name: 'Implicit Grid and Auto Placement Powers' },
 		{ url: 'grid-shapes', name: 'Grid Shapes' },
+		{ url: 'grid-shapes-2', name: 'Grid Shapes 2' },
 	];
 </script>
 

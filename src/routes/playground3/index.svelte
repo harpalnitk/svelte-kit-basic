@@ -30,6 +30,8 @@
 		{url:'card-list', name: 'Card List'},
 		{url:'creative-list', name: 'Creative List'},
 		{url:'accordian-list', name: 'Simple Accordian List'},
+		{url:'drag-drop', name: 'Drag Drop using only CSS'},
+		{url:'drag-drop-puzzle', name: 'Drag Drop Puzzle using only CSS'},
 
 		];
 </script>

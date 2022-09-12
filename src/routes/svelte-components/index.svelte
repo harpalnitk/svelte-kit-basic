@@ -25,6 +25,7 @@
 		{ url: 'product-filter', name: 'Product Filter' },
 		{ url: 'progress-bar', name: 'Progress Bar' },
 		{ url: 'pwd-gen', name: 'Password Generator' },
+		{ url: 'bar-charts', name: 'Bar Charts' },
 
 		//Buttons
 		{ url: 'radio-glow', name: 'Radio Buttons-Neon Glowing' },

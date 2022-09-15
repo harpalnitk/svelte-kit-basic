@@ -1,8 +1,11 @@
 <script>
-	import { audioData } from '../audioData';
+	
+
+	//import { audioData } from '../../audioData';
 
 	//Playlist
     export let selectedTrackIndex;
+	export let audioData;
 
     $: console.log('selectedTrackIndex', selectedTrackIndex);
 	let listIsShowing = true;

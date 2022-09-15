@@ -1,4 +1,6 @@
 <script>
+	
+
 export let isPlaying;
 import {createEventDispatcher} from 'svelte';
 

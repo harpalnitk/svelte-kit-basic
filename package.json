@@ -2,32 +2,33 @@
 	"name": "svelte-kit-basic",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
-		"start": "svelte-kit start",
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
 		"lint": "prettier --check . && eslint --ignore-path .gitignore .",
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "^1.0.0-next.60",
-		"@sveltejs/kit": "^1.0.0-next.218",
-		"@typescript-eslint/eslint-plugin": "^4.33.0",
-		"@typescript-eslint/parser": "^4.33.0",
-		"eslint": "^7.32.0",
-		"eslint-config-prettier": "^8.3.0",
-		"eslint-plugin-svelte3": "^3.3.0",
-		"prettier": "~2.2.1",
-		"prettier-plugin-svelte": "^2.5.1",
-		"sass": "^1.47.0",
-		"svelte": "^3.45.0",
-		"svelte-preprocess": "^4.10.1",
-		"tslib": "^2.3.1",
-		"typescript": "^4.5.4",
-		"vite": "^2.7.10"
+		"@sveltejs/adapter-auto": "^1.0.0-next.73",
+		"@sveltejs/adapter-node": "^1.0.0-next.90",
+		"@sveltejs/kit": "^1.0.0-next.481",
+		"@typescript-eslint/eslint-plugin": "^5.37.0",
+		"@typescript-eslint/parser": "^5.37.0",
+		"eslint": "^8.23.1",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"prettier": "~2.7.1",
+		"prettier-plugin-svelte": "^2.7.0",
+		"sass": "^1.54.9",
+		"svelte": "^3.50.1",
+		"svelte-preprocess": "^4.10.7",
+		"tslib": "^2.4.0",
+		"typescript": "^4.8.3",
+		"vite": "^3.1.0"
 	},
 	"type": "module",
 	"dependencies": {
-		"firebase": "^8.9.1",
-		"three": "^0.132.2"
+		"firebase": "^9.9.4",
+		"three": "^0.144.0"
 	}
 }

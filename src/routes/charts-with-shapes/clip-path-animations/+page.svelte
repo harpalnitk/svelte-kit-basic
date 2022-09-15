@@ -63,7 +63,7 @@
 
 
 <style lang="scss">
-	@import '../../styles/vars';
+	@import '../../../styles/vars';
     main{
         display: grid;
         place-items: center;

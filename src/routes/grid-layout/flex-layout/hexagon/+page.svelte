@@ -15,8 +15,8 @@
 </main>
 
 <style lang="scss">
-	@import '../../../styles/vars';
-	@import 'index';
+	@import '../../../../styles/vars';
+	@import '../index';
     .hexagon {
           position: absolute;
           width: 100px;

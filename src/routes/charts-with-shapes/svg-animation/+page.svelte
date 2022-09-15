@@ -27,7 +27,7 @@
 
 
 <style lang="scss">
-	@import '../../styles/vars';
+	@import '../../../styles/vars';
     main{
     min-height: 100vh;
     position: relative;

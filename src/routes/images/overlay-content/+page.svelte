@@ -18,7 +18,7 @@
 
 
 <style lang="scss">
-	@import '../../styles/vars';
+	@import '../../../styles/vars';
   //  @import url("https://fonts.googleapis.com/css2?family=Gorditas&display=swap");
 
 .container {

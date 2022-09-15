@@ -46,8 +46,8 @@
 </main>
 
 <style lang="scss">
-	@import '../../../styles/vars';
-	@import 'index';
+	@import '../../../../styles/vars';
+	@import '../index';
 	
 .gallery1 div {
   flex: 1;  /* = flex: 1 1 0% */

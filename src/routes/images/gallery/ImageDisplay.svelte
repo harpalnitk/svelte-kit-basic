@@ -1,5 +1,5 @@
 <script>
-	import { images } from '../imageData';
+	export let images;
 </script>
 
 <div class="demo-img-row">

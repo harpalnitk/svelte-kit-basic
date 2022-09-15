@@ -2,9 +2,13 @@
 	
 	import Slide from './Slide.svelte';
 	import Dot from './Dot.svelte';
-	import { quotes } from './slideData';
+	// import { quotes } from './slideData';
     import ToggleSwitch from '$lib/components/UI/ToggleSwitch.svelte';
 
+	export let data;
+
+	let quotes= data.quotes;
+	
 	let quoteIndex = 0;
 	$: console.log(quoteIndex);
 	$: quote = quotes[quoteIndex].quote;

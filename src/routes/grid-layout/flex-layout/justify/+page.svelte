@@ -48,8 +48,8 @@
 </main>
 
 <style lang="scss">
-	@import '../../../styles/vars';
-	@import 'index';
+	@import '../../../../styles/vars';
+	@import '../index';
 	
 .justify-start {
   justify-content: flex-start;

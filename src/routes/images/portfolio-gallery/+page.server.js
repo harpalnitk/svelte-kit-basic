@@ -1,4 +1,13 @@
-export const images = [
+
+
+
+import { error } from '@sveltejs/kit';
+ 
+// /** @type {import('../../../../.svelte-kit/types/src/routes/audio/audioData/$types').PageServerLoad} */
+export async function load({ params }) {
+  //const post = await getPostFromDatabase(params.slug);
+
+   const images = [
 	{
 		name: 'Sharks',
 		url:
@@ -64,4 +73,11 @@ export const images = [
 	}
 ];
 
-export const categories = ['all', 'nature', 'cars', 'people'];
+ const categories = ['all', 'nature', 'cars', 'people'];
+ 
+  if (images && categories) {
+    return {images,categories};
+  }
+ 
+  throw error(404, 'Not found');
+}

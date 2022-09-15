@@ -1,5 +1,5 @@
 <script>
-		    import  store  from '$lib/stores/pageData';
+		import  store  from '$lib/stores/pageData';
 		import { onMount } from 'svelte';
 		import { goto } from '$app/navigation';
         onMount(async () => {

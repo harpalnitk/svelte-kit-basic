@@ -46,7 +46,7 @@
 
 
 <style lang="scss">
-	@import '../../styles/vars';
+	@import '../../../styles/vars';
     .svg-div {
       display: flex;
       justify-content: center;

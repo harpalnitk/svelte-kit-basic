@@ -29,8 +29,8 @@
 </main>
 
 <style lang="scss">
-	@import '../../../styles/vars';
-	@import 'index';
+	@import '../../../../styles/vars';
+	@import '../index';
 	
 .media-object {
   display: -webkit-flex;

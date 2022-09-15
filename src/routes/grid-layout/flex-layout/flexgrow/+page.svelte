@@ -50,8 +50,8 @@
 </main>
 
 <style lang="scss">
-	@import '../../../styles/vars';
-	@import 'index';
+	@import '../../../../styles/vars';
+	@import '../index';
 	
 .grow1 div:nth-child(3) {
   flex-grow: 1;

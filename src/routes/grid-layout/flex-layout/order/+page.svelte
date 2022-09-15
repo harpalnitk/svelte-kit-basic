@@ -33,8 +33,8 @@
 </main>
 
 <style lang="scss">
-	@import '../../../styles/vars';
-	@import 'index';
+	@import '../../../../styles/vars';
+	@import '../index';
 	
 .order1 div:nth-child(2) {
   order: -1;

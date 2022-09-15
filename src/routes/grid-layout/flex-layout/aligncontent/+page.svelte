@@ -42,8 +42,8 @@
 </main>
 
 <style lang="scss">
-	@import '../../../styles/vars';
-    @import 'index';
+	@import '../../../../styles/vars';
+    @import '../index';
     .container div {
   padding-top: 10px;
   padding-bottom: 10px;

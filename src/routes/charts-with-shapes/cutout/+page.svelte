@@ -353,7 +353,7 @@ Let’s change the little circle fill to black instead. -->
 </main>
 
 <style lang="scss">
-	@import '../../styles/vars';
+	@import '../../../styles/vars';
 	main {
 		min-height: 100vh;
 		position: relative;

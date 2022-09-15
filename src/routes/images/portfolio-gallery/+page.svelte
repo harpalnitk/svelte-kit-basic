@@ -1,12 +1,17 @@
 <script>
 	
-	import { images } from './imgData';
-	import { categories } from './imgData';
+	// import { images } from './imgData';
+	// import { categories } from './imgData';
 	import ButtonContainer from '$lib/components/UI/ButtonContainer.svelte';
 	import Gallery from './Gallery.svelte';
 	import ImageCard from './ImageCard.svelte';
 
 	let selected = 'all';
+
+	export let data;
+
+	let images = data.images;
+	let categories = data.categories;
 
 	const filterSelection = (e) => (selected = e.target.dataset.name);
 </script>

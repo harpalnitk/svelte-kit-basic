@@ -76,7 +76,7 @@
 </main>
 
 <style lang="scss">
-	@import '../../styles/vars';
+	@import '../../../styles/vars';
 	main {
 		padding: 1rem;
 		margin: 0 auto;

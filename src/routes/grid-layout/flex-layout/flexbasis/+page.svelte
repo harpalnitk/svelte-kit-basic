@@ -33,8 +33,8 @@
 </main>
 
 <style lang="scss">
-	@import '../../../styles/vars';
-	@import 'index';
+	@import '../../../../styles/vars';
+	@import '../index';
 	
 .basis1 div:nth-child(1) {
   flex-basis: 200px;

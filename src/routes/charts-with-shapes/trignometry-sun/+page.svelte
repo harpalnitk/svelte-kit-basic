@@ -115,7 +115,7 @@ const createPolygon = ()=>{
 
 <style lang="scss">
      @use "sass:math";
-	 @import '../../styles/vars';
+	 @import '../../../styles/vars';
 
    
    main{

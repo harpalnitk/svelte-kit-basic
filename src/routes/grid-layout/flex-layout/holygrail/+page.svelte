@@ -17,8 +17,8 @@
 </main>
 
 <style lang="scss">
-	@import '../../../styles/vars';
-	@import 'index';
+	@import '../../../../styles/vars';
+	@import '../index';
 	#holygrail {
   min-height: 100vh;
   flex-flow: column nowrap;

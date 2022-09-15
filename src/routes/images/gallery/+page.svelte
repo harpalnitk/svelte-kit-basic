@@ -5,6 +5,10 @@
 	import Button from '$lib/components/UI/Button.svelte';
 	let modalOpen = false;
 
+	export let data;
+
+	let images = data.images;
+
 	let imageShowingIndex = 0;
 
 	const handleImgClick = (e) => {
@@ -15,9 +19,9 @@
 
 <div class="page-container">
 	{#if modalOpen}
-		<Gallery on:click={() => (modalOpen = !modalOpen)} {imageShowingIndex} />
+		<Gallery on:click={() => (modalOpen = !modalOpen)} {imageShowingIndex} {images}/>
 	{:else}
-		<ImageDisplay on:click={handleImgClick} />
+		<ImageDisplay on:click={handleImgClick} {images}/>
 	{/if}
 	<section>
 		<Button on:click={() => (modalOpen = !modalOpen)}>View All</Button>

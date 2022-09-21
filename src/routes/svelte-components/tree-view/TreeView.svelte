@@ -1,17 +1,17 @@
-<script context="module">
-	throw new Error("@migration task: Check code was safely removed (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292722)");
+<!-- <script context="module">
+
 
 	// // retain module scoped expansion state for each tree node
 	// const _expansionState = {
 	// 	/* treeNodeId: expanded <boolean> */
 	// };
-</script>
+</script> -->
 
 <script>
-	throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
-
-	//	import { slide } from 'svelte/transition'
+		const _expansionState = {
+	}
 	export let tree;
+	console.log('tree in treeview', tree)
 	const { label, children } = tree;
 
 	let expanded = _expansionState[label] || false;

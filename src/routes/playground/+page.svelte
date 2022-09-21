@@ -22,6 +22,7 @@
 		{url:'clock', name: 'Clock using CSS'},
 		{url:'clock-2', name: 'Clock-2 using CSS'},
 		{url:'clock-3', name: 'Clock-3 using CSS'},
+		{url:'clock-using-conic-gradient', name: 'Clock Using Conic Gradient'},
 		{url:'glass-calendar', name: 'Glassmorphism Calendar'},
 		{url:'full-calendar', name: 'Full Year Calendar'},
 		{url:'calculator', name: 'Calculator'},
@@ -51,6 +52,7 @@
 		{url:'abstract-bg-3', name: 'Abstract Background-3'},
 		{url:'abstract-bg-color-dots', name: 'Abstract Background Colorful Dots'},
 		{url:'paper-bg', name: 'Cut Paper Background'},
+		{url:'checkboard-bg', name: 'Checkboard background'},
 		{url:'bg-anim', name: 'Background Animation'},
 		{url:'icon-glassmorphism', name: 'Icon Glassmorphism'},
 	

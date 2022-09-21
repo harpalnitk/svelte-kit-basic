@@ -9,7 +9,7 @@ let active = true;
 <main>
 <div class="navigation">
     <ul>
-        <Hoverable let:hovering={hovering}>
+        <Hoverable let:hoveringI={hovering}>
             <li class="list" class:active={hovering} >
                 <b></b>
                 <b></b>
@@ -19,7 +19,7 @@ let active = true;
                 </a>
             </li>
         </Hoverable>
-        <Hoverable let:hovering={hovering}>
+        <Hoverable let:hoveringI={hovering}>
             <li class="list" class:active={hovering} >
                 <b></b>
                 <b></b>
@@ -29,7 +29,7 @@ let active = true;
                 </a>
             </li>
         </Hoverable>
-        <Hoverable let:hovering={hovering}>
+        <Hoverable let:hoveringI={hovering}>
             <li class="list" class:active={hovering} >
                 <b></b>
                 <b></b>
@@ -39,7 +39,7 @@ let active = true;
                     </a>
             </li>
         </Hoverable>
-        <Hoverable let:hovering={hovering}>
+        <Hoverable let:hoveringI={hovering}>
             <li class="list" class:active={hovering} >
                 <b></b>
                 <b></b>
@@ -49,7 +49,7 @@ let active = true;
                     </a>
             </li>
         </Hoverable>
-        <Hoverable let:hovering={hovering}>
+        <Hoverable let:hoveringI={hovering}>
             <li class="list" class:active={hovering} >
                 <b></b>
                 <b></b>
@@ -59,7 +59,7 @@ let active = true;
                     </a>
             </li>
         </Hoverable>
-        <Hoverable let:hovering={hovering}>
+        <Hoverable let:hoveringI={hovering}>
             <li class="list" class:active={hovering} >
                 <b></b>
                 <b></b>
@@ -69,7 +69,7 @@ let active = true;
                     </a>
             </li>
         </Hoverable>
-        <Hoverable let:hovering={hovering}>
+        <Hoverable let:hoveringI={hovering}>
             <li class="list" class:active={hovering} >
                 <b></b>
                 <b></b>
@@ -79,7 +79,7 @@ let active = true;
                     </a>
             </li>
         </Hoverable>
-        <Hoverable let:hovering={hovering}>
+        <Hoverable let:hoveringI={hovering}>
             <li class="list" class:active={hovering} >
                 <b></b>
                 <b></b>
@@ -89,7 +89,7 @@ let active = true;
                     </a>
             </li>
         </Hoverable>
-        <Hoverable let:hovering={hovering}>
+        <Hoverable let:hoveringI={hovering}>
             <li class="list" class:active={hovering} >
                 <b></b>
                 <b></b>

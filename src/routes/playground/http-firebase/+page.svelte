@@ -14,7 +14,7 @@
     //https://udemy-ng-http-59d8a.firebaseio.com/
   
     import { onMount } from 'svelte';
-    import hobbyStore from '../http-store.js';
+    import hobbyStore from './http-store.js';
   
     let hobbies = [];
     let hobbyInput;

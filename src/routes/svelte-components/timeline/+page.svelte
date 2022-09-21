@@ -6,14 +6,16 @@
 	import Event from './Event.svelte';
 	import SearchForm from '$lib/components/UI/SearchForm.svelte';
 	// import {histEvents} from '$lib/timeline/histData.js'; // HARD CODED DATA for testing purpose
-	import { getData } from './holidaysAPI.js';
+	//import { getData } from './holidaysAPI.js';
 
 	let events = [];
 
-	$: console.log(events);
+	export let data;
+
+	$: console.log('data', data);
 
 	onMount(async () => {
-		events = await getData();
+		events = data.holidayData;
 	});
 
 	const convertDate = (dateStr) => {

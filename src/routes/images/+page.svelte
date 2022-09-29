@@ -27,6 +27,7 @@
 		{url:'image-pixel', name: 'Image Pixel Effect'},
 		{url:'mix-blend-mode', name: 'Mix Blend Modes'},
 		{url:'reflections', name: 'Reflections'},
+		{url:'oil-paint-effect', name: 'Oil Paint Effect'},
 		];
 </script>
 

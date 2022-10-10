@@ -58,7 +58,8 @@
 		{ url: 'css-only-loaders-4-3d', name: 'CSS Only Loaders- 3D' },
 
 		{ url: 'scroll-shadows', name: 'Scroll Shadows' },
-		{ url: 'range-slider', name: 'Custom Range Slider' }
+		{ url: 'range-slider', name: 'Custom Range Slider' },
+		{ url: 'email-verify', name: 'Automatic email verify textbox' }
 	];
 </script>
 

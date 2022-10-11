@@ -52,10 +52,13 @@
 		<h1>Using Just background transitions</h1>
 		<a href="#1">Hover Me</a>
 	</section>
+	<section class='explore-button flex-center'>
+  <a href="#explore"><i></i><span>Explore</span></a>
+	</section>
 </main>
 
 <style lang="scss">
-	@import '../../styles/vars';
+	@import '../../../styles/vars';
 	section {
 		position: relative;
 	
@@ -177,5 +180,100 @@ a:hover {
   background-size: 100% 100%;
   background-position: left center;
 }
+	}
+
+	.explore-button{
+		position: relative;
+        min-height: 50vh;
+		background: #28272a;
+		a{
+			position: relative;
+			width: 200px;
+			height: 60px;
+			background: #333;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			color: rgba(255,255,255,0.5);
+			text-decoration: none;
+			letter-spacing: 0.2em;
+			font-size: 1.25em;
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+		a::before{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #359ad8;
+			transform: scaleX(0);
+			transition: transform 0.5s ease-in-out;
+			transform-origin: right;
+		}
+		a:hover::before{
+			transform: scaleX(1);
+			transform-origin: left;
+		}
+		 a span{
+			display: inline-block;
+			z-index: 2;
+			transition: 0.5s ease-in-out;
+		 }
+		 a:hover span{
+			color: #333;
+		 }
+		 a i{
+			position: relative;
+			display: inline-block;
+			width: 2px;
+			height: 30px;
+			background: #d3d636;
+			transition: 0.5s, width 0.5s, height 0.5s;
+			transition-delay: 0s, 0.5s, 1s;
+		 }
+		 a:hover i{
+			width: 30px;
+			height: 2px;
+			background: #333;
+			transition-delay: 0s, 1s, 0.5s;
+		 }
+		  a i::before{
+			content: '';
+			position: absolute;
+			top: 0.5px;
+			right: 0;
+			width: 50%;
+			height: 2px;
+			background: transparent;
+			rotate: 0;
+			transform-origin: right;
+			transition: 1s;
+		  }
+		  a:hover i::before{
+			background: #333;
+			rotate: 45deg;
+			transition-delay: 1.5s;
+		  }
+		  a i::after{
+			content: '';
+			position: absolute;
+			top: -0.5px;
+			right: 0;
+			width: 50%;
+			height: 2px;
+			background: transparent;
+			rotate: 0;
+			transform-origin: right;
+			transition: 1s;
+		  }
+		  a:hover i::after{
+			background: #333;
+			rotate: -45deg;
+			transition-delay: 1.5s;
+		  }
 	}
 </style>

@@ -28,6 +28,9 @@
 		{url:'mix-blend-mode', name: 'Mix Blend Modes'},
 		{url:'reflections', name: 'Reflections'},
 		{url:'oil-paint-effect', name: 'Oil Paint Effect'},
+		{url:'gallery-focus', name: 'Pure CSS Gallery focus'},
+		{url:'image-decoration', name: 'Image/Border of Image decoration'},
+		{url:'image-decoration-masks', name: 'Image/Border of Image decoration with Masks'},
 		];
 </script>
 

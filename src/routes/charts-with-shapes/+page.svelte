@@ -37,7 +37,8 @@
 		{url:'brick-pattern-svg', name: 'Brick Pattern With SVG'},
 		{url:'cut-corners-mask', name: 'Cut Corners with CSS Mask property'},
 		{url:'border-shape-only-css', name: 'Borders with shapes without mask'},
-		
+		{url:'conic-gradient', name: 'Conic Gradient Basics'},
+		{url:'radial-gradient', name: 'Radial Gradient Basics'},
 		];
 </script>
 

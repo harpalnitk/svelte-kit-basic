@@ -29,6 +29,7 @@
 		{ url: 'implicit-grid', name: 'Implicit Grid and Auto Placement Powers' },
 		{ url: 'grid-shapes', name: 'Grid Shapes' },
 		{ url: 'grid-shapes-2', name: 'Grid Shapes 2' },
+		{ url: 'grid-shapes-3', name: 'Grid Shapes 3' },
 	];
 </script>
 

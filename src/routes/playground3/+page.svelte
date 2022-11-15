@@ -32,6 +32,8 @@
 		{url:'accordian-list', name: 'Simple Accordian List'},
 		{url:'drag-drop', name: 'Drag Drop using only CSS'},
 		{url:'drag-drop-puzzle', name: 'Drag Drop Puzzle using only CSS'},
+		//Scrollbars
+		{url:'scrollbars', name: 'Modifying scrollbars'},
 
 		];
 </script>

@@ -93,6 +93,7 @@
 		{url:'stairs', name: 'Stairs and clouds'},
 		{url:'christmas', name: '3D-Animated Christmas Tree'},
 		{url:'light-effect', name: 'CSS Dappled Light Effect'},
+		{url:'spinning-wheel', name: 'Spinning wheel'},
 		];
 </script>
 

@@ -47,6 +47,7 @@
 		{url:'book', name: '3D Book Display'},
 		{url:'light-dark-switch-card', name: 'Light Dark Mode Switch Card'},
 		{url:'claymorphism-card', name: 'Claymorphism Card'},
+		{url:'water-drop-card', name: 'Water Drop Card'},
 		
 		];
 </script>

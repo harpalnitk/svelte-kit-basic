@@ -32,6 +32,7 @@
 		{url:'image-decoration', name: 'Image/Border of Image decoration'},
 		{url:'image-decoration-masks', name: 'Image/Border of Image decoration with Masks'},
 		{url:'image-decoration-complex-animation', name: 'Image/Border of Image complex decoration with Animations'},
+		{url:'image-fold', name: 'Image Fold Effect using CSS'},
 		];
 </script>
 

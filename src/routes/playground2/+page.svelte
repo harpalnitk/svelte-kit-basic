@@ -37,6 +37,7 @@
 		{url:'floating-menu-pic', name: 'Floating Action Menu with Pic'},
 		{url:'popup-box', name: 'Simple pop up Box'},
 		{url:'arrow-menu', name: 'Arrow Menu Indicator'},
+		{url:'menu-with-toggle-button', name: 'Action menu With Toggle Button'},
 
 
 		//Text

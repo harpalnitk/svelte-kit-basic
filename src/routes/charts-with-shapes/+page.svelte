@@ -39,6 +39,7 @@
 		{url:'border-shape-only-css', name: 'Borders with shapes without mask'},
 		{url:'conic-gradient', name: 'Conic Gradient Basics'},
 		{url:'radial-gradient', name: 'Radial Gradient Basics'},
+		{url:'background-stripes', name: 'Concepts of background property'},
 		];
 </script>
 

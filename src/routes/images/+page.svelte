@@ -35,6 +35,7 @@
 		{url:'image-fold', name: 'Image Fold Effect using CSS'},
 		{url:'circular-carousel', name: 'Circular rotating image slider'},
 		{url:'flipping-carousel', name: 'Flipping polaroid image slider'},
+		{url:'three-D-carousel', name: 'CSS Infinite 3D slider'},
 		];
 </script>
 

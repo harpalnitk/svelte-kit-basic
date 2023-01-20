@@ -59,7 +59,8 @@
 
 		{ url: 'scroll-shadows', name: 'Scroll Shadows' },
 		{ url: 'range-slider', name: 'Custom Range Slider' },
-		{ url: 'email-verify', name: 'Automatic email verify textbox' }
+		{ url: 'email-verify', name: 'Automatic email verify textbox' },
+		{ url: 'min-width-table', name: 'Faking min width on a Table column' }
 	];
 </script>
 

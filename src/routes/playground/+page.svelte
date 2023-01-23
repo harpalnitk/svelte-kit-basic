@@ -19,9 +19,10 @@
 
 
 		//Utilities
-		{url:'clock', name: 'Clock using CSS'},
-		{url:'clock-2', name: 'Clock-2 using CSS'},
-		{url:'clock-3', name: 'Clock-3 using CSS'},
+		{url:'clock', name: 'Clock using CSS dark Mode'},
+		{url:'clock-2', name: 'Clock-2 using CSS Digital'},
+		{url:'clock-3', name: 'Clock-3 using CSS Analog'},
+		{url:'clock-4', name: 'Clock-4 using CSS Light Mode'},
 		{url:'clock-using-conic-gradient', name: 'Clock Using Conic Gradient'},
 		{url:'glass-calendar', name: 'Glassmorphism Calendar'},
 		{url:'full-calendar', name: 'Full Year Calendar'},

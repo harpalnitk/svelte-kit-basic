@@ -1,29 +1,48 @@
-### Ctrl + p : opens command palette
- 1. search files in command pallete
-2. type > in command pallete to run any command
-3. Type @ in command pallete to list all symbols f
+### COMMAND PALLETEE 
+## Ctrl + p : opens command palette
+ 1. IN command pallete search for any file and click enter to open that file
+ 2. Type @ in command pallete to list all symbols f
 functions in the file   Note: Ctrl+Shift+.  does that
 in one step
-4. type :23 in command pallette to go to line number 23 in
-the file
-4.1 IN command pallete search for any file and click enter to open that file
+3. type > in command pallete to run any command
 
-###
-5. Ctrl + D selects the word
-6. Hitting Ctrl + D again will select the next occurence of that
-word
+4. type :23 in command pallette to go to line number 23 in the file
+OR Ctrl + G, will open comman pallete with : sign already typed
+
+### FILE EXPLORER
+1. Ctrl+B hides/show(toggles) file explorer side window
+2. Ctrl + W close open files one by one starting from right
+3. Collapse all open folders button in top right 
+of file explorer
+
+### Intellisense
+1. Ctrl + Space: Suggestions
+2. Ctrl+Shift+space: Param hints i.e what parameters
+can be passed into a method
+### Create File
+1. Type filename src/routes/data/index.js and
+vs code will create directories as well
+
+
+### MOVEMENT IN FILE
+1. Shift + right arrow or Shift + down arrow will
+select text in lines 
+2. Ctrl + L to highlihgt line by line and then Ctrl + / to comment those lines
+3. Ctrl + D selects the word
+4. Ctrl + D again will select the next occurence of that word
 OR use alt + Click
+5. Ctrl + C and the line will be automatically copied
 
-7. in VS code no need to select line before copy or cut
-run ctrl+c and the line will be automatically copied
-8. use Alt + Up arrow to move line up
+### MOVE LINES
+1. Use Alt + Up arrow to move line up
+2. Alt+Shift+Up Arrow will copy the line and paste it up
+
 
 ## COPY LINES
-9. Alt+Shift+Up Arrow will copy the line and paste it
-up
+9. 
 
-10. ctrl + L to highlihgt line by line
-and then Ctrl + / to comment those lines
+10. 
+
 
 11. Ctrl + , to open settings
 
@@ -38,7 +57,7 @@ it will create a taks.json file under .vscode folder in the project directory
 
  15. Disable minimap, breadcrumbs, enable preview when first time using vscode in settings
 
- 16. Ctrl + W close open files one by one starting from right
+ 16. 
 
 
  

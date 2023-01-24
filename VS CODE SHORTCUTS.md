@@ -77,7 +77,16 @@ we can also create our custom tasks
 it will create a taks.json file under .vscode folder in the project directory
  now u can use command pallete and use >run to tun the command
 
-  
+### USING GIT
+1. go to source control icon
+2. All files modified will be shown
+3. Click on + icon before files to stage them
+4. then click on commit button and type message
+5. then publish
+
+1. M against file in explorere means it is modified
+2. In source control clicking on the same file will show the difference between versions
+
 
 
  

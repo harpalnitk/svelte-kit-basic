@@ -1,3 +1,9 @@
+### INITIAL SETTINGS
+1. Disable minimap, breadcrumbs, enable preview when first time using vscode in settings
+2. Ctrl + , to open settings
+3. ctrl + K to clear terminal; cls for cmd
+
+
 ### COMMAND PALLETEE 
 ## Ctrl + p : opens command palette
  1. IN command pallete search for any file and click enter to open that file
@@ -29,35 +35,49 @@ vs code will create directories as well
 select text in lines 
 2. Ctrl + L to highlihgt line by line and then Ctrl + / to comment those lines
 3. Ctrl + D selects the word
-4. Ctrl + D again will select the next occurence of that word
+4. Ctrl + D again will select the next occurence of that word and then u can edit all selected simultaneously
 OR use alt + Click
 5. Ctrl + C and the line will be automatically copied
 
 ### MOVE LINES
 1. Use Alt + Up arrow to move line up
 2. Alt+Shift+Up Arrow will copy the line and paste it up
+3. Alt + Click for multiple cursors
+
+### CODE FOLDING
+1. Command pallete and type >fold to fold all code
+2. Ctrl+Shift+[  to fold individual method where cursor is
+
+### BRACKET PAIR COLORIZATION
+1. OPen Settings Ctrl + , and search for colorize and enable it
+
+### LINKED EDITING
+1.  OPen Settings Ctrl + , and search for linked editing and enable it, closing tags are automatically edited with opening tags
+
+### EMMET Cheatsheet
+1. https://docs.emmet.io/cheat-sheet/
+2. In command pallette >Emmet balance inward/outward to wrap code inside
+another tag
+
+### Find references
+1. First option is global search by Ctrl+Shift+F
+2. right click on function> peek> peek implementation/references/definitions
+ 
+## Rename function
+1. Find implementation using above method and rename it;it will rename all places where function is used 
 
 
-## COPY LINES
-9. 
-
-10. 
 
 
-11. Ctrl + , to open settings
 
-12. ctrl + K to clear terminal; cls for cmd
-
-13. Use >task in command pallete to set a default build task
+## NPM SCRIPT TAG
+1. In bottom of explorer buttons for all scripts are there from package.json file
+we can also create our custom tasks
+2. Use >task in command pallete to set a default build task
 it will create a taks.json file under .vscode folder in the project directory
  now u can use command pallete and use >run to tun the command
 
- 14. Alt + Click for multiple cursors
-
-
- 15. Disable minimap, breadcrumbs, enable preview when first time using vscode in settings
-
- 16. 
+  
 
 
  

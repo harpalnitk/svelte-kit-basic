@@ -36,6 +36,7 @@
 		{url:'circular-carousel', name: 'Circular rotating image slider'},
 		{url:'flipping-carousel', name: 'Flipping polaroid image slider'},
 		{url:'three-D-carousel', name: 'CSS Infinite 3D slider'},
+		{url:'avatar-hover', name: 'Avatar Hover Effect'},
 		];
 </script>
 

@@ -1,4 +1,6 @@
-export const vocab = [
+
+export const load = ()=>{
+let vocab = [
 	{
 		word: "Christmas tree",
 		image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Xmas_tree.svg/480px-Xmas_tree.svg.png"
@@ -20,6 +22,10 @@ export const vocab = [
 		image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/655-snowman.svg/480px-655-snowman.svg.png"
 	}
 ];
+return {vocab}
+
+}
+
 
 
 // export const vocab = [

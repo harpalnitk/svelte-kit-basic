@@ -2,8 +2,8 @@
 	
 	import { onDestroy } from 'svelte';
 
-	import Calendar from './Calendar.svelte';
-	import Scheduler from './Scheduler.svelte';
+	import Calendar from './Calendar/+page.svelte';
+	import Scheduler from './Scheduler/+page.svelte';
 	import { scheduleStore } from './schedule-store';
 
 	// Scheduler functionality

@@ -1,6 +1,4 @@
 <script>
-    throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
-
     export let itemName;
     export let highlighted;
 </script>
@@ -9,7 +7,7 @@
 
 
 <style lang="scss">
-  @import '../../../styles/vars';
+  @import '../../../../styles/vars';
     li.autocomplete-items {
 list-style: none;
 border: 1px solid #d4d4d4;

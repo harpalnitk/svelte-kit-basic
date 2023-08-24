@@ -38,7 +38,7 @@
 	  </div>
 </div>
 <style lang="scss">
-    @import '../../../styles/vars';
+    @import '../../../../styles/vars';
     	/* Style the tab content (and add height:100% for full page content) */
 	.tabcontent {
 		color: black;

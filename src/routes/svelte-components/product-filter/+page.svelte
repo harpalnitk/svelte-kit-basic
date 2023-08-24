@@ -3,9 +3,13 @@
 	import { onMount } from 'svelte';
 	import SearchForm from '$lib/components/UI/SearchForm.svelte';
 	import Book from './Book.svelte';
-	import { bookData } from './bookData.js';
+	
 	import Menu from './Menu.svelte';
 	import NoResults from '$lib/components/NoResults.svelte';
+
+	export let data;
+
+	let bookData = data.bookData;
 
 	onMount(() => {
 		getLanguages();

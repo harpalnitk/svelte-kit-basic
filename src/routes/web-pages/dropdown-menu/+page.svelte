@@ -33,7 +33,7 @@ const webpages = [
 
 
 <style lang="scss">
-	@import '../../styles/vars';
+	@import '../../../styles/vars';
     main{
         scroll-behavior: smooth; // will work with * tag; not working here
     }

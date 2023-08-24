@@ -1,8 +1,8 @@
 <script>
-    import HomePage from './HomePage.svelte';
-    import NewsPage from './NewsPage.svelte';
-    import ContactPage from './ContactPage.svelte';
-    import AboutPage from './AboutPage.svelte';
+    import HomePage from './HomePage/+page.svelte';
+    import NewsPage from './NewsPage/+page.svelte';
+    import ContactPage from './ContactPage/+page.svelte';
+    import AboutPage from './AboutPage/+page.svelte';
 
     const webpages = [
         {name:'Home', component: HomePage},

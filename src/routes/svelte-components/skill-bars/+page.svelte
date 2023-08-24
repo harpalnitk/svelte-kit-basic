@@ -1,6 +1,6 @@
 <script>
   
-    import Bar from './Bar.svelte';
+    import Bar from './Bar/+page.svelte';
 
     const barArray = [
       {title: 'HTML', percent: 90, color:'#04AA6D', delTime: 0},

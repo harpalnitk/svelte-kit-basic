@@ -35,7 +35,7 @@
 </div>
 
 <style lang="scss">
-	@import '../../../styles/vars';
+	@import '../../../../styles/vars';
     	/* Create two unequal columns that floats next to each other */
 	/* Left column */
 	.leftcolumn {

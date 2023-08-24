@@ -1,5 +1,5 @@
 <script>
-	throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
+	
 
 	import { scale } from 'svelte/transition';
 	import { expoInOut } from 'svelte/easing';

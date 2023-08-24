@@ -39,6 +39,9 @@ const makeRandomPw = (codelength) => {
 
     //console.log(String.fromCharCode(90));
 </script>
+
+
+
 <secton id="pw-cont" transition:fade={{ duration: 200 }}>
     <!-- The Close Icon -->
  <span class="close" on:click>&times;</span>

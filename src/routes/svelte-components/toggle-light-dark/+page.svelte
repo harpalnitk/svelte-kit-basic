@@ -1,5 +1,5 @@
 <script>
-    throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
+  
 
     let toggle =false;
     let mode = true;  //false for dark mode and true for light mode

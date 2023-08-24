@@ -12,7 +12,7 @@
 
 	export let data;
 
-	$: console.log('data', data);
+	//$: console.log('data', data);
 
 	onMount(async () => {
 		events = data.holidayData;

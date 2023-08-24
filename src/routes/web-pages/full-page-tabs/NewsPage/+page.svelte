@@ -1,6 +1,6 @@
 <script>
-	import NewsPageContent from '../NewsPageContent.svelte'
-	import Footer from '../Footer.svelte'
+	import NewsPageContent from '../NewsPageContent/+page.svelte'
+	import Footer from '../Footer/+page.svelte'
 	import VideoPlayer from '$lib/components/VideoPlayer.svelte';
 
 	let y;

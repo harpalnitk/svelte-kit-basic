@@ -1,5 +1,5 @@
 <script>
-    throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
+  
 
 	//To turn date to red color if it has an appointment scheduled
 export let schedule;
@@ -101,7 +101,7 @@ $: console.log(
 </main>
 
 <style lang="scss">
-	@import '../../../styles/vars';
+	@import '../../../../styles/vars';
 
 	
 	ul {

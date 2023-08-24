@@ -2,7 +2,7 @@
 	
 	import { onDestroy } from 'svelte';
 	import itemsData from './itemsStore.js';
-	import Item from './Item.svelte';
+	import Item from './Item/+page.svelte';
 	let items;
 	const unsubscribe = itemsData.subscribe((storeValues) => {
 		//	console.log('Items', storeValues);

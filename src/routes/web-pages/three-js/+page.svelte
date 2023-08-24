@@ -297,7 +297,7 @@ const t = document.body.getBoundingClientRect().top;
 </main>
 
 <style lang="scss">
-	@import '../../styles/vars';
+	@import '../../../styles/vars';
 	canvas {
 		position: fixed;
 		top: 0;

@@ -23,7 +23,7 @@
 		{ url: 'flip-box', name: 'Flip Box' },
 		{ url: 'emoji-chat', name: 'Emoji Chat' },
 		{ url: 'product-filter', name: 'Product Filter' },
-		{ url: 'progress-bar', name: 'Progress Bar' },
+		{ url: 'progress-bar', name: 'File Upload Progress Bar' },
 		{ url: 'pwd-gen', name: 'Password Generator' },
 		{ url: 'bar-charts', name: 'Bar Charts' },
 

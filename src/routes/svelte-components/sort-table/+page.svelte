@@ -1,10 +1,10 @@
 <script>
 	
-	import { personData } from './personData';
+	//import { personData } from './personData';
 	//console.log(personData);
-
-	const tableHeaders = Object.keys(personData[0]);
-
+	export let data;
+	let personData = data.personData;
+	const tableHeaders = Object.keys(personData[0]);	
 	let sortedPersonData = personData;
 	let selectedHeader = 'id';
     let ascOrder = true;

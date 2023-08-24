@@ -1,5 +1,8 @@
 // Data is generated from website https://mockaroo.com/
-export const personData = [{
+
+export async function load() {
+  
+ const personData =  [{
     "id": 1,
     "first_name": "Adan",
     "last_name": "Dell'Abbate",
@@ -700,3 +703,7 @@ export const personData = [{
     "job_title": "Geologist III",
     "country": "Argentina"
   }];
+
+
+  return {personData};
+}

@@ -12,12 +12,21 @@
 class:active={showPW}
 on:click={() => showPW = !showPW}>&#128065;</div>
 </div>
+
+<div class="inputBox-dark">
+    <input  type={showPW ? "text" : "password"}  name="" placeholder="Enter Password" id="password">
+<div id="toggle" 
+class:active={showPW}
+on:click={() => showPW = !showPW}>&#128065;</div>
+</div>
+
+
 </main>
 
 
 
 <style lang="scss">
-	@import '../../styles/vars';
+	@import '../../../styles/vars';
     main{
     min-height: 100vh;
     position: relative;
@@ -55,6 +64,34 @@ main{
 }
 .inputBox input::placeholder{
     color: #ccc;
+}
+
+
+.inputBox-dark{
+    position: relative;
+    width: 270px;
+    height: 50px;
+}
+.inputBox-dark input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    padding: 0 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: -4px -4px 10px rgba(black,1),
+               inset 4px 4px 10px rgba(white,.05),
+               inset -4px -4px 10px rgba(black,1),
+               4px 4px 10px rgba(white,.05);
+}
+.inputBox-dark input::placeholder{
+    color: #333;
 }
 //128065	
 #toggle{

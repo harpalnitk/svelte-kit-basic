@@ -1,9 +1,11 @@
 <script>
 	
 	import Button from '$lib/components/UI/Button.svelte';
-	import { vocab } from './vocabData';
+	
 	import Flashcard from './FlashCard.svelte';
 
+	export let data;
+	let vocab = data.vocab;
 	let showCardBack = false;
 
 	const toggleShowBack = () => (showCardBack = !showCardBack);

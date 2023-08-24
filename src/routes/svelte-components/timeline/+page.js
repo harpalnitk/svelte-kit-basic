@@ -10,9 +10,9 @@ let country="US";
 /*API endpoint to get holiday data*/
 
 const apiURL = `https://holidayapi.com/v1/holidays?
-pretty&key=${key}&country=${country}&year=2021&language=${language}`;
+pretty&key=${key}&country=${country}&year=2022&language=${language}`;
 
-const getData = async ()=>{
+const getData = async (fetch)=>{
     try {
         const response = await fetch(apiURL);
         if(response.ok){
@@ -25,8 +25,8 @@ const getData = async ()=>{
     }
 }
 
-export async function load({ params }) {
- let data = await getData();
+export async function load({ fetch, params }) {
+ let data = await getData(fetch);
  if(data){
     return {holidayData: data};
  }
